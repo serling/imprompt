@@ -92,6 +92,14 @@ button:disabled { opacity: .45; cursor: default; }
 #duoMore { background: var(--duo); color: var(--card); }
 /* Duo uses the same side split as Solo; its segment shows a refresh arrow (rerun with a modifier). */
 .bottom { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; }
+#buzz {
+  justify-self: start; width: 44px; height: 40px; display: grid; place-items: center; padding: 0;
+  background: none; color: var(--accent); border-color: var(--line);
+}
+/* The card flashes when the buzzer ends a scene. */
+@keyframes buzzflash { from { background: var(--accent); } to { background: var(--card); } }
+.card.buzzed { animation: buzzflash .9s ease-out; }
+@media (prefers-reduced-motion: reduce) { .card.buzzed { animation-duration: .01s; } }
 #mute {
   justify-self: end; width: 44px; height: 40px; display: grid; place-items: center; padding: 0;
   background: none; color: var(--muted); border-color: var(--line);
@@ -125,7 +133,7 @@ button:disabled { opacity: .45; cursor: default; }
 <body>
 <div class="cue"><span id="cueNo">Cue —</span><span id="deckInfo">Loading deck…</span></div>
 
-<main class="card" aria-live="polite">
+<main class="card" id="card" aria-live="polite">
   <div class="who" id="who">Ready</div>
   <p class="text idle" id="text">Tap Solo or Duo for the next prompt. Each prompt is used once on this device.</p>
   <div class="mods" id="mods" hidden><ul id="modList"></ul></div>
@@ -141,7 +149,7 @@ button:disabled { opacity: .45; cursor: default; }
     <button class="more" id="duoMore" hidden aria-label="Again: rerun with a modifier"><svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   </div>
   <div class="bottom">
-    <span></span>
+    <button id="buzz" aria-label="Buzzer: end the scene"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="currentColor"/></svg></button>
     <button id="skip" disabled>Skip this one</button>
     <button id="mute" aria-label="Sound on. Tap to mute." aria-pressed="false"><svg class="when-on" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="when-muted" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 9l6 6M22 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   </div>

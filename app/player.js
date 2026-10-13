@@ -197,6 +197,61 @@ function ding(level = 1, deeper = 0) {
   } catch {}
 }
 
+// The buzzer that ends a scene: a recorded game-show buzzer (sounds/buzzer.mp3, CC0, see
+// CREDITS.md). If the recording can't be loaded, a synthesised buzz stands in. Respects mute;
+// the card flashes either way so the room sees the scene end.
+let buzzerFile = null, buzzerBuffer = null;
+fetch("sounds/buzzer.mp3").then(r => r.ok ? r.arrayBuffer() : null).then(b => { buzzerFile = b; }).catch(() => {});
+
+async function buzzer() {
+  const card = $("card");
+  card.classList.remove("buzzed");
+  void card.offsetWidth;
+  card.classList.add("buzzed");
+  if (muted) return;
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    if (audio.state === "suspended") audio.resume();
+    if (!buzzerBuffer && buzzerFile) buzzerBuffer = await audio.decodeAudioData(buzzerFile.slice(0));
+    if (buzzerBuffer) {
+      const src = audio.createBufferSource();
+      src.buffer = buzzerBuffer;
+      src.connect(audio.destination);
+      src.start();
+      return;
+    }
+  } catch {}
+  synthBuzzer();
+}
+
+// Fallback: one coarse sawtooth tone, rattled by a fast on-off modulation, stopping dead.
+function synthBuzzer() {
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    if (audio.state === "suspended") audio.resume();
+    const t = audio.currentTime, end = t + 0.75;
+    const out = audio.createGain(), rattle = audio.createGain(), tone = audio.createBiquadFilter();
+    tone.type = "lowpass";
+    tone.frequency.value = 3200;
+    out.gain.setValueAtTime(0.0001, t);
+    out.gain.exponentialRampToValueAtTime(0.35, t + 0.005);
+    out.gain.setValueAtTime(0.35, end - 0.015);
+    out.gain.linearRampToValueAtTime(0, end);
+    // Rattle: a 45 Hz square wave swings the level between full and about a fifth.
+    rattle.gain.value = 0.6;
+    const lfo = audio.createOscillator(), depth = audio.createGain();
+    lfo.type = "square";
+    lfo.frequency.value = 45;
+    depth.gain.value = 0.4;
+    lfo.connect(depth).connect(rattle.gain);
+    const osc = audio.createOscillator();
+    osc.type = "sawtooth";
+    osc.frequency.value = 120;
+    osc.connect(rattle).connect(tone).connect(out).connect(audio.destination);
+    for (const node of [osc, lfo]) { node.start(t); node.stop(end + 0.02); }
+  } catch {}
+}
+
 // --- screen stays on while a prompt is showing --------------------------------------------
 let lock = null;
 async function keepAwake() {
@@ -211,6 +266,7 @@ $("duo").addEventListener("click", () => draw(2));
 $("soloMore").addEventListener("click", further);
 $("duoMore").addEventListener("click", further);
 $("skip").addEventListener("click", skip);
+$("buzz").addEventListener("click", buzzer);
 $("mute").addEventListener("click", () => {
   muted = !muted;
   try { localStorage.setItem(MUTE_KEY, muted ? "1" : "0"); } catch {}
