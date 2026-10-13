@@ -170,7 +170,7 @@ function ding(level = 1, deeper = 0) {
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
     if (audio.state === "suspended") audio.resume();
-    const strikes = deeper ? 1 : Math.min(level, 5), out = audio.createGain();
+    const strikes = deeper ? 1 : Math.min(level, 6), out = audio.createGain();
     out.gain.value = 0.45 / (1 + 0.35 * (strikes - 1)); // overlapping strikes would clip
     out.connect(audio.destination);
     const note = (t, freq) => {

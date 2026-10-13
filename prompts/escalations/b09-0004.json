@@ -1,0 +1,30 @@
+{
+  "id": "b09-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Noble."
+    },
+    {
+      "en": "Nobler."
+    },
+    {
+      "en": "Even nobler."
+    },
+    {
+      "en": "Gallantly noble."
+    },
+    {
+      "en": "Noble beyond all legend."
+    },
+    {
+      "en": "Noble beyond all legend, and a little bit greedy."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

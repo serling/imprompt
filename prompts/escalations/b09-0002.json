@@ -1,0 +1,30 @@
+{
+  "id": "b09-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Bouncy."
+    },
+    {
+      "en": "Bouncier."
+    },
+    {
+      "en": "Even bouncier."
+    },
+    {
+      "en": "Recklessly bouncy."
+    },
+    {
+      "en": "Uncontainably bouncy."
+    },
+    {
+      "en": "Uncontainably bouncy, and at a funeral."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

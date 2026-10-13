@@ -1,0 +1,30 @@
+{
+  "id": "b09-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Vain."
+    },
+    {
+      "en": "Vainer."
+    },
+    {
+      "en": "Even vainer."
+    },
+    {
+      "en": "Gloriously vain."
+    },
+    {
+      "en": "Vain enough to marry a mirror."
+    },
+    {
+      "en": "Vain enough to marry a mirror, and having a very bad hair day."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b09-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Competitive."
+    },
+    {
+      "en": "More competitive."
+    },
+    {
+      "en": "Even more competitive."
+    },
+    {
+      "en": "Ruthlessly competitive."
+    },
+    {
+      "en": "Olympically competitive."
+    },
+    {
+      "en": "Olympically competitive, and playing with a four-year-old."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "b09-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Stubborn."
+    },
+    {
+      "en": "More stubborn."
+    },
+    {
+      "en": "Even more stubborn."
+    },
+    {
+      "en": "Immovably stubborn."
+    },
+    {
+      "en": "Stubborn as a mountain."
+    },
+    {
+      "en": "Stubborn as a mountain, and trying to apologise."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

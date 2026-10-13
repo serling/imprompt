@@ -20,6 +20,8 @@ TYPES = {"premise", "character", "twisted-role", "reframe", "status-flip", "emot
 STATUSES = {"draft", "approved", "retired"}
 MODIFIER_KINDS = {"speech", "tempo", "tone", "physical"}
 MAX_WORDS = {1: 14, 2: 18}
+# Every escalation has six steps; the host decides how far to take it.
+ESCALATION_STEPS = 6
 NEAR_DUP = 0.75
 # Per language: words that would ask a performer to sing.
 NO_SINGING = {
@@ -92,8 +94,8 @@ def check(entries, exclude):
             if cb is not None and not cb.startswith("the "):
                 problems.append(f"{where}: callback phrase should be a short 'the …' noun phrase")
         if folder == "escalations":
-            if not 3 <= len(p.get("steps", [])) <= 5:
-                problems.append(f"{where}: an escalation has 3 to 5 steps")
+            if len(p.get("steps", [])) != ESCALATION_STEPS:
+                problems.append(f"{where}: an escalation has exactly {ESCALATION_STEPS} steps")
         if folder == "callbacks":
             if texts(folder, p)[0].count("{character}") != 1:
                 problems.append(f"{where}: needs exactly one {{character}}")

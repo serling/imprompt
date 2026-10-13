@@ -1,0 +1,30 @@
+{
+  "id": "b09-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Restless."
+    },
+    {
+      "en": "More restless."
+    },
+    {
+      "en": "Even more restless."
+    },
+    {
+      "en": "Feverishly restless."
+    },
+    {
+      "en": "Restless beyond all endurance."
+    },
+    {
+      "en": "Restless beyond all endurance, and stuck in a lift."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

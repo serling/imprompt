@@ -1,0 +1,30 @@
+{
+  "id": "b09-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Fragile."
+    },
+    {
+      "en": "More fragile."
+    },
+    {
+      "en": "Even more fragile."
+    },
+    {
+      "en": "Dangerously fragile."
+    },
+    {
+      "en": "Made of glass."
+    },
+    {
+      "en": "Made of glass, and in a mosh pit."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

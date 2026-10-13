@@ -16,7 +16,7 @@ One JSON file per prompt, in `prompts/`:
 | Folder | What it holds |
 |---|---|
 | `solo/`, `duo/` | A single prompt, with an optional `callback` phrase for characters that can come back |
-| `escalations/` | A run of 3–5 `steps`, each a complete line |
+| `escalations/` | Six `steps`, each a complete line. The host decides how far to go. |
 | `callbacks/` | A frame with one `{character}` placeholder |
 | `modifiers/` | A twist for rerunning a duo scene, with a `kind` (speech, tempo, tone, physical) |
 

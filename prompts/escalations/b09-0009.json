@@ -1,0 +1,30 @@
+{
+  "id": "b09-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Cheeky."
+    },
+    {
+      "en": "Cheekier."
+    },
+    {
+      "en": "Even cheekier."
+    },
+    {
+      "en": "Outrageously cheeky."
+    },
+    {
+      "en": "Cheeky beyond all decency."
+    },
+    {
+      "en": "Cheeky beyond all decency, and meeting the King."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

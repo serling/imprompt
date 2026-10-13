@@ -1,0 +1,30 @@
+{
+  "id": "b09-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Sneezy."
+    },
+    {
+      "en": "Sneezier."
+    },
+    {
+      "en": "Even sneezier."
+    },
+    {
+      "en": "Violently sneezy."
+    },
+    {
+      "en": "Sneezy on a hurricane scale."
+    },
+    {
+      "en": "Sneezy on a hurricane scale, and trying not to wake the baby."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

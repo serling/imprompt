@@ -1,0 +1,30 @@
+{
+  "id": "b09-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Mysterious."
+    },
+    {
+      "en": "More mysterious."
+    },
+    {
+      "en": "Even more mysterious."
+    },
+    {
+      "en": "Impenetrably mysterious."
+    },
+    {
+      "en": "Mysterious beyond all knowing."
+    },
+    {
+      "en": "Mysterious beyond all knowing, and wearing a name tag."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

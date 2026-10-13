@@ -1,0 +1,30 @@
+{
+  "id": "b09-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Loud."
+    },
+    {
+      "en": "Louder."
+    },
+    {
+      "en": "Even louder."
+    },
+    {
+      "en": "Thunderously loud."
+    },
+    {
+      "en": "Loud enough to wake the dead."
+    },
+    {
+      "en": "Loud enough to wake the dead, and whispering a secret."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}
