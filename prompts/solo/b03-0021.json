@@ -1,0 +1,16 @@
+{
+  "id": "b03-0021",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A seagull giving a tourist a strict talking-to."
+  },
+  "tags": [
+    "nature",
+    "status"
+  ],
+  "callback": {
+    "en": "the strict seagull"
+  }
+}

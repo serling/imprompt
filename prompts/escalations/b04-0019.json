@@ -1,0 +1,27 @@
+{
+  "id": "b04-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Old."
+    },
+    {
+      "en": "Older."
+    },
+    {
+      "en": "Even older."
+    },
+    {
+      "en": "Ancient."
+    },
+    {
+      "en": "Geologically old."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

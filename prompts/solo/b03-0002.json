@@ -1,0 +1,16 @@
+{
+  "id": "b03-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone rehearsing how to confess they ate their flatmate's leftovers."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the flatmate who ate the leftovers"
+  }
+}

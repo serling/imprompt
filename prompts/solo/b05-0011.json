@@ -1,0 +1,16 @@
+{
+  "id": "b05-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A fortune teller reading a palm, but every prediction is about lunch."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the lunch-obsessed fortune teller"
+  }
+}

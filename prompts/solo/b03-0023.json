@@ -1,0 +1,16 @@
+{
+  "id": "b03-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A houseplant giving its owner a final warning."
+  },
+  "tags": [
+    "everyday",
+    "status"
+  ],
+  "callback": {
+    "en": "the houseplant with a final warning"
+  }
+}

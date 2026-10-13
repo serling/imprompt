@@ -1,0 +1,16 @@
+{
+  "id": "b03-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A person who has never once been wrong, and is about to be."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the person who has never been wrong"
+  }
+}

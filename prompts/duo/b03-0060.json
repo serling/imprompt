@@ -1,0 +1,13 @@
+{
+  "id": "b03-0060",
+  "status": "retired",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "Two shipwreck survivors sharing one oar, when one turns out to be the captain."
+  },
+  "tags": [
+    "nature",
+    "status"
+  ]
+}

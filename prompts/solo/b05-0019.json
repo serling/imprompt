@@ -1,0 +1,16 @@
+{
+  "id": "b05-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A toddler supervising a building site."
+  },
+  "tags": [
+    "work",
+    "status"
+  ],
+  "callback": {
+    "en": "the toddler site manager"
+  }
+}

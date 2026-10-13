@@ -1,0 +1,16 @@
+{
+  "id": "b03-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone hiding from a neighbour in their own front garden."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "callback": {
+    "en": "the neighbour hiding in their own garden"
+  }
+}

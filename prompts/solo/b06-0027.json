@@ -1,0 +1,15 @@
+{
+  "id": "b06-0027",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A melancholy bouncy castle."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the melancholy bouncy castle"
+  }
+}

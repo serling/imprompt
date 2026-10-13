@@ -1,0 +1,21 @@
+{
+  "id": "b04-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Lost."
+    },
+    {
+      "en": "More lost."
+    },
+    {
+      "en": "Even more lost."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

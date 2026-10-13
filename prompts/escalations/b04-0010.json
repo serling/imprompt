@@ -1,0 +1,24 @@
+{
+  "id": "b04-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Guilty."
+    },
+    {
+      "en": "More guilty."
+    },
+    {
+      "en": "Even more guilty."
+    },
+    {
+      "en": "Catastrophically guilty."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

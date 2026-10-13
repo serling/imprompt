@@ -1,0 +1,16 @@
+{
+  "id": "b05-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone convinced every animal is plotting against them."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ],
+  "callback": {
+    "en": "the person who suspects every animal"
+  }
+}

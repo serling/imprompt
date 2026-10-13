@@ -1,0 +1,27 @@
+{
+  "id": "b04-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Cool."
+    },
+    {
+      "en": "Cooler."
+    },
+    {
+      "en": "Even cooler."
+    },
+    {
+      "en": "Painfully cool."
+    },
+    {
+      "en": "Impossibly cool."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

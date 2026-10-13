@@ -1,0 +1,27 @@
+{
+  "id": "b04-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Tidy."
+    },
+    {
+      "en": "Tidier."
+    },
+    {
+      "en": "Even tidier."
+    },
+    {
+      "en": "Aggressively tidy."
+    },
+    {
+      "en": "Clinically tidy."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b05-0026",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A garden gnome who has seen far too much."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the garden gnome who has seen too much"
+  }
+}

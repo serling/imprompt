@@ -1,0 +1,13 @@
+{
+  "id": "b02-0059",
+  "status": "retired",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A patient diagnosing their doctor."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

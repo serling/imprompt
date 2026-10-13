@@ -1,0 +1,16 @@
+{
+  "id": "b03-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A night guard patrolling a museum, but scared of every painting's eyes."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the museum guard scared of paintings"
+  }
+}

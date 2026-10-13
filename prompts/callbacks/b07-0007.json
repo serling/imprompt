@@ -1,0 +1,13 @@
+{
+  "id": "b07-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A royal address to the nation. The monarch is {character}."
+  },
+  "tags": [
+    "history",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b06-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A pompous pigeon."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the pompous pigeon"
+  }
+}

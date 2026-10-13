@@ -1,0 +1,16 @@
+{
+  "id": "b03-0033",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A hotel doormat greeting its thousandth guest of the day."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the hotel doormat"
+  }
+}

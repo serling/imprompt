@@ -1,0 +1,13 @@
+{
+  "id": "b01-0027",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A puppy training its owner."
+  },
+  "tags": [
+    "everyday",
+    "status"
+  ]
+}

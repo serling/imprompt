@@ -1,0 +1,27 @@
+{
+  "id": "b04-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Fancy."
+    },
+    {
+      "en": "Fancier."
+    },
+    {
+      "en": "Even fancier."
+    },
+    {
+      "en": "Absurdly fancy."
+    },
+    {
+      "en": "Royally fancy."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

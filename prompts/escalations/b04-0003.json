@@ -1,0 +1,21 @@
+{
+  "id": "b04-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Sleepy."
+    },
+    {
+      "en": "Sleepier."
+    },
+    {
+      "en": "Even sleepier."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

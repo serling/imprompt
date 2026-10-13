@@ -1,0 +1,16 @@
+{
+  "id": "b03-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A sleepy baby chairing the family's morning meeting."
+  },
+  "tags": [
+    "family",
+    "status"
+  ],
+  "callback": {
+    "en": "the sleepy baby chairperson"
+  }
+}

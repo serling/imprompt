@@ -1,0 +1,27 @@
+{
+  "id": "b04-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Happy."
+    },
+    {
+      "en": "Happier."
+    },
+    {
+      "en": "Even happier."
+    },
+    {
+      "en": "Worryingly happy."
+    },
+    {
+      "en": "Terrifyingly happy."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

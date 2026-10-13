@@ -1,0 +1,16 @@
+{
+  "id": "b03-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A mime performing on the street, but unable to stop talking."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the mime who won't stop talking"
+  }
+}

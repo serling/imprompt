@@ -1,0 +1,16 @@
+{
+  "id": "b03-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A person with a detailed emergency plan for buying bread."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the bread-buying emergency planner"
+  }
+}

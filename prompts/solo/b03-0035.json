@@ -1,0 +1,16 @@
+{
+  "id": "b03-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A tea bag about to be dunked for the first time."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the nervous tea bag"
+  }
+}

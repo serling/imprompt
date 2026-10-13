@@ -1,0 +1,24 @@
+{
+  "id": "b04-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Patient."
+    },
+    {
+      "en": "More patient."
+    },
+    {
+      "en": "Even more patient."
+    },
+    {
+      "en": "Suspiciously patient."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

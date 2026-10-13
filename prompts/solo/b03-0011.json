@@ -1,0 +1,16 @@
+{
+  "id": "b03-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A pilot announcing the landing, but they've never actually landed before."
+  },
+  "tags": [
+    "work",
+    "narration"
+  ],
+  "callback": {
+    "en": "the pilot who has never landed"
+  }
+}

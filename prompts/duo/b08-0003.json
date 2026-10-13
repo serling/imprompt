@@ -1,0 +1,13 @@
+{
+  "id": "b08-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A babysitter and a toddler who runs a very tight ship."
+  },
+  "tags": [
+    "family",
+    "status"
+  ]
+}

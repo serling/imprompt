@@ -1,0 +1,13 @@
+{
+  "id": "b07-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "callback",
+  "text": {
+    "en": "A haircut. The customer is {character}."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

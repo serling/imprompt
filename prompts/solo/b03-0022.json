@@ -1,0 +1,16 @@
+{
+  "id": "b03-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A trainee hairdresser showing the salon owner how it's really done."
+  },
+  "tags": [
+    "work",
+    "status"
+  ],
+  "callback": {
+    "en": "the know-it-all trainee hairdresser"
+  }
+}

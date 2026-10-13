@@ -1,0 +1,16 @@
+{
+  "id": "b05-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A lost balloon drifting over the city."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "callback": {
+    "en": "the lost balloon"
+  }
+}

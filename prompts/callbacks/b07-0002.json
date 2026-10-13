@@ -1,0 +1,13 @@
+{
+  "id": "b07-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A wedding speech. The best man is {character}."
+  },
+  "tags": [
+    "family",
+    "character"
+  ]
+}

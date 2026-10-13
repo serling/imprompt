@@ -1,0 +1,27 @@
+{
+  "id": "b04-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Strong."
+    },
+    {
+      "en": "Stronger."
+    },
+    {
+      "en": "Even stronger."
+    },
+    {
+      "en": "Ridiculously strong."
+    },
+    {
+      "en": "Cosmically strong."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

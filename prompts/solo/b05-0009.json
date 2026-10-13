@@ -1,0 +1,16 @@
+{
+  "id": "b05-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A hypnotist putting the audience to sleep, but keeps dozing off themselves."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the sleepy hypnotist"
+  }
+}

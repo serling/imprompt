@@ -1,0 +1,15 @@
+{
+  "id": "b06-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A rebellious traffic light."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the rebellious traffic light"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b03-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone completely calm in a crisis, who panics about napkins."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the napkin panicker"
+  }
+}

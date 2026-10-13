@@ -1,0 +1,13 @@
+{
+  "id": "b07-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A self-defence class. The instructor is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

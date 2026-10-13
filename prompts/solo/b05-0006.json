@@ -1,0 +1,16 @@
+{
+  "id": "b05-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A person who wins every argument, but only in the shower."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the shower-argument champion"
+  }
+}

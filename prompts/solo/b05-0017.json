@@ -1,0 +1,16 @@
+{
+  "id": "b05-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A goldfish coaching its owner through a breakup."
+  },
+  "tags": [
+    "nature",
+    "status"
+  ],
+  "callback": {
+    "en": "the goldfish life coach"
+  }
+}

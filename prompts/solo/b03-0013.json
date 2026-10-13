@@ -1,0 +1,16 @@
+{
+  "id": "b03-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A wildlife photographer waiting for a rare bird, but desperate for the toilet."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the desperate wildlife photographer"
+  }
+}

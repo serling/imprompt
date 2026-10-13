@@ -1,0 +1,24 @@
+{
+  "id": "b05-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Generous."
+    },
+    {
+      "en": "More generous."
+    },
+    {
+      "en": "Even more generous."
+    },
+    {
+      "en": "Ruinously generous."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

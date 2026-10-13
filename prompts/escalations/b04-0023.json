@@ -1,0 +1,27 @@
+{
+  "id": "b04-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Scared."
+    },
+    {
+      "en": "More scared."
+    },
+    {
+      "en": "Even more scared."
+    },
+    {
+      "en": "Spectacularly scared."
+    },
+    {
+      "en": "Legendarily scared."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

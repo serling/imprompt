@@ -1,0 +1,15 @@
+{
+  "id": "b06-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A jealous fridge."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the jealous fridge"
+  }
+}

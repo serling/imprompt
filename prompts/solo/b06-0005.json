@@ -1,0 +1,15 @@
+{
+  "id": "b06-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A paranoid snowman."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the paranoid snowman"
+  }
+}

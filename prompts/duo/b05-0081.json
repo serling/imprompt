@@ -1,0 +1,13 @@
+{
+  "id": "b05-0081",
+  "status": "retired",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A king and his jester, on the day the jester takes over."
+  },
+  "tags": [
+    "history",
+    "status"
+  ]
+}

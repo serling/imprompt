@@ -1,0 +1,16 @@
+{
+  "id": "b05-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A king asking the butler for permission to use the toilet."
+  },
+  "tags": [
+    "history",
+    "status"
+  ],
+  "callback": {
+    "en": "the king who needs the toilet"
+  }
+}

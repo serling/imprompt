@@ -1,0 +1,15 @@
+{
+  "id": "b06-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A heartbroken toaster."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the heartbroken toaster"
+  }
+}

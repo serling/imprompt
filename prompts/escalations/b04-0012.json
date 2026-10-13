@@ -1,0 +1,24 @@
+{
+  "id": "b04-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Romantic."
+    },
+    {
+      "en": "More romantic."
+    },
+    {
+      "en": "Even more romantic."
+    },
+    {
+      "en": "Alarmingly romantic."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

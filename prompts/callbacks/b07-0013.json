@@ -1,0 +1,13 @@
+{
+  "id": "b07-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "callback",
+  "text": {
+    "en": "A first date. One of them is {character}."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

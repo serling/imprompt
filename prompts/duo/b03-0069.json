@@ -1,0 +1,13 @@
+{
+  "id": "b03-0069",
+  "status": "retired",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A world-famous chef and the work-experience teen, when only the teen can actually cook."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

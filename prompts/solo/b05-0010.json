@@ -1,0 +1,16 @@
+{
+  "id": "b05-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A newsreader delivering breaking news, but they're clearly the culprit."
+  },
+  "tags": [
+    "work",
+    "narration"
+  ],
+  "callback": {
+    "en": "the guilty newsreader"
+  }
+}

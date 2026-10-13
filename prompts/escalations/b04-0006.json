@@ -1,0 +1,21 @@
+{
+  "id": "b04-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Cold."
+    },
+    {
+      "en": "Colder."
+    },
+    {
+      "en": "Even colder."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

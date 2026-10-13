@@ -1,0 +1,13 @@
+{
+  "id": "b07-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A cooking show. The host is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

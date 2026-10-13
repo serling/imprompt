@@ -1,0 +1,16 @@
+{
+  "id": "b03-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A magician doing a card trick, but it keeps turning into real magic."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the accidentally real magician"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b02-0060",
+  "status": "retired",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A trainee pilot reassuring the captain."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

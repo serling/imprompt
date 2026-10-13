@@ -1,0 +1,24 @@
+{
+  "id": "b05-0034",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Moody."
+    },
+    {
+      "en": "Moodier."
+    },
+    {
+      "en": "Even moodier."
+    },
+    {
+      "en": "Thunderously moody."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

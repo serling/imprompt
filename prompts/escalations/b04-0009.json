@@ -1,0 +1,24 @@
+{
+  "id": "b04-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Proud."
+    },
+    {
+      "en": "Prouder."
+    },
+    {
+      "en": "Even prouder."
+    },
+    {
+      "en": "Insufferably proud."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

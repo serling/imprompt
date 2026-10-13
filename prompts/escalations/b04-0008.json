@@ -1,0 +1,21 @@
+{
+  "id": "b04-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Dramatic."
+    },
+    {
+      "en": "More dramatic."
+    },
+    {
+      "en": "Even more dramatic."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

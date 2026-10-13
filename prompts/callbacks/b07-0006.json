@@ -1,0 +1,13 @@
+{
+  "id": "b07-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A guided tour of the castle. The guide is {character}."
+  },
+  "tags": [
+    "history",
+    "character"
+  ]
+}

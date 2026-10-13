@@ -1,0 +1,13 @@
+{
+  "id": "b07-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A school assembly. The head teacher is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

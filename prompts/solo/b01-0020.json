@@ -1,0 +1,13 @@
+{
+  "id": "b01-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A plumber fixing a sink, convinced the pipes are haunted."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b05-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who treats every small decision like a game show final."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the game-show decision maker"
+  }
+}

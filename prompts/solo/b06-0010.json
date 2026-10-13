@@ -1,0 +1,15 @@
+{
+  "id": "b06-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A shy firework."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the shy firework"
+  }
+}

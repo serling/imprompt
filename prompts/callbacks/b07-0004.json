@@ -1,0 +1,13 @@
+{
+  "id": "b07-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "The evening weather forecast. The presenter is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

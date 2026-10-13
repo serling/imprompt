@@ -1,0 +1,16 @@
+{
+  "id": "b03-0031",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A traffic cone on a very busy roundabout."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the traffic cone from the roundabout"
+  }
+}

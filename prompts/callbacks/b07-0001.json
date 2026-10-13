@@ -1,0 +1,13 @@
+{
+  "id": "b07-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A job interview. The candidate is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

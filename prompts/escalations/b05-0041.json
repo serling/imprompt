@@ -1,0 +1,27 @@
+{
+  "id": "b05-0041",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Determined."
+    },
+    {
+      "en": "More determined."
+    },
+    {
+      "en": "Even more determined."
+    },
+    {
+      "en": "Stubbornly determined."
+    },
+    {
+      "en": "Unstoppably determined."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

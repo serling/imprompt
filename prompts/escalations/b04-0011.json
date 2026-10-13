@@ -1,0 +1,24 @@
+{
+  "id": "b04-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Ticklish."
+    },
+    {
+      "en": "More ticklish."
+    },
+    {
+      "en": "Even more ticklish."
+    },
+    {
+      "en": "Dangerously ticklish."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

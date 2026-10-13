@@ -1,0 +1,27 @@
+{
+  "id": "b05-0038",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Worried."
+    },
+    {
+      "en": "More worried."
+    },
+    {
+      "en": "Even more worried."
+    },
+    {
+      "en": "Frantically worried."
+    },
+    {
+      "en": "Hysterically worried."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

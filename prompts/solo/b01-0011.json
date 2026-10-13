@@ -1,0 +1,13 @@
+{
+  "id": "b01-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A person who narrates their own life in the third person."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

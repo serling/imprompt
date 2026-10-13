@@ -1,0 +1,16 @@
+{
+  "id": "b03-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "The office cleaner calmly taking over a chaotic board meeting."
+  },
+  "tags": [
+    "work",
+    "status"
+  ],
+  "callback": {
+    "en": "the office cleaner who took over"
+  }
+}

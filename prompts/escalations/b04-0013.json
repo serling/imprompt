@@ -1,0 +1,24 @@
+{
+  "id": "b04-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Stressed."
+    },
+    {
+      "en": "More stressed."
+    },
+    {
+      "en": "Even more stressed."
+    },
+    {
+      "en": "Volcanically stressed."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

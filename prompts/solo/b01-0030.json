@@ -1,0 +1,13 @@
+{
+  "id": "b01-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A new employee welcoming the founder to the company."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

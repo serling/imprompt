@@ -1,0 +1,16 @@
+{
+  "id": "b03-0032",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A pillow desperate to tell someone about its owner's dreams."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the pillow that knows everyone's dreams"
+  }
+}

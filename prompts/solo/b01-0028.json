@@ -1,0 +1,13 @@
+{
+  "id": "b01-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "An intern giving the CEO a performance review."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

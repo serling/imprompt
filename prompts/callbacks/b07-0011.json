@@ -1,0 +1,13 @@
+{
+  "id": "b07-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A dating show. The contestant is {character}."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

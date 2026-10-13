@@ -1,0 +1,13 @@
+{
+  "id": "b02-0010",
+  "status": "retired",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "A couple folding laundry in silent panic."
+  },
+  "tags": [
+    "family",
+    "physical"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b05-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "An apprentice wizard correcting the old master's spell."
+  },
+  "tags": [
+    "history",
+    "status"
+  ],
+  "callback": {
+    "en": "the apprentice wizard"
+  }
+}

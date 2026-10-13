@@ -1,0 +1,13 @@
+{
+  "id": "b07-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A pitch to investors. The founder is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

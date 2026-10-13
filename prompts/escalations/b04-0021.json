@@ -1,0 +1,27 @@
+{
+  "id": "b04-0021",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Sad."
+    },
+    {
+      "en": "Sadder."
+    },
+    {
+      "en": "Even sadder."
+    },
+    {
+      "en": "Biblically sad."
+    },
+    {
+      "en": "Historically sad."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

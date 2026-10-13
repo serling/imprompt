@@ -1,0 +1,21 @@
+{
+  "id": "b04-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Grumpy."
+    },
+    {
+      "en": "Grumpier."
+    },
+    {
+      "en": "Even grumpier."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "b05-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone confidently giving directions to a place they've never heard of."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the confident direction-giver"
+  }
+}

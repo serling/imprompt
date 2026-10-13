@@ -1,0 +1,21 @@
+{
+  "id": "b05-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Grateful."
+    },
+    {
+      "en": "More grateful."
+    },
+    {
+      "en": "Even more grateful."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

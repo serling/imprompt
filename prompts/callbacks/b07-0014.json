@@ -1,0 +1,13 @@
+{
+  "id": "b07-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "callback",
+  "text": {
+    "en": "A therapy session. The patient is {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

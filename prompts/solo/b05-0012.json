@@ -1,0 +1,16 @@
+{
+  "id": "b05-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A personal shopper picking outfits, colour-blind and very confident."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the colour-blind personal shopper"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "b05-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Confident."
+    },
+    {
+      "en": "More confident."
+    },
+    {
+      "en": "Even more confident."
+    },
+    {
+      "en": "Delusionally confident."
+    },
+    {
+      "en": "Mythically confident."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

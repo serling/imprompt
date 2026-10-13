@@ -1,0 +1,16 @@
+{
+  "id": "b03-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone convinced they're secretly being filmed for a reality show."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the reality-show contestant nobody cast"
+  }
+}

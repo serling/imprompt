@@ -1,0 +1,16 @@
+{
+  "id": "b03-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who has to name every object they touch."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the person who names everything"
+  }
+}

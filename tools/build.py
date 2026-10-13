@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+"""Bundle the playable prompts into one file for the player.
+
+Usage: python3 tools/build.py [OUTPUT_DIR]   (default: _site)
+Copies app/ into OUTPUT_DIR and writes OUTPUT_DIR/deck.json.
+"""
+import json
+import shutil
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+# While the deck is being reviewed, drafts are played too. Narrow to {"approved"} when it settles.
+PLAYABLE = {"approved", "draft"}
+
+
+def main():
+    out = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "_site"
+    if out.exists():
+        shutil.rmtree(out)
+    shutil.copytree(ROOT / "app", out)
+    deck = {}
+    for folder in ("solo", "duo", "escalations", "callbacks", "modifiers"):
+        items = []
+        for f in sorted((ROOT / "prompts" / folder).glob("*.json")):
+            p = json.loads(f.read_text())
+            if p.get("status") in PLAYABLE:
+                p.pop("status", None)
+                items.append(p)
+        deck[folder] = items
+    (out / "deck.json").write_text(json.dumps(deck, ensure_ascii=False, separators=(",", ":")))
+    print({k: len(v) for k, v in deck.items()}, "->", out)
+
+
+if __name__ == "__main__":
+    main()

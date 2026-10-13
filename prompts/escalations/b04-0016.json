@@ -1,0 +1,24 @@
+{
+  "id": "b04-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Curious."
+    },
+    {
+      "en": "More curious."
+    },
+    {
+      "en": "Even more curious."
+    },
+    {
+      "en": "Recklessly curious."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

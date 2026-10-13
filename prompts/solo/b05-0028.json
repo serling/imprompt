@@ -1,0 +1,16 @@
+{
+  "id": "b05-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A rubber duck at its very first bath time."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the rubber duck"
+  }
+}
