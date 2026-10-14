@@ -1,0 +1,16 @@
+{
+  "id": "b10-0046",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A window cleaner on the fortieth floor, chatting to everyone inside."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the chatty window cleaner"
+  }
+}

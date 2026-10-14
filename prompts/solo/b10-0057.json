@@ -1,0 +1,15 @@
+{
+  "id": "b10-0057",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A librarian shushing people, but very loudly."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the loud librarian"
+  }
+}

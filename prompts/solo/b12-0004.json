@@ -1,0 +1,13 @@
+{
+  "id": "b12-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "An orchestra conductor taking the tempo from the triangle player."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

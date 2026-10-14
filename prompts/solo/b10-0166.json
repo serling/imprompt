@@ -1,0 +1,15 @@
+{
+  "id": "b10-0166",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A self-taught surgeon."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the self-taught surgeon"
+  }
+}

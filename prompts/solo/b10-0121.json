@@ -1,0 +1,15 @@
+{
+  "id": "b10-0121",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A traffic cone that has been put on the wrong road."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the misplaced traffic cone"
+  }
+}

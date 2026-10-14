@@ -1,0 +1,15 @@
+{
+  "id": "b10-0053",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A postman delivering letters, reading every one aloud."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the postman who reads the post"
+  }
+}

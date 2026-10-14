@@ -1,0 +1,15 @@
+{
+  "id": "b10-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone trying to leave a party without saying goodbye to anyone."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the person sneaking out of the party"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b10-0116",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A sat-nav that's sure it knows a shortcut."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the sat-nav with the shortcut"
+  }
+}

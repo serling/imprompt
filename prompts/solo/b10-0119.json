@@ -1,0 +1,15 @@
+{
+  "id": "b10-0119",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A hot-water bottle in the middle of summer."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the unwanted hot-water bottle"
+  }
+}

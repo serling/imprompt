@@ -1,0 +1,16 @@
+{
+  "id": "b10-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A semi-professional complainer."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the semi-professional complainer"
+  }
+}

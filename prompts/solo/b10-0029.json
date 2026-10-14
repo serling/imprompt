@@ -1,0 +1,16 @@
+{
+  "id": "b10-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A noble car-park attendant."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the noble car-park attendant"
+  }
+}

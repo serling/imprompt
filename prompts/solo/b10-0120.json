@@ -1,0 +1,16 @@
+{
+  "id": "b10-0120",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A hamster on its wheel, convinced it's nearly there."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the hamster on the wheel"
+  }
+}

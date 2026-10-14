@@ -1,0 +1,15 @@
+{
+  "id": "b10-0125",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A bouncy castle at the end of a long party."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the exhausted bouncy castle"
+  }
+}

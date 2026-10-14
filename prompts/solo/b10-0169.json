@@ -1,0 +1,15 @@
+{
+  "id": "b10-0169",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A paranoid ice-cream van."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the paranoid ice-cream van"
+  }
+}

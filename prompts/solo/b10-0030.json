@@ -1,0 +1,16 @@
+{
+  "id": "b10-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "An elegant tow-truck driver."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the elegant tow-truck driver"
+  }
+}

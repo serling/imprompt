@@ -1,0 +1,16 @@
+{
+  "id": "b10-0162",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A noble bus shelter."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the noble bus shelter"
+  }
+}

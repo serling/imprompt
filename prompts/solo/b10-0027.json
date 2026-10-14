@@ -1,0 +1,16 @@
+{
+  "id": "b10-0027",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "An anti-gadget grandmother."
+  },
+  "tags": [
+    "character",
+    "family"
+  ],
+  "callback": {
+    "en": "the anti-gadget grandmother"
+  }
+}

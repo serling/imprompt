@@ -20,8 +20,11 @@ TYPES = {"premise", "character", "twisted-role", "reframe", "status-flip", "emot
 STATUSES = {"draft", "approved", "retired"}
 MODIFIER_KINDS = {"speech", "tempo", "tone", "physical"}
 MAX_WORDS = {1: 14, 2: 18}
-# Every escalation has six steps; the host decides how far to take it.
-ESCALATION_STEPS = 6
+MAX_SCENE_WORDS = 20
+# Side-coaching vocabulary for the Scenes mode: short words or phrases that may recur.
+VOCABULARY = {"emotions", "styles"}
+# Every escalation has four steps: base, more, even more, then a twist. The host decides how far to go.
+ESCALATION_STEPS = 4
 NEAR_DUP = 0.75
 # Per language: words that would ask a performer to sing.
 NO_SINGING = {
@@ -78,6 +81,14 @@ def check(entries, exclude):
         if folder == "modifiers":
             if p.get("kind") not in MODIFIER_KINDS:
                 problems.append(f"{where}: kind must be one of {sorted(MODIFIER_KINDS)}")
+        elif folder == "scenes":
+            if p.get("players") not in (2, 3, 4):
+                problems.append(f"{where}: a scene has 2, 3 or 4 players")
+            if len(texts(folder, p)[0].split()) > MAX_SCENE_WORDS:
+                problems.append(f"{where}: too long (max {MAX_SCENE_WORDS} words)")
+        elif folder in VOCABULARY:
+            if len(texts(folder, p)[0].split()) > 5:
+                problems.append(f"{where}: side-coaching words are at most 5 words")
         else:
             if p.get("players") not in (1, 2):
                 problems.append(f"{where}: players must be 1 or 2")
@@ -108,13 +119,14 @@ def check(entries, exclude):
                     problems.append(f"{where}: asks for singing ({lang})")
 
     # Duplicates: openers and single prompts only; callback frames and modifiers share shapes by design.
-    pool = [(f"{f}/{s}", texts(f, p)[0]) for f, s, p in entries
-            if "_error" not in p and f in ("solo", "duo", "escalations")]
+    # Retired prompts never play, so only playable ones are checked against the exclusion list.
+    pool = [(f"{f}/{s}", texts(f, p)[0], p.get("status") != "retired") for f, s, p in entries
+            if "_error" not in p and f in ("solo", "duo", "escalations", "scenes")]
     for i in range(len(pool)):
         for j in range(i + 1, len(pool)):
             if similar(pool[i][1], pool[j][1]):
                 problems.append(f"{pool[i][0]} / {pool[j][0]}: near-duplicates")
-        for x in exclude:
+        for x in exclude if pool[i][2] else ():
             if similar(pool[i][1], x):
                 problems.append(f"{pool[i][0]}: repeats an excluded prompt")
     return problems

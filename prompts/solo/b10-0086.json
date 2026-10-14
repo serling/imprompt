@@ -1,0 +1,12 @@
+{
+  "id": "b10-0086",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A landlord begging the tenant not to move out."
+  },
+  "tags": [
+    "status"
+  ]
+}

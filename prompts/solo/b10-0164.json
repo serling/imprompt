@@ -1,0 +1,15 @@
+{
+  "id": "b10-0164",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A freshly divorced toaster."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the divorced toaster"
+  }
+}

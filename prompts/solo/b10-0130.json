@@ -1,0 +1,15 @@
+{
+  "id": "b10-0130",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A doormat that wants to be noticed."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the doormat"
+  }
+}

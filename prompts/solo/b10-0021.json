@@ -1,0 +1,15 @@
+{
+  "id": "b10-0021",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A part-time mermaid."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the part-time mermaid"
+  }
+}

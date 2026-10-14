@@ -1,0 +1,15 @@
+{
+  "id": "b10-0156",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A wannabe lawnmower."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the wannabe lawnmower"
+  }
+}

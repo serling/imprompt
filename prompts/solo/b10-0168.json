@@ -1,0 +1,15 @@
+{
+  "id": "b10-0168",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A timid bodybuilder."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the timid bodybuilder"
+  }
+}

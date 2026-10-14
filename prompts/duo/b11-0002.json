@@ -1,0 +1,13 @@
+{
+  "id": "b11-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A dentist and a patient who is also a dentist."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

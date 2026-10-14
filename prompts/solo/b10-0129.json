@@ -1,0 +1,15 @@
+{
+  "id": "b10-0129",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "An alarm clock nobody ever listens to."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the ignored alarm clock"
+  }
+}

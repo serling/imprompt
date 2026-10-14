@@ -1,0 +1,16 @@
+{
+  "id": "b10-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A secretly sentimental bouncer."
+  },
+  "tags": [
+    "character",
+    "work"
+  ],
+  "callback": {
+    "en": "the sentimental bouncer"
+  }
+}

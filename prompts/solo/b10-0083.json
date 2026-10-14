@@ -1,0 +1,13 @@
+{
+  "id": "b10-0083",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A surgeon asking the patient for help with the stitches."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

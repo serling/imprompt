@@ -1,0 +1,15 @@
+{
+  "id": "b10-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A suspiciously helpful stranger."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the suspiciously helpful stranger"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "b10-0085",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A judge on trial in their own courtroom."
+  },
+  "tags": [
+    "status"
+  ]
+}

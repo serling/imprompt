@@ -1,0 +1,16 @@
+{
+  "id": "b10-0042",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A tattoo artist starting their first tattoo, with shaky hands."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the shaky tattoo artist"
+  }
+}

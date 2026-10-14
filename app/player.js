@@ -5,6 +5,7 @@
 const LANG = "en";
 const LOG_KEY = "imprompt-log";
 const MUTE_KEY = "imprompt-muted";
+const MODE_KEY = "imprompt-mode";       // "rapid" | "scenes"
 const MAX_MODS = 2;          // a duo scene can be rerun twice, stacking modifiers
 const MIN_CALLBACK_GAP = 3;  // a callback names a character played at least this many cues ago
 
@@ -12,13 +13,19 @@ const $ = id => document.getElementById(id);
 const say = t => (t && t[LANG]) || "";
 
 const state = {
-  deck: { solo: [], duo: [], escalations: [], callbacks: [], modifiers: [] },
-  log: {},            // id -> { action: "used" | "skipped", at }
+  deck: { solo: [], duo: [], escalations: [], callbacks: [], modifiers: [], scenes: [], emotions: [], styles: [] },
+  mode: "rapid",
+  players: 2,         // size of the scene on screen in Scenes mode
+  log: {},            // id -> { action: "used", at } (older logs may also hold "skipped")
+  passed: new Set(),  // prompts skipped this session: back in the pile, but not dealt again until a reload
   current: null,      // { entry, kind: "single" | "sequence" | "callback", step, fill }
   cue: 0,
   stack: [],          // modifiers on the current duo rerun
   seenMods: new Set(), seenCallbacks: new Set(), usedFills: new Set(),
   played: [],         // { entry, cue } for characters that can be called back (this session only)
+  coaching: [],       // { kind, entry } side-coaching on screen: one slot per kind, the latest replaces the last
+  lastCoach: null,    // the kind dealt most recently (Skip replaces it)
+  seenCoach: new Set(),
 };
 
 // --- storage (this device only) ---------------------------------------------------------
@@ -30,11 +37,38 @@ function record(id, action) {
   try { localStorage.setItem(LOG_KEY, JSON.stringify(state.log)); }
   catch { setStatus("This browser isn't saving, so prompts may repeat after a reload.", true); }
 }
+// Reset: forget every used prompt on this device, so the whole deck comes back.
+// Two taps, since the page can't show a confirm dialog: the first arms it for a few seconds.
+let resetTimer = null;
+function reset() {
+  const b = $("reset");
+  if (!b.classList.contains("armed")) {
+    b.classList.add("armed"); b.textContent = "Tap again to reset";
+    resetTimer = setTimeout(disarmReset, 3000);
+    return;
+  }
+  disarmReset();
+  state.log = {};
+  try { localStorage.removeItem(LOG_KEY); } catch {}
+  state.current = null; state.cue = 0; state.stack = []; state.played = []; state.passed.clear();
+  state.coaching = []; state.lastCoach = null;
+  for (const seen of [state.seenMods, state.seenCallbacks, state.usedFills, state.seenCoach]) seen.clear();
+  $("cueNo").textContent = "Cue —";
+  idle("Reset", state.mode === "scenes" ? READY_SCENES : READY_RAPID);
+}
+function disarmReset() {
+  clearTimeout(resetTimer);
+  $("reset").classList.remove("armed"); $("reset").textContent = "Reset";
+}
+function unrecord(id) {
+  delete state.log[id];
+  try { localStorage.setItem(LOG_KEY, JSON.stringify(state.log)); } catch {}
+}
 function setStatus(msg, warn) { $("status").textContent = msg; $("status").className = "status" + (warn ? " warn" : ""); }
 
 // --- pools ------------------------------------------------------------------------------
 const regular = players => [...(players === 1 ? state.deck.solo : state.deck.duo), ...state.deck.escalations]
-  .filter(e => e.players === players && !state.log[e.id]);
+  .filter(e => e.players === players && !state.log[e.id] && !state.passed.has(e.id));
 const callbackCandidates = () =>
   state.played.filter(x => state.cue + 1 - x.cue >= MIN_CALLBACK_GAP && !state.usedFills.has(x.entry.id));
 function callbackPool(players) {
@@ -54,29 +88,30 @@ const pick = list => list[Math.floor(Math.random() * list.length)];
 
 // --- rendering --------------------------------------------------------------------------
 function renderCounts() {
+  if (state.mode === "scenes") return renderSceneCounts();
   const s = regular(1).length, d = regular(2).length;
-  $("solo").disabled = s === 0;
-  $("duo").disabled = d === 0;
-  $("skip").disabled = !state.current;
-  const c = state.current;
-  const further = hasNextStep(c) ? c.entry.players : canRerun(c) ? 2 : 0;
-  for (const [k, n] of [["solo", 1], ["duo", 2]]) {
-    $(k + "More").hidden = further !== n;
-    $(k + "Wrap").classList.toggle("open", further === n);
-  }
-  const counted = Object.values(state.log);
-  const skipped = counted.filter(x => x.action === "skipped").length;
-  $("deckInfo").textContent = `Solo ${s} · Duo ${d} left · ${counted.length - skipped} used · ${skipped} skipped`;
+  for (const b of document.querySelectorAll("[data-rapid]")) b.disabled = regular(+b.dataset.rapid).length === 0;
+  $("skip").hidden = !state.current;
+  $("back").hidden = !state.current;
+  // Choosing: a button per player count. Playing: the buzzer (left), » Heighten when the prompt can
+  // go further (middle) and Next (right).
+  const c = state.current, kind = hasNextStep(c) ? "step" : canRerun(c) ? "rerun" : "";
+  $("rapidWrap").hidden = !!c;
+  $("endWrap").hidden = !c;
+  $("more").disabled = !kind;
+  $("more").setAttribute("aria-label", kind === "rerun" ? "Heighten: rerun with a modifier" : "Heighten: next step");
+  $("deckInfo").textContent = `Left · 1p ${s} · 2p ${d} · ${Object.keys(state.log).length} used`;
 }
 
 function renderPrompt() {
   const c = state.current, text = $("text"), who = $("who");
   if (!c) return;
+  if (c.kind === "scene") return renderScene();
   const duo = c.entry.players === 2;
-  who.textContent = (duo ? "Duo" : "Solo")
-    + (c.kind === "sequence" && c.step > 0 ? " · Further ×" + (c.step + 1) : "")
+  who.textContent = (duo ? "2 players" : "1 player")
+    + (c.kind === "sequence" && c.step > 0 ? " · Heighten ×" + c.step : "")
     + (c.fill ? " · Callback" : "")
-    + (state.stack.length ? " · Escalate ×" + state.stack.length : "");
+    + (state.stack.length ? " · Heighten ×" + state.stack.length : "");
   who.className = "who" + (duo ? " duo" : "");
   if (c.kind === "callback") {
     const [before, after] = say(c.entry.text).split("{character}");
@@ -122,41 +157,164 @@ function further() {
   if (hasNextStep(c)) {
     c.step += 1; state.cue += 1;
     renderPrompt(); renderCounts();
-    ding(c.step + 1);
+    ding();
   } else if (canRerun(c)) {
     const m = pickMod();
     state.stack.push(m); state.seenMods.add(m.id); state.cue += 1;
     renderPrompt(); renderCounts();
-    ding(1, state.stack.length);
+    ding();
   }
 }
 
+// Skip: move on without playing what is on screen. A pure skip, not feedback: the prompt goes back
+// in the pile (not dealt again this session) and a new one for the same number of players is dealt.
 function skip() {
   const c = state.current;
   if (!c) return;
-  if (state.stack.length) {
-    // On a rerun, Skip rejects only the newest modifier and deals another in its place.
-    record(state.stack.pop().id, "skipped");
-    const m = pickMod();
-    if (m) { state.stack.push(m); state.seenMods.add(m.id); }
-    renderPrompt(); renderCounts();
-    return;
-  }
-  record(c.entry.id, "skipped");
-  state.current = null;
-  const players = c.entry.players;
-  if (regular(players).length) draw(players);
-  else {
-    $("who").textContent = "Skipped";
-    $("text").textContent = `No ${players === 1 ? "solo" : "duo"} prompts left.`;
-    $("text").className = "text idle";
-    renderCounts();
+  if (c.kind !== "callback") unrecord(c.entry.id);
+  state.passed.add(c.entry.id);
+  next();
+}
+
+// --- Scenes mode ------------------------------------------------------------------------
+// A deliberate scene for 2-4 players: one setup, then the host side-coaches while it runs.
+// Emotions and styles are a vocabulary that may recur in later sessions (not logged as used).
+// Each kind has one slot on screen; a new one replaces the old, so the card never grows a log.
+const COACH_LABEL = { emotions: "Emotion", styles: "Style" };
+const COACH_ORDER = Object.keys(COACH_LABEL);
+const scenePool = players => state.deck.scenes.filter(e => e.players === players && !state.log[e.id] && !state.passed.has(e.id));
+function coachPool(kind) {
+  const open = state.deck[kind].filter(e => state.log[e.id]?.action !== "skipped");
+  const fresh = open.filter(e => !state.seenCoach.has(e.id));
+  if (fresh.length) return fresh;
+  open.forEach(e => state.seenCoach.delete(e.id));  // the whole list has been dealt: start it over
+  return open;
+}
+
+function renderSceneCounts() {
+  const left = n => scenePool(n).length;
+  for (const b of document.querySelectorAll("[data-players]")) b.disabled = left(+b.dataset.players) === 0;
+  const inScene = state.current?.kind === "scene";
+  // Choosing: a button per scene size. Playing: the buzzer (left) and Next (right); the middle
+  // slot, Heighten in Rapid fire, stays empty so both sit where they do there.
+  $("scenesWrap").hidden = inScene;
+  $("endWrap").hidden = !inScene;
+  $("back").hidden = !inScene;
+  $("more").disabled = true;
+  $("skip").hidden = !state.current;
+  $("deckInfo").textContent = `Scenes left · 2p ${left(2)} · 3p ${left(3)} · 4p ${left(4)}`;
+}
+
+const REFRESH_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function renderScene(fresh) {
+  const c = state.current, text = $("text"), who = $("who");
+  who.textContent = `Scene · ${c.entry.players} players`;
+  who.className = "who scene";
+  text.textContent = say(c.entry.text);
+  text.className = "text scene";
+  if (fresh) { void text.offsetWidth; text.classList.add("fresh"); }
+  $("mods").hidden = !state.coaching.length;
+  $("modList").replaceChildren(...state.coaching.map(x => {
+    const li = document.createElement("li"), kind = document.createElement("span");
+    kind.className = "kind";
+    kind.textContent = COACH_LABEL[x.kind];
+    const refresh = document.createElement("button");
+    refresh.className = "refresh";
+    refresh.dataset.coach = x.kind;
+    refresh.setAttribute("aria-label", "New " + COACH_LABEL[x.kind].toLowerCase());
+    refresh.innerHTML = REFRESH_ICON;
+    li.append(kind, say(x.entry.text), refresh);
+    li.className = "coach-line" + (x.kind === state.lastCoach ? " fresh" : "");
+    return li;
+  }));
+  $("cueNo").textContent = "Cue " + String(state.cue).padStart(3, "0");
+}
+
+function drawScene(players = state.players) {
+  state.players = players;
+  const pool = scenePool(players);
+  if (!pool.length) return;
+  const entry = pick(pool);
+  record(entry.id, "used");
+  state.current = { entry, kind: "scene" }; state.cue += 1; state.coaching = []; state.lastCoach = null;
+  // Every scene comes with an emotion and a style: the host uses them now, later, or not at all.
+  for (const kind of COACH_ORDER) dealCoach(kind);
+  state.lastCoach = null;
+  renderScene(true); renderSceneCounts();
+  ding();
+  keepAwake();
+}
+
+function dealCoach(kind) {
+  const pool = coachPool(kind);
+  if (state.current?.kind !== "scene" || !pool.length) return null;
+  const entry = pick(pool);
+  state.seenCoach.add(entry.id);
+  state.coaching = state.coaching.filter(x => x.kind !== kind).concat({ kind, entry })
+    .sort((a, b) => COACH_ORDER.indexOf(a.kind) - COACH_ORDER.indexOf(b.kind));
+  state.lastCoach = kind;
+  return entry;
+}
+
+// The refresh icon beside an emotion or a style swaps only that line.
+function coach(kind) {
+  if (!dealCoach(kind)) return;
+  renderScene(); renderSceneCounts();
+  ding();
+}
+
+
+function idle(label, message) {
+  $("who").textContent = label;
+  $("who").className = "who";
+  $("text").textContent = message;
+  $("text").className = "text idle";
+  $("mods").hidden = true;
+  renderCounts();
+}
+
+const READY_RAPID = "Tap a player count for the next prompt.";
+const READY_SCENES = "Tap a player count to start a scene.";
+
+// Next: a new prompt or scene for the same number of players.
+function next() {
+  const c = state.current;
+  if (!c) return;
+  if (c.kind === "scene") {
+    state.current = null;
+    if (scenePool(state.players).length) drawScene();
+    else idle("Done", `No ${state.players}-player scenes left.`);
+  } else {
+    const players = c.entry.players;
+    state.current = null; state.stack = [];
+    if (regular(players).length) draw(players);
+    else idle("Done", `No ${players}-player prompts left.`);
   }
 }
 
+// Back: leave the prompt or scene and return to the player buttons.
+function back() {
+  state.current = null; state.stack = []; state.coaching = []; state.lastCoach = null;
+  idle("Ready", state.mode === "scenes" ? READY_SCENES : READY_RAPID);
+}
+
+function setMode(mode, quiet) {
+  if (mode !== state.mode && state.current) state.current = null;
+  state.mode = mode;
+  try { localStorage.setItem(MODE_KEY, mode); } catch {}
+  const scenes = mode === "scenes";
+  $("modeRapid").setAttribute("aria-pressed", String(!scenes));
+  $("modeScenes").setAttribute("aria-pressed", String(scenes));
+  $("rapidWrap").hidden = scenes;
+  $("scenesWrap").hidden = !scenes;
+  document.body.classList.toggle("scenes-on", scenes);
+  state.stack = []; state.coaching = []; state.lastCoach = null;
+  if (!quiet) idle("Ready", scenes ? READY_SCENES : READY_RAPID);
+}
+
 // --- sound ------------------------------------------------------------------------------
-// A playful two-note "bl-ing", synthesised (no sound file). level = escalation step: more
-// strikes, higher. deeper > 0: one bling, a fourth lower per level (duo rerun).
+// Two recorded sounds (CC0, see CREDITS.md): one blop for every new prompt, whatever it is, and
+// the buzzer that ends a scene. Each has a synthesised stand-in if its file can't be loaded.
 let audio = null;
 try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch {}
 let muted = false;
@@ -165,63 +323,68 @@ function renderMute() {
   $("mute").setAttribute("aria-pressed", String(muted));
   $("mute").setAttribute("aria-label", muted ? "Sound off. Tap to unmute." : "Sound on. Tap to mute.");
 }
-function ding(level = 1, deeper = 0) {
-  if (muted) return;
+
+const recordings = {};   // name -> { file: ArrayBuffer, buffer: AudioBuffer }
+for (const name of ["blop", "buzzer"]) {
+  recordings[name] = {};
+  fetch(`sounds/${name}.mp3`).then(r => r.ok ? r.arrayBuffer() : null).then(b => { recordings[name].file = b; }).catch(() => {});
+}
+// Plays a recording; returns false if it isn't available, so the caller can synthesise instead.
+async function play(name) {
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
     if (audio.state === "suspended") audio.resume();
-    const strikes = deeper ? 1 : Math.min(level, 6), out = audio.createGain();
-    out.gain.value = 0.45 / (1 + 0.35 * (strikes - 1)); // overlapping strikes would clip
+    const r = recordings[name];
+    if (!r.buffer && r.file) r.buffer = await audio.decodeAudioData(r.file.slice(0));
+    if (!r.buffer) return false;
+    const src = audio.createBufferSource();
+    src.buffer = r.buffer;
+    src.connect(audio.destination);
+    src.start();
+    return true;
+  } catch { return false; }
+}
+
+// The same blop for every new prompt: a first prompt, a further step, a rerun, a scene, a coaching
+// word. Varying it by step was tried; a minute into a scene nobody hears the difference.
+async function ding() {
+  if (muted) return;
+  if (!(await play("blop"))) synthDing();
+}
+
+// Fallback: a soft two-note "bl-ing".
+function synthDing() {
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    const out = audio.createGain();
+    out.gain.value = 0.45;
     out.connect(audio.destination);
     const note = (t, freq) => {
-      // Short tail and in-tune overtones only: no ring-out, no metallic clang.
-      for (const [ratio, gain, decay] of [[1, 1, 0.45], [2, 0.12, 0.22]]) {
-        const osc = audio.createOscillator(), env = audio.createGain();
-        osc.type = "sine";
-        osc.frequency.setValueAtTime(freq * ratio * 0.9, t);
-        osc.frequency.exponentialRampToValueAtTime(freq * ratio, t + 0.05);
-        env.gain.setValueAtTime(0.0001, t);
-        env.gain.exponentialRampToValueAtTime(gain, t + 0.01);
-        env.gain.exponentialRampToValueAtTime(0.0001, t + decay);
-        osc.connect(env).connect(out);
-        osc.start(t);
-        osc.stop(t + decay + 0.05);
-      }
+      const osc = audio.createOscillator(), env = audio.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq * 0.9, t);
+      osc.frequency.exponentialRampToValueAtTime(freq, t + 0.05);
+      env.gain.setValueAtTime(0.0001, t);
+      env.gain.exponentialRampToValueAtTime(1, t + 0.01);
+      env.gain.exponentialRampToValueAtTime(0.0001, t + 0.45);
+      osc.connect(env).connect(out);
+      osc.start(t);
+      osc.stop(t + 0.5);
     };
-    for (let k = 0; k < strikes; k++) {
-      const t = audio.currentTime + k * 0.17;
-      const freq = deeper ? 784 * Math.pow(0.75, deeper) : 784 * Math.pow(1.122, level - 1 + k * 0.5);
-      note(t, freq);
-      note(t + 0.07, freq * 1.26);
-    }
+    note(audio.currentTime, 784);
+    note(audio.currentTime + 0.07, 988);
   } catch {}
 }
 
-// The buzzer that ends a scene: a recorded game-show buzzer (sounds/buzzer.mp3, CC0, see
-// CREDITS.md). If the recording can't be loaded, a synthesised buzz stands in. Respects mute;
-// the card flashes either way so the room sees the scene end.
-let buzzerFile = null, buzzerBuffer = null;
-fetch("sounds/buzzer.mp3").then(r => r.ok ? r.arrayBuffer() : null).then(b => { buzzerFile = b; }).catch(() => {});
-
+// The buzzer: it only rings, ending nothing on screen. Respects mute; the card flashes either way so the room sees the
+// scene end.
 async function buzzer() {
   const card = $("card");
   card.classList.remove("buzzed");
   void card.offsetWidth;
   card.classList.add("buzzed");
   if (muted) return;
-  try {
-    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
-    if (audio.state === "suspended") audio.resume();
-    if (!buzzerBuffer && buzzerFile) buzzerBuffer = await audio.decodeAudioData(buzzerFile.slice(0));
-    if (buzzerBuffer) {
-      const src = audio.createBufferSource();
-      src.buffer = buzzerBuffer;
-      src.connect(audio.destination);
-      src.start();
-      return;
-    }
-  } catch {}
-  synthBuzzer();
+  if (!(await play("buzzer"))) synthBuzzer();
 }
 
 // Fallback: one coarse sawtooth tone, rattled by a fast on-off modulation, stopping dead.
@@ -261,27 +424,37 @@ async function keepAwake() {
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && state.current) keepAwake(); });
 
 // --- start ------------------------------------------------------------------------------
-$("solo").addEventListener("click", () => draw(1));
-$("duo").addEventListener("click", () => draw(2));
-$("soloMore").addEventListener("click", further);
-$("duoMore").addEventListener("click", further);
+for (const b of document.querySelectorAll("[data-rapid]")) b.addEventListener("click", () => draw(+b.dataset.rapid));
+$("more").addEventListener("click", further);
+$("bigBuzz").addEventListener("click", buzzer);
 $("skip").addEventListener("click", skip);
-$("buzz").addEventListener("click", buzzer);
+$("reset").addEventListener("click", reset);
+$("next").addEventListener("click", next);
+$("back").addEventListener("click", back);
 $("mute").addEventListener("click", () => {
   muted = !muted;
   try { localStorage.setItem(MUTE_KEY, muted ? "1" : "0"); } catch {}
   renderMute();
 });
 renderMute();
+for (const b of document.querySelectorAll("[data-players]")) b.addEventListener("click", () => drawScene(+b.dataset.players));
+$("modList").addEventListener("click", e => { const b = e.target.closest(".refresh"); if (b) coach(b.dataset.coach); });
+$("modeRapid").addEventListener("click", () => setMode("rapid"));
+$("modeScenes").addEventListener("click", () => setMode("scenes"));
+try {
+  if (localStorage.getItem(MODE_KEY) === "scenes") state.mode = "scenes";
+} catch {}
 
 (async function start() {
   loadLog();
   try {
-    state.deck = await (await fetch("deck.json", { cache: "no-cache" })).json();
+    state.deck = { ...state.deck, ...await (await fetch("deck.json", { cache: "no-cache" })).json() };
   } catch {
     $("deckInfo").textContent = "Deck failed to load";
     setStatus("The prompts couldn't be loaded. Check the connection and reload.", true);
     return;
   }
+  $("reset").disabled = false;
+  setMode(state.mode, state.mode === "rapid");
   renderCounts();
 })();

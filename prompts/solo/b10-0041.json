@@ -1,0 +1,15 @@
+{
+  "id": "b10-0041",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A pilot making the announcements, but very shy."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the shy pilot"
+  }
+}

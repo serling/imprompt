@@ -1,0 +1,16 @@
+{
+  "id": "b10-0118",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A pigeon guarding its spot on a statue."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the pigeon on the statue"
+  }
+}

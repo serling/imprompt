@@ -1,0 +1,15 @@
+{
+  "id": "b10-0126",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A vending machine that just wants to be loved."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the lonely vending machine"
+  }
+}

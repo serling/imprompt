@@ -1,0 +1,15 @@
+{
+  "id": "b10-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "An undercover lollipop lady."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the undercover lollipop lady"
+  }
+}

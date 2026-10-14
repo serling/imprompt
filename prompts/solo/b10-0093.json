@@ -1,0 +1,12 @@
+{
+  "id": "b10-0093",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A tour guide following the tourists."
+  },
+  "tags": [
+    "status"
+  ]
+}

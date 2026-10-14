@@ -1,0 +1,16 @@
+{
+  "id": "b10-0045",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A swimming teacher giving a lesson, without getting wet."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the swimming teacher who stays dry"
+  }
+}

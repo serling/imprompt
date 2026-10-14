@@ -1,0 +1,16 @@
+{
+  "id": "b10-0124",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A seagull planning a chip heist on the seafront."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the chip-stealing seagull"
+  }
+}

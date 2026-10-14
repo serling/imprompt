@@ -1,0 +1,15 @@
+{
+  "id": "b10-0159",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A jet-lagged hamster."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the jet-lagged hamster"
+  }
+}

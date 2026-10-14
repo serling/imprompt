@@ -1,0 +1,15 @@
+{
+  "id": "b10-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A reformed gossip."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the reformed gossip"
+  }
+}

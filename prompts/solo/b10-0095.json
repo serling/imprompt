@@ -1,0 +1,12 @@
+{
+  "id": "b10-0095",
+  "status": "retired",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A coach getting a pep talk from the worst player."
+  },
+  "tags": [
+    "status"
+  ]
+}

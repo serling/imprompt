@@ -1,0 +1,15 @@
+{
+  "id": "b10-0044",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A security guard checking bags, but extremely nosy."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the nosy security guard"
+  }
+}

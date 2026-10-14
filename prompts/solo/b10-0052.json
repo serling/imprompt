@@ -1,0 +1,15 @@
+{
+  "id": "b10-0052",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A magician doing a trick, honestly explaining how it works."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the honest magician"
+  }
+}

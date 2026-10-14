@@ -1,0 +1,12 @@
+{
+  "id": "b10-0091",
+  "status": "retired",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A football captain carrying the water for the substitutes."
+  },
+  "tags": [
+    "status"
+  ]
+}

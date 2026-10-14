@@ -1,0 +1,16 @@
+{
+  "id": "b10-0038",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A smug weather presenter."
+  },
+  "tags": [
+    "character",
+    "work"
+  ],
+  "callback": {
+    "en": "the smug weather presenter"
+  }
+}

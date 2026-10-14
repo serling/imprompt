@@ -1,0 +1,15 @@
+{
+  "id": "b10-0039",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A lifeguard on their first day, afraid of water."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the lifeguard who's afraid of water"
+  }
+}

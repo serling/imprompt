@@ -1,0 +1,16 @@
+{
+  "id": "b10-0115",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A revolving door that has given up."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ],
+  "callback": {
+    "en": "the revolving door that gave up"
+  }
+}

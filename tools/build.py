@@ -20,7 +20,7 @@ def main():
         shutil.rmtree(out)
     shutil.copytree(ROOT / "app", out)
     deck = {}
-    for folder in ("solo", "duo", "escalations", "callbacks", "modifiers"):
+    for folder in ("solo", "duo", "escalations", "callbacks", "modifiers", "scenes", "emotions", "styles"):
         items = []
         for f in sorted((ROOT / "prompts" / folder).glob("*.json")):
             p = json.loads(f.read_text())

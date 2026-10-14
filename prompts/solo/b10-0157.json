@@ -1,0 +1,15 @@
+{
+  "id": "b10-0157",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A secretly vain toddler."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the vain toddler"
+  }
+}

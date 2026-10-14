@@ -1,0 +1,16 @@
+{
+  "id": "b10-0133",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A dog seeing snow for the first time."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the dog who's never seen snow"
+  }
+}

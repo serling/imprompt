@@ -1,0 +1,15 @@
+{
+  "id": "b10-0171",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A reluctant trampoline."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the reluctant trampoline"
+  }
+}

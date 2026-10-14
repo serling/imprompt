@@ -1,0 +1,15 @@
+{
+  "id": "b10-0153",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A homesick satellite."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the homesick satellite"
+  }
+}

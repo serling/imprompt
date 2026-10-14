@@ -1,0 +1,15 @@
+{
+  "id": "b10-0155",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "An ex-scarecrow."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the ex-scarecrow"
+  }
+}

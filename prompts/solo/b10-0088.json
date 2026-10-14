@@ -1,0 +1,12 @@
+{
+  "id": "b10-0088",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A teacher sitting the exam while the class invigilates."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b10-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone guarding the last slice of cake at an office party."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the guardian of the last slice"
+  }
+}

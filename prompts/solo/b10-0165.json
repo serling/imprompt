@@ -1,0 +1,15 @@
+{
+  "id": "b10-0165",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A hungover cuckoo clock."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the hungover cuckoo clock"
+  }
+}

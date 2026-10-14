@@ -1,0 +1,13 @@
+{
+  "id": "b10-0082",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "An intern who has been put in charge of the whole company."
+  },
+  "tags": [
+    "status",
+    "family"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b10-0131",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A Christmas tree on the sixth of January."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the Christmas tree"
+  }
+}

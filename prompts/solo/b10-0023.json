@@ -1,0 +1,16 @@
+{
+  "id": "b10-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone on their fifth coffee of the morning."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ],
+  "callback": {
+    "en": "the person on their fifth coffee"
+  }
+}

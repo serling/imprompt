@@ -1,0 +1,15 @@
+{
+  "id": "b10-0051",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A dentist checking teeth, but squeamish about mouths."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the squeamish dentist"
+  }
+}

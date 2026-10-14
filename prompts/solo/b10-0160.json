@@ -1,0 +1,15 @@
+{
+  "id": "b10-0160",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "An overconfident teabag."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the overconfident teabag"
+  }
+}

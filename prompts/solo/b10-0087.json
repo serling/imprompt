@@ -1,0 +1,12 @@
+{
+  "id": "b10-0087",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A customer serving dinner to the waiter."
+  },
+  "tags": [
+    "status"
+  ]
+}

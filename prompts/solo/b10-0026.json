@@ -1,0 +1,15 @@
+{
+  "id": "b10-0026",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A retired spy who can't stop checking the exits."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the retired spy"
+  }
+}

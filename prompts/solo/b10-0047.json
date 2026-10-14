@@ -1,0 +1,13 @@
+{
+  "id": "b10-0047",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A traffic reporter describing a jam they are stuck in."
+  },
+  "tags": [
+    "work",
+    "narration"
+  ]
+}

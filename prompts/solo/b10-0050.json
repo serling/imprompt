@@ -1,0 +1,13 @@
+{
+  "id": "b10-0050",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A bus driver announcing the stops, making up every name."
+  },
+  "tags": [
+    "work",
+    "narration"
+  ]
+}

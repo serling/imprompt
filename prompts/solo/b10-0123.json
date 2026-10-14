@@ -1,0 +1,15 @@
+{
+  "id": "b10-0123",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A kettle with strong opinions about tea."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the opinionated kettle"
+  }
+}

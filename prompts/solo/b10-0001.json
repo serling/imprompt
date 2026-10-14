@@ -1,0 +1,15 @@
+{
+  "id": "b10-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone trying to return a jumper they've clearly worn."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the jumper returner"
+  }
+}

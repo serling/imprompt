@@ -1,0 +1,13 @@
+{
+  "id": "b10-0090",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A bodyguard hiding behind the person they protect."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ]
+}

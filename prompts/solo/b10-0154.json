@@ -1,0 +1,15 @@
+{
+  "id": "b10-0154",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A part-time volcano."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the part-time volcano"
+  }
+}

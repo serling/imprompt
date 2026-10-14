@@ -1,0 +1,15 @@
+{
+  "id": "b10-0158",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A recovering escalator."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the recovering escalator"
+  }
+}

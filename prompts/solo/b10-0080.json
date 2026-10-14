@@ -1,0 +1,13 @@
+{
+  "id": "b10-0080",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A dog owner obeying every command from the dog."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ]
+}
