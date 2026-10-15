@@ -10,7 +10,8 @@
       "Translator"
     ],
     "no": [
-      "Tolken"
+      "Gibberish Expert",
+      "Translator"
     ]
   },
   "family": "other",
@@ -26,12 +27,12 @@
     "en": [
       "One player is an expert who speaks only gibberish.",
       "An interpreter translates for an interviewer.",
-      "The interview is about the topic on the card."
+      "The interview is about the expert's subject."
     ],
     "no": [
       "Én spiller er en ekspert som bare snakker gibberish.",
       "En tolk oversetter for en intervjuer.",
-      "Intervjuet handler om temaet på kortet."
+      "Intervjuet handler om ekspertens fagfelt."
     ]
   },
   "more": {

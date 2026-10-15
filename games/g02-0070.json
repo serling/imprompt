@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Press Conference"
+    ]
   },
   "family": "guessing",
   "players": {
@@ -31,8 +33,8 @@
     ]
   },
   "more": {
-    "en": "The job on the card gives the person; the reporters decide the announcement.",
-    "no": "Yrket på kortet gir personen; journalistene bestemmer kunngjøringen."
+    "en": "Ask questions that narrow it down, step by step.",
+    "no": "Still spørsmål som snevrer det inn, steg for steg."
   },
   "asks": [
     "occupations"

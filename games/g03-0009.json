@@ -10,7 +10,8 @@
       "Color Change"
     ],
     "no": [
-      "Fargeskifte"
+      "Colour Change",
+      "Color Change"
     ]
   },
   "family": "host-calls",
@@ -19,19 +20,19 @@
     "max": 6
   },
   "summary": {
-    "en": "Three colours, three places; the caller names a colour and the scene jumps.",
-    "no": "Tre farger, tre steder; innroperen sier en farge, og scenen hopper."
+    "en": "The caller calls a colour, and the scene jumps to the place that goes with it.",
+    "no": "Innroperen roper en farge, og scenen hopper til stedet som hører til den."
   },
   "steps": {
     "en": [
-      "Give each of the three places on the card a colour.",
-      "Start a scene; the caller names a colour now and then.",
-      "The scene carries on in that colour's place."
+      "Link three places to three colours, for example red, blue and green.",
+      "Start a scene in one of the places; one player is the caller.",
+      "When the caller calls a colour, the scene jumps to that colour's place and carries on."
     ],
     "no": [
-      "Gi hvert av de tre stedene på kortet en farge.",
-      "Start en scene; innroperen sier en farge nå og da.",
-      "Scenen fortsetter på stedet med den fargen."
+      "Knytt tre steder til tre farger, for eksempel rød, blå og grønn.",
+      "Start en scene på ett av stedene; én spiller er innroper.",
+      "Når innroperen roper en farge, hopper scenen til stedet for den fargen og fortsetter."
     ]
   },
   "more": {

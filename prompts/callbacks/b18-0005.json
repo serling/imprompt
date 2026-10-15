@@ -1,0 +1,14 @@
+{
+  "id": "b18-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "The safety demonstration on a plane. The flight attendant is {character}.",
+    "no": "Sikkerhetsdemonstrasjonen på flyet. Den kabinansatte er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

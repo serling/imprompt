@@ -3,11 +3,13 @@
   "status": "draft",
   "name": {
     "en": "Word Replay",
-    "no": "Ordrepris"
+    "no": "Ordreprise"
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Word Replay"
+    ]
   },
   "family": "replay",
   "players": {
@@ -16,7 +18,7 @@
   },
   "summary": {
     "en": "Each replay shrinks the dialogue: three words, one word, silence.",
-    "no": "Hver repris krymper dialogen: tre ord, ett ord, stillhet."
+    "no": "Hver reprise krymper dialogen: tre ord, ett ord, stillhet."
   },
   "steps": {
     "en": [

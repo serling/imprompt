@@ -2,17 +2,19 @@
   "id": "g02-0048",
   "status": "draft",
   "name": {
-    "en": "Story Story Die",
-    "no": "Fortell, fortell, dø"
+    "en": "Storyline",
+    "no": "Storyline"
   },
   "aliases": {
     "en": [
+      "Story Story Die",
       "Story Die",
       "Die"
     ],
     "no": [
+      "Story Story Die",
       "Story Die",
-      "Dø"
+      "Die"
     ]
   },
   "family": "elimination",
@@ -27,12 +29,12 @@
   "steps": {
     "en": [
       "Players stand in a line; one is the conductor.",
-      "The conductor points, and that player continues the story on the card.",
+      "The conductor points, and that player continues the story.",
       "Stumble, repeat or contradict, and you die on the spot, dramatically."
     ],
     "no": [
       "Spillerne står på en rekke; én er dirigent.",
-      "Dirigenten peker, og den spilleren fortsetter historien på kortet.",
+      "Dirigenten peker, og den spilleren fortsetter historien.",
       "Snubler, gjentar eller motsier du, dør du på stedet, dramatisk."
     ]
   },

@@ -10,7 +10,8 @@
       "Chain Mystery Endowment"
     ],
     "no": [
-      "Mysteriekjeden"
+      "Chain Murder",
+      "Chain Mystery Endowment"
     ]
   },
   "family": "guessing",
@@ -25,12 +26,12 @@
   "steps": {
     "en": [
       "All but one player wait out of earshot.",
-      "The first shows the next a job, a place and a weapon from the card, in mime only.",
+      "The first shows the next a job, a place and a weapon, in mime only.",
       "Each passes it on; the last says what they think happened."
     ],
     "no": [
       "Alle unntatt én spiller venter utenfor hørevidde.",
-      "Den første viser den neste et yrke, et sted og et våpen fra kortet, bare med mime.",
+      "Den første viser den neste et yrke, et sted og et våpen, bare med mime.",
       "Hver sender det videre; den siste sier hva hen tror skjedde."
     ]
   },

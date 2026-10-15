@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Trizophrenia"
+    ]
   },
   "family": "tag-out",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "One player plays a scene partner.",
-      "Three players share one character, each with an emotion from the card.",
+      "Three players share one character, each with their own emotion.",
       "On a clap, they rotate; the partner treats them as one person."
     ],
     "no": [
       "Én spiller spiller scenepartneren.",
-      "Tre spillere deler én karakter, hver med en følelse fra kortet.",
+      "Tre spillere deler én karakter, hver med sin egen følelse.",
       "På et klapp roterer de; partneren behandler dem som én person."
     ]
   },

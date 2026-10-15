@@ -3,11 +3,13 @@
   "status": "draft",
   "name": {
     "en": "Synchro Replay",
-    "no": "Synkronrepris"
+    "no": "Synkronreprise"
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Synchro Replay"
+    ]
   },
   "family": "replay",
   "players": {

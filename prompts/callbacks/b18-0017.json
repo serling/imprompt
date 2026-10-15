@@ -1,0 +1,14 @@
+{
+  "id": "b18-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "The captain's welcome on a cruise ship. The captain is {character}.",
+    "no": "Kapteinens velkomsttale på cruiseskipet. Kapteinen er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

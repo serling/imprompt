@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Call from Ray"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "Play an ordinary scene in the place on the card.",
+      "Play an ordinary scene.",
       "Somewhere in it, a character must receive a call from Ray, by phone or any stranger means.",
       "Ray never appears."
     ],
     "no": [
-      "Spill en helt vanlig scene på stedet på kortet.",
+      "Spill en helt vanlig scene.",
       "Et sted i scenen må en karakter få en oppringning fra Ray, på telefon eller på en rarere måte.",
       "Ray dukker aldri opp."
     ]

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Beatnik Poet"
+    ]
   },
   "family": "elimination",
   "players": {
@@ -21,18 +23,18 @@
   "steps": {
     "en": [
       "Each poet in turn performs a short spoken poem.",
-      "It must rhyme and use both words on the card.",
+      "It must rhyme and use two unrelated words.",
       "Miss either rule, and you're out."
     ],
     "no": [
       "Hver poet framfører etter tur et kort, talt dikt.",
-      "Det må rime og bruke begge ordene på kortet.",
+      "Det må rime og bruke to ord som ikke har noe med hverandre å gjøre.",
       "Bryter du én av reglene, er du ute."
     ]
   },
   "more": {
-    "en": "Refresh the words for each poet. Grand, slow and pretentious.",
-    "no": "Trekk nye ord for hver poet. Storslått, sakte og pretensiøst."
+    "en": "New words for each poet. Grand, slow and pretentious.",
+    "no": "Nye ord for hver poet. Storslått, sakte og pretensiøst."
   },
   "asks": [
     "objects",

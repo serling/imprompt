@@ -3,11 +3,13 @@
   "status": "draft",
   "name": {
     "en": "Deaf Replay",
-    "no": "Døv repris"
+    "no": "Døv reprise"
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Deaf Replay"
+    ]
   },
   "family": "replay",
   "players": {

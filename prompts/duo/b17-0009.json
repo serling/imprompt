@@ -1,0 +1,13 @@
+{
+  "id": "b17-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "Two retired spies at a coffee morning, still talking in code.",
+    "no": "To pensjonerte spioner på et kaffetreff som fortsatt snakker i kode."
+  },
+  "tags": [
+    "character"
+  ]
+}

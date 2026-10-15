@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Categories"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,11 +22,11 @@
   },
   "steps": {
     "en": [
-      "Each player takes one topic from the card as their subject.",
+      "Each player gets their own subject.",
       "Play a scene where every line touches your subject, however far-fetched."
     ],
     "no": [
-      "Hver spiller tar ett emne fra kortet som sitt tema.",
+      "Hver spiller får sitt eget tema.",
       "Spill en scene der hver replikk berører temaet ditt, uansett hvor søkt det blir."
     ]
   },

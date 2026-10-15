@@ -10,7 +10,8 @@
       "Handicapped Fairy Tale"
     ],
     "no": [
-      "Handikappet eventyr"
+      "Fairy Tale with Quirks",
+      "Handicapped Fairy Tale"
     ]
   },
   "family": "rule",
@@ -24,13 +25,13 @@
   },
   "steps": {
     "en": [
-      "Play the fairy tale on the card.",
-      "Each player's main character carries one condition from the card.",
+      "Play a well-known fairy tale.",
+      "Each player's main character has a quirk.",
       "Keep the story on track despite everything."
     ],
     "no": [
-      "Spill eventyret på kortet.",
-      "Hver spillers hovedkarakter har én særegenhet fra kortet.",
+      "Spill et kjent eventyr.",
+      "Hver spillers hovedkarakter har en særegenhet.",
       "Pass på at historien ikke sporer av."
     ]
   },

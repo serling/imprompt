@@ -10,7 +10,8 @@
       "Superhero Helpers"
     ],
     "no": [
-      "Superhelthjelpere"
+      "Superheroes",
+      "Superhero Helpers"
     ]
   },
   "family": "other",
@@ -24,12 +25,12 @@
   },
   "steps": {
     "en": [
-      "One player starts as a hero facing the problem on the card.",
+      "One player starts as a hero facing a small everyday problem.",
       "Each new arrival is named and given a power by the last.",
       "Together, they solve the problem."
     ],
     "no": [
-      "Én spiller starter som en helt som står overfor problemet på kortet.",
+      "Én spiller starter som en helt som står overfor et lite hverdagsproblem.",
       "Hver ny som kommer, får navn og superkraft av den forrige.",
       "Sammen løser de problemet."
     ]

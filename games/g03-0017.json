@@ -3,14 +3,15 @@
   "status": "draft",
   "name": {
     "en": "Stunt Double",
-    "no": "Stuntdobbel"
+    "no": "Stuntmann"
   },
   "aliases": {
     "en": [
       "Stunt Doubles"
     ],
     "no": [
-      "Stuntdobler"
+      "Stunt Double",
+      "Stunt Doubles"
     ]
   },
   "family": "tag-out",
@@ -20,7 +21,7 @@
   },
   "summary": {
     "en": "When something risky comes up, a double does it.",
-    "no": "Når noe risikabelt dukker opp, gjør en dobbel det."
+    "no": "Når noe risikabelt dukker opp, gjør en stuntmann det."
   },
   "steps": {
     "en": [
@@ -29,9 +30,9 @@
       "The double does the stunt in mime, then the original returns."
     ],
     "no": [
-      "Spill en scene; én eller to spillere venter som dobler.",
-      "Når en karakter står overfor noe farlig eller ubehagelig, tar en dobbel over.",
-      "Dobbelen gjør stuntet i mime, så kommer originalen tilbake."
+      "Spill en scene; én eller to spillere venter som stuntmenn.",
+      "Når en karakter står overfor noe farlig eller ubehagelig, tar en stuntmann over.",
+      "Stuntmannen gjør stuntet i mime, så kommer originalen tilbake."
     ]
   },
   "more": {

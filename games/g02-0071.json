@@ -10,7 +10,8 @@
       "Reclamation"
     ],
     "no": [
-      "Verkstedet"
+      "Repair Shop",
+      "Reclamation"
     ]
   },
   "family": "guessing",
@@ -25,12 +26,12 @@
   "steps": {
     "en": [
       "Send the customer out of earshot.",
-      "The staff agree the object on the card and its fault.",
+      "The staff agree an object and what's wrong with it.",
       "The customer returns it, guided by the staff's hints."
     ],
     "no": [
       "Send kunden ut av hørevidde.",
-      "De ansatte blir enige om gjenstanden på kortet og feilen med den.",
+      "De ansatte blir enige om en gjenstand og hva som er galt med den.",
       "Kunden leverer den tilbake, ledet av hintene fra de ansatte."
     ]
   },
@@ -39,6 +40,7 @@
     "no": "Ansatte: beskriv, aldri si hva det er. Kunden kan mime at hen holder den."
   },
   "asks": [
-    "objects"
+    "objects",
+    "adjectives:condition+negative"
   ]
 }

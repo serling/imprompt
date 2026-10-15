@@ -38,6 +38,9 @@ def main():
         g.pop("status", None)
     # Word kind labels, by language, for the player to show ("Emotion", "Speech" …).
     deck["kinds"] = {k: {"label": v["label"]} for k, v in kinds.items()}
+    # Tag labels too: a game asking for "adjectives:condition" labels its line "Condition".
+    axes = json.loads((ROOT / "words" / "tags.json").read_text())["axes"]
+    deck["tags"] = {t: {"label": v["label"]} for ax in axes.values() for t, v in ax["values"].items()}
     (out / "deck.json").write_text(json.dumps(deck, ensure_ascii=False, separators=(",", ":")))
     print({k: len(v) for k, v in deck.items()}, "->", out)
 

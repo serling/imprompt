@@ -10,7 +10,8 @@
       "TV News"
     ],
     "no": [
-      "TV-nyheter"
+      "News Report",
+      "TV News"
     ]
   },
   "family": "other",
@@ -25,11 +26,11 @@
   "steps": {
     "en": [
       "One player is the anchor, one the weather presenter, one a reporter on location.",
-      "The reporter's location is the place on the card."
+      "The reporter is out on location."
     ],
     "no": [
       "Én spiller er nyhetsoppleser, én værmelder og én reporter på stedet.",
-      "Reporterens sted er stedet på kortet."
+      "Reporteren er ute på stedet."
     ]
   },
   "more": {

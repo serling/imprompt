@@ -162,9 +162,16 @@ def check_game(where, p):
     pl = p.get("players", {})
     if not (isinstance(pl.get("min"), int) and isinstance(pl.get("max"), int) and 1 <= pl["min"] <= pl["max"]):
         problems.append(f"{where}: players needs min <= max")
+    # An ask is a word kind, optionally narrowed by tags: "adjectives:condition" or "a:b+c".
     for k in p.get("asks", []):
-        if k not in SCHEMA["kinds"]:
-            problems.append(f"{where}: asks for an unknown word kind '{k}'")
+        kind, _, narrow = k.partition(":")
+        if kind not in SCHEMA["kinds"]:
+            problems.append(f"{where}: asks for an unknown word kind '{kind}'")
+            continue
+        allowed = {v for ax in SCHEMA["axes"].values() if kind in ax["kinds"] for v in ax["values"]}
+        for t in filter(None, narrow.split("+")):
+            if t not in allowed:
+                problems.append(f"{where}: asks for '{k}', but '{t}' is not a tag of {kind}")
     return problems
 
 
@@ -266,11 +273,19 @@ def balance(entries):
         line = f"{kind:13} {n:4}  sport {sport:4.0%}"
         if sport > MAX_SPORT:
             warnings.append(f"{kind}: sport is {sport:.0%} (limit {MAX_SPORT:.0%})")
-        if rules["tagged"]:
+        covers = lambda axis: kind in SCHEMA["axes"][axis]["kinds"]
+        if rules["tagged"] and covers("feel"):
             unusual = sum(1 for p in words if "unusual" in p.get("tags", [])) / n
             line += f"  unusual {unusual:4.0%}"
             if unusual > MAX_UNUSUAL:
                 warnings.append(f"{kind}: unusual is {unusual:.0%} (limit {MAX_UNUSUAL:.0%})")
+        if rules["tagged"] and not covers("domain"):
+            # A kind with its own axes (adjectives): show how its words spread over them.
+            for axis, ax in SCHEMA["axes"].items():
+                if covers(axis):
+                    counts = {v: sum(1 for p in words if v in p.get("tags", [])) for v in ax["values"]}
+                    line += f"  {axis}: " + " ".join(f"{v} {c}" for v, c in counts.items())
+        if rules["tagged"] and covers("domain"):
             domains = {d: 0 for d in SCHEMA["axes"]["domain"]["values"]}
             for p in words:
                 for t in p.get("tags", []):

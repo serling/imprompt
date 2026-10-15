@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Move and Speak"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "Play a scene in the place on the card.",
+      "Play a scene.",
       "To speak, you must be handling an object you haven't used yet.",
       "Stop handling it and you stop talking."
     ],
     "no": [
-      "Spill en scene på stedet på kortet.",
+      "Spill en scene.",
       "For å snakke må du holde på med en gjenstand du ikke har brukt før.",
       "Slutter du å holde på med den, slutter du å snakke."
     ]

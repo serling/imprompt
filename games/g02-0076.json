@@ -10,7 +10,8 @@
       "Word at a Time Story"
     ],
     "no": [
-      "Historie ett ord om gangen"
+      "One Word Story",
+      "Word at a Time Story"
     ]
   },
   "family": "word-story",
@@ -25,11 +26,11 @@
   "steps": {
     "en": [
       "Stand in a circle.",
-      "Each player adds one word to the story on the card."
+      "Each player adds one word to the story."
     ],
     "no": [
       "Stå i ring.",
-      "Hver spiller legger til ett ord i historien på kortet."
+      "Hver spiller legger til ett ord i historien."
     ]
   },
   "more": {

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Conducted Story"
+    ]
   },
   "family": "word-story",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "Players stand in a line; one is the conductor.",
-      "The conductor points, and that player tells the story on the card.",
+      "The conductor points, and that player tells the story.",
       "The next player picks up exactly where the last stopped."
     ],
     "no": [
       "Spillerne står på en rekke; én er dirigent.",
-      "Dirigenten peker, og den spilleren forteller historien på kortet.",
+      "Dirigenten peker, og den spilleren forteller historien.",
       "Neste spiller fortsetter nøyaktig der den forrige stoppet."
     ]
   },

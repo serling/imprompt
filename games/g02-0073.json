@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Throwing Light"
+    ]
   },
   "family": "guessing",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "Two players agree a topic from the card and talk around it without naming it.",
+      "Two players agree a topic and talk around it without naming it.",
       "Anyone who thinks they know joins the conversation.",
       "If they're wrong, they're sent back."
     ],
     "no": [
-      "To spillere blir enige om et emne fra kortet og snakker rundt det uten å nevne det.",
+      "To spillere blir enige om et tema og snakker rundt det uten å nevne det.",
       "Den som tror hen vet, blir med i samtalen.",
       "Tar hen feil, blir hen sendt tilbake."
     ]

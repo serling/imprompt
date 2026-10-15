@@ -10,7 +10,8 @@
       "Video Tape Machine"
     ],
     "no": [
-      "Videospiller"
+      "Remote Control",
+      "Video Tape Machine"
     ]
   },
   "family": "host-calls",

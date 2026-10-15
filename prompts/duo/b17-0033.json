@@ -1,0 +1,13 @@
+{
+  "id": "b17-0033",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A reporter interviewing a cat who has just been elected mayor.",
+    "no": "En journalist som intervjuer en katt som nettopp er valgt til ordfører."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Space Jump"
+    ]
   },
   "family": "tag-out",
   "players": {
@@ -20,18 +22,18 @@
   },
   "steps": {
     "en": [
-      "One player starts alone with the activity on the card.",
+      "One player starts alone with an everyday activity.",
       "On \"freeze\", a new player enters and starts a new scene from the poses.",
       "When everyone is in, players leave one by one, each scene picking up again."
     ],
     "no": [
-      "Én spiller starter alene med aktiviteten på kortet.",
+      "Én spiller starter alene med en hverdagsaktivitet.",
       "På «frys» kommer en ny spiller inn og starter en ny scene fra positurene.",
       "Når alle er inne, går spillerne ut én etter én, og hver scene tas opp igjen."
     ]
   },
   "more": {
-    "en": "Every exit needs a reason in the scene you're leaving.",
+    "en": "Every time someone leaves the scene, it should be justified.",
     "no": "Hver gang noen forlater scenen, burde dette rettferdiggjøres."
   },
   "asks": [

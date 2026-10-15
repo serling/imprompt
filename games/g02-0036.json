@@ -10,7 +10,8 @@
       "Rewind"
     ],
     "no": [
-      "Spol tilbake"
+      "Fast Forward",
+      "Rewind"
     ]
   },
   "family": "host-calls",

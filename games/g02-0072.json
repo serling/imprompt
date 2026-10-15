@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Something Old Something New"
+    ]
   },
   "family": "guessing",
   "players": {
@@ -21,23 +23,18 @@
   "steps": {
     "en": [
       "Send the bride out of earshot.",
-      "Four players each take an item: old, new, borrowed and blue.",
+      "Four players each choose an item: something old, new, borrowed and blue.",
       "They hint until the bride guesses each one."
     ],
     "no": [
       "Send bruden ut av hørevidde.",
-      "Fire spillere tar hver sin ting: noe gammelt, noe nytt, noe lånt og noe blått.",
+      "Fire spillere velger hver sin ting: noe gammelt, noe nytt, noe lånt og noe blått.",
       "De hinter til bruden har gjettet hver av dem."
     ]
   },
   "more": {
-    "en": "One object from the card for each player, in order: old, new, borrowed, blue.",
-    "no": "Én gjenstand fra kortet til hver spiller, i rekkefølge: gammel, ny, lånt, blå."
+    "en": "Hint in order: old, new, borrowed, blue.",
+    "no": "Hint i rekkefølge: gammelt, nytt, lånt, blått."
   },
-  "asks": [
-    "objects",
-    "objects",
-    "objects",
-    "objects"
-  ]
+  "asks": []
 }

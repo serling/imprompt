@@ -1,0 +1,13 @@
+{
+  "id": "b16-0003",
+  "status": "draft",
+  "players": 2,
+  "text": {
+    "en": "A park ranger and a hiker who has been lost for three days and feels wonderful.",
+    "no": "En parkvokter og en fotturist som har gått seg vill i tre dager og føler seg fantastisk."
+  },
+  "type": "premise",
+  "tags": [
+    "everyday"
+  ]
+}

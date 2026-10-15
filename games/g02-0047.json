@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Making Faces"
+    ]
   },
   "family": "elimination",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "One player is the boss; the rest are staff.",
-      "The boss briefs them on the problem on the card.",
+      "The boss briefs them on a problem.",
       "Staff pull faces behind the boss's back; anyone caught is fired and leaves."
     ],
     "no": [
       "Én spiller er sjefen; resten er ansatte.",
-      "Sjefen orienterer dem om problemet på kortet.",
+      "Sjefen orienterer dem om et problem.",
       "De ansatte skjærer grimaser bak ryggen på sjefen; den som blir tatt, får sparken og går."
     ]
   },

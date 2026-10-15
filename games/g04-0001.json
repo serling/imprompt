@@ -1,0 +1,45 @@
+{
+  "id": "g04-0001",
+  "status": "draft",
+  "name": {
+    "en": "Genre Zones",
+    "no": "Sjangersoner"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Genre Zones"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Each corner of the stage has a genre.",
+    "no": "Hvert hjørne av scenen har en sjanger."
+  },
+  "steps": {
+    "en": [
+      "Divide the stage into four corners and give each one a genre.",
+      "Play a scene and move freely.",
+      "Wherever you stand, the scene plays in that corner's genre."
+    ],
+    "no": [
+      "Del scenen i fire hjørner, og gi hvert hjørne en sjanger.",
+      "Spill en scene og beveg dere fritt.",
+      "Scenen spilles i sjangeren til hjørnet du står i."
+    ]
+  },
+  "more": {
+    "en": "Justify every move from one corner to another.",
+    "no": "Rettferdiggjør hvordan du beveger deg fra et hjørne til et annet."
+  },
+  "asks": [
+    "styles",
+    "styles",
+    "styles",
+    "styles"
+  ]
+}

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Backwards Interview"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "An interviewer and a guest with the job on the card.",
+      "An interviewer and a guest.",
       "Start with the goodbye, then play each exchange in reverse order.",
       "End with the first question."
     ],
     "no": [
-      "En intervjuer og en gjest med yrket på kortet.",
+      "En intervjuer og en gjest.",
       "Start med avskjeden, og spill hver vekslingsrunde i omvendt rekkefølge.",
       "Avslutt med det første spørsmålet."
     ]

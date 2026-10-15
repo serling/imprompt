@@ -10,7 +10,7 @@
       "Reverse Trivial Pursuit"
     ],
     "no": [
-      "Omvendt Trivial Pursuit"
+      "Reverse Trivial Pursuit"
     ]
   },
   "family": "other",
@@ -24,11 +24,11 @@
   },
   "steps": {
     "en": [
-      "The topic on the card is the answer.",
+      "One player gives an answer.",
       "Players step forward with questions it could answer."
     ],
     "no": [
-      "Temaet på kortet er svaret.",
+      "Én spiller gir et svar.",
       "Spillerne tar et steg frem med spørsmål det kunne vært svaret på."
     ]
   },

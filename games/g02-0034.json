@@ -11,8 +11,9 @@
       "Radio Channels"
     ],
     "no": [
-      "Kanalsurfing",
-      "Radiokanaler"
+      "Channel Surfing",
+      "Zapping",
+      "Radio Channels"
     ]
   },
   "family": "host-calls",
@@ -26,14 +27,14 @@
   },
   "steps": {
     "en": [
-      "Each player is a channel with one of the styles on the card.",
+      "Each player is a channel with its own style.",
       "The caller names a channel, and that player performs until switched away.",
-      "Every channel is about the topic on the card."
+      "Every channel is about the same topic."
     ],
     "no": [
-      "Hver spiller er en kanal med én av stilene på kortet.",
+      "Hver spiller er en kanal med sin egen stil.",
       "Innroperen sier en kanal, og den spilleren spiller til det zappes videre.",
-      "Hver kanal handler om temaet på kortet."
+      "Alle kanalene handler om samme tema."
     ]
   },
   "more": {

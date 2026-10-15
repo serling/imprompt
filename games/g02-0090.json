@@ -10,7 +10,8 @@
       "Epitaphs"
     ],
     "no": [
-      "Gravskrifter"
+      "Famous Last Words",
+      "Epitaphs"
     ]
   },
   "family": "other",
@@ -19,20 +20,20 @@
     "max": 8
   },
   "summary": {
-    "en": "Line gag: the last words of someone with the job on the card.",
-    "no": "Line gag: de siste ordene til noen med yrket på kortet."
+    "en": "Line gag: the last words of someone with a given job.",
+    "no": "Line gag: de siste ordene til noen med et gitt yrke."
   },
   "steps": {
     "en": [
-      "Players step forward with last words or gravestone lines for the job on the card."
+      "Players step forward with last words or gravestone lines for the job."
     ],
     "no": [
-      "Spillerne tar et steg frem med siste ord eller gravsteinsinnskrifter for yrket på kortet."
+      "Spillerne tar et steg frem med siste ord eller gravsteinsinnskrifter for yrket."
     ]
   },
   "more": {
-    "en": "Refresh the job for a new round.",
-    "no": "Trekk et nytt yrke for en ny runde."
+    "en": "Change the job for a new round.",
+    "no": "Bytt yrke for en ny runde."
   },
   "asks": [
     "occupations"

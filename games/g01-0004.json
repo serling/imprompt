@@ -3,7 +3,7 @@
   "status": "draft",
   "name": {
     "en": "Genre Replay",
-    "no": "Sjangerrepris"
+    "no": "Sjangerreprise"
   },
   "aliases": {
     "en": [
@@ -11,8 +11,9 @@
       "Scene Three Ways"
     ],
     "no": [
-      "Stilrepris",
-      "Scene på tre måter"
+      "Genre Replay",
+      "Styles Replay",
+      "Scene Three Ways"
     ]
   },
   "family": "replay",
@@ -27,13 +28,13 @@
   "steps": {
     "en": [
       "Play a short scene of about a minute, straight.",
-      "Replay the same scene in the genre on the card, keeping the story.",
-      "Refresh the style for the next genre and replay again."
+      "Replay the same scene in a new genre, keeping the story.",
+      "Then again in another genre, and another."
     ],
     "no": [
       "Spill en kort scene på rundt ett minutt, helt rett.",
-      "Spill samme scene om igjen i sjangeren på kortet, med samme historie.",
-      "Trekk en ny stil til neste sjanger og spill den om igjen."
+      "Spill samme scene om igjen i en ny sjanger, med samme historie.",
+      "Så igjen i en annen sjanger, og en til."
     ]
   },
   "more": {

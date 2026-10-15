@@ -1,0 +1,14 @@
+{
+  "id": "b18-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A tour of the farm. The farmer is {character}.",
+    "no": "En omvisning på gården. Bonden er {character}."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ]
+}

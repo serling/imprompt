@@ -136,6 +136,14 @@
       },
       "max_words": 1,
       "tagged": false
+    },
+    "adjectives": {
+      "label": {
+        "en": "Adjective",
+        "no": "Adjektiv"
+      },
+      "max_words": 3,
+      "tagged": true
     }
   },
   "axes": {
@@ -580,6 +588,140 @@
           "about": {
             "en": "Too big to carry",
             "no": "For stor til å bæres"
+          }
+        }
+      }
+    },
+    "aspect": {
+      "label": {
+        "en": "Aspect",
+        "no": "Egenskap"
+      },
+      "about": {
+        "en": "What an adjective describes, so a game can ask for one kind (a fault for Repair Shop).",
+        "no": "Hva et adjektiv beskriver, så et spill kan be om én type (en feil til Reklamasjon)."
+      },
+      "kinds": [
+        "adjectives"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "condition": {
+          "label": {
+            "en": "Condition",
+            "no": "Tilstand"
+          },
+          "about": {
+            "en": "Wear, damage or upkeep",
+            "no": "Slitasje, skade eller vedlikehold"
+          }
+        },
+        "look": {
+          "label": {
+            "en": "Look",
+            "no": "Utseende"
+          },
+          "about": {
+            "en": "Shape, colour, pattern, size",
+            "no": "Form, farge, mønster, størrelse"
+          }
+        },
+        "texture": {
+          "label": {
+            "en": "Texture",
+            "no": "Overflate"
+          },
+          "about": {
+            "en": "How it feels to touch",
+            "no": "Hvordan det kjennes å ta på"
+          }
+        },
+        "sound": {
+          "label": {
+            "en": "Sound",
+            "no": "Lyd"
+          },
+          "about": {
+            "en": "The noise it makes",
+            "no": "Lyden det lager"
+          }
+        },
+        "smell": {
+          "label": {
+            "en": "Smell",
+            "no": "Lukt"
+          },
+          "about": {
+            "en": "How it smells",
+            "no": "Hvordan det lukter"
+          }
+        },
+        "age": {
+          "label": {
+            "en": "Age",
+            "no": "Alder"
+          },
+          "about": {
+            "en": "How old it is",
+            "no": "Hvor gammelt det er"
+          }
+        },
+        "temperature": {
+          "label": {
+            "en": "Temperature",
+            "no": "Temperatur"
+          },
+          "about": {
+            "en": "How hot or cold it is",
+            "no": "Hvor varmt eller kaldt det er"
+          }
+        }
+      }
+    },
+    "tone": {
+      "label": {
+        "en": "Tone",
+        "no": "Tone"
+      },
+      "about": {
+        "en": "Whether the word speaks well or badly of the thing.",
+        "no": "Om ordet sier noe godt eller dårlig om tingen."
+      },
+      "kinds": [
+        "adjectives"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "positive": {
+          "label": {
+            "en": "Positive",
+            "no": "Positiv"
+          },
+          "about": {
+            "en": "Speaks well of it",
+            "no": "Sier noe godt"
+          }
+        },
+        "neutral": {
+          "label": {
+            "en": "Neutral",
+            "no": "Nøytral"
+          },
+          "about": {
+            "en": "Neither good nor bad",
+            "no": "Verken godt eller dårlig"
+          }
+        },
+        "negative": {
+          "label": {
+            "en": "Negative",
+            "no": "Negativ"
+          },
+          "about": {
+            "en": "Something is wrong with it",
+            "no": "Noe er galt med det"
           }
         }
       }

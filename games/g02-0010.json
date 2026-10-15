@@ -7,12 +7,11 @@
   },
   "aliases": {
     "en": [
-      "Emotional Quadrants",
-      "Genre Zones"
+      "Emotional Quadrants"
     ],
     "no": [
-      "Følelseshjørner",
-      "Sjangersoner"
+      "Emotional Zones",
+      "Emotional Quadrants"
     ]
   },
   "family": "rule",
@@ -26,19 +25,19 @@
   },
   "steps": {
     "en": [
-      "Divide the stage into four corners and give each one an emotion from the card.",
+      "Divide the stage into four corners and give each one an emotion.",
       "Play a scene and move freely.",
       "Wherever you stand, you feel that corner's emotion."
     ],
     "no": [
-      "Del scenen i fire hjørner, og gi hvert hjørne en følelse fra kortet.",
+      "Del scenen i fire hjørner, og gi hvert hjørne en følelse.",
       "Spill en scene og beveg dere fritt.",
-      "Der du står, føler du det hjørnets følelse."
+      "Følelsen din tilsvarer hjørnet du står i."
     ]
   },
   "more": {
-    "en": "Move with a reason in the scene. Genre Zones: use styles instead of emotions.",
-    "no": "Flytt deg med en grunn i scenen. Sjangersoner: bruk stiler i stedet for følelser."
+    "en": "Justify every move from one corner to another.",
+    "no": "Rettferdiggjør hvordan du beveger deg fra et hjørne til et annet."
   },
   "asks": [
     "emotions",

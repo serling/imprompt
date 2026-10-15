@@ -1,0 +1,14 @@
+{
+  "id": "b18-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A sales pitch on the doorstep. The salesperson is {character}.",
+    "no": "Dørsalg. Selgeren er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

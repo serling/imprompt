@@ -1,0 +1,14 @@
+{
+  "id": "b18-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A fire drill at the office. The fire warden is {character}.",
+    "no": "Brannøvelse på kontoret. Brannvernlederen er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

@@ -10,7 +10,8 @@
       "The Good, the Bad and the Ugly"
     ],
     "no": [
-      "Den gode, den onde og den stygge"
+      "Good Bad Ugly Advice",
+      "The Good, the Bad and the Ugly"
     ]
   },
   "family": "other",
@@ -24,12 +25,12 @@
   },
   "steps": {
     "en": [
-      "One player gives good advice on the problem on the card.",
+      "One player gives good advice on a problem.",
       "The next gives useless advice.",
       "The last gives revolting advice."
     ],
     "no": [
-      "Én spiller gir gode råd om problemet på kortet.",
+      "Én spiller gir gode råd om et problem.",
       "Den neste gir ubrukelige råd.",
       "Den siste gir motbydelige råd."
     ]

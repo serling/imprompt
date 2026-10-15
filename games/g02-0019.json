@@ -10,7 +10,8 @@
       "Fairy Tale Modern"
     ],
     "no": [
-      "Eventyr i dag"
+      "Modern Fairy Tale",
+      "Fairy Tale Modern"
     ]
   },
   "family": "rule",
@@ -24,12 +25,12 @@
   },
   "steps": {
     "en": [
-      "Play the fairy tale on the card, set in the present.",
-      "The place on the card is where it happens."
+      "Play a well-known fairy tale, set in the present.",
+      "Pick a modern place for it to happen."
     ],
     "no": [
-      "Spill eventyret på kortet, lagt til vår tid.",
-      "Stedet på kortet er der det skjer."
+      "Spill et kjent eventyr, lagt til vår tid.",
+      "Velg et moderne sted der det skjer."
     ]
   },
   "more": {

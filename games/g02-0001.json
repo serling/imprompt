@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Adjective Scene"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,20 +22,20 @@
   },
   "steps": {
     "en": [
-      "Take the emotion on the card as the scene's flavour.",
-      "Everything you say and do leans into it, all the way to the end."
+      "Choose a describing word, like rusty or slimy, to flavour the whole scene.",
+      "The place, the characters, how you talk and move: everything leans into it, all the way to the end."
     ],
     "no": [
-      "Ta følelsen på kortet som scenens smak.",
-      "Alt du sier og gjør, lener seg inn i den, helt til slutten."
+      "Velg et beskrivende ord, som rusten eller slimete, som preger hele scenen.",
+      "Stedet, karakterene, hvordan dere snakker og beveger dere: alt lener seg inn i ordet, helt til slutten."
     ]
   },
   "more": {
-    "en": "Variant: give each player their own word, refreshing the line for the second one.",
-    "no": "Variant: gi hver spiller sitt eget ord, og trekk linjen på nytt for den andre."
+    "en": "Variant: give each player their own word.",
+    "no": "Variant: gi hver spiller sitt eget ord."
   },
   "asks": [
-    "emotions",
+    "adjectives",
     "locations"
   ]
 }

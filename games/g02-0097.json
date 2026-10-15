@@ -10,7 +10,8 @@
       "Sports Commentary"
     ],
     "no": [
-      "Sportskommentator"
+      "Sportscast",
+      "Sports Commentary"
     ]
   },
   "family": "other",
@@ -24,11 +25,11 @@
   },
   "steps": {
     "en": [
-      "One player performs the activity on the card.",
+      "One player performs an everyday activity.",
       "Two commentators narrate it as if it were the Olympics."
     ],
     "no": [
-      "Én spiller utfører aktiviteten på kortet.",
+      "Én spiller utfører en hverdagsaktivitet.",
       "To kommentatorer kommenterer den som om det var OL."
     ]
   },

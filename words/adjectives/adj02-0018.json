@@ -1,0 +1,12 @@
+{
+  "id": "adj02-0018",
+  "status": "draft",
+  "text": {
+    "en": "Out of battery",
+    "no": "Tom for strøm"
+  },
+  "tags": [
+    "condition",
+    "negative"
+  ]
+}

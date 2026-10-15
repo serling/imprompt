@@ -1,0 +1,14 @@
+{
+  "id": "b18-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A parents' evening. The teacher is {character}.",
+    "no": "En utviklingssamtale. Læreren er {character}."
+  },
+  "tags": [
+    "family",
+    "character"
+  ]
+}

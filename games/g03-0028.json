@@ -10,7 +10,8 @@
       "Advert"
     ],
     "no": [
-      "Reklamefilm"
+      "Commercial",
+      "Advert"
     ]
   },
   "family": "other",
@@ -24,11 +25,11 @@
   },
   "steps": {
     "en": [
-      "The product is the object on the card.",
+      "Pick a product.",
       "Play an advert for it."
     ],
     "no": [
-      "Produktet er gjenstanden på kortet.",
+      "Velg et produkt.",
       "Spill en reklame for den."
     ]
   },

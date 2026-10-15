@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Alliteration"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,17 +22,17 @@
   },
   "steps": {
     "en": [
-      "Play a scene where every word you speak begins with the letter on the card.",
+      "Play a scene where every word you speak begins with the same letter.",
       "Stumble, and keep going: the struggle is the fun."
     ],
     "no": [
-      "Spill en scene der hvert ord du sier, begynner på bokstaven på kortet.",
+      "Spill en scene der hvert ord du sier, begynner på samme bokstav.",
       "Snubler du, fortsetter du bare: strevet er moroa."
     ]
   },
   "more": {
-    "en": "Variant: each player gets their own letter. Refresh the line for the next player's.",
-    "no": "Variant: hver spiller får sin egen bokstav. Trekk linjen på nytt for neste spillers."
+    "en": "Variant: each player gets their own letter.",
+    "no": "Variant: hver spiller får sin egen bokstav."
   },
   "asks": [
     "letters",

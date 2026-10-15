@@ -10,7 +10,8 @@
       "Hitchhiker"
     ],
     "no": [
-      "Haiker"
+      "Hitch-Hiker",
+      "Hitchhiker"
     ]
   },
   "family": "tag-out",
@@ -35,7 +36,7 @@
     ]
   },
   "more": {
-    "en": "The card's emotion is the first passenger's trait; refresh it for each new one.",
+    "en": "Give each new passenger a new emotion.",
     "no": "Tildel en ny følelse for hver passasjer."
   },
   "asks": [

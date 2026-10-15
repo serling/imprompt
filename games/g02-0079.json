@@ -10,7 +10,8 @@
       "Narrator"
     ],
     "no": [
-      "Forteller"
+      "Typewriter",
+      "Narrator"
     ]
   },
   "family": "word-story",
@@ -24,12 +25,12 @@
   },
   "steps": {
     "en": [
-      "One player is the narrator, typing the story on the card in the style on the card.",
+      "One player is the narrator, typing the story out loud in a chosen style.",
       "The others act it out as it's told.",
       "The narrator can revise what just happened."
     ],
     "no": [
-      "Én spiller er forteller og skriver historien på kortet i stilen på kortet.",
+      "Én spiller er forteller og skriver historien høyt, i en valgt stil.",
       "De andre spiller den ut etter hvert som den blir fortalt.",
       "Fortelleren kan endre det som nettopp skjedde."
     ]

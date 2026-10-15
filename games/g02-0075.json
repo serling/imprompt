@@ -10,7 +10,8 @@
       "Word at a Time Expert"
     ],
     "no": [
-      "Ekspert ett ord om gangen"
+      "Dr. Know-It-All",
+      "Word at a Time Expert"
     ]
   },
   "family": "word-story",
@@ -25,12 +26,12 @@
   "steps": {
     "en": [
       "Three players stand shoulder to shoulder as one expert.",
-      "An interviewer asks questions on the topic on the card.",
+      "An interviewer asks the expert questions.",
       "The expert answers one word per player."
     ],
     "no": [
       "Tre spillere står skulder ved skulder som én ekspert.",
-      "En intervjuer stiller spørsmål om temaet på kortet.",
+      "En intervjuer stiller eksperten spørsmål.",
       "Eksperten svarer med ett ord per spiller."
     ]
   },

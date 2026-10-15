@@ -3,11 +3,13 @@
   "status": "draft",
   "name": {
     "en": "Emotional Replay",
-    "no": "Følelsesrepris"
+    "no": "Følelsesreprise"
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Emotional Replay"
+    ]
   },
   "family": "replay",
   "players": {
@@ -21,13 +23,13 @@
   "steps": {
     "en": [
       "Play a short scene, straight.",
-      "Replay it in the emotion on the card, keeping the story.",
-      "Refresh the emotion and replay again."
+      "Replay it in a new emotion, keeping the story.",
+      "Then again in another emotion."
     ],
     "no": [
       "Spill en kort scene, helt rett.",
-      "Spill den om igjen i følelsen på kortet, med samme historie.",
-      "Trekk en ny følelse og spill den om igjen."
+      "Spill den om igjen med en ny følelse, med samme historie.",
+      "Så igjen med en annen følelse."
     ]
   },
   "more": {

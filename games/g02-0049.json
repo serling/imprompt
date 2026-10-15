@@ -21,12 +21,12 @@
   "steps": {
     "en": [
       "Stand in a line.",
-      "In turn, each player names a new brand of the object on the card.",
+      "In turn, each player names a new brand of the same thing.",
       "Hesitate or repeat, and you're out."
     ],
     "no": [
       "Stå på en rekke.",
-      "Etter tur sier hver spiller et nytt merke av gjenstanden på kortet.",
+      "Etter tur sier hver spiller et nytt merke av den samme tingen.",
       "Nøler eller gjentar du, er du ute."
     ]
   },

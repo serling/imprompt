@@ -1,0 +1,14 @@
+{
+  "id": "b18-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A post-match press conference. The manager is {character}.",
+    "no": "En pressekonferanse etter kampen. Treneren er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

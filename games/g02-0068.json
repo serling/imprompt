@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Fortune Teller"
+    ]
   },
   "family": "guessing",
   "players": {
@@ -31,8 +33,8 @@
     ]
   },
   "more": {
-    "en": "Clients react to warmer and colder guesses. Use the card's job as one client's future.",
-    "no": "Kundene reagerer på varmere og kaldere gjetninger. Bruk yrket på kortet som én kundes framtid."
+    "en": "Clients react to warmer and colder guesses.",
+    "no": "Kundene reagerer på varmere og kaldere gjetninger."
   },
   "asks": [
     "occupations"

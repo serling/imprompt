@@ -10,7 +10,8 @@
       "Radio Drama"
     ],
     "no": [
-      "Radioteater"
+      "Radio Play",
+      "Radio Drama"
     ]
   },
   "family": "rule",
@@ -24,11 +25,11 @@
   },
   "steps": {
     "en": [
-      "Play the story on the card as a radio drama.",
+      "Play a story as a radio drama.",
       "Every action, door and footstep is made with your voice."
     ],
     "no": [
-      "Spill historien på kortet som et hørespill.",
+      "Spill en historie som et hørespill.",
       "Hver handling, dør og hvert fottrinn lages med stemmen."
     ]
   },

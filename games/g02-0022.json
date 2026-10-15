@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Old Job New Job"
+    ]
   },
   "family": "rule",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "One player has a new job, the other is a customer or colleague.",
-      "The first job on the card is the new one, the second the old one.",
+      "That player has a new job and an old one.",
       "Play the new job with every habit of the old one."
     ],
     "no": [
       "Én spiller har en ny jobb, den andre er kunde eller kollega.",
-      "Det første yrket på kortet er den nye jobben, det andre den gamle.",
+      "Spilleren har en ny jobb og en gammel jobb.",
       "Spill den nye jobben med alle vanene fra den gamle."
     ]
   },

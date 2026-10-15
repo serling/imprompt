@@ -10,7 +10,8 @@
       "Moving People"
     ],
     "no": [
-      "Flytte folk"
+      "Puppets",
+      "Moving People"
     ]
   },
   "family": "physical",
@@ -35,8 +36,8 @@
     ]
   },
   "more": {
-    "en": "Puppeteers: slow and specific. Actors: follow the move and give it a reason.",
-    "no": "Dukkeførere: sakte og presist. Skuespillere: følg bevegelsen og gi den en grunn."
+    "en": "Puppeteers: slow and specific. Actors: follow the move and justify it.",
+    "no": "Dukkeførere: sakte og presist. Skuespillere: følg bevegelsen og rettferdiggjør den."
   },
   "asks": [
     "locations",

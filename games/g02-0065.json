@@ -10,7 +10,8 @@
       "Interrogation"
     ],
     "no": [
-      "Avhør"
+      "Crime Endowments",
+      "Interrogation"
     ]
   },
   "family": "guessing",
@@ -25,12 +26,12 @@
   "steps": {
     "en": [
       "Send the suspect out of earshot.",
-      "The others agree a crime from the card: place, weapon and act.",
+      "The others agree a crime: place, weapon and act.",
       "The interrogators drop hints until the suspect confesses all three."
     ],
     "no": [
       "Send den mistenkte ut av hørevidde.",
-      "De andre blir enige om en forbrytelse fra kortet: sted, våpen og handling.",
+      "De andre blir enige om en forbrytelse: sted, våpen og handling.",
       "Avhørerne kommer med hint til den mistenkte har tilstått alle tre."
     ]
   },

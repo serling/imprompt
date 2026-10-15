@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Five Things"
+    ]
   },
   "family": "guessing",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "Send the guesser out of earshot.",
-      "The others take the activity on the card and change five details: who, where, with what.",
+      "The others take an everyday activity and change five details: who, where, with what.",
       "They act it in gibberish until the guesser names all five."
     ],
     "no": [
       "Send gjetteren ut av hørevidde.",
-      "De andre tar aktiviteten på kortet og endrer fem detaljer: hvem, hvor, med hva.",
+      "De andre tar en hverdagsaktivitet og endrer fem detaljer: hvem, hvor, med hva.",
       "De spiller den på gibberish til gjetteren har sagt alle fem."
     ]
   },

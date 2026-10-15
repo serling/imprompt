@@ -10,7 +10,8 @@
       "Party Labels"
     ],
     "no": [
-      "Party Quirks"
+      "Party Quirks",
+      "Party Labels"
     ]
   },
   "family": "guessing",
@@ -25,12 +26,12 @@
   "steps": {
     "en": [
       "Send the host out of earshot.",
-      "Each guest takes a quirk: one from each line on the card.",
+      "Each guest gets a quirk.",
       "The party starts, and the host guesses each guest's quirk."
     ],
     "no": [
       "Send verten ut av hørevidde.",
-      "Hver gjest tar en særhet: én fra hver linje på kortet.",
+      "Hver gjest får en særegenhet.",
       "Festen starter, og verten gjetter hver gjests særhet."
     ]
   },

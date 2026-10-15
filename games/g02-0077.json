@@ -10,7 +10,8 @@
       "One Mouth"
     ],
     "no": [
-      "Én munn"
+      "Speak in One Voice",
+      "One Mouth"
     ]
   },
   "family": "word-story",
@@ -33,8 +34,8 @@
     ]
   },
   "more": {
-    "en": "Slow down and listen. The job on the card gives the character.",
-    "no": "Senk tempoet og lytt. Yrket på kortet gir karakteren."
+    "en": "Slow down and listen.",
+    "no": "Senk tempoet og lytt."
   },
   "asks": [
     "occupations"

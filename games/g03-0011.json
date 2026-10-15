@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Emotional Symphony"
+    ]
   },
   "family": "host-calls",
   "players": {
@@ -20,13 +22,13 @@
   },
   "steps": {
     "en": [
-      "Each player takes an emotion from the card; with more players, others pick their own.",
-      "The conductor points to bring players in and out.",
+      "Each player gets an emotion and stands in a row, like an orchestra.",
+      "The conductor points at a player to start them and points again to stop them. Several can play at once.",
       "Hand height sets how strong it gets."
     ],
     "no": [
-      "Hver spiller tar en følelse fra kortet; er dere flere, velger de andre sin egen.",
-      "Dirigenten peker for å ta spillere inn og ut.",
+      "Hver spiller får en følelse, og alle står på rad som et orkester.",
+      "Dirigenten peker på en spiller for å starte og peker igjen for å stoppe. Flere kan spille samtidig.",
       "Hvor høyt hånden er, bestemmer hvor sterkt det blir."
     ]
   },

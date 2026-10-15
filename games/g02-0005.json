@@ -10,7 +10,8 @@
       "No P"
     ],
     "no": [
-      "Ingen P"
+      "Avoid a Letter",
+      "No P"
     ]
   },
   "family": "rule",
@@ -24,12 +25,12 @@
   },
   "steps": {
     "en": [
-      "Two players start a scene; the letter on the card may not be spoken.",
+      "Two players start a scene; one letter may not be used.",
       "Anyone who says a word with that letter is replaced by a player from the side.",
       "The new player continues the same character."
     ],
     "no": [
-      "To spillere starter en scene; bokstaven på kortet kan ikke brukes.",
+      "To spillere starter en scene; én bokstav kan ikke brukes.",
       "Den som sier et ord med den bokstaven, byttes ut med en spiller fra siden.",
       "Den nye spilleren fortsetter med samme karakter."
     ]

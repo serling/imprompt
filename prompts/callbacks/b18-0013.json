@@ -1,0 +1,14 @@
+{
+  "id": "b18-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "An acceptance speech at an awards show. The winner is {character}.",
+    "no": "En takketale på en prisutdeling. Vinneren er {character}."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

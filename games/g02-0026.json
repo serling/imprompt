@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Rituals"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,11 +22,11 @@
   },
   "steps": {
     "en": [
-      "Take the activity on the card.",
+      "Take an everyday activity.",
       "Perform it as an ancient ceremony with roles, chants and rules."
     ],
     "no": [
-      "Ta aktiviteten på kortet.",
+      "Ta en hverdagsaktivitet.",
       "Utfør den som en eldgammel seremoni med roller, messende remser og regler."
     ]
   },

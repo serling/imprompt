@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Big Blob"
+    ]
   },
   "family": "physical",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "Imagine a huge, sticky blob filling the room.",
-      "Play an ordinary scene in the place on the card.",
+      "Play an ordinary scene.",
       "Your bodies fight through the blob; your characters never mention it."
     ],
     "no": [
       "Se for dere en svær, klissete klump som fyller rommet.",
-      "Spill en helt vanlig scene på stedet på kortet.",
+      "Spill en helt vanlig scene.",
       "Kroppene deres kjemper seg gjennom klumpen; karakterene nevner den aldri."
     ]
   },

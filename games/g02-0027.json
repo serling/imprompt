@@ -10,7 +10,7 @@
       "Shakespearean Scene"
     ],
     "no": [
-      "Shakespeare-scene"
+      "Shakespearean Scene"
     ]
   },
   "family": "rule",
@@ -24,11 +24,11 @@
   },
   "steps": {
     "en": [
-      "Take the problem on the card.",
+      "Take a small everyday problem.",
       "Play it in grand, old-fashioned language, with asides and big speeches."
     ],
     "no": [
-      "Ta problemet på kortet.",
+      "Ta et lite hverdagsproblem.",
       "Spill det på et storslått, gammeldags språk, med replikker til salen og store monologer."
     ]
   },

@@ -1,0 +1,14 @@
+{
+  "id": "b18-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A children's birthday party. The entertainer is {character}.",
+    "no": "Et barnebursdagsselskap. Underholderen er {character}."
+  },
+  "tags": [
+    "family",
+    "character"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b18-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A knighting ceremony. The new knight is {character}.",
+    "no": "Et ridderslag. Den nye ridderen er {character}."
+  },
+  "tags": [
+    "history",
+    "character"
+  ]
+}

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Pecking Order"
+    ]
   },
   "family": "rule",
   "players": {
@@ -21,12 +23,12 @@
   "steps": {
     "en": [
       "Each player privately picks a rank from one to the number of players.",
-      "Play a scene in the place on the card, showing your rank in how you treat each other.",
+      "Play a scene, showing your rank in how you treat each other.",
       "At the end, line up in the order you think it was."
     ],
     "no": [
       "Hver spiller velger i hemmelighet en rang fra én til antall spillere.",
-      "Spill en scene på stedet på kortet, og vis rangen din i hvordan dere behandler hverandre.",
+      "Spill en scene, og vis rangen din i hvordan dere behandler hverandre.",
       "Til slutt stiller dere dere opp i den rekkefølgen dere tror det var."
     ]
   },

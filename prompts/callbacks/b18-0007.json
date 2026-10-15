@@ -1,0 +1,14 @@
+{
+  "id": "b18-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A live news report. The reporter is {character}.",
+    "no": "En direktesendt nyhetsreportasje. Reporteren er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

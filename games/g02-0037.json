@@ -11,8 +11,9 @@
       "Genre Switch"
     ],
     "no": [
-      "Stilbytte",
-      "Sjangerbytte"
+      "Genre Rollercoaster",
+      "Continuing Styles",
+      "Genre Switch"
     ]
   },
   "family": "host-calls",
@@ -37,8 +38,8 @@
     ]
   },
   "more": {
-    "en": "The card shows one style: refresh it for each call. Keep the story going through every switch.",
-    "no": "Kortet viser én stil: trekk en ny til hvert innrop. Hold historien i gang gjennom hvert bytte."
+    "en": "Keep the story going through every switch.",
+    "no": "Hold historien i gang gjennom hvert bytte."
   },
   "asks": [
     "styles",

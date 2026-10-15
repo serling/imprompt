@@ -10,7 +10,8 @@
       "Subtitles"
     ],
     "no": [
-      "Undertekster"
+      "Foreign Film",
+      "Subtitles"
     ]
   },
   "family": "other",
@@ -26,12 +27,12 @@
     "en": [
       "Two actors play a scene in gibberish.",
       "Two translators at the side translate each line.",
-      "The style on the card sets the film's genre."
+      "Pick a genre for the film."
     ],
     "no": [
       "To skuespillere spiller en scene på gibberish.",
       "To oversettere på siden oversetter hver replikk.",
-      "Stilen på kortet bestemmer filmens sjanger."
+      "Velg en sjanger for filmen."
     ]
   },
   "more": {

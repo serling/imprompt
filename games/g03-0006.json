@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Parallel Universe"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "Two pairs each take one place from the card.",
+      "Two pairs each get their own place.",
       "Both scenes run at the same time on the same stage.",
       "Each pair ignores the other completely."
     ],
     "no": [
-      "To par tar hvert sitt sted fra kortet.",
+      "To par får hvert sitt sted.",
       "Begge scenene går samtidig på samme scene.",
       "Hvert par overser det andre fullstendig."
     ]

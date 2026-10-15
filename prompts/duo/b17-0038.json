@@ -1,0 +1,13 @@
+{
+  "id": "b17-0038",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A king learning to make his own bed from the youngest maid.",
+    "no": "En konge som lærer å re opp sin egen seng av den yngste tjenestepiken."
+  },
+  "tags": [
+    "status"
+  ]
+}

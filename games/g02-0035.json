@@ -11,8 +11,9 @@
       "Four Square"
     ],
     "no": [
+      "Diamond",
       "Dutch Square",
-      "Firkant"
+      "Four Square"
     ]
   },
   "family": "host-calls",
@@ -37,8 +38,8 @@
     ]
   },
   "more": {
-    "en": "Each pair keeps its own story. Use the card's relationship for the first pair; refresh for the others.",
-    "no": "Hvert par holder på sin egen historie. Bruk relasjonen på kortet til det første paret; trekk på nytt for de andre."
+    "en": "Each pair keeps its own story.",
+    "no": "Hvert par holder på sin egen historie."
   },
   "asks": [
     "relationships"

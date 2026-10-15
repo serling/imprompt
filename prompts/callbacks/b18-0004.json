@@ -1,0 +1,14 @@
+{
+  "id": "b18-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A bedtime story. The storyteller is {character}.",
+    "no": "En godnatthistorie. Fortelleren er {character}."
+  },
+  "tags": [
+    "family",
+    "character"
+  ]
+}

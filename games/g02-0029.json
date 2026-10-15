@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Split Environments"
+    ]
   },
   "family": "rule",
   "players": {
@@ -20,11 +22,11 @@
   },
   "steps": {
     "en": [
-      "Each player takes one place from the card.",
+      "Each player is in a different place.",
       "Play a scene together, each fully in your own place."
     ],
     "no": [
-      "Hver spiller tar ett sted fra kortet.",
+      "Hver spiller er på et eget sted.",
       "Spill en scene sammen, hver helt og fullt på sitt eget sted."
     ]
   },

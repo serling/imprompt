@@ -1,0 +1,14 @@
+{
+  "id": "b18-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A first day at a new job. The new starter is {character}.",
+    "no": "Første dag i ny jobb. Den nyansatte er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

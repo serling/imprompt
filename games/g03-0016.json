@@ -10,7 +10,8 @@
       "Scene with a Wall"
     ],
     "no": [
-      "Scene med vegg"
+      "Split Screen",
+      "Scene with a Wall"
     ]
   },
   "family": "tag-out",
@@ -24,14 +25,14 @@
   },
   "steps": {
     "en": [
-      "The stage has two rooms: the places on the card. Nobody crosses the middle.",
-      "Two players play the characters on one side.",
-      "When a character leaves one room, their partner enters the other as that character."
+      "The stage is two rooms side by side, with a pair of players in each.",
+      "Both pairs play the same two characters. The scene starts in one room.",
+      "When a character walks out of that room into the other, the scene moves there and the other pair picks it up."
     ],
     "no": [
-      "Scenen har to rom: stedene på kortet. Ingen krysser midten.",
-      "To spillere spiller karakterene på den ene siden.",
-      "Når en karakter forlater det ene rommet, kommer makkeren inn i det andre som den karakteren."
+      "Scenen er to rom ved siden av hverandre, med et par spillere i hvert.",
+      "Begge parene spiller de samme to karakterene. Scenen begynner i det ene rommet.",
+      "Når en karakter går ut av rommet og inn i det andre, flytter scenen dit, og det andre paret tar over."
     ]
   },
   "more": {

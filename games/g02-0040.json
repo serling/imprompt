@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Monkey in the Middle"
+    ]
   },
   "family": "host-calls",
   "players": {
@@ -31,8 +33,8 @@
     ]
   },
   "more": {
-    "en": "One place on the card for each scene. What happens in one can leak into the other.",
-    "no": "Ett sted fra kortet til hver scene. Det som skjer i den ene, kan sive over i den andre."
+    "en": "What happens in one scene can leak into the other.",
+    "no": "Det som skjer i den ene scenen, kan sive over i den andre."
   },
   "asks": [
     "locations",

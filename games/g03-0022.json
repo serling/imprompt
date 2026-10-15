@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Story Solo"
+    ]
   },
   "family": "word-story",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "One player tells the story on the card.",
+      "One player tells a story.",
       "On a signal, another player calls out an unrelated word.",
       "The teller uses it in their next sentence."
     ],
     "no": [
-      "Én spiller forteller historien på kortet.",
+      "Én spiller forteller en historie.",
       "På et signal roper en annen spiller ut et ord som ikke har noe med saken å gjøre.",
       "Fortelleren bruker det i neste setning."
     ]

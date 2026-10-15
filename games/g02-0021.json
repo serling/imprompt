@@ -10,7 +10,8 @@
       "Fairy Tale in a Minute"
     ],
     "no": [
-      "Eventyr på ett minutt"
+      "Movie in a Minute",
+      "Fairy Tale in a Minute"
     ]
   },
   "family": "rule",
@@ -25,11 +26,11 @@
   "steps": {
     "en": [
       "Set a one-minute timer.",
-      "Play the entire fairy tale on the card, beginning to end, before it runs out."
+      "Play a whole well-known fairy tale, beginning to end, before it runs out."
     ],
     "no": [
       "Sett en tidtaker på ett minutt.",
-      "Spill hele eventyret på kortet, fra start til slutt, før tiden er ute."
+      "Spill et helt kjent eventyr, fra start til slutt, før tiden er ute."
     ]
   },
   "more": {

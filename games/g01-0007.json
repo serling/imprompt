@@ -10,7 +10,8 @@
       "Sit Stand Lay"
     ],
     "no": [
-      "Sitt, stå, ligg"
+      "Sit Stand Lie",
+      "Sit Stand Lay"
     ]
   },
   "family": "physical",
@@ -26,12 +27,12 @@
     "en": [
       "Three players start a scene: one sitting, one standing, one lying down.",
       "When one player changes position, the others change too, so all three stay different.",
-      "Every change needs a reason in the scene."
+      "Every change has to be justified in the scene."
     ],
     "no": [
       "Tre spillere starter en scene: én sitter, én står, én ligger.",
       "Når én spiller bytter stilling, bytter de andre også, så alle tre er forskjellige.",
-      "Hvert bytte trenger en grunn i scenen."
+      "Hvert bytte må rettferdiggjøres i scenen."
     ]
   },
   "more": {

@@ -1,0 +1,14 @@
+{
+  "id": "b18-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A shopping channel. The presenter is {character}.",
+    "no": "En TV-shop. Programlederen er {character}."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

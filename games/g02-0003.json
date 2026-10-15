@@ -11,8 +11,9 @@
       "Alphabet Scene"
     ],
     "no": [
-      "ABC-leken",
-      "Alfabetscene"
+      "Alphabet Game",
+      "ABC Game",
+      "Alphabet Scene"
     ]
   },
   "family": "rule",
@@ -26,12 +27,12 @@
   },
   "steps": {
     "en": [
-      "The first line starts with the letter on the card.",
+      "The first line starts with a chosen letter.",
       "Every following line starts with the next letter, round to the start letter again.",
       "The scene ends on the line before the letter you began with."
     ],
     "no": [
-      "Første replikk begynner på bokstaven på kortet.",
+      "Første replikk begynner på en valgt bokstav.",
       "Hver neste replikk begynner på neste bokstav, rundt til startbokstaven igjen.",
       "Scenen slutter på replikken før bokstaven dere begynte med."
     ]

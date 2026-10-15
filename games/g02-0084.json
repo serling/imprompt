@@ -10,7 +10,7 @@
       "185 X Walk into a Bar"
     ],
     "no": [
-      "185 X går inn på en bar"
+      "185 X Walk into a Bar"
     ]
   },
   "family": "other",
@@ -24,17 +24,17 @@
   },
   "steps": {
     "en": [
-      "The job on the card: 185 of them walk into a bar.",
-      "The barman says something, and players step forward with punchlines."
+      "Pick a job: 185 of them walk into a bar.",
+      "Players step forward one at a time and tell the whole joke, ending on a pun on the job."
     ],
     "no": [
-      "Yrket på kortet: 185 av dem går inn på en bar.",
-      "Bartenderen sier noe, og spillerne tar et steg frem med poenger."
+      "Velg et yrke: 185 av dem går inn på en bar.",
+      "Spillerne tar et steg frem én om gangen og forteller hele vitsen, med et ordspill på yrket til slutt."
     ]
   },
   "more": {
-    "en": "Classic set-up: \"185 plumbers walk into a bar. The barman says…\".",
-    "no": "Klassisk oppsett: «185 rørleggere går inn på en bar. Bartenderen sier …»."
+    "en": "\"185 bakers walk into a bar. The barman says, 'We don't serve your kind here.' The bakers say, 'Fine, we'll just loaf around.'\"",
+    "no": "«185 bakere går inn på en bar. Bartenderen sier: 'Vi serverer ikke sånne som dere.' Bakerne sier: 'Helt greit, vi hever oss over det.'»"
   },
   "asks": [
     "occupations"

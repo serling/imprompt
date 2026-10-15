@@ -1,0 +1,14 @@
+{
+  "id": "b18-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "callback",
+  "text": {
+    "en": "A guided meditation. The guide is {character}.",
+    "no": "En guidet meditasjon. Meditasjonslederen er {character}."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

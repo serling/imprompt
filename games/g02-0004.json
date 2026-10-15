@@ -10,7 +10,8 @@
       "Animalistics"
     ],
     "no": [
-      "Dyretrekk"
+      "Animal Characters",
+      "Animalistics"
     ]
   },
   "family": "rule",
@@ -24,19 +25,19 @@
   },
   "steps": {
     "en": [
-      "Each player plays a human who moves, eats and reacts like an animal.",
-      "Two players take an animal each from the card; any others choose their own.",
-      "Play an ordinary scene in the place on the card."
+      "Each player plays a human who behaves like an animal.",
+      "Each player is given an animal.",
+      "Play an ordinary scene."
     ],
     "no": [
-      "Hver spiller spiller et menneske som beveger seg, spiser og reagerer som et dyr.",
-      "To spillere tar hvert sitt dyr fra kortet; eventuelle andre velger sitt eget.",
-      "Spill en helt vanlig scene på stedet på kortet."
+      "Hver spiller spiller et menneske som oppfører seg som et dyr.",
+      "Hver spiller får tildelt et dyr.",
+      "Spill en helt vanlig scene."
     ]
   },
   "more": {
-    "en": "Not a costume: a person with a cat's curiosity or a goat's stubbornness. Start small and let it grow.",
-    "no": "Ikke et kostyme: et menneske med en katts nysgjerrighet eller en geits stahet. Start smått og la det vokse."
+    "en": "Start small: a person with a cat's curiosity, or a goat's stubbornness. Grow the character from there.",
+    "no": "Start i det små: et menneske med en katts nysgjerrighet eller en geits stahet. Bygg karakteren videre derfra."
   },
   "asks": [
     "animals",

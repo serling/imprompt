@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Offspring"
+    ]
   },
   "family": "other",
   "players": {
@@ -20,12 +22,12 @@
   },
   "steps": {
     "en": [
-      "Take the two objects on the card.",
-      "Players step forward with what their child would be like."
+      "Two objects fall in love and have a child.",
+      "Players step forward with what the child is like."
     ],
     "no": [
-      "Ta de to gjenstandene på kortet.",
-      "Spillerne tar et steg frem og sier hvordan barnet deres ville vært."
+      "To gjenstander forelsker seg og får et barn.",
+      "Spillerne tar et steg frem og sier hvordan barnet er."
     ]
   },
   "more": {

@@ -7,7 +7,9 @@
   },
   "aliases": {
     "en": [],
-    "no": []
+    "no": [
+      "Three Rules"
+    ]
   },
   "family": "rule",
   "players": {
@@ -21,11 +23,11 @@
   "steps": {
     "en": [
       "A player at the side sets three rules: a gesture, a word and a habit, for example.",
-      "Play a scene in the place on the card, following all three."
+      "Play a scene, following all three."
     ],
     "no": [
       "En spiller på siden lager tre regler: for eksempel en gest, et ord og en vane.",
-      "Spill en scene på stedet på kortet, og følg alle tre."
+      "Spill en scene, og følg alle tre."
     ]
   },
   "more": {

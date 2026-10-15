@@ -27,8 +27,8 @@ const UI = {
     leftScenes: "Scenes left · 2p {a} · 3p {b} · 4p {c}", gamesCount: "Games · {n}",
     scene: "Scene · {who}", game: "Game · {range} players",
     heightenTimes: "Heighten ×{n}", callback: "Callback",
-    howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}",
-    off: "Off", timerOff: "Timer off. Tap to set.", timerOn: "Timer {t}. Tap to change.",
+    howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}", gimmick: "Gimmick",
+    off: "Off", timerOff: "Stopwatch hidden. Tap to show.", timerOn: "Stopwatch {t}. Tap to hide.",
     soundOn: "Sound on. Tap to mute.", soundOff: "Sound off. Tap to unmute.",
     langAria: "Language: {lang}. Tap for {other}.",
   },
@@ -53,8 +53,8 @@ const UI = {
     leftScenes: "Scener igjen · 2s {a} · 3s {b} · 4s {c}", gamesCount: "Spill · {n}",
     scene: "Scene · {who}", game: "Spill · {range} spillere",
     heightenTimes: "Skru opp ×{n}", callback: "Callback",
-    howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}",
-    off: "Av", timerOff: "Tidtaker av. Trykk for å stille inn.", timerOn: "Tidtaker {t}. Trykk for å endre.",
+    howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}", gimmick: "Gimmick",
+    off: "Av", timerOff: "Stoppeklokke skjult. Trykk for å vise.", timerOn: "Stoppeklokke {t}. Trykk for å skjule.",
     soundOn: "Lyd på. Trykk for å dempe.", soundOff: "Lyd av. Trykk for å slå på.",
     langAria: "Språk: {lang}. Trykk for {other}.",
   },
@@ -76,17 +76,17 @@ const players = n => n === 1 ? ui("p1") : ui("pN", { n });
 const cueText = () => ui("cue", { n: String(state.cue).padStart(3, "0") });
 
 const state = {
-  deck: { solo: [], duo: [], escalations: [], callbacks: [], scenes: [], emotions: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {} },
+  deck: { solo: [], duo: [], escalations: [], callbacks: [], scenes: [], emotions: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {}, tags: {} },
   mode: "rapid",
   players: 2,         // size of the scene on screen in Scenes mode
   log: {},            // id -> { action: "used", at } (older logs may also hold "skipped")
   passed: new Set(),  // prompts skipped this session: back in the pile, but not dealt again until a reload
-  current: null,      // { entry, kind: "single" | "sequence" | "callback", step, fill }
+  current: null,      // { entry, kind: "single" | "sequence" | "callback", step, fill: {en, no} }
   cue: 0,
   seenCallbacks: new Set(), usedFills: new Set(),
   played: [],         // { entry, cue } for characters that can be called back (this session only)
-  coaching: [],       // { kind, entry } lines under the prompt: one slot per kind, a refresh replaces it
-  lastCoach: null,    // the kind dealt most recently (Skip replaces it)
+  coaching: [],       // { slot, kind, entry } lines under the prompt: a refresh replaces its slot's line
+  lastCoach: null,    // the slot dealt most recently
   seenCoach: new Set(),
   seenGames: new Set(), // games dealt this session: not dealt again until the list has gone round
   gameWords: [],      // { kind, entry } the suggestions dealt with the game on screen
@@ -161,11 +161,12 @@ function renderCounts() {
   $("deckInfo").textContent = ui("leftRapid", { s, d, u: Object.keys(state.log).length });
 }
 
-function renderPrompt() {
+// fresh: a new prompt or step, so the text animates in. A redraw (language switch) does not.
+function renderPrompt(fresh) {
   const c = state.current, text = $("text"), who = $("who");
   if (!c) return;
-  if (c.kind === "scene") return renderScene();
-  if (c.kind === "game") return renderGame();
+  if (c.kind === "scene") return renderScene(fresh);
+  if (c.kind === "game") return renderGame(fresh);
   $("game").hidden = true;
   const duo = c.entry.players === 2;
   who.textContent = players(c.entry.players)
@@ -176,14 +177,13 @@ function renderPrompt() {
     const [before, after] = say(c.entry.text).split("{character}");
     const name = document.createElement("span");
     name.className = "callback";
-    name.textContent = c.fill;
+    name.textContent = say(c.fill);
     text.replaceChildren(before, name, after);
   } else {
     text.textContent = c.kind === "sequence" ? say(c.entry.steps[c.step]) : say(c.entry.text);
   }
   text.className = "text" + (duo ? " duo" : "");
-  void text.offsetWidth;
-  text.classList.add("fresh");
+  if (fresh) { void text.offsetWidth; text.classList.add("fresh"); }
   renderLines();
   $("cueNo").textContent = cueText();
 }
@@ -197,7 +197,7 @@ function draw(players) {
   const current = { entry, kind: entry.steps ? "sequence" : isCallback.has(entry) ? "callback" : "single", step: 0, fill: null };
   if (current.kind === "callback") {
     const c = pick(callbackCandidates());
-    current.fill = say(c.entry.callback);
+    current.fill = c.entry.callback;   // kept by language, so a language switch redraws it
     state.usedFills.add(c.entry.id);
     state.seenCallbacks.add(entry.id);   // callback frames are reusable, so they are not logged as used
   } else {
@@ -206,7 +206,7 @@ function draw(players) {
   state.current = current; state.cue += 1;
   if (entry.callback) state.played.push({ entry, cue: state.cue });
   dealLines();
-  renderPrompt(); renderCounts();
+  renderPrompt(true); renderCounts();
   ding(); startTimer();
   keepAwake();
 }
@@ -216,7 +216,7 @@ function further() {
   const c = state.current;
   if (!hasNextStep(c)) return;
   c.step += 1; state.cue += 1;
-  renderPrompt(); renderCounts();
+  renderPrompt(true); renderCounts();
   ding(); startTimer();
 }
 
@@ -233,24 +233,33 @@ function skip() {
 // --- lines under the prompt -------------------------------------------------------------
 // Each prompt is dealt a few labelled lines from the shared words: caveats the host may offer, or
 // not. They are inspiration, never rules stacked on the prompt. Words recur (never logged as used).
-// Each kind has one slot; its refresh icon swaps it. Labels come from words/tags.json, by language.
-// Rapid fire, two players: gimmicks aimed at the players (speech, staging, tempo), which can pile
-// on for the fun of it. Scenes: character work (emotion, physical) and a way of speaking. Style is
-// left out of scenes: setups carry their own tone, and a genre tends to clash with it.
-const LINES = { duo: ["speech", "staging", "tempo"], scene: ["emotions", "physical", "speech"] };
+// Each slot holds one line; its refresh icon swaps it. Labels come from words/tags.json, by language.
+// The gimmick slot draws from four separate lists (physical, speech, staging, tempo) and is shown
+// simply as "Gimmick"; each word keeps its own kind. Rapid fire, two players: one gimmick.
+// Scenes: an emotion and a gimmick. Style is left out of scenes: setups carry their own tone, and
+// a genre tends to clash with it.
+const GIMMICK = ["physical", "speech", "staging", "tempo"];
+const LINES = { duo: ["gimmick"], scene: ["emotions", "gimmick"] };
+const slotKinds = slot => slot === "gimmick" ? GIMMICK : [slot];
 const lineKinds = c => !c ? [] : c.kind === "scene" ? LINES.scene
   : c.kind !== "game" && c.entry.players === 2 ? LINES.duo : [];
-const kindLabel = k => say(state.deck.kinds[k]?.label) || k;
+// A kind, or a kind narrowed by tags ("adjectives:condition"): narrowed asks show the first tag's label.
+const askParts = spec => { const [kind, narrow = ""] = spec.split(":"); return { kind, tags: narrow.split("+").filter(Boolean) }; };
+const kindLabel = spec => {
+  if (spec === "gimmick") return ui("gimmick");
+  const { kind, tags } = askParts(spec);
+  return say((tags.length && state.deck.tags?.[tags[0]]?.label) || state.deck.kinds[kind]?.label) || kind;
+};
 function dealLines() {
   state.coaching = []; state.lastCoach = null;
-  for (const kind of lineKinds(state.current)) dealCoach(kind);
+  for (const slot of lineKinds(state.current)) dealCoach(slot);
   state.lastCoach = null;
 }
 function renderLines() {
   $("mods").hidden = !state.coaching.length;
   $("modList").replaceChildren(...state.coaching.map(x => {
-    const li = kindLine(x.kind, x.entry.text, { coach: x.kind });
-    li.className = "coach-line" + (x.kind === state.lastCoach ? " fresh" : "");
+    const li = kindLine(x.slot, x.entry.text, { coach: x.slot });
+    li.className = "coach-line" + (x.slot === state.lastCoach ? " fresh" : "");
     return li;
   }));
 }
@@ -322,22 +331,22 @@ function drawScene(players = state.players) {
   keepAwake();
 }
 
-function dealCoach(kind) {
-  const pool = coachPool(kind);
+// A slot draws from the pooled lists of its kinds, so a bigger list comes up more often.
+function dealCoach(slot) {
+  const pool = slotKinds(slot).flatMap(kind => coachPool(kind).map(entry => ({ kind, entry })));
   if (!pool.length) return null;
-  const entry = pick(pool);
+  const { kind, entry } = pick(pool);
   state.seenCoach.add(entry.id);
-  state.coaching = state.coaching.filter(x => x.kind !== kind).concat({ kind, entry })
-    .sort((a, b) => lineKinds(state.current).indexOf(a.kind) - lineKinds(state.current).indexOf(b.kind));
-  state.lastCoach = kind;
+  state.coaching = state.coaching.filter(x => x.slot !== slot).concat({ slot, kind, entry })
+    .sort((a, b) => lineKinds(state.current).indexOf(a.slot) - lineKinds(state.current).indexOf(b.slot));
+  state.lastCoach = slot;
   return entry;
 }
 
-// The refresh icon beside a line swaps only that line.
-function coach(kind) {
-  if (!dealCoach(kind)) return;
-  renderPrompt(); renderCounts();
-  ding();
+// The refresh icon beside a line swaps only that line, quietly: only that line animates.
+function coach(slot) {
+  if (!dealCoach(slot)) return;
+  renderLines();
 }
 
 
@@ -403,8 +412,9 @@ function setMode(mode, quiet) {
 // --- games ------------------------------------------------------------------------------
 // A short-form game as a suggestion: dealt at random, never used up, not dealt again until the
 // list has gone round. The suggestions it asks for come from the shared words.
-function pickWord(kind, taken) {
-  const pool = state.deck[kind].filter(e => !taken.has(e.id));
+function pickWord(spec, taken) {
+  const { kind, tags } = askParts(spec);
+  const pool = (state.deck[kind] || []).filter(e => !taken.has(e.id) && tags.every(t => (e.tags || []).includes(t)));
   return pool.length ? pick(pool) : null;
 }
 function drawGame() {
@@ -433,7 +443,6 @@ function refreshGameWord(slot) {
   x.entry = w; x.fresh = true;
   renderGame();
   x.fresh = false;
-  ding();
 }
 function renderGame(fresh) {
   const g = state.current.entry, text = $("text"), who = $("who"), box = $("game");
@@ -491,39 +500,31 @@ function renderGameCounts() {
 }
 
 // --- timer ------------------------------------------------------------------------------
-// Optional, per tab: Off, 0:30, 1:00, 2:00 or 3:00. It restarts with every new prompt or step,
-// counts down on its button and drains a bar along the card's bottom edge. At zero it
-// turns red and waits: it never rings, so the buzzer stays the host's call.
-const TIMER_STEPS = [0, 30, 60, 120, 180];
-const TIMER_KEY = "imprompt-timer-";
-const timer = { rapid: 0, scenes: 0, games: 0, end: 0, tick: null };
-try { for (const m of ["rapid", "scenes", "games"]) { const v = +localStorage.getItem(TIMER_KEY + m); if (TIMER_STEPS.includes(v)) timer[m] = v; } } catch {}
+// A stopwatch, never a countdown: no pre-defined times, so no expectations. It
+// starts at 0:00 with every new prompt, step, scene or game and counts up on its button. Tapping
+// it hides or shows it; the choice is remembered on this device. It never rings or stops a scene.
+const TIMER_KEY = "imprompt-stopwatch";
+const timer = { shown: true, start: 0, tick: null };
+try { timer.shown = localStorage.getItem(TIMER_KEY) !== "hidden"; } catch {}
 const clock = secs => Math.floor(secs / 60) + ":" + String(secs % 60).padStart(2, "0");
 function renderTimer() {
-  const secs = timer[state.mode], b = $("timer"), bar = $("timebar");
-  const running = !!timer.tick, left = running ? Math.max(0, Math.ceil((timer.end - Date.now()) / 1000)) : secs;
-  b.querySelector(".label").textContent = secs ? clock(left) : ui("off");
-  b.classList.toggle("on", !!secs);
-  b.classList.toggle("done", running && left === 0);
-  b.setAttribute("aria-label", secs ? ui("timerOn", { t: clock(secs) }) : ui("timerOff"));
-  bar.hidden = !running;
-  bar.classList.toggle("done", running && left === 0);
-  if (running) bar.style.transform = `scaleX(${Math.max(0, (timer.end - Date.now()) / (secs * 1000))})`;
+  const b = $("timer"), secs = timer.tick ? Math.floor((Date.now() - timer.start) / 1000) : 0;
+  b.querySelector(".label").textContent = timer.shown ? clock(secs) : ui("off");
+  b.classList.toggle("on", timer.shown && !!timer.tick);
+  b.setAttribute("aria-label", timer.shown ? ui("timerOn", { t: clock(secs) }) : ui("timerOff"));
 }
 function startTimer() {
   stopTimer();
-  const secs = timer[state.mode];
-  if (!secs || !state.current) return renderTimer();
-  timer.end = Date.now() + secs * 1000;
-  timer.tick = setInterval(renderTimer, 200);
+  if (!state.current) return;
+  timer.start = Date.now();
+  timer.tick = setInterval(renderTimer, 250);
   renderTimer();
 }
 function stopTimer() { clearInterval(timer.tick); timer.tick = null; renderTimer(); }
-function cycleTimer() {
-  const m = state.mode;
-  timer[m] = TIMER_STEPS[(TIMER_STEPS.indexOf(timer[m]) + 1) % TIMER_STEPS.length];
-  try { localStorage.setItem(TIMER_KEY + m, String(timer[m])); } catch {}
-  startTimer();
+function toggleTimer() {
+  timer.shown = !timer.shown;
+  try { localStorage.setItem(TIMER_KEY, timer.shown ? "shown" : "hidden"); } catch {}
+  renderTimer();
 }
 
 // --- sound ------------------------------------------------------------------------------
@@ -643,7 +644,7 @@ $("more").addEventListener("click", further);
 $("bigBuzz").addEventListener("click", buzzer);
 $("skip").addEventListener("click", skip);
 $("reset").addEventListener("click", reset);
-$("timer").addEventListener("click", cycleTimer);
+$("timer").addEventListener("click", toggleTimer);
 $("next").addEventListener("click", next);
 $("back").addEventListener("click", back);
 $("mute").addEventListener("click", () => {
