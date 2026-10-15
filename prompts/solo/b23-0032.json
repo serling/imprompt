@@ -1,0 +1,17 @@
+{
+  "id": "b23-0032",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A ticklish combine harvester.",
+    "no": "En kilen skurtresker."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the ticklish combine harvester",
+    "no": "den kilne skurtreskeren"
+  }
+}

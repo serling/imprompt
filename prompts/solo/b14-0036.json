@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the jealous wardrobe",
+    "no": "det sjalu klesskapet"
+  }
 }

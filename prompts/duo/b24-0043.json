@@ -1,0 +1,14 @@
+{
+  "id": "b24-0043",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two colleagues carrying the new printer up the stairs, drunk on power.",
+    "no": "To kolleger som bærer den nye skriveren opp trappa, beruset av makt."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

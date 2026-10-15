@@ -1,0 +1,17 @@
+{
+  "id": "b21-0041",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A shy sergeant major.",
+    "no": "En sjenert sersjant."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the shy sergeant major",
+    "no": "den sjenerte sersjanten"
+  }
+}

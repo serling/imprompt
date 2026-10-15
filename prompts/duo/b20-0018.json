@@ -1,0 +1,18 @@
+{
+  "id": "b20-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A waking giant and a camper who has pitched a tent on his chest.",
+    "no": "En kjempe som våkner, og en som har slått opp teltet på brystet hans."
+  },
+  "tags": [
+    "fantasy",
+    "physical"
+  ],
+  "callback": {
+    "en": "the waking giant",
+    "no": "kjempen som våkner"
+  }
+}

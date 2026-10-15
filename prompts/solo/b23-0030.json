@@ -1,0 +1,18 @@
+{
+  "id": "b23-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A clumsy huldra.",
+    "no": "En klumsete hulder."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the clumsy huldra",
+    "no": "den klumsete huldra"
+  }
+}

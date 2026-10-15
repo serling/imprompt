@@ -1,0 +1,17 @@
+{
+  "id": "b19-0001",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A careers adviser and a client who has already done every job there is.",
+    "no": "En karriereveileder og en klient som allerede har hatt alle jobber som finnes."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the person who has done every job",
+    "no": "personen som har hatt alle jobber"
+  }
+}

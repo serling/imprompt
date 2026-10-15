@@ -1,0 +1,18 @@
+{
+  "id": "b20-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "The head of a knitting club and a new member who is a sheep.",
+    "no": "Lederen i strikkeklubben og et nytt medlem som er en sau."
+  },
+  "tags": [
+    "nature",
+    "status"
+  ],
+  "callback": {
+    "en": "the knitting sheep",
+    "no": "strikkesauen"
+  }
+}

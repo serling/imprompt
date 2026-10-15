@@ -56,9 +56,9 @@ NOT_LOCAL = {
                      r"cheerleaders?|walmart|mcdonald'?s|starbucks|ikea|coca-cola|google|tesla|"
                      r"netflix|tiktok|instagram|facebook|uber|lego)\b", re.I),
 }
-# Per language: words that ask a player to keep something from their scene partner, so the
-# scene is played at the audience instead of with each other ("secretly competitive" is just
-# "competitive"). Hiding something together, or telling a secret, is fine.
+# Per language: a trait in a prompt written as hidden from the scene partner, so the scene is
+# played at the audience instead of with each other ("secretly competitive" is just
+# "competitive"). Checked in prompts only; the dealt Secret lines are a separate word list.
 NO_HIDING = {
     "en": re.compile(r"\b(secretly|hiding [^.]*\bsecrets?)\b", re.I),
 }

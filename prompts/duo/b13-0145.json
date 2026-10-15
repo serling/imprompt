@@ -9,5 +9,9 @@
   },
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the slowest swimmer in the pool",
+    "no": "den tregeste svømmeren i bassenget"
+  }
 }

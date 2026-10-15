@@ -1,0 +1,17 @@
+{
+  "id": "b20-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A cruise-ship comedian and his only audience, a seagull.",
+    "no": "En komiker på et cruiseskip og hans eneste publikum: en måke."
+  },
+  "tags": [
+    "status"
+  ],
+  "callback": {
+    "en": "the cruise-ship comedian",
+    "no": "komikeren på cruiseskipet"
+  }
+}

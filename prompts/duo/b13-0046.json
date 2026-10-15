@@ -10,5 +10,9 @@
   "tags": [
     "physical",
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the speeding pensioner",
+    "no": "den råkjørende pensjonisten"
+  }
 }

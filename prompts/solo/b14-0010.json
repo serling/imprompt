@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the competitive birdwatcher",
+    "no": "den konkurranseinnstilte fuglekikkeren"
+  }
 }

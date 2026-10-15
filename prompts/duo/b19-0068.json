@@ -1,0 +1,14 @@
+{
+  "id": "b19-0068",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A senior surgeon fetching coffee for the work-experience pupil.",
+    "no": "En overlege som henter kaffe til eleven som er der på utplassering."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

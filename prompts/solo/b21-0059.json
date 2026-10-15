@@ -1,0 +1,13 @@
+{
+  "id": "b21-0059",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who has just won a hamper in the raffle.",
+    "no": "Noen som nettopp har vunnet en kurv på tombolaen."
+  },
+  "tags": [
+    "character"
+  ]
+}

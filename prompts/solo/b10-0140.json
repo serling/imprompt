@@ -9,5 +9,9 @@
   },
   "tags": [
     "history"
-  ]
+  ],
+  "callback": {
+    "en": "the inventor of the wink",
+    "no": "oppfinneren av blunkingen"
+  }
 }

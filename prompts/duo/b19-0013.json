@@ -1,0 +1,18 @@
+{
+  "id": "b19-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A mother and her son's imaginary friend, who has refused to move out.",
+    "no": "En mor og sønnens fantasivenn, som nekter å flytte ut."
+  },
+  "tags": [
+    "family",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the imaginary friend who never moved out",
+    "no": "fantasivennen som aldri flyttet ut"
+  }
+}

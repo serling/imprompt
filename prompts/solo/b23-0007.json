@@ -1,0 +1,14 @@
+{
+  "id": "b23-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Collecting eggs from the henhouse, completely starstruck.",
+    "no": "Å samle egg i hønsehuset, helt stjerneslått."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

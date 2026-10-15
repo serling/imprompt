@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the drowsy rocket",
+    "no": "den døsige raketten"
+  }
 }

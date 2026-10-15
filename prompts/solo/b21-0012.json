@@ -1,0 +1,13 @@
+{
+  "id": "b21-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A billionaire borrowing the bus fare from a student.",
+    "no": "En milliardær som låner penger til bussbilletten av en student."
+  },
+  "tags": [
+    "status"
+  ]
+}

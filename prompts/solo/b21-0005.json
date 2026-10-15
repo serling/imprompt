@@ -1,0 +1,13 @@
+{
+  "id": "b21-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Someone buying a ticket from the machine at the station, shaking with stage fright.",
+    "no": "Noen som kjøper billett i automaten på stasjonen, skjelvende av sceneskrekk."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

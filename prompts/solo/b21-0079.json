@@ -1,0 +1,14 @@
+{
+  "id": "b21-0079",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A teddy bear going round in the washing machine.",
+    "no": "En kosebamse som går rundt i vaskemaskinen."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b24-0050",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "Two sisters baking the seven kinds of Christmas biscuits, with a dragon for an oven.",
+    "no": "To søstre som baker sju slags julekaker, med en drage som stekeovn."
+  },
+  "tags": [
+    "family",
+    "fantasy",
+    "physical"
+  ],
+  "callback": {
+    "en": "the dragon who works as an oven",
+    "no": "dragen som er stekeovn"
+  }
+}

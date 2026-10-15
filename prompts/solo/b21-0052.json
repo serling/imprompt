@@ -1,0 +1,18 @@
+{
+  "id": "b21-0052",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who has just been put in charge of the dugnad.",
+    "no": "Noen som nettopp har fått ansvaret for dugnaden."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the dugnad boss",
+    "no": "dugnadssjefen"
+  }
+}

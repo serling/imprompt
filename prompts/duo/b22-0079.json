@@ -1,0 +1,18 @@
+{
+  "id": "b22-0079",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A friend who has packed for the North Pole, and the friend who suggested a short walk.",
+    "no": "En venn som har pakket for Nordpolen, og vennen som foreslo en kort gåtur."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ],
+  "callback": {
+    "en": "the friend who packed for the North Pole",
+    "no": "vennen som har pakket for Nordpolen"
+  }
+}

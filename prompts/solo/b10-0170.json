@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the grieving garden hose",
+    "no": "den sørgende hageslangen"
+  }
 }

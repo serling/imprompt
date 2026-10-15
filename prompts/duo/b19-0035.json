@@ -1,0 +1,17 @@
+{
+  "id": "b19-0035",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A grandad who thinks every gadget is listening, and the grandson setting up his phone.",
+    "no": "En bestefar som tror alle duppeditter lytter, og barnebarnet som setter opp telefonen hans."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the suspicious grandad",
+    "no": "den mistenksomme bestefaren"
+  }
+}

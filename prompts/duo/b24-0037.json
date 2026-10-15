@@ -1,0 +1,18 @@
+{
+  "id": "b24-0037",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A king shovelling snow off his neighbour's steps, with the neighbour supervising.",
+    "no": "En konge som måker snø fra trappa til naboen, mens naboen fører tilsyn."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ],
+  "callback": {
+    "en": "the snow-shovelling king",
+    "no": "kongen som måker snø"
+  }
+}

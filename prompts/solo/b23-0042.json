@@ -1,0 +1,15 @@
+{
+  "id": "b23-0042",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A house troll who does all the chores at night.",
+    "no": "Et hustroll som gjør alt husarbeidet om natta."
+  },
+  "tags": [
+    "character",
+    "fantasy",
+    "physical"
+  ]
+}

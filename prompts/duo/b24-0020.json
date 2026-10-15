@@ -1,0 +1,18 @@
+{
+  "id": "b24-0020",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A church bell and its brand-new bell-ringer.",
+    "no": "Ei kirkeklokke og den splitter nye klokkeringeren."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the church bell",
+    "no": "kirkeklokka"
+  }
+}

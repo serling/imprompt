@@ -1,0 +1,14 @@
+{
+  "id": "b23-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A wizard doing the washing-up, with a broken wand.",
+    "no": "En trollmann som tar oppvasken, med en knekt tryllestav."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

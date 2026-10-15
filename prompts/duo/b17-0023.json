@@ -9,5 +9,9 @@
   },
   "tags": [
     "nature"
-  ]
+  ],
+  "callback": {
+    "en": "the racehorse who would rather walk",
+    "no": "veddeløpshesten som heller vil gå"
+  }
 }

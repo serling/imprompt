@@ -1,0 +1,14 @@
+{
+  "id": "b21-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A father asking his teenage son for pocket money.",
+    "no": "En far som ber tenåringssønnen sin om lommepenger."
+  },
+  "tags": [
+    "status",
+    "family"
+  ]
+}

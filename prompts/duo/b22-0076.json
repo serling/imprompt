@@ -1,0 +1,17 @@
+{
+  "id": "b22-0076",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A neighbour who returns everything she borrows improved, and the man next door.",
+    "no": "En nabo som leverer tilbake alt hun låner i bedre stand, og mannen ved siden av."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the neighbour who improves everything",
+    "no": "naboen som forbedrer alt"
+  }
+}

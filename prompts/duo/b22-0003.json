@@ -1,0 +1,18 @@
+{
+  "id": "b22-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A woman and the clone she has made to go to work for her.",
+    "no": "En kvinne og klonen hun har laget for å gå på jobb i stedet for henne."
+  },
+  "tags": [
+    "work",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the clone who goes to work",
+    "no": "klonen som går på jobb"
+  }
+}

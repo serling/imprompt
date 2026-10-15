@@ -9,5 +9,9 @@
   },
   "tags": [
     "fantasy"
-  ]
+  ],
+  "callback": {
+    "en": "the yeti",
+    "no": "yetien"
+  }
 }

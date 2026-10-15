@@ -1,0 +1,14 @@
+{
+  "id": "b22-0068",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A hotel porter carrying a guest's luggage while the guest is sitting on it.",
+    "no": "En hotellpikkolo som bærer bagasjen til en gjest mens gjesten sitter på den."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

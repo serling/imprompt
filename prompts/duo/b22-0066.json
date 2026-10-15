@@ -1,0 +1,14 @@
+{
+  "id": "b22-0066",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A doctor examining a patient over a video call that keeps freezing.",
+    "no": "En lege som undersøker en pasient over en videosamtale som stadig fryser."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the heartbroken umbrella",
+    "no": "den hjerteknuste paraplyen"
+  }
 }

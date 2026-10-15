@@ -10,5 +10,9 @@
   "tags": [
     "physical",
     "family"
-  ]
+  ],
+  "callback": {
+    "en": "the strongman's little sister",
+    "no": "lillesøsteren til den sterke mannen"
+  }
 }

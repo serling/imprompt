@@ -1,0 +1,13 @@
+{
+  "id": "b20-0049",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two friends on a tandem bicycle, each feeling utterly betrayed.",
+    "no": "To venner på en tandemsykkel, begge dypt sveket."
+  },
+  "tags": [
+    "physical"
+  ]
+}

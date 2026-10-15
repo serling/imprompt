@@ -1,0 +1,14 @@
+{
+  "id": "b20-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "Thor and a neighbour who wants to borrow his hammer.",
+    "no": "Tor og en nabo som vil låne hammeren hans."
+  },
+  "tags": [
+    "fantasy",
+    "status"
+  ]
+}

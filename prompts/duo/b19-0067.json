@@ -1,0 +1,13 @@
+{
+  "id": "b19-0067",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A librarian being shushed by a three-year-old.",
+    "no": "En bibliotekar som blir hysjet på av en treåring."
+  },
+  "tags": [
+    "status"
+  ]
+}

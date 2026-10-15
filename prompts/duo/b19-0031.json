@@ -1,0 +1,17 @@
+{
+  "id": "b19-0031",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A mother who cannot whisper, and her son, at his school play.",
+    "no": "En mor som ikke klarer å hviske, og sønnen hennes, på skoleforestillingen hans."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the mum who can't whisper",
+    "no": "mammaen som ikke klarer å hviske"
+  }
+}

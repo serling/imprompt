@@ -1,0 +1,17 @@
+{
+  "id": "b21-0046",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A dreamy forklift.",
+    "no": "En drømmende gaffeltruck."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the dreamy forklift",
+    "no": "den drømmende gaffeltrucken"
+  }
+}

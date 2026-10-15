@@ -1,0 +1,17 @@
+{
+  "id": "b21-0047",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A prim hippo.",
+    "no": "En pertentlig flodhest."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the prim hippo",
+    "no": "den pertentlige flodhesten"
+  }
+}

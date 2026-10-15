@@ -1,0 +1,18 @@
+{
+  "id": "b19-0053",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A fridge and a teenager standing at its open door.",
+    "no": "Et kjøleskap og en tenåring som står foran den åpne døra."
+  },
+  "tags": [
+    "family",
+    "everyday"
+  ],
+  "callback": {
+    "en": "the fed-up fridge",
+    "no": "kjøleskapet som har fått nok"
+  }
+}

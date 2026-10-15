@@ -9,5 +9,9 @@
   },
   "tags": [
     "nature"
-  ]
+  ],
+  "callback": {
+    "en": "the mole under the lawn",
+    "no": "muldvarpen under plenen"
+  }
 }

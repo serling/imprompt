@@ -1,0 +1,17 @@
+{
+  "id": "b21-0048",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A melodramatic bin lorry.",
+    "no": "En melodramatisk søppelbil."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the melodramatic bin lorry",
+    "no": "den melodramatiske søppelbilen"
+  }
+}

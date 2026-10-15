@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the stand-in Santa",
+    "no": "vikarnissen"
+  }
 }

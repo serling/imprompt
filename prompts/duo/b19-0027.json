@@ -1,0 +1,18 @@
+{
+  "id": "b19-0027",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A retired headmaster helping his grandson with homework.",
+    "no": "En pensjonert rektor som hjelper barnebarnet med leksene."
+  },
+  "tags": [
+    "family",
+    "status"
+  ],
+  "callback": {
+    "en": "the retired headmaster",
+    "no": "den pensjonerte rektoren"
+  }
+}

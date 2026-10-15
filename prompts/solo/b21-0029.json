@@ -1,0 +1,18 @@
+{
+  "id": "b21-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "An astronaut on a spacewalk, but terribly seasick.",
+    "no": "En astronaut på romvandring, men fryktelig sjøsyk."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the seasick astronaut",
+    "no": "den sjøsyke astronauten"
+  }
+}

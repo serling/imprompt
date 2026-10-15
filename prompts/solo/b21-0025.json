@@ -1,0 +1,14 @@
+{
+  "id": "b21-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A lumberjack felling a tree, but frightened of loud noises.",
+    "no": "En tømmerhogger som feller et tre, men er redd for høye lyder."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

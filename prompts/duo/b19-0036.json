@@ -1,0 +1,17 @@
+{
+  "id": "b19-0036",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A teacher who takes everything personally, and a pupil who has forgotten his pencil.",
+    "no": "En lærer som tar alt personlig, og en elev som har glemt blyanten."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the teacher who takes everything personally",
+    "no": "læreren som tar alt personlig"
+  }
+}

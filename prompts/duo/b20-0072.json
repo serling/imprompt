@@ -1,0 +1,18 @@
+{
+  "id": "b20-0072",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "Two witches who are allergic to cats.",
+    "no": "To hekser som er allergiske mot katter."
+  },
+  "tags": [
+    "fantasy",
+    "physical"
+  ],
+  "callback": {
+    "en": "the witch who is allergic to cats",
+    "no": "heksa som er allergisk mot katter"
+  }
+}

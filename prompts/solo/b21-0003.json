@@ -1,0 +1,13 @@
+{
+  "id": "b21-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Someone riding the lift to the tenth floor, unbearably homesick.",
+    "no": "Noen som tar heisen opp til tiende etasje, med uutholdelig hjemlengsel."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

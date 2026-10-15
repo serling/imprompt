@@ -1,0 +1,17 @@
+{
+  "id": "b21-0044",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "An arrogant guinea pig.",
+    "no": "Et arrogant marsvin."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the arrogant guinea pig",
+    "no": "det arrogante marsvinet"
+  }
+}

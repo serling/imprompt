@@ -1,0 +1,18 @@
+{
+  "id": "b22-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A coach-trip driver and the pensioner who has taken over the microphone.",
+    "no": "En bussjåfør på dagstur og pensjonisten som har tatt over mikrofonen."
+  },
+  "tags": [
+    "everyday",
+    "status"
+  ],
+  "callback": {
+    "en": "the pensioner with the microphone",
+    "no": "pensjonisten med mikrofonen"
+  }
+}

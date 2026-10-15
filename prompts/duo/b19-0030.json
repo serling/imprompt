@@ -1,0 +1,17 @@
+{
+  "id": "b19-0030",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A school inspector who is impressed by absolutely everything, and a nervous teacher.",
+    "no": "En inspektør på skolebesøk som blir imponert over absolutt alt, og en nervøs lærer."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the easily impressed inspector",
+    "no": "inspektøren som blir imponert over alt"
+  }
+}

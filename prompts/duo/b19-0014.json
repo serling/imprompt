@@ -1,0 +1,17 @@
+{
+  "id": "b19-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A father and the new au pair, who is eighty-nine.",
+    "no": "En far og den nye au pairen, som er åttini."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the eighty-nine-year-old au pair",
+    "no": "au pairen på åttini"
+  }
+}

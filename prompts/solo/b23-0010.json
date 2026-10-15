@@ -1,0 +1,14 @@
+{
+  "id": "b23-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "Thor borrowing a hammer from a farmer.",
+    "no": "Tor som låner en hammer av en bonde."
+  },
+  "tags": [
+    "status",
+    "fantasy"
+  ]
+}

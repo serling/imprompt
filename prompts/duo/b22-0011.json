@@ -1,0 +1,18 @@
+{
+  "id": "b22-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A child and the monster under her bed, who is afraid of the dark.",
+    "no": "Et barn og monsteret under senga, som er mørkredd."
+  },
+  "tags": [
+    "family",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the monster under the bed",
+    "no": "monsteret under senga"
+  }
+}

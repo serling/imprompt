@@ -1,0 +1,17 @@
+{
+  "id": "b22-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A hermit and the new neighbour who has moved in next to his cave.",
+    "no": "En eremitt og den nye naboen som har flyttet inn ved siden av hula hans."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the hermit",
+    "no": "eremitten"
+  }
+}

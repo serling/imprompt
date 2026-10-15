@@ -1,0 +1,17 @@
+{
+  "id": "b21-0045",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A posh wheelbarrow.",
+    "no": "En fornem trillebår."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the posh wheelbarrow",
+    "no": "den fornemme trillebåra"
+  }
+}

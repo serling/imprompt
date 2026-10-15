@@ -9,5 +9,9 @@
   },
   "tags": [
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the octopus",
+    "no": "blekkspruten"
+  }
 }

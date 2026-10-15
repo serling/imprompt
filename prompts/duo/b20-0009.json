@@ -1,0 +1,17 @@
+{
+  "id": "b20-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A lorry driver and a moose hitchhiking to the coast.",
+    "no": "En lastebilsjåfør og en elg som haiker til kysten."
+  },
+  "tags": [
+    "nature"
+  ],
+  "callback": {
+    "en": "the hitchhiking moose",
+    "no": "elgen som haiker"
+  }
+}

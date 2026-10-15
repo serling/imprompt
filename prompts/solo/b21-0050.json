@@ -1,0 +1,17 @@
+{
+  "id": "b21-0050",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A giggly judge.",
+    "no": "En fnisete dommer."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the giggly judge",
+    "no": "den fnisete dommeren"
+  }
+}

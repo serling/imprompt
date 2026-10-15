@@ -1,0 +1,17 @@
+{
+  "id": "b20-0005",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A Valkyrie and a fallen hero who would rather stay at home.",
+    "no": "En valkyrje og en falt helt som helst vil bli hjemme."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the reluctant hero",
+    "no": "den motvillige helten"
+  }
+}

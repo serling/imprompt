@@ -1,0 +1,17 @@
+{
+  "id": "b19-0060",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "An office plant and the colleague who tells it everything.",
+    "no": "En kontorplante og kollegaen som forteller den alt."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the office plant",
+    "no": "kontorplanten"
+  }
+}

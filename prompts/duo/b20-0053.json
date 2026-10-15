@@ -1,0 +1,17 @@
+{
+  "id": "b20-0053",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "Someone doing a jigsaw and the last piece, which won't fit.",
+    "no": "En som legger puslespill, og den siste brikken, som ikke vil passe."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the last jigsaw piece",
+    "no": "den siste puslespillbrikken"
+  }
+}

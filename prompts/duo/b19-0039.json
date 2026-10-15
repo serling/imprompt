@@ -1,0 +1,14 @@
+{
+  "id": "b19-0039",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A doctor listening to a patient's chest, but the stethoscope picks up the radio.",
+    "no": "En lege som lytter på brystet til en pasient, men stetoskopet tar inn radioen."
+  },
+  "tags": [
+    "work",
+    "fantasy"
+  ]
+}

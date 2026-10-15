@@ -1,0 +1,18 @@
+{
+  "id": "b19-0069",
+  "status": "draft",
+  "players": 2,
+  "type": "origin",
+  "text": {
+    "en": "The first boss in history, giving the first employee a task.",
+    "no": "Historiens første sjef, som gir historiens første ansatte en oppgave."
+  },
+  "tags": [
+    "work",
+    "history"
+  ],
+  "callback": {
+    "en": "the first boss in history",
+    "no": "historiens første sjef"
+  }
+}

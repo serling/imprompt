@@ -1,0 +1,14 @@
+{
+  "id": "b22-0050",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A landlord asking his tenant whether he may use the bathroom.",
+    "no": "En utleier som spør leietakeren om han får låne badet."
+  },
+  "tags": [
+    "status",
+    "everyday"
+  ]
+}

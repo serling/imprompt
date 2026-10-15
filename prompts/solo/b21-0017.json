@@ -1,0 +1,13 @@
+{
+  "id": "b21-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A lord asking his gardener if he may walk on the lawn.",
+    "no": "En godseier som spør gartneren sin om han får lov til å gå på plenen."
+  },
+  "tags": [
+    "status"
+  ]
+}

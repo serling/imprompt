@@ -1,0 +1,14 @@
+{
+  "id": "b23-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A farmer rounding up sheep in the mountains, but frightened of sheep.",
+    "no": "En bonde på sauesanking i fjellet, men redd for sauer."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

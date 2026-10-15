@@ -34,10 +34,11 @@
     ]
   },
   "more": {
-    "en": "Variant: set a first line too. Don't steer too early; find your way there.",
-    "no": "Variant: bestem en første replikk også. Ikke styr for tidlig; finn veien dit."
+    "en": "Open on the dealt first line, or skip it. Don't steer too early; find your way there.",
+    "no": "Åpne med den første replikken, eller dropp den. Ikke styr for tidlig; finn veien dit."
   },
   "asks": [
-    "locations"
+    "locations",
+    "firstlines"
   ]
 }

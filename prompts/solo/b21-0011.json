@@ -1,0 +1,14 @@
+{
+  "id": "b21-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A giant asking a child to help him reach the top shelf.",
+    "no": "En kjempe som ber et barn om hjelp til å nå den øverste hylla."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ]
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "status"
-  ]
+  ],
+  "callback": {
+    "en": "the squire who would rather be a chef",
+    "no": "væpneren som heller vil bli kokk"
+  }
 }

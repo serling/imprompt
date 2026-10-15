@@ -1,0 +1,18 @@
+{
+  "id": "b21-0080",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A squirrel that has forgotten where it buried its nuts.",
+    "no": "Et ekorn som har glemt hvor det gravde ned nøttene."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the forgetful squirrel",
+    "no": "det glemske ekornet"
+  }
+}

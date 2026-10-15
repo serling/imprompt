@@ -1,0 +1,17 @@
+{
+  "id": "b23-0038",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A farmer who talks to his tractor like an old friend.",
+    "no": "En bonde som snakker med traktoren sin som med en gammel venn."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the farmer who talks to his tractor",
+    "no": "bonden som snakker med traktoren"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b23-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A mountain rescuer digging someone out of the snow, with a teaspoon.",
+    "no": "En redningsmann som graver noen ut av snøen, med en teskje."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

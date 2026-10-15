@@ -1,0 +1,18 @@
+{
+  "id": "b24-0007",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A meteorologist and the small cloud she is training to rain on command.",
+    "no": "En meteorolog og den lille skyen hun lærer opp til å regne på kommando."
+  },
+  "tags": [
+    "nature",
+    "work"
+  ],
+  "callback": {
+    "en": "the rain cloud in training",
+    "no": "regnskyen i opplæring"
+  }
+}

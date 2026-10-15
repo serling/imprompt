@@ -9,5 +9,9 @@
   },
   "tags": [
     "status"
-  ]
+  ],
+  "callback": {
+    "en": "the extremely relaxed bodyguard",
+    "no": "den ekstremt avslappede livvakta"
+  }
 }

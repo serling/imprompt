@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the princess who wants to cook",
+    "no": "prinsessen som vil lage maten selv"
+  }
 }

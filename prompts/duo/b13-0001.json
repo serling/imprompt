@@ -10,5 +10,9 @@
   "tags": [
     "character",
     "fantasy"
-  ]
+  ],
+  "callback": {
+    "en": "the baby who talks in full sentences",
+    "no": "babyen som snakker i hele setninger"
+  }
 }

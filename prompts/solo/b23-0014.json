@@ -1,0 +1,14 @@
+{
+  "id": "b23-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A care-home resident tucking the night nurse into bed.",
+    "no": "En beboer på sykehjemmet som legger nattevakta til sengs."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ]
+}

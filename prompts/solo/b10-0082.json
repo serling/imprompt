@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "family"
-  ]
+  ],
+  "callback": {
+    "en": "the intern who runs the company",
+    "no": "praktikanten som styrer hele firmaet"
+  }
 }

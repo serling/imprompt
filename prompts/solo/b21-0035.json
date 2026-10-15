@@ -1,0 +1,14 @@
+{
+  "id": "b21-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "reframe",
+  "text": {
+    "en": "Testing a bed in a furniture shop, like a scientist in a lab.",
+    "no": "Å teste en seng i en møbelbutikk, som en forsker på laboratoriet."
+  },
+  "tags": [
+    "narration",
+    "physical"
+  ]
+}

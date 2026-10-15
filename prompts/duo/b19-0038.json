@@ -1,0 +1,13 @@
+{
+  "id": "b19-0038",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A teacher taking the register of a class of one.",
+    "no": "En lærer som tar opprop i en klasse med én elev."
+  },
+  "tags": [
+    "work"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "b23-0056",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A comet on its once-every-seventy-years visit to Earth.",
+    "no": "En komet på sitt besøk til jorda, én gang hvert syttiende år."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the visiting comet",
+    "no": "kometen på besøk"
+  }
+}

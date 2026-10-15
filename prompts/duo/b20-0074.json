@@ -1,0 +1,17 @@
+{
+  "id": "b20-0074",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "Two elderly scouts who still earn a badge for everything.",
+    "no": "To eldre speidere som fortsatt tar merker for alt."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the elderly scout",
+    "no": "den eldre speideren"
+  }
+}

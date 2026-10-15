@@ -1,0 +1,17 @@
+{
+  "id": "b19-0010",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A road worker and a resident who wants to adopt a pothole.",
+    "no": "En veiarbeider og en beboer som vil adoptere et hull i veien."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the person who adopted a pothole",
+    "no": "personen som adopterte et hull i veien"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b23-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A Viking chieftain asking his mum if he can go raiding.",
+    "no": "En vikinghøvding som spør mora si om han får dra på tokt."
+  },
+  "tags": [
+    "status",
+    "history",
+    "family"
+  ]
+}

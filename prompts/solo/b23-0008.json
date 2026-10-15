@@ -1,0 +1,14 @@
+{
+  "id": "b23-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A troll asking a small child for permission to cross the bridge.",
+    "no": "Et troll som spør et lite barn om lov til å gå over brua."
+  },
+  "tags": [
+    "status",
+    "fantasy"
+  ]
+}

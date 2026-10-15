@@ -1,0 +1,18 @@
+{
+  "id": "b22-0008",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A spa therapist and a client who is a hedgehog.",
+    "no": "En spaterapeut og en kunde som er et pinnsvin."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "callback": {
+    "en": "the hedgehog at the spa",
+    "no": "pinnsvinet på spaet"
+  }
+}

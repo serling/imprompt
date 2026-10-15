@@ -1,0 +1,17 @@
+{
+  "id": "b21-0053",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone just back from a week-long silent retreat.",
+    "no": "Noen som nettopp er hjemme fra en ukes stillhetsretreat."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the person back from the silent retreat",
+    "no": "personen som er hjemme fra stillhetsretreaten"
+  }
+}

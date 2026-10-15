@@ -1,0 +1,14 @@
+{
+  "id": "b22-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A pharaoh and the builder telling him the pyramid will be late.",
+    "no": "En farao og byggmesteren som må fortelle ham at pyramiden blir forsinket."
+  },
+  "tags": [
+    "past",
+    "status"
+  ]
+}

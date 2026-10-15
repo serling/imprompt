@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the person who has read one book about manners",
+    "no": "personen som har lest én bok om folkeskikk"
+  }
 }

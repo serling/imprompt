@@ -10,5 +10,9 @@
   "tags": [
     "character",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the person who only wears beige",
+    "no": "personen som bare går i beige"
+  }
 }

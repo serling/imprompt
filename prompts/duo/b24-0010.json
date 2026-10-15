@@ -1,0 +1,18 @@
+{
+  "id": "b24-0010",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A Viking running the waffle stall at the school fair, and a nervous parent helper.",
+    "no": "En viking som driver vaffelboden på skolebasaren, og en nervøs foreldrevakt."
+  },
+  "tags": [
+    "past",
+    "physical"
+  ],
+  "callback": {
+    "en": "the waffle Viking",
+    "no": "vaffelvikingen"
+  }
+}

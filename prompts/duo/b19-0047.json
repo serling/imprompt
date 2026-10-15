@@ -1,0 +1,14 @@
+{
+  "id": "b19-0047",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A post office clerk weighing a customer's parcel, which keeps getting heavier.",
+    "no": "En ekspeditør på postkontoret som veier pakken til en kunde, og den blir bare tyngre og tyngre."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

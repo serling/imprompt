@@ -1,0 +1,14 @@
+{
+  "id": "b19-0066",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A bank manager asking a child for a loan from his piggy bank.",
+    "no": "En banksjef som ber et barn om et lån fra sparegrisen hans."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

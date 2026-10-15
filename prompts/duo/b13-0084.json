@@ -9,5 +9,9 @@
   },
   "tags": [
     "fantasy"
-  ]
+  ],
+  "callback": {
+    "en": "the cat who became a landlord",
+    "no": "katten som ble utleier"
+  }
 }

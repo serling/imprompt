@@ -1,0 +1,13 @@
+{
+  "id": "b21-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "An optician testing someone's eyes, having lost their own glasses.",
+    "no": "En optiker som tester synet til noen, men har mistet sine egne briller."
+  },
+  "tags": [
+    "work"
+  ]
+}

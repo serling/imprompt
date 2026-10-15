@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the bossy pillow",
+    "no": "den sjefete puta"
+  }
 }

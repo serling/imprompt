@@ -1,0 +1,14 @@
+{
+  "id": "b21-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A queen curtseying to her hairdresser.",
+    "no": "En dronning som neier for frisøren sin."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ]
+}

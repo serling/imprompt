@@ -1,0 +1,14 @@
+{
+  "id": "b20-0050",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two strangers lost in the same forest, both unbearably smug.",
+    "no": "To fremmede som har gått seg bort i den samme skogen, begge ulidelig selvgode."
+  },
+  "tags": [
+    "nature",
+    "status"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b23-0037",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A sea serpent who has retired to a garden pond.",
+    "no": "En sjøorm som har gått av med pensjon i en hagedam."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the retired sea serpent",
+    "no": "den pensjonerte sjøormen"
+  }
+}

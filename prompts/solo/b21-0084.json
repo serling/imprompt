@@ -1,0 +1,18 @@
+{
+  "id": "b21-0084",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "Someone on their first visit to the gym, acting like a regular.",
+    "no": "Noen på sitt første besøk på treningssenteret, som later som de er stamgjest."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "callback": {
+    "en": "the gym first-timer",
+    "no": "nybegynneren på treningssenteret"
+  }
+}

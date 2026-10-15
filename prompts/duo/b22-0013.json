@@ -1,0 +1,17 @@
+{
+  "id": "b22-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "Cupid on his first day, and the woman he keeps missing.",
+    "no": "Amor på første arbeidsdag, og kvinnen han bommer på gang på gang."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the trainee Cupid",
+    "no": "Amor på prøvetid"
+  }
+}

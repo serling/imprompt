@@ -9,5 +9,9 @@
   },
   "tags": [
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the beginner who won't get off the ski lift",
+    "no": "nybegynneren som ikke vil gå av skiheisen"
+  }
 }

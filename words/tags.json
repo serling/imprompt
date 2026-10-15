@@ -49,6 +49,30 @@
       "max_words": 5,
       "tagged": false
     },
+    "wants": {
+      "label": {
+        "en": "Want",
+        "no": "Ønske"
+      },
+      "max_words": 9,
+      "tagged": false
+    },
+    "secrets": {
+      "label": {
+        "en": "Secret",
+        "no": "Hemmelighet"
+      },
+      "max_words": 12,
+      "tagged": false
+    },
+    "firstlines": {
+      "label": {
+        "en": "First line",
+        "no": "Første replikk"
+      },
+      "max_words": 12,
+      "tagged": false
+    },
     "physical": {
       "label": {
         "en": "Physical",

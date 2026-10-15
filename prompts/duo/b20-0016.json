@@ -1,0 +1,17 @@
+{
+  "id": "b20-0016",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A kraken and a travel agent, planning its first beach holiday.",
+    "no": "En kraken og en reiseagent som planlegger dens første sydenferie."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the kraken on holiday",
+    "no": "krakenen på ferie"
+  }
+}

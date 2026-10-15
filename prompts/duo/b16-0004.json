@@ -9,5 +9,9 @@
   "type": "premise",
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the vegetarian fishmonger",
+    "no": "den vegetarianske fiskehandleren"
+  }
 }

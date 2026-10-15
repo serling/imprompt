@@ -1,0 +1,18 @@
+{
+  "id": "b21-0051",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A retired sea captain who still sways on dry land.",
+    "no": "En pensjonert sjøkaptein som fortsatt gynger på land."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ],
+  "callback": {
+    "en": "the swaying sea captain",
+    "no": "den gyngende sjøkapteinen"
+  }
+}

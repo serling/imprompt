@@ -1,0 +1,14 @@
+{
+  "id": "b19-0063",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A police chief being given a parking ticket by a new recruit.",
+    "no": "En politimester som får parkeringsbot av en helt ny betjent."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

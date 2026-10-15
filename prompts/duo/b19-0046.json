@@ -1,0 +1,14 @@
+{
+  "id": "b19-0046",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A police officer directing traffic for the one car in an empty car park.",
+    "no": "En politibetjent som dirigerer trafikken for den ene bilen på en tom parkeringsplass."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

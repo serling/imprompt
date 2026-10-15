@@ -1,0 +1,17 @@
+{
+  "id": "b22-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A waffle iron and the colleague making waffles for the Friday meeting.",
+    "no": "Et vaffeljern og kollegaen som steker vafler til fredagsmøtet."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the overworked waffle iron",
+    "no": "det overarbeidede vaffeljernet"
+  }
+}

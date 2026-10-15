@@ -1,0 +1,14 @@
+{
+  "id": "b23-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A ferry captain asking a passenger to dock the ferry.",
+    "no": "En fergekaptein som ber en passasjer om å legge til kai."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

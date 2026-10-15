@@ -9,5 +9,9 @@
   },
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the cat that rides the robot vacuum",
+    "no": "katten som sitter på robotstøvsugeren"
+  }
 }

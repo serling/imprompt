@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the retired stuntman",
+    "no": "den pensjonerte stuntmannen"
+  }
 }

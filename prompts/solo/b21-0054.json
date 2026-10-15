@@ -1,0 +1,14 @@
+{
+  "id": "b21-0054",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who walks everywhere as if late for a train.",
+    "no": "Noen som går overalt som om de skal rekke et tog."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

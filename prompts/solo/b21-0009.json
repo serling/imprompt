@@ -1,0 +1,13 @@
+{
+  "id": "b21-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Someone posting a letter, insufferably cocky.",
+    "no": "Noen som legger et brev i postkassen, uutholdelig kjepphøy."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

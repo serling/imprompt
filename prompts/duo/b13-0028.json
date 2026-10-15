@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the inmate who won't leave",
+    "no": "den innsatte som nekter å dra"
+  }
 }

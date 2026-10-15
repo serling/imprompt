@@ -1,0 +1,18 @@
+{
+  "id": "b23-0039",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A very eager new church warden.",
+    "no": "En svært ivrig ny kirketjener."
+  },
+  "tags": [
+    "character",
+    "work"
+  ],
+  "callback": {
+    "en": "the eager church warden",
+    "no": "den ivrige kirketjeneren"
+  }
+}

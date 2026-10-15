@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "family"
-  ]
+  ],
+  "callback": {
+    "en": "the grandmother who wants to stay up late",
+    "no": "bestemoren som vil være lenge oppe"
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "id": "b21-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Weighing apples at the supermarket, quietly menacing.",
+    "no": "Å veie epler i butikken, stille og truende."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b22-0065",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A security guard patting down a visitor who is wearing nine coats.",
+    "no": "En vekter som visiterer en besøkende som har på seg ni frakker."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the visitor in nine coats",
+    "no": "den besøkende med ni frakker"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b23-0050",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A barn nisse, the night nobody brings the porridge.",
+    "no": "En fjøsnisse, den kvelden ingen kommer med grøten."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the barn nisse",
+    "no": "fjøsnissen"
+  }
+}

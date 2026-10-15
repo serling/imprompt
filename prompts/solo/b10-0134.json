@@ -10,5 +10,9 @@
   "tags": [
     "history",
     "physical"
-  ]
+  ],
+  "callback": {
+    "en": "the first person ever to sit on a chair",
+    "no": "den første som noensinne satte seg på en stol"
+  }
 }

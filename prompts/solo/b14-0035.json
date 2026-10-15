@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the lovesick photocopier",
+    "no": "den kjærlighetssyke kopimaskinen"
+  }
 }

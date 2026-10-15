@@ -1,0 +1,18 @@
+{
+  "id": "b20-0056",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A mosquito and a camper trying to sleep.",
+    "no": "En mygg og en campinggjest som prøver å sove."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "callback": {
+    "en": "the mosquito",
+    "no": "myggen"
+  }
+}

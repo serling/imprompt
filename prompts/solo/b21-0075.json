@@ -1,0 +1,18 @@
+{
+  "id": "b21-0075",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A hermit crab moving into a bigger shell.",
+    "no": "En eremittkreps som flytter inn i et større skall."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the hermit crab moving house",
+    "no": "eremittkrepsen som flytter"
+  }
+}

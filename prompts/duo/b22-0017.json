@@ -1,0 +1,18 @@
+{
+  "id": "b22-0017",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A wedding guest and the stranger she has seen at every wedding for twenty years.",
+    "no": "En bryllupsgjest og den fremmede hun har sett i hvert eneste bryllup i tjue år."
+  },
+  "tags": [
+    "occasion",
+    "character"
+  ],
+  "callback": {
+    "en": "the stranger from every wedding",
+    "no": "den fremmede fra alle bryllupene"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "b22-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "The Sandman and an insomniac who has tried everything.",
+    "no": "Jon Blund og en søvnløs som har prøvd alt."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the Sandman",
+    "no": "Jon Blund"
+  }
+}

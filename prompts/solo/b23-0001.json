@@ -1,0 +1,14 @@
+{
+  "id": "b23-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Knitting a woolly jumper, seething with impatience.",
+    "no": "Å strikke en ullgenser, kokende utålmodig."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

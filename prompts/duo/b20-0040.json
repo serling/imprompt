@@ -1,0 +1,13 @@
+{
+  "id": "b20-0040",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "A ski instructor and a beginner on the nursery slope, both swelling with heroic pride.",
+    "no": "En skilærer og en nybegynner i barnebakken, begge fulle av heroisk stolthet."
+  },
+  "tags": [
+    "status"
+  ]
+}

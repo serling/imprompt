@@ -1,0 +1,18 @@
+{
+  "id": "b21-0077",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A woodpecker with a headache.",
+    "no": "En hakkespett med hodepine."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ],
+  "callback": {
+    "en": "the woodpecker with a headache",
+    "no": "hakkespetten med hodepine"
+  }
+}

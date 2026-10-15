@@ -1,0 +1,18 @@
+{
+  "id": "b19-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "An HR manager and an employee filing a complaint against the office ghost.",
+    "no": "En HR-sjef og en ansatt som vil klage på kontorspøkelset."
+  },
+  "tags": [
+    "work",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the office ghost",
+    "no": "kontorspøkelset"
+  }
+}

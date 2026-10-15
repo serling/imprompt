@@ -1,0 +1,14 @@
+{
+  "id": "b21-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A firefighter sliding down the pole, but afraid of heights.",
+    "no": "En brannkonstabel som skal skli ned brannstanga, men har høydeskrekk."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

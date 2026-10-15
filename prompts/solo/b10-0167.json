@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the smug parking warden",
+    "no": "den selvgode parkeringsvakta"
+  }
 }

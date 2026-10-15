@@ -10,5 +10,9 @@
   "tags": [
     "physical",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the carsick tour guide",
+    "no": "den bilsyke guiden"
+  }
 }

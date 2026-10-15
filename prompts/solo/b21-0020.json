@@ -1,0 +1,13 @@
+{
+  "id": "b21-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A wise old monk asking the newest novice for the meaning of life.",
+    "no": "En vis gammel munk som spør den nyeste novisen om meningen med livet."
+  },
+  "tags": [
+    "status"
+  ]
+}

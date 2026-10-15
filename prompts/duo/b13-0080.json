@@ -9,5 +9,9 @@
   },
   "tags": [
     "fantasy"
-  ]
+  ],
+  "callback": {
+    "en": "the far too careful apprentice",
+    "no": "den altfor forsiktige lærlingen"
+  }
 }

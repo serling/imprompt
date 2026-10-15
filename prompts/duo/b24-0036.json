@@ -1,0 +1,15 @@
+{
+  "id": "b24-0036",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A professor carrying her PhD student's bags through the conference.",
+    "no": "En professor som bærer bagasjen til stipendiaten sin gjennom konferansen."
+  },
+  "tags": [
+    "work",
+    "status",
+    "physical"
+  ]
+}

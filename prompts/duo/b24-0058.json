@@ -1,0 +1,19 @@
+{
+  "id": "b24-0058",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A house-proud vampire and his mother-in-law, spring-cleaning the crypt.",
+    "no": "En pertentlig vampyr og svigermoren hans som vårrengjør krypten."
+  },
+  "tags": [
+    "fantasy",
+    "family",
+    "physical"
+  ],
+  "callback": {
+    "en": "the house-proud vampire",
+    "no": "den pertentlige vampyren"
+  }
+}

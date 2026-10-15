@@ -10,5 +10,9 @@
   "tags": [
     "character",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the delighted funeral director",
+    "no": "den begeistrede begravelsesagenten"
+  }
 }

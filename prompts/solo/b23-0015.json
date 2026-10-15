@@ -1,0 +1,18 @@
+{
+  "id": "b23-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A nisse sorting the wish lists, but unable to read.",
+    "no": "En nisse som sorterer ønskelister, men ikke kan lese."
+  },
+  "tags": [
+    "work",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the nisse who can't read",
+    "no": "nissen som ikke kan lese"
+  }
+}

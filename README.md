@@ -2,30 +2,37 @@
 
 Short improv prompts and scene setups, one at a time, on a phone.
 
-Three modes:
+At the start of a session, the app asks how many players there are (not counting the host).
+That number sits in a small menu at the top and can be changed any time; it decides which scenes
+and games can come up.
 
-- **Rapid fire:** round-robin prompts for one or two players. Two-player prompts come with a
-  gimmick the host can throw in.
-- **Scenes:** a setup for two, three or four players, dealt with an emotion and a gimmick the host
-  can offer as side-coaching.
+Three modes, each one row of buttons for the whole session, with the buzzer on the left:
+
+- **Rapid fire:** round-robin prompts. **New prompt** deals the next one straight away, for one
+  or two players at random; the card says which. Two-player prompts come with a gimmick the host
+  can throw in.
+- **Scenes:** **New scene** deals a setup for as many players as you have or fewer, with a
+  line for the character (an emotion; a want, what the character is after; or a secret, for the
+  host to read out or show one player) and a second line the host can offer: a gimmick, or a
+  first line to open the scene with.
+- **Games:** **New game** deals a short-form game your group is big enough for, with the
+  suggestions it needs (a location, an emotion …). How to play opens on the card.
 
 A gimmick is drawn from four separate word lists (a physical condition, a way of speaking, a
-staging rule, a tempo) and shown simply as "Gimmick".
-- **Games:** a short-form game at random, with the suggestions it needs (a location, an
-  emotion …) dealt alongside. How to play opens on the card.
+staging rule, a tempo) and shown simply as "Gimmick". The refresh icon beside a labelled line (an
+emotion, a gimmick, a game's suggestion) swaps just that one. The lines are suggestions: use one,
+several or none. The **Buzzer** only rings to call time.
 
-Tap a player count to deal. While it plays:
+Later in a session, characters from the last half hour come back in new situations.
 
-- **Buzzer:** rings to call time.
-- **Heighten:** some one-player prompts escalate step by step.
-- **Next:** a new prompt for the same number of players.
-- **Back** returns to the player count. **Skip** moves on without playing the prompt; it goes
-  back in the pile.
-- The refresh icon beside a labelled line (an emotion, a gimmick, a game's suggestion) swaps
-  just that one. The lines are suggestions: use one, several or none.
+Everything is kept on the phone only, in three parts:
 
-Later in a session, characters from earlier prompts come back in new situations. Nothing
-repeats on the same device until you tap **Reset**.
+- **Language and sound** stay until changed.
+- **Prompts and scenes already shown** are remembered across sessions. Ones not shown on this
+  phone come first; once a list has been shown in full, the ones shown longest ago come back.
+- **The session** (player count, tab, callbacks, what has been dealt tonight) ends when you tap
+  **End session**, or by itself after six hours without a new prompt. Nothing comes twice in one
+  session.
 
 ## The prompts
 
@@ -34,7 +41,7 @@ One JSON file per prompt, in `prompts/`:
 | Folder | What it holds |
 |---|---|
 | `solo/`, `duo/` | A single prompt, with an optional `callback` phrase for characters that can come back |
-| `escalations/` | Four `steps`, each a complete line; the last is a twist. The host decides how far to go. |
+| `escalations/` | Four `steps`, each a complete line; the last is a twist. Kept, but not dealt by the app at the moment. |
 | `callbacks/` | A frame with one `{character}` placeholder |
 | `scenes/` | A setup for 2, 3 or 4 `players` |
 
@@ -42,10 +49,11 @@ One JSON file per prompt, in `prompts/`:
 
 Shared word lists live in `words/`, one JSON file per word, for every mode to draw on:
 `locations/`, `occupations/`, `relationships/`, `objects/` and `styles/`; the character lists
-`emotions/` and `physical/`; the gimmicks `speech/`, `staging/` and `tempo/`; and lists games ask
+`emotions/`, `wants/`, `secrets/` and `physical/`; the gimmicks `speech/`, `staging/` and `tempo/`;
+`firstlines/`, lines of dialogue to open a scene; and lists games ask
 for: `adjectives/` (describing words that aren't feelings, tagged by aspect and tone), `titles/`, `topics/`, `activities/`, `fairytales/`, `problems/`, `animals/` and `letters/`. Scenes are dealt
-an emotion, a physical condition and a way of speaking; two-player Rapid fire prompts a way of
-speaking, a staging rule and a tempo. A word may recur; it is never used up.
+an emotion, a want or a secret (each kind equally likely), and a gimmick or a first line; two-player Rapid fire prompts a gimmick. A gimmick is drawn
+from `physical/`, `speech/`, `staging/` and `tempo/`. A word may recur; it is never used up.
 
 ```json
 { "id": "loc01-0004", "status": "draft", "text": { "en": "Hospital corridor" }, "tags": ["health", "everyday", "indoor"] }

@@ -1,0 +1,17 @@
+{
+  "id": "b19-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A landlord and a tenant who has painted the whole flat gold.",
+    "no": "En utleier og en leietaker som har malt hele leiligheten i gull."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the tenant who painted the flat gold",
+    "no": "leietakeren som malte leiligheten i gull"
+  }
+}

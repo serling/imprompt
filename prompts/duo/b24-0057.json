@@ -1,0 +1,18 @@
+{
+  "id": "b24-0057",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A chemist who has to sniff everything, and her lab partner.",
+    "no": "En kjemiker som må lukte på alt, og labpartneren hennes."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the chemist who sniffs everything",
+    "no": "kjemikeren som lukter på alt"
+  }
+}

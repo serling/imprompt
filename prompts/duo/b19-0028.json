@@ -1,0 +1,17 @@
+{
+  "id": "b19-0028",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A bank clerk with an opinion on every withdrawal, and her customer.",
+    "no": "En bankansatt som har en mening om hvert eneste uttak, og kunden hennes."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the bank clerk with opinions",
+    "no": "bankdama med meninger"
+  }
+}

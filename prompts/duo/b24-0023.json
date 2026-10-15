@@ -1,0 +1,17 @@
+{
+  "id": "b24-0023",
+  "status": "draft",
+  "players": 2,
+  "type": "origin",
+  "text": {
+    "en": "A cave chief explaining dugnad to a neighbour who has never worked for free.",
+    "no": "En hulehøvding som forklarer dugnad til en nabo som aldri har jobbet gratis."
+  },
+  "tags": [
+    "past"
+  ],
+  "callback": {
+    "en": "the Stone Age dugnad boss",
+    "no": "dugnadssjefen fra steinalderen"
+  }
+}

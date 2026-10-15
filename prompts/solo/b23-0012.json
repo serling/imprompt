@@ -1,0 +1,14 @@
+{
+  "id": "b23-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A farmer asking the farmhand if he may drive the tractor.",
+    "no": "En bonde som spør gårdsgutten om han får lov til å kjøre traktoren."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the brave jelly",
+    "no": "den modige geléen"
+  }
 }

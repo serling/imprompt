@@ -1,0 +1,18 @@
+{
+  "id": "b21-0062",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "text": {
+    "en": "Whoever came up with pockets, showing them off.",
+    "no": "Den som fant på lommer, og viser dem fram."
+  },
+  "tags": [
+    "history",
+    "physical"
+  ],
+  "callback": {
+    "en": "the inventor of the pocket",
+    "no": "oppfinneren av lomma"
+  }
+}

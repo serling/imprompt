@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the over-eager suspect",
+    "no": "den altfor tilståelsesivrige mistenkte"
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "b23-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A wistful snowplough.",
+    "no": "En vemodig brøytebil."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the wistful snowplough",
+    "no": "den vemodige brøytebilen"
+  }
+}

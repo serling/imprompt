@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the pupil who has been everywhere",
+    "no": "eleven som har vært overalt"
+  }
 }

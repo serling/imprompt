@@ -1,0 +1,18 @@
+{
+  "id": "b19-0050",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A first-aid dummy and a very nervous trainee.",
+    "no": "En førstehjelpsdukke og en veldig nervøs kursdeltaker."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the first-aid dummy",
+    "no": "førstehjelpsdukken"
+  }
+}

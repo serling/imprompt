@@ -1,0 +1,14 @@
+{
+  "id": "b19-0065",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A prison officer asking an inmate for permission to go home early.",
+    "no": "En fengselsbetjent som spør en innsatt om lov til å gå hjem tidlig."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "b20-0012",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A dance teacher and a bear, learning to waltz.",
+    "no": "En danselærer og en bjørn som skal lære å danse vals."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "callback": {
+    "en": "the waltzing bear",
+    "no": "bjørnen som danser vals"
+  }
+}

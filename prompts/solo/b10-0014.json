@@ -9,5 +9,9 @@
   },
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the person locked out in a dressing gown",
+    "no": "personen som er låst ute i morgenkåpe"
+  }
 }

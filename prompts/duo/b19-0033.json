@@ -1,0 +1,18 @@
+{
+  "id": "b19-0033",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A terribly snobbish cleaner and the family whose house she cleans.",
+    "no": "En fryktelig snobbete vaskehjelp og familien hun vasker for."
+  },
+  "tags": [
+    "work",
+    "status"
+  ],
+  "callback": {
+    "en": "the snobbish cleaner",
+    "no": "den snobbete vaskehjelpen"
+  }
+}

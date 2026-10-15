@@ -1,0 +1,17 @@
+{
+  "id": "b21-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A piano tuner tuning a grand piano, but tone-deaf.",
+    "no": "En pianostemmer som stemmer et flygel, men er tonedøv."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the tone-deaf piano tuner",
+    "no": "den tonedøve pianostemmeren"
+  }
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the tour guide with a favourite lamp post",
+    "no": "guiden med yndlingslyktestolpen"
+  }
 }

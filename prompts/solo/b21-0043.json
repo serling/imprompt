@@ -1,0 +1,17 @@
+{
+  "id": "b21-0043",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A boastful snail.",
+    "no": "En skrytete snegle."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the boastful snail",
+    "no": "den skrytete sneglen"
+  }
+}

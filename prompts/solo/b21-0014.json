@@ -1,0 +1,14 @@
+{
+  "id": "b21-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A pilot asking a passenger if it's all right to take off.",
+    "no": "En pilot som spør en passasjer om det er greit å ta av."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

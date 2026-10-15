@@ -1,0 +1,18 @@
+{
+  "id": "b23-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A dentist cleaning a dragon's teeth.",
+    "no": "En tannlege som pusser tennene til en drage."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the dragon's dentist",
+    "no": "dragetannlegen"
+  }
+}

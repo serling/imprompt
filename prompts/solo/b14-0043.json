@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the panicked statue",
+    "no": "statuen i panikk"
+  }
 }

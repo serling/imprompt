@@ -9,5 +9,9 @@
   "type": "premise",
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the hiker who is happily lost",
+    "no": "fotturisten som har gått seg vill og stortrives"
+  }
 }

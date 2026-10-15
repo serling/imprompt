@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "family"
-  ]
+  ],
+  "callback": {
+    "en": "the child negotiator",
+    "no": "barnet som er en knallhard forhandler"
+  }
 }

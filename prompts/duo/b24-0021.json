@@ -1,0 +1,17 @@
+{
+  "id": "b24-0021",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A barometer and a farmer who taps it every five minutes.",
+    "no": "Et barometer og en bonde som banker på det hvert femte minutt."
+  },
+  "tags": [
+    "nature"
+  ],
+  "callback": {
+    "en": "the barometer",
+    "no": "barometeret"
+  }
+}

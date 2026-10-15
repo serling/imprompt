@@ -1,0 +1,13 @@
+{
+  "id": "b22-0047",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A world-famous author asking a reader for her autograph.",
+    "no": "En verdensberømt forfatter som ber en leser om autografen hennes."
+  },
+  "tags": [
+    "status"
+  ]
+}

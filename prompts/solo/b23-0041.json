@@ -1,0 +1,14 @@
+{
+  "id": "b23-0041",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A scientist who measures everything before touching it.",
+    "no": "En forsker som måler alt før hun tar på det."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

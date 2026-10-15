@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the proud owner of the new shoes",
+    "no": "den stolte eieren av de nye skoene"
+  }
 }

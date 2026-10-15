@@ -1,0 +1,18 @@
+{
+  "id": "b19-0048",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A boss letting an employee go, entirely through interpretive dance.",
+    "no": "En sjef som sier opp en ansatt, bare gjennom ekspressiv dans."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the dancing boss",
+    "no": "den dansende sjefen"
+  }
+}

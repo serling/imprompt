@@ -10,5 +10,9 @@
   "tags": [
     "work",
     "narration"
-  ]
+  ],
+  "callback": {
+    "en": "the bus driver who makes up the stops",
+    "no": "bussjåføren som finner på holdeplassene"
+  }
 }

@@ -1,0 +1,17 @@
+{
+  "id": "b20-0054",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "Two suitcases on the luggage belt, one of them never collected.",
+    "no": "To kofferter på bagasjebåndet, og den ene blir aldri hentet."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the uncollected suitcase",
+    "no": "kofferten ingen henter"
+  }
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the painfully honest estate agent",
+    "no": "den smertelig ærlige eiendomsmegleren"
+  }
 }

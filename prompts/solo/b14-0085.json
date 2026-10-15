@@ -9,5 +9,9 @@
   },
   "tags": [
     "everyday"
-  ]
+  ],
+  "callback": {
+    "en": "the person practising their autograph",
+    "no": "personen som øver på autografen sin"
+  }
 }

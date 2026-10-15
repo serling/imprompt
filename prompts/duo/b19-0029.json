@@ -1,0 +1,17 @@
+{
+  "id": "b19-0029",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A dad who has just discovered sarcasm, and his teenage daughter.",
+    "no": "En pappa som nettopp har oppdaget sarkasme, og tenåringsdatteren hans."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the dad who just discovered sarcasm",
+    "no": "pappaen som nettopp har oppdaget sarkasme"
+  }
+}

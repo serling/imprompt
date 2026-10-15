@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the guest who only knows the dog",
+    "no": "gjesten som bare kjenner hunden"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "id": "b23-0031",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A squeamish Viking.",
+    "no": "En pysete viking."
+  },
+  "tags": [
+    "character",
+    "history"
+  ],
+  "callback": {
+    "en": "the squeamish Viking",
+    "no": "den pysete vikingen"
+  }
+}

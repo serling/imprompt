@@ -1,0 +1,18 @@
+{
+  "id": "b21-0055",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A newly promoted shift supervisor.",
+    "no": "En nyforfremmet skiftleder."
+  },
+  "tags": [
+    "character",
+    "status"
+  ],
+  "callback": {
+    "en": "the newly promoted shift supervisor",
+    "no": "den nyforfremmede skiftlederen"
+  }
+}

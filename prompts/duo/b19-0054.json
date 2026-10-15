@@ -1,0 +1,18 @@
+{
+  "id": "b19-0054",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A judge's gavel and a judge who loves banging it.",
+    "no": "En dommerklubbe og en dommer som elsker å slå med den."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the judge's gavel",
+    "no": "dommerklubben"
+  }
+}

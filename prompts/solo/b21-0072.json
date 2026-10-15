@@ -1,0 +1,15 @@
+{
+  "id": "b21-0072",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A sheep being sheared.",
+    "no": "En sau som blir klipt."
+  },
+  "tags": [
+    "character",
+    "nature",
+    "physical"
+  ]
+}

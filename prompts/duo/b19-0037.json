@@ -1,0 +1,17 @@
+{
+  "id": "b19-0037",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A newly retired dad following his wife round the house.",
+    "no": "En nypensjonert pappa som følger etter kona si rundt i huset."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the newly retired dad",
+    "no": "den nypensjonerte pappaen"
+  }
+}

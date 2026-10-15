@@ -1,0 +1,19 @@
+{
+  "id": "b23-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A four-year-old who insists on doing everything herself.",
+    "no": "En fireåring som insisterer på å gjøre alt selv."
+  },
+  "tags": [
+    "character",
+    "family",
+    "physical"
+  ],
+  "callback": {
+    "en": "the four-year-old who does it herself",
+    "no": "fireåringen som vil gjøre alt selv"
+  }
+}

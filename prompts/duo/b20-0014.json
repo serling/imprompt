@@ -1,0 +1,18 @@
+{
+  "id": "b20-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A birdwatcher and a rare bird who loves the attention.",
+    "no": "En fuglekikker og en sjelden fugl som elsker oppmerksomheten."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ],
+  "callback": {
+    "en": "the show-off rare bird",
+    "no": "den sjeldne fuglen som elsker oppmerksomhet"
+  }
+}

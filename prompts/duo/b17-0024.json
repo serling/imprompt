@@ -5,9 +5,13 @@
   "type": "premise",
   "text": {
     "en": "A stunt double and an actor who insists on doing everything himself.",
-    "no": "En stuntdobbel og en skuespiller som insisterer på å gjøre alt selv."
+    "no": "En stuntmann og en skuespiller som insisterer på å gjøre alt selv."
   },
   "tags": [
     "work"
-  ]
+  ],
+  "callback": {
+    "en": "the actor who does his own stunts",
+    "no": "skuespilleren som gjør alle stuntene selv"
+  }
 }

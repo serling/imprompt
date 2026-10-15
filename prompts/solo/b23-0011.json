@@ -1,0 +1,13 @@
+{
+  "id": "b23-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A priest asking a confirmand for a blessing.",
+    "no": "En prest som ber en konfirmant om velsignelse."
+  },
+  "tags": [
+    "status"
+  ]
+}

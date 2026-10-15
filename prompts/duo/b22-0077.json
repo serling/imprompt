@@ -1,0 +1,17 @@
+{
+  "id": "b22-0077",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A best man who cries at absolutely everything, and the groom.",
+    "no": "En forlover som gråter av absolutt alt, og brudgommen."
+  },
+  "tags": [
+    "occasion"
+  ],
+  "callback": {
+    "en": "the best man who cries at everything",
+    "no": "forloveren som gråter av alt"
+  }
+}

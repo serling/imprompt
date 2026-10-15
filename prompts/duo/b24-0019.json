@@ -1,0 +1,18 @@
+{
+  "id": "b24-0019",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A wheelbarrow at the spring dugnad and the neighbour who keeps overfilling it.",
+    "no": "En trillebår på vårdugnaden og naboen som fyller den altfor full gang på gang."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "callback": {
+    "en": "the overloaded wheelbarrow",
+    "no": "den overlessede trillebåra"
+  }
+}

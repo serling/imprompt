@@ -1,0 +1,18 @@
+{
+  "id": "b19-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A call-centre agent and the only caller who loves being on hold.",
+    "no": "En kundeservicemedarbeider og den eneste som ringer inn som elsker å stå i kø."
+  },
+  "tags": [
+    "work",
+    "everyday"
+  ],
+  "callback": {
+    "en": "the caller who loves being on hold",
+    "no": "personen som elsker å stå i telefonkø"
+  }
+}

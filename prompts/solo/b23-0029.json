@@ -1,0 +1,18 @@
+{
+  "id": "b23-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A touchy troll.",
+    "no": "Et nærtagende troll."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the touchy troll",
+    "no": "det nærtagende trollet"
+  }
+}

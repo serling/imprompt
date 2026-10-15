@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the wizard who has forgotten everything",
+    "no": "trollmannen som har glemt alt"
+  }
 }

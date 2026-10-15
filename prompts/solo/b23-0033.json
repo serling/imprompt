@@ -1,0 +1,18 @@
+{
+  "id": "b23-0033",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A dainty giant.",
+    "no": "En sirlig kjempe."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the dainty giant",
+    "no": "den sirlige kjempen"
+  }
+}

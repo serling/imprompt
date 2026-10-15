@@ -1,0 +1,17 @@
+{
+  "id": "b22-0021",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A bathroom scale and a man stepping on it after Christmas.",
+    "no": "En badevekt og en mann som går opp på den etter jul."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "callback": {
+    "en": "the honest bathroom scale",
+    "no": "den ærlige badevekta"
+  }
+}

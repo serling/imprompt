@@ -10,5 +10,9 @@
   "tags": [
     "work",
     "narration"
-  ]
+  ],
+  "callback": {
+    "en": "the guide who has never been to the museum",
+    "no": "guiden som aldri har vært på museet"
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "id": "b21-0060",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A deeply superstitious taxi driver.",
+    "no": "En dypt overtroisk taxisjåfør."
+  },
+  "tags": [
+    "character",
+    "work"
+  ],
+  "callback": {
+    "en": "the superstitious taxi driver",
+    "no": "den overtroiske taxisjåføren"
+  }
+}

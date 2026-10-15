@@ -1,0 +1,17 @@
+{
+  "id": "b24-0060",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A vicar who blesses everything, and her husband trying to make breakfast.",
+    "no": "En prest som velsigner alt, og mannen hennes som prøver å lage frokost."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the vicar who blesses everything",
+    "no": "presten som velsigner alt"
+  }
+}

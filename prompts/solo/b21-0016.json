@@ -1,0 +1,14 @@
+{
+  "id": "b21-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A film star holding the umbrella for their stunt double.",
+    "no": "En filmstjerne som holder paraplyen for stuntmannen sin."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

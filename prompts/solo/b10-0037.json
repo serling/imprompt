@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the person who knows one word of French",
+    "no": "personen som kan ett ord fransk"
+  }
 }

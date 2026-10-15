@@ -1,0 +1,17 @@
+{
+  "id": "b23-0034",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A sulky haystack.",
+    "no": "En furten høystakk."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the sulky haystack",
+    "no": "den furtne høystakken"
+  }
+}

@@ -9,5 +9,9 @@
   },
   "tags": [
     "nature"
-  ]
+  ],
+  "callback": {
+    "en": "the duck that won't leave the café",
+    "no": "anda som ikke vil forlate kafeen"
+  }
 }

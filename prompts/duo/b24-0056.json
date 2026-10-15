@@ -1,0 +1,18 @@
+{
+  "id": "b24-0056",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A farmer who names every potato, and her husband digging them up.",
+    "no": "En bonde som gir navn til hver eneste potet, og mannen hennes som tar dem opp."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "callback": {
+    "en": "the farmer who names every potato",
+    "no": "bonden som gir navn til hver potet"
+  }
+}

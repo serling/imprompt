@@ -1,0 +1,17 @@
+{
+  "id": "b22-0072",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A waiter who remembers every customer's whole life, and a man ordering a coffee.",
+    "no": "En kelner som husker hele livshistorien til hver gjest, og en mann som bestiller en kaffe."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the waiter who remembers everything",
+    "no": "kelneren som husker alt"
+  }
+}

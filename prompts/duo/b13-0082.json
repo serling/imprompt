@@ -9,5 +9,9 @@
   },
   "tags": [
     "fantasy"
-  ]
+  ],
+  "callback": {
+    "en": "the job-seeking dragon",
+    "no": "den jobbsøkende dragen"
+  }
 }

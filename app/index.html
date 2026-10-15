@@ -102,6 +102,7 @@ body {
 .deal { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0; background: var(--duo); color: var(--card); }
 .scenes .deal { background: var(--scene); }
 .games .deal { background: var(--game); }
+.deal-row.rapid, .deal-row.scenes, .deal-row.games { grid-auto-flow: row; grid-template-columns: 88px 1fr; }
 .mods li .kind { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--scene); }
 /* Scene setups run longer than Rapid fire prompts, and share the card with two coaching lines. */
 .text.scene { font-size: clamp(24px, 6.6vw, 32px); }
@@ -117,40 +118,32 @@ button:disabled { opacity: .45; cursor: default; }
 .person { flex: none; }
 .people { display: inline-flex; }
 .people .person + .person { margin-left: -6px; }
-/* While a prompt or scene plays, the player buttons give way to one row. Left, a third: the
-   buzzer (a reception desk bell), which only rings: it does not end anything. Right, two thirds:
-   Heighten (the next escalation step or a duo rerun, when there is one) split with Next, a new
-   prompt for the same number of players. Back, below, returns to the player buttons. */
-.end { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 2fr; grid-template-rows: minmax(0, 1fr); gap: 10px; height: 88px; }
-/* Heighten and Next are one split button: two halves of one colour with a thin divider. With
-   nothing to heighten, Next fills it. */
-.go { display: flex; min-width: 0; }
-.go button { flex: 1; min-width: 0; }
-.end button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 0; }
-/* One icon box for all three, so the labels line up. */
-.end button svg { width: 34px; height: 34px; }
-.deal .label, .end .label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
-#bigBuzz { background: var(--buzz); color: var(--buzz-fg); }
-#more { background: var(--duo); color: var(--card); border-radius: 6px 0 0 6px; }
-#more:disabled { display: none; }
-#next { background: var(--duo); color: var(--card); }
-#more:not(:disabled) + #next { border-radius: 0 6px 6px 0; border-left: 1px solid color-mix(in srgb, var(--card) 55%, transparent); }
-.scenes-on #next, .scenes-on #more { background: var(--scene); }
-.games-on #next { background: var(--game); }
-/* Bottom row while playing: Back (left) and Skip (right), both muted. */
-.bottom { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; min-height: 44px; }
-#back, #skip {
-  display: flex; align-items: center; gap: 4px; background: none; border-color: transparent; color: var(--muted);
-  font-family: var(--mono); font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
-}
-#back { padding: 10px 12px 10px 6px; }
-#skip { padding: 10px 6px 10px 12px; margin-left: auto; }
+/* Every tab is one row for the whole session: the buzzer (a reception desk bell, which only
+   rings), then what deals. Rapid fire: 1 player and 2 players. Scenes: New scene. Games: New game.
+   The group size, set once, decides which scenes and games can come up. */
+.deal .label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
+/* The buzzer is a round bell button with no label (its aria-label says Buzzer). */
+.buzz { background: var(--buzz); color: var(--buzz-fg); display: grid; place-items: center; padding: 0;
+  width: 88px; height: 88px; border-radius: 50%; }
+.buzz svg { width: 40px; height: 40px; }
+.deal svg:not(.person) { width: 32px; height: 32px; }
+/* The group size: asked once in the card, then a small select in the settings bar. */
+.group { display: flex; align-items: center; gap: 4px; height: 32px; padding: 0 4px 0 8px; margin-right: auto;
+  border: 1px solid var(--line); border-radius: 6px; color: var(--muted); }
+.group select { font-family: var(--mono); font-size: 13px; color: var(--fg); background: none;
+  border: 0; height: 30px; padding: 0 2px; }
+.picker { display: flex; justify-content: center; align-items: center; gap: 18px; margin-top: 28px; }
+.card.asking .who, .card.asking .text { text-align: center; }
+.picker .host { display: flex; flex-direction: column; align-items: center; gap: 6px; color: var(--muted);
+  font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+.picker .plus { font-size: 28px; font-weight: 400; color: var(--muted); }
+.picker .counts { display: grid; grid-template-columns: repeat(2, 88px); gap: 10px; }
+.picker .counts button { height: 52px; font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums;
+  background: var(--bg); color: var(--fg); border-color: var(--line); }
 /* The card flashes when the buzzer ends a scene. */
 @keyframes buzzflash { from { background: var(--accent); } to { background: var(--card); } }
 .card.buzzed { animation: buzzflash .9s ease-out; }
 @media (prefers-reduced-motion: reduce) { .card.buzzed { animation-duration: .01s; } }
-/* Timer: a button left of mute that cycles the time, and a bar that drains along the card's
-   bottom edge while a prompt plays. Red at zero; it never rings. */
 /* The card's tools, lower right: the stopwatch. */
 .tools { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 8px; }
 #timer {
@@ -185,14 +178,17 @@ button:disabled { opacity: .45; cursor: default; }
 .mods li { font-size: clamp(20px, 5.5vw, 26px); font-weight: 500; line-height: 1.2; }
 /* Every line under the prompt (Rapid fire's Heighten, Scenes' coaching) sits a step back from it,
    muted, each with an inline refresh icon. */
-.mods li.coach-line { font-size: clamp(19px, 5vw, 22px); color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
-/* Labelled lines (Heighten modifiers, coaching, game suggestions) hang: a wrapped line starts under
-   the text, not under the label. --label is the label column, gap included. */
-.mods li.coach-line, .game .words li { --label: 78px; padding-left: var(--label); text-indent: calc(-1 * var(--label)); }
+.mods li.coach-line { font-size: clamp(17px, 4.6vw, 20px); color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
+/* Labelled lines (coaching, game suggestions): the label in its own column, the text beside it, so a
+   wrapped line starts under the text. A label on two lines lines up with the text by its first line.
+   --label is the label column, gap included. */
+.mods li.coach-line, .game .words li { --label: 94px; display: grid; grid-template-columns: calc(var(--label) - 6px) 1fr;
+  column-gap: 6px; align-items: first baseline; }
 .game .words li { --label: 108px; }
-.mods li.coach-line .kind { display: inline-block; width: calc(var(--label) - 6px); margin-right: 6px; text-indent: 0; vertical-align: 2px; color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
+.mods li.coach-line .kind { color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
 /* Rapid fire: Heighten lines are muted like coaching, with labels and refresh in the duo blue. */
 body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--duo) 75%, var(--card)); }
+.tail { white-space: nowrap; }
 .refresh {
   display: inline-flex; vertical-align: -3px; margin-left: 2px; padding: 4px 8px; margin-block: -4px;
   background: none; border: 0; color: color-mix(in srgb, var(--scene) 75%, var(--card));
@@ -209,7 +205,7 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
   display: flex; flex-direction: column; gap: 6px; }
 .game .words li { font-size: clamp(17px, 4.5vw, 19px); font-weight: 500; line-height: 1.2;
   color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
-.game .words .kind { display: inline-block; width: calc(var(--label) - 6px); margin-right: 6px; text-indent: 0; vertical-align: 2px;
+.game .words .kind {
   font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
   color: color-mix(in srgb, var(--game) 80%, var(--card)); }
 .game .refresh { color: color-mix(in srgb, var(--game) 80%, var(--card)); }
@@ -217,10 +213,14 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
 .game summary { cursor: pointer; font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
   color: color-mix(in srgb, var(--game) 80%, var(--card)); padding: 4px 0; }
 .game details p { margin: 6px 0 0; }
+/* Other names: a step smaller, so they don't run on from the note above. */
+.game details p.aka { margin-top: 8px; font-size: 13px; }
 .status { font-family: var(--mono); font-size: 11px; color: var(--muted); text-align: center; min-height: 1.4em; }
 .status.warn { color: var(--accent); }
 @media (prefers-reduced-motion: no-preference) {
-  .text.fresh, .mods li.fresh, .words li.fresh { animation: rise .22s ease-out; }
+  .mods li.fresh, .words li.fresh { animation: rise .22s ease-out; }
+  .card.swap > :not(.tools) { animation: swap .28s cubic-bezier(.2, .7, .3, 1); }
+  @keyframes swap { from { opacity: 0; transform: translateX(14px); } to { opacity: 1; transform: none; } }
   @keyframes rise { from { opacity: .2; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 }
 </style>
@@ -230,6 +230,7 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
 
 <div class="stage">
 <div class="bar">
+  <label class="group" id="groupWrap" hidden><svg class="person" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><select id="group" aria-label="Players"></select></label>
   <button id="lang" aria-label="Language: English. Tap for Norwegian.">EN</button>
   <button id="mute" aria-label="Sound on. Tap to mute." aria-pressed="false"><svg class="when-on" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="when-muted" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 9l6 6M22 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
 </div>
@@ -241,37 +242,27 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
 <main class="card" id="card" aria-live="polite">
   <div class="who" id="who">Ready</div>
   <p class="text idle" id="text">Tap a player count for the next prompt.</p>
+  <div class="picker" id="picker" hidden></div>
   <div class="mods" id="mods" hidden><ul id="modList"></ul></div>
   <div class="game" id="game" hidden></div>
 </main>
   <div class="tools">
-  <button id="timer" aria-label="Stopwatch"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="13.5" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 13.5V9.5M9.5 3.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="label">Off</span></button>
+  <button id="timer" aria-label="Stopwatch"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="13.5" r="7.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 13.5V9.5M9.5 3.5h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="label">0:00</span></button>
   </div>
 </div>
 
 <div class="controls">
-  <div class="deal-row" id="rapidWrap">
-    <button class="deal" data-rapid="1" disabled aria-label="New prompt, 1 player"><span class="people"><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg></span><span class="label" data-count="1">1 player</span></button>
-    <button class="deal" data-rapid="2" disabled aria-label="New prompt, 2 players"><span class="people"><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg></span><span class="label" data-count="2">2 players</span></button>
-  </div>
-  <div class="end" id="endWrap" hidden>
-    <button id="bigBuzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg><span class="label" data-ui="buzzer">Buzzer</span></button>
-    <div class="go">
-      <button id="more" disabled aria-label="Heighten: next step" data-ui-aria="heightenAria"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><mask id="dialCut"><rect width="24" height="24" fill="#fff"/><path d="M12.49 13.24L14.95 14.96" stroke="#000" stroke-width="1.9" stroke-linecap="round"/></mask><circle cx="12" cy="12.9" r="6.2" fill="currentColor" mask="url(#dialCut)"/><circle cx="4.93" cy="19.97" r="0.60" fill="currentColor"/><circle cx="2.00" cy="12.90" r="0.76" fill="currentColor"/><circle cx="4.93" cy="5.83" r="0.92" fill="currentColor"/><circle cx="12.00" cy="2.90" r="1.08" fill="currentColor"/><circle cx="19.07" cy="5.83" r="1.24" fill="currentColor"/><circle cx="22.00" cy="12.90" r="1.40" fill="currentColor"/><circle cx="19.07" cy="19.97" r="1.56" fill="currentColor"/></svg><span class="label" data-ui="heighten">Heighten</span></button>
-      <button id="next" aria-label="Next: a new prompt for the same number of players"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M4.5 12h14.5M13 5.5l6.5 6.5-6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label" data-ui="next">Next</span></button>
-    </div>
+  <div class="deal-row rapid" id="rapidWrap">
+    <button id="rapidBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
+    <button class="deal" id="dealRapid" disabled aria-label="New prompt" data-ui-aria="newPrompt"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M4.5 3.5h15a2 2 0 0 1 2 2v9.5a2 2 0 0 1-2 2H11l-5 4.2v-4.2H4.5a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z" fill="currentColor"/></svg><span class="label" data-ui="newPrompt">New prompt</span></button>
   </div>
   <div class="deal-row scenes" id="scenesWrap" hidden>
-    <button class="deal" data-players="2" disabled aria-label="New scene, 2 players"><span class="people"><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg></span><span class="label" data-count="2">2 players</span></button>
-    <button class="deal" data-players="3" disabled aria-label="New scene, 3 players"><span class="people"><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg></span><span class="label" data-count="3">3 players</span></button>
-    <button class="deal" data-players="4" disabled aria-label="New scene, 4 players"><span class="people"><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><svg class="person" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg></span><span class="label" data-count="4">4 players</span></button>
+    <button id="sceneBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
+    <button class="deal" id="dealScene" disabled aria-label="New scene" data-ui-aria="newScene"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="2" y="3" width="20" height="2.6" rx="1" fill="currentColor"/><path d="M2.5 5.6h8c-.3 3.4-2 6.2-4.8 8.1 1.2 2 1.9 4.2 2 6.3H2.5z" fill="currentColor"/><path d="M21.5 5.6h-8c.3 3.4 2 6.2 4.8 8.1-1.2 2-1.9 4.2-2 6.3h5.2z" fill="currentColor"/><path d="M2 21h20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="label" data-ui="newScene">New scene</span></button>
   </div>
   <div class="deal-row games" id="gamesWrap" hidden>
+    <button id="gameBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
     <button class="deal" id="dealGame" disabled aria-label="New game" data-ui-aria="newGame"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect x="3.2" y="5.2" width="11" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.9" transform="rotate(-10 8.7 12.7)"/><rect x="9.6" y="3.4" width="11" height="15" rx="2" fill="currentColor" transform="rotate(8 15.1 10.9)"/></svg><span class="label" data-ui="newGame">New game</span></button>
-  </div>
-  <div class="bottom">
-    <button id="back" hidden><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span data-ui="back">Back</span></button>
-    <button id="skip" hidden><span data-ui="skip">Skip</span><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
   </div>
 </div>
 <div class="status" id="status"></div>

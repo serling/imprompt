@@ -1,0 +1,17 @@
+{
+  "id": "b20-0058",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A tired old rowing boat and the shiny new motorboat moored beside it.",
+    "no": "En sliten gammel robåt og den skinnende nye motorbåten som ligger fortøyd ved siden av."
+  },
+  "tags": [
+    "status"
+  ],
+  "callback": {
+    "en": "the tired old rowing boat",
+    "no": "den slitne gamle robåten"
+  }
+}

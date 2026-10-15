@@ -1,0 +1,18 @@
+{
+  "id": "b24-0055",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A husband who commentates on everything like a ski race, and his wife, sanding the boat.",
+    "no": "En ektemann som kommenterer alt som et skirenn, og kona hans, som sliper båten."
+  },
+  "tags": [
+    "family",
+    "physical"
+  ],
+  "callback": {
+    "en": "the commentating husband",
+    "no": "ektemannen som kommenterer alt"
+  }
+}

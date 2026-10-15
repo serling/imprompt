@@ -1,0 +1,17 @@
+{
+  "id": "b19-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A grandmother and the grandson she is training to cheat at cards.",
+    "no": "En bestemor og barnebarnet hun trener opp til å jukse i kort."
+  },
+  "tags": [
+    "family"
+  ],
+  "callback": {
+    "en": "the card-cheating grandmother",
+    "no": "bestemoren som jukser i kort"
+  }
+}

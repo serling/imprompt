@@ -10,5 +10,9 @@
   "tags": [
     "status",
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the dog who is cleverer than its trainer",
+    "no": "hunden som er smartere enn treneren"
+  }
 }

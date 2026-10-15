@@ -9,5 +9,9 @@
   },
   "tags": [
     "character"
-  ]
+  ],
+  "callback": {
+    "en": "the courageous teacup",
+    "no": "den tapre tekoppen"
+  }
 }

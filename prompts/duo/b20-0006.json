@@ -1,0 +1,18 @@
+{
+  "id": "b20-0006",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A farm gnome and the family who forgot his Christmas porridge.",
+    "no": "En fjøsnisse og familien som glemte julegrøten hans."
+  },
+  "tags": [
+    "fantasy",
+    "status"
+  ],
+  "callback": {
+    "en": "the farm gnome",
+    "no": "fjøsnissen"
+  }
+}

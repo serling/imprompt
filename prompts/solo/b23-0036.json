@@ -1,0 +1,18 @@
+{
+  "id": "b23-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A pensioner who drives her walker everywhere at top speed.",
+    "no": "En pensjonist som kjører rullatoren overalt i full fart."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ],
+  "callback": {
+    "en": "the speeding pensioner",
+    "no": "pensjonisten i full fart"
+  }
+}

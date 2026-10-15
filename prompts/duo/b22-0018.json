@@ -1,0 +1,17 @@
+{
+  "id": "b22-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "An astronaut landing on the moon and the man who already lives there.",
+    "no": "En astronaut som lander på månen, og mannen som allerede bor der."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the man in the moon",
+    "no": "mannen i månen"
+  }
+}

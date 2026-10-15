@@ -1,0 +1,18 @@
+{
+  "id": "b22-0073",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A man who scores everything out of ten, and the plumber fixing his sink.",
+    "no": "En mann som gir terningkast på alt, og rørleggeren som fikser vasken hans."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the man who rates everything",
+    "no": "mannen som gir terningkast på alt"
+  }
+}

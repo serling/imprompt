@@ -1,0 +1,13 @@
+{
+  "id": "b21-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A prime minister waiting nervously outside the caretaker's office.",
+    "no": "En statsminister som venter nervøst utenfor kontoret til vaktmesteren."
+  },
+  "tags": [
+    "status"
+  ]
+}

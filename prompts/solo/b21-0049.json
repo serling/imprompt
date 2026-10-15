@@ -1,0 +1,17 @@
+{
+  "id": "b21-0049",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A sulky ski instructor.",
+    "no": "En surmulende skilærer."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the sulky ski instructor",
+    "no": "den surmulende skilæreren"
+  }
+}

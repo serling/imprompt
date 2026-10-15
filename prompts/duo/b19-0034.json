@@ -1,0 +1,18 @@
+{
+  "id": "b19-0034",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A receptionist who announces every visitor like royalty, and a courier with a parcel.",
+    "no": "En resepsjonist som annonserer hver besøkende som om de var kongelige, og et bud med en pakke."
+  },
+  "tags": [
+    "work",
+    "status"
+  ],
+  "callback": {
+    "en": "the receptionist who announces everyone",
+    "no": "resepsjonisten som annonserer alle"
+  }
+}
