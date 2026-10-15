@@ -1,0 +1,40 @@
+{
+  "id": "g02-0006",
+  "status": "draft",
+  "name": {
+    "en": "Backwards Interview",
+    "no": "Baklengs intervju"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "An interview played from its last answer back to its first.",
+    "no": "Et intervju spilt fra siste svar tilbake til det første."
+  },
+  "steps": {
+    "en": [
+      "An interviewer and a guest with the job on the card.",
+      "Start with the goodbye, then play each exchange in reverse order.",
+      "End with the first question."
+    ],
+    "no": [
+      "En intervjuer og en gjest med yrket på kortet.",
+      "Start med avskjeden, og spill hver vekslingsrunde i omvendt rekkefølge.",
+      "Avslutt med det første spørsmålet."
+    ]
+  },
+  "more": {
+    "en": "The lines themselves run forwards; only their order runs backwards. Each answer has to set up what we have already heard.",
+    "no": "Replikkene i seg selv går forlengs; bare rekkefølgen går baklengs. Hvert svar må legge opp til det vi allerede har hørt."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "An auctioneer selling a single, used sock."
+    "en": "An auctioneer selling a single, used sock.",
+    "no": "En auksjonarius som selger én enkelt, brukt sokk."
   },
   "tags": [
     "work",

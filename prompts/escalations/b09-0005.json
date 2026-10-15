@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Nosy."
+      "en": "Nosy.",
+      "no": "Snokete."
     },
     {
-      "en": "Nosier."
+      "en": "Nosier.",
+      "no": "Mer snokete."
     },
     {
-      "en": "Even nosier."
+      "en": "Even nosier.",
+      "no": "Enda mer snokete."
     },
     {
-      "en": "The nosiest ever, and wearing a blindfold."
+      "en": "The nosiest ever, and wearing a blindfold.",
+      "no": "Verdens mest snokete, og har bind for øynene."
     }
   ],
   "tags": [

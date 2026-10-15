@@ -1,0 +1,42 @@
+{
+  "id": "g02-0084",
+  "status": "draft",
+  "name": {
+    "en": "185",
+    "no": "185"
+  },
+  "aliases": {
+    "en": [
+      "185 X Walk into a Bar"
+    ],
+    "no": [
+      "185 X går inn på en bar"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Line gag: 185 of something walk into a bar.",
+    "no": "Line gag: 185 av noe går inn på en bar."
+  },
+  "steps": {
+    "en": [
+      "The job on the card: 185 of them walk into a bar.",
+      "The barman says something, and players step forward with punchlines."
+    ],
+    "no": [
+      "Yrket på kortet: 185 av dem går inn på en bar.",
+      "Bartenderen sier noe, og spillerne tar et steg frem med poenger."
+    ]
+  },
+  "more": {
+    "en": "Classic set-up: \"185 plumbers walk into a bar. The barman says…\".",
+    "no": "Klassisk oppsett: «185 rørleggere går inn på en bar. Bartenderen sier …»."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

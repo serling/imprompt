@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone with too many shopping bags to open their own front door."
+    "en": "Someone with too many shopping bags to open their own front door.",
+    "no": "Noen med altfor mange handleposer til å få opp sin egen inngangsdør."
   },
   "tags": [
     "everyday",

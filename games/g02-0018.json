@@ -1,0 +1,42 @@
+{
+  "id": "g02-0018",
+  "status": "draft",
+  "name": {
+    "en": "Last Line",
+    "no": "Siste replikk"
+  },
+  "aliases": {
+    "en": [
+      "First Line Last Line"
+    ],
+    "no": [
+      "Første replikk, siste replikk"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "The scene has to end on a set line.",
+    "no": "Scenen må slutte på en bestemt replikk."
+  },
+  "steps": {
+    "en": [
+      "Agree a last line before you start; a player at the side can choose it.",
+      "Play the scene so that line lands as the natural ending."
+    ],
+    "no": [
+      "Bli enige om en siste replikk før dere starter; en spiller på siden kan velge den.",
+      "Spill scenen slik at replikken lander som den naturlige slutten."
+    ]
+  },
+  "more": {
+    "en": "Variant: set a first line too. Don't steer too early; find your way there.",
+    "no": "Variant: bestem en første replikk også. Ikke styr for tidlig; finn veien dit."
+  },
+  "asks": [
+    "locations"
+  ]
+}

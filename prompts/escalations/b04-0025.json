@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Cool."
+      "en": "Cool.",
+      "no": "Kul."
     },
     {
-      "en": "Cooler."
+      "en": "Cooler.",
+      "no": "Kulere."
     },
     {
-      "en": "Even cooler."
+      "en": "Even cooler.",
+      "no": "Enda kulere."
     },
     {
-      "en": "Wannabe cool."
+      "en": "Wannabe cool.",
+      "no": "Wannabe-kul."
     }
   ],
   "tags": [

@@ -1,0 +1,45 @@
+{
+  "id": "g02-0085",
+  "status": "draft",
+  "name": {
+    "en": "Asides",
+    "no": "Til salen"
+  },
+  "aliases": {
+    "en": [
+      "Telepathy"
+    ],
+    "no": [
+      "Telepati"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "Players step out of the scene to tell us what they really think.",
+    "no": "Spillerne går ut av scenen for å fortelle oss hva de egentlig tenker."
+  },
+  "steps": {
+    "en": [
+      "Play a scene.",
+      "At any time, a player freezes the scene and tells us what their character is thinking.",
+      "Then the scene carries on."
+    ],
+    "no": [
+      "Spill en scene.",
+      "Når som helst kan en spiller fryse scenen og fortelle oss hva karakteren tenker.",
+      "Så fortsetter scenen."
+    ]
+  },
+  "more": {
+    "en": "The aside is open to all, not a secret. Partners hear it and the scene can use it.",
+    "no": "Replikken til salen er åpen for alle, ikke en hemmelighet. Partnerne hører den, og scenen kan bruke den."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

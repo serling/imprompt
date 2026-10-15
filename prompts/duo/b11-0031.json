@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "Two penguins, one of whom has decided to fly."
+    "en": "Two penguins, one of whom has decided to fly.",
+    "no": "To pingviner, der den ene har bestemt seg for å fly."
   },
   "tags": [
     "character",

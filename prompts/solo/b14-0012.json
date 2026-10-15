@@ -1,0 +1,14 @@
+{
+  "id": "b14-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A traffic warden on her last day, handing out compliments.",
+    "no": "En parkeringsvakt på sin siste dag, som deler ut komplimenter."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

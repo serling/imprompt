@@ -4,13 +4,15 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A noble bus shelter."
+    "en": "A noble bus shelter.",
+    "no": "Et edelt busskur."
   },
   "tags": [
     "character",
     "status"
   ],
   "callback": {
-    "en": "the noble bus shelter"
+    "en": "the noble bus shelter",
+    "no": "det edle busskuret"
   }
 }

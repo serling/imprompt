@@ -1,0 +1,13 @@
+{
+  "id": "b14-0116",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A ship's captain asking a seagull for directions.",
+    "no": "En skipskaptein som spør en måke om veien."
+  },
+  "tags": [
+    "status"
+  ]
+}

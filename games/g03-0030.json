@@ -1,0 +1,42 @@
+{
+  "id": "g03-0030",
+  "status": "draft",
+  "name": {
+    "en": "Jeopardy",
+    "no": "Jeopardy"
+  },
+  "aliases": {
+    "en": [
+      "Reverse Trivial Pursuit"
+    ],
+    "no": [
+      "Omvendt Trivial Pursuit"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Given an answer, players offer the silliest questions for it.",
+    "no": "Ut fra et svar kommer spillerne med de dummeste spørsmålene til det."
+  },
+  "steps": {
+    "en": [
+      "The topic on the card is the answer.",
+      "Players step forward with questions it could answer."
+    ],
+    "no": [
+      "Temaet på kortet er svaret.",
+      "Spillerne tar et steg frem med spørsmål det kunne vært svaret på."
+    ]
+  },
+  "more": {
+    "en": "Several questions per answer, as fast as you can.",
+    "no": "Flere spørsmål per svar, så fort dere kan."
+  },
+  "asks": [
+    "topics"
+  ]
+}

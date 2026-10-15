@@ -4,7 +4,8 @@
   "players": 2,
   "type": "status-flip",
   "text": {
-    "en": "A drill sergeant and a recruit who is extremely polite."
+    "en": "A drill sergeant and a recruit who is extremely polite.",
+    "no": "En drillsersjant og en rekrutt som er ekstremt høflig."
   },
   "tags": [
     "status"

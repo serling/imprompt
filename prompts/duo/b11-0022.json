@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A dad and his daughter, building a sandcastle competitively."
+    "en": "A dad and his daughter, building a sandcastle competitively.",
+    "no": "En pappa og datteren hans som bygger sandslott om kapp."
   },
   "tags": [
     "family",

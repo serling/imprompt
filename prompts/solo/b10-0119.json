@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A hot-water bottle in the middle of summer."
+    "en": "A hot-water bottle in the middle of summer.",
+    "no": "En varmeflaske midt på sommeren."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the unwanted hot-water bottle"
+    "en": "the unwanted hot-water bottle",
+    "no": "den uønskede varmeflaska"
   }
 }

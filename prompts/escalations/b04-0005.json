@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Shy."
+      "en": "Shy.",
+      "no": "Sjenert."
     },
     {
-      "en": "Shyer."
+      "en": "Shyer.",
+      "no": "Mer sjenert."
     },
     {
-      "en": "Even shyer."
+      "en": "Even shyer.",
+      "no": "Enda mer sjenert."
     },
     {
-      "en": "The shyest ever, and hosting the party."
+      "en": "The shyest ever, and hosting the party.",
+      "no": "Verdens mest sjenerte, og er vertskap for festen."
     }
   ],
   "tags": [

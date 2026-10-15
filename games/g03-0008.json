@@ -1,0 +1,40 @@
+{
+  "id": "g03-0008",
+  "status": "draft",
+  "name": {
+    "en": "Acts of God",
+    "no": "Guds inngripen"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "A player playing god freezes the scene and gives one performer an instruction.",
+    "no": "En spiller som er gud, fryser scenen og gir én skuespiller en instruks."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player is god.",
+      "God freezes it and gives one performer a new instruction: an action, a change, gibberish.",
+      "The performer does it, and the scene carries on."
+    ],
+    "no": [
+      "Spill en scene; én spiller er gud.",
+      "Gud fryser den og gir én skuespiller en ny instruks: en handling, en endring, gibberish.",
+      "Skuespilleren gjør det, og scenen fortsetter."
+    ]
+  },
+  "more": {
+    "en": "Keep the calls spoken or physical. They should make the scene better, not just harder.",
+    "no": "Hold innropene til tale eller det fysiske. De skal gjøre scenen bedre, ikke bare vanskeligere."
+  },
+  "asks": [
+    "locations"
+  ]
+}

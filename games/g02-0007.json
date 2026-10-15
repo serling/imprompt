@@ -1,0 +1,45 @@
+{
+  "id": "g02-0007",
+  "status": "draft",
+  "name": {
+    "en": "Backwards Scene",
+    "no": "Baklengs scene"
+  },
+  "aliases": {
+    "en": [
+      "Reverse Scene"
+    ],
+    "no": [
+      "Omvendt scene"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "The story runs from its ending back to its beginning.",
+    "no": "Historien går fra slutten og tilbake til begynnelsen."
+  },
+  "steps": {
+    "en": [
+      "Start with the last moment of a scene.",
+      "Each new beat shows what happened just before.",
+      "Finish at the very first moment."
+    ],
+    "no": [
+      "Start med det siste øyeblikket i en scene.",
+      "Hvert nytt øyeblikk viser hva som skjedde rett før.",
+      "Avslutt på det aller første øyeblikket."
+    ]
+  },
+  "more": {
+    "en": "Lines are spoken normally; only events run backwards. Lay clear clues early, because they are what the scene builds back towards.",
+    "no": "Replikkene sies helt vanlig; bare hendelsene går baklengs. Legg tydelige spor tidlig, for det er dem scenen bygger seg tilbake mot."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

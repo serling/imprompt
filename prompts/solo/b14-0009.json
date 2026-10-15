@@ -1,0 +1,13 @@
+{
+  "id": "b14-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A party guest who only knows the host's dog.",
+    "no": "En festgjest som bare kjenner vertens hund."
+  },
+  "tags": [
+    "character"
+  ]
+}

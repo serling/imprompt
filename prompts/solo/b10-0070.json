@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Ordering at a drive-through, like a job interview."
+    "en": "Ordering at a drive-through, like a job interview.",
+    "no": "Å bestille i en drive-in, som et jobbintervju."
   },
   "tags": [
     "narration"

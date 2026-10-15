@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Watering a houseplant, like a doctor's ward round."
+    "en": "Watering a houseplant, like a doctor's ward round.",
+    "no": "Å vanne en potteplante, som en legevisitt på sykehuset."
   },
   "tags": [
     "narration"

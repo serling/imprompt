@@ -1,0 +1,45 @@
+{
+  "id": "g02-0079",
+  "status": "draft",
+  "name": {
+    "en": "Typewriter",
+    "no": "Skrivemaskin"
+  },
+  "aliases": {
+    "en": [
+      "Narrator"
+    ],
+    "no": [
+      "Forteller"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A narrator types the story out loud while the players act it.",
+    "no": "En forteller skriver historien høyt mens spillerne spiller den."
+  },
+  "steps": {
+    "en": [
+      "One player is the narrator, typing the story on the card in the style on the card.",
+      "The others act it out as it's told.",
+      "The narrator can revise what just happened."
+    ],
+    "no": [
+      "Én spiller er forteller og skriver historien på kortet i stilen på kortet.",
+      "De andre spiller den ut etter hvert som den blir fortalt.",
+      "Fortelleren kan endre det som nettopp skjedde."
+    ]
+  },
+  "more": {
+    "en": "The narrator controls the story; actors can surprise the narrator.",
+    "no": "Fortelleren styrer historien; skuespillerne kan overraske fortelleren."
+  },
+  "asks": [
+    "titles",
+    "styles"
+  ]
+}

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Stressed."
+      "en": "Stressed.",
+      "no": "Stresset."
     },
     {
-      "en": "More stressed."
+      "en": "More stressed.",
+      "no": "Mer stresset."
     },
     {
-      "en": "Even more stressed."
+      "en": "Even more stressed.",
+      "no": "Enda mer stresset."
     },
     {
-      "en": "The most stressed ever, and teaching yoga."
+      "en": "The most stressed ever, and teaching yoga.",
+      "no": "Verdens mest stressede, og underviser i yoga."
     }
   ],
   "tags": [

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A wannabe lawnmower."
+    "en": "A wannabe lawnmower.",
+    "no": "En wannabe-gressklipper."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the wannabe lawnmower"
+    "en": "the wannabe lawnmower",
+    "no": "wannabe-gressklipperen"
   }
 }

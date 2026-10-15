@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A dating show. The contestant is {character}."
+    "en": "A dating show. The contestant is {character}.",
+    "no": "Et datingprogram. Deltakeren er {character}."
   },
   "tags": [
     "everyday",

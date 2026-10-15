@@ -1,0 +1,45 @@
+{
+  "id": "g03-0016",
+  "status": "draft",
+  "name": {
+    "en": "Split Screen",
+    "no": "Delt skjerm"
+  },
+  "aliases": {
+    "en": [
+      "Scene with a Wall"
+    ],
+    "no": [
+      "Scene med vegg"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two characters, four players, and a wall down the middle.",
+    "no": "To karakterer, fire spillere og en vegg midt på."
+  },
+  "steps": {
+    "en": [
+      "The stage has two rooms: the places on the card. Nobody crosses the middle.",
+      "Two players play the characters on one side.",
+      "When a character leaves one room, their partner enters the other as that character."
+    ],
+    "no": [
+      "Scenen har to rom: stedene på kortet. Ingen krysser midten.",
+      "To spillere spiller karakterene på den ene siden.",
+      "Når en karakter forlater det ene rommet, kommer makkeren inn i det andre som den karakteren."
+    ]
+  },
+  "more": {
+    "en": "Match each other's voice and manner exactly.",
+    "no": "Match hverandres stemme og væremåte nøyaktig."
+  },
+  "asks": [
+    "locations",
+    "locations"
+  ]
+}

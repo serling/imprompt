@@ -1,0 +1,38 @@
+{
+  "id": "g03-0029",
+  "status": "draft",
+  "name": {
+    "en": "Confessions",
+    "no": "Tilståelser"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "A player makes a small confession; the others reply with quick lines.",
+    "no": "En spiller kommer med en liten tilståelse; de andre svarer med kjappe replikker."
+  },
+  "steps": {
+    "en": [
+      "A player steps forward and makes a small, silly confession in character.",
+      "The others step in with quick replies until they run out.",
+      "A new player makes a new confession."
+    ],
+    "no": [
+      "En spiller tar et steg frem og kommer med en liten, tullete tilståelse i rollen.",
+      "De andre trer inn med kjappe svar til de går tom.",
+      "En ny spiller kommer med en ny tilståelse."
+    ]
+  },
+  "more": {
+    "en": "Keep confessions small and harmless.",
+    "no": "Hold tilståelsene små og harmløse."
+  },
+  "asks": []
+}

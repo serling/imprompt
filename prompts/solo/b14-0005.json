@@ -1,0 +1,13 @@
+{
+  "id": "b14-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A lighthouse keeper on his first day off in thirty years.",
+    "no": "En fyrvokter på sin første fridag på tretti år."
+  },
+  "tags": [
+    "character"
+  ]
+}

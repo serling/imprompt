@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "An overconfident teabag."
+    "en": "An overconfident teabag.",
+    "no": "En altfor selvsikker tepose."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the overconfident teabag"
+    "en": "the overconfident teabag",
+    "no": "den altfor selvsikre teposen"
   }
 }

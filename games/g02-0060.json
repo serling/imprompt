@@ -1,0 +1,41 @@
+{
+  "id": "g02-0060",
+  "status": "draft",
+  "name": {
+    "en": "Evil Twin",
+    "no": "Ond tvilling"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two evil twins can step in and cause trouble that the originals must fix.",
+    "no": "To onde tvillinger kan hoppe inn og lage trøbbel som originalene må rydde opp i."
+  },
+  "steps": {
+    "en": [
+      "Two players play a scene; two others stand behind them as their evil twins.",
+      "An evil twin may tag in and make a bad choice for their twin.",
+      "When they tag out, the original must deal with it."
+    ],
+    "no": [
+      "To spillere spiller en scene; to andre står bak dem som deres onde tvillinger.",
+      "En ond tvilling kan klappe seg inn og ta et dårlig valg for tvillingen sin.",
+      "Når tvillingen klapper seg ut, må originalen håndtere det."
+    ]
+  },
+  "more": {
+    "en": "Twins: mischief, not sabotage. Originals: find the good in the mess.",
+    "no": "Tvillinger: ugagn, ikke sabotasje. Originaler: finn det gode i rotet."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

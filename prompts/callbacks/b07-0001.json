@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A job interview. The candidate is {character}."
+    "en": "A job interview. The candidate is {character}.",
+    "no": "Et jobbintervju. Kandidaten er {character}."
   },
   "tags": [
     "work",

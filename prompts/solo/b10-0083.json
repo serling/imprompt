@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A surgeon asking the patient for help with the stitches."
+    "en": "A surgeon asking the patient for help with the stitches.",
+    "no": "En kirurg som ber pasienten om hjelp med stingene."
   },
   "tags": [
     "status",

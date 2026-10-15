@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "An intern who has been put in charge of the whole company."
+    "en": "An intern who has been put in charge of the whole company.",
+    "no": "En praktikant som har fått ansvaret for hele firmaet."
   },
   "tags": [
     "status",

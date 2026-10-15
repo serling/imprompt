@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "A therapy session. The patient is {character}."
+    "en": "A therapy session. The patient is {character}.",
+    "no": "En terapitime. Pasienten er {character}."
   },
   "tags": [
     "work",

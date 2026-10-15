@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The invention of the handshake."
+    "en": "The invention of the handshake.",
+    "no": "Oppfinnelsen av håndtrykket."
   },
   "tags": [
     "history",

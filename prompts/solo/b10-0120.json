@@ -4,13 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A hamster on its wheel, convinced it's nearly there."
+    "en": "A hamster on its wheel, convinced it's nearly there.",
+    "no": "En hamster i hjulet, overbevist om at den snart er fremme."
   },
   "tags": [
     "character",
     "nature"
   ],
   "callback": {
-    "en": "the hamster on the wheel"
+    "en": "the hamster on the wheel",
+    "no": "hamsteren i hjulet"
   }
 }

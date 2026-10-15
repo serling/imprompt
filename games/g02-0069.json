@@ -1,0 +1,46 @@
+{
+  "id": "g02-0069",
+  "status": "draft",
+  "name": {
+    "en": "Party Quirks",
+    "no": "Festsærheter"
+  },
+  "aliases": {
+    "en": [
+      "Party Labels"
+    ],
+    "no": [
+      "Party Quirks"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "A host's guests each have a quirk the host must guess.",
+    "no": "Gjestene til en vert har hver sin særhet som verten må gjette."
+  },
+  "steps": {
+    "en": [
+      "Send the host out of earshot.",
+      "Each guest takes a quirk: one from each line on the card.",
+      "The party starts, and the host guesses each guest's quirk."
+    ],
+    "no": [
+      "Send verten ut av hørevidde.",
+      "Hver gjest tar en særhet: én fra hver linje på kortet.",
+      "Festen starter, og verten gjetter hver gjests særhet."
+    ]
+  },
+  "more": {
+    "en": "Guests: show more of it until the host gets it. A guest who's been guessed can leave.",
+    "no": "Gjester: vis mer av den til verten skjønner det. En gjest som er gjettet, kan gå."
+  },
+  "asks": [
+    "occupations",
+    "emotions",
+    "physical"
+  ]
+}

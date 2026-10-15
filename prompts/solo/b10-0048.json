@@ -4,7 +4,8 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A football commentator covering a game of musical chairs."
+    "en": "A football commentator covering a game of musical chairs.",
+    "no": "En fotballkommentator som kommenterer en runde stoleleken."
   },
   "tags": [
     "work"

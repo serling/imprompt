@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A Christmas tree on the sixth of January."
+    "en": "A Christmas tree on the sixth of January.",
+    "no": "Et juletre den sjette januar."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the Christmas tree"
+    "en": "the Christmas tree",
+    "no": "juletreet"
   }
 }

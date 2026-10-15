@@ -1,0 +1,45 @@
+{
+  "id": "g02-0091",
+  "status": "draft",
+  "name": {
+    "en": "Foreign Film",
+    "no": "Utenlandsk film"
+  },
+  "aliases": {
+    "en": [
+      "Subtitles"
+    ],
+    "no": [
+      "Undertekster"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Actors play in gibberish; translators turn each line into English.",
+    "no": "Skuespillerne spiller på gibberish; oversettere gjør hver replikk om til norsk."
+  },
+  "steps": {
+    "en": [
+      "Two actors play a scene in gibberish.",
+      "Two translators at the side translate each line.",
+      "The style on the card sets the film's genre."
+    ],
+    "no": [
+      "To skuespillere spiller en scene på gibberish.",
+      "To oversettere på siden oversetter hver replikk.",
+      "Stilen på kortet bestemmer filmens sjanger."
+    ]
+  },
+  "more": {
+    "en": "Translators: bold. Actors: react to what the translation says.",
+    "no": "Oversettere: frimodige. Skuespillere: reager på det oversettelsen sier."
+  },
+  "asks": [
+    "locations",
+    "styles"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "g02-0094",
+  "status": "draft",
+  "name": {
+    "en": "Little Voice",
+    "no": "Den lille stemmen"
+  },
+  "aliases": {
+    "en": [
+      "The Voice"
+    ],
+    "no": [
+      "Stemmen"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "An unseen voice talks to one character, who answers it.",
+    "no": "En usynlig stemme snakker til én karakter, som svarer."
+  },
+  "steps": {
+    "en": [
+      "One player is the voice, heard by only one character.",
+      "Play a scene where that character listens and answers."
+    ],
+    "no": [
+      "Én spiller er stemmen, som bare én karakter hører.",
+      "Spill en scene der den karakteren lytter og svarer."
+    ]
+  },
+  "more": {
+    "en": "The other character can't hear the voice, but sees them answering.",
+    "no": "Den andre karakteren hører ikke stemmen, men ser at det blir svart."
+  },
+  "asks": [
+    "locations"
+  ]
+}

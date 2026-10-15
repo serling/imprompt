@@ -1,0 +1,38 @@
+{
+  "id": "g02-0026",
+  "status": "draft",
+  "name": {
+    "en": "Rituals",
+    "no": "Ritualer"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "An everyday activity performed as a grand, solemn ritual.",
+    "no": "En hverdagslig aktivitet utført som et storslått, høytidelig ritual."
+  },
+  "steps": {
+    "en": [
+      "Take the activity on the card.",
+      "Perform it as an ancient ceremony with roles, chants and rules."
+    ],
+    "no": [
+      "Ta aktiviteten på kortet.",
+      "Utfør den som en eldgammel seremoni med roller, messende remser og regler."
+    ]
+  },
+  "more": {
+    "en": "Chant in a speaking voice. Treat every tiny step as sacred.",
+    "no": "Mess med vanlig talestemme. Behandle hvert lille steg som hellig."
+  },
+  "asks": [
+    "activities"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Ordering a late-night kebab, like a state banquet."
+    "en": "Ordering a late-night kebab, like a state banquet.",
+    "no": "Å bestille kebab sent på natta, som en statsbankett."
   },
   "tags": [
     "everyday",

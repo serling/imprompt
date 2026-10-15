@@ -1,0 +1,42 @@
+{
+  "id": "g02-0076",
+  "status": "draft",
+  "name": {
+    "en": "One Word Story",
+    "no": "Ett ord om gangen"
+  },
+  "aliases": {
+    "en": [
+      "Word at a Time Story"
+    ],
+    "no": [
+      "Historie ett ord om gangen"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Players build a story one word each.",
+    "no": "Spillerne bygger en historie med ett ord hver."
+  },
+  "steps": {
+    "en": [
+      "Stand in a circle.",
+      "Each player adds one word to the story on the card."
+    ],
+    "no": [
+      "Stå i ring.",
+      "Hver spiller legger til ett ord i historien på kortet."
+    ]
+  },
+  "more": {
+    "en": "Follow, don't lead: let the story surprise you.",
+    "no": "Følg, ikke led: la historien overraske deg."
+  },
+  "asks": [
+    "titles"
+  ]
+}

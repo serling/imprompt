@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "Newlyweds who have just found out they both snore."
+    "en": "Newlyweds who have just found out they both snore.",
+    "no": "Et nygift par som nettopp har oppdaget at de begge snorker."
   },
   "tags": [
     "family"

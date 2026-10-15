@@ -1,0 +1,13 @@
+{
+  "id": "b14-0123",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A tour guide pointing out the sights from inside a submarine.",
+    "no": "En turistguide som viser fram severdighetene fra innsiden av en ubåt."
+  },
+  "tags": [
+    "work"
+  ]
+}

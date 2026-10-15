@@ -1,0 +1,45 @@
+{
+  "id": "g01-0007",
+  "status": "draft",
+  "name": {
+    "en": "Sit Stand Lie",
+    "no": "Sitte, stå, ligge"
+  },
+  "aliases": {
+    "en": [
+      "Sit Stand Lay"
+    ],
+    "no": [
+      "Sitt, stå, ligg"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "One player always sits, one stands and one lies down.",
+    "no": "Én spiller sitter alltid, én står og én ligger."
+  },
+  "steps": {
+    "en": [
+      "Three players start a scene: one sitting, one standing, one lying down.",
+      "When one player changes position, the others change too, so all three stay different.",
+      "Every change needs a reason in the scene."
+    ],
+    "no": [
+      "Tre spillere starter en scene: én sitter, én står, én ligger.",
+      "Når én spiller bytter stilling, bytter de andre også, så alle tre er forskjellige.",
+      "Hvert bytte trenger en grunn i scenen."
+    ]
+  },
+  "more": {
+    "en": "With four players, add kneeling.",
+    "no": "Med fire spillere legger dere til å knele."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A postman delivering letters, reading every one aloud."
+    "en": "A postman delivering letters, reading every one aloud.",
+    "no": "Et postbud som leverer brev og leser hvert eneste ett høyt."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the postman who reads the post"
+    "en": "the postman who reads the post",
+    "no": "postbudet som leser posten"
   }
 }

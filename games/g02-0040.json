@@ -1,0 +1,41 @@
+{
+  "id": "g02-0040",
+  "status": "draft",
+  "name": {
+    "en": "Monkey in the Middle",
+    "no": "Apen i midten"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 4,
+    "max": 5
+  },
+  "summary": {
+    "en": "One player shuttles between two scenes.",
+    "no": "Én spiller pendler mellom to scener."
+  },
+  "steps": {
+    "en": [
+      "Two scenes run side by side; one player belongs to both.",
+      "On the call, the middle player switches to the other scene.",
+      "The scenes pick up where they left off."
+    ],
+    "no": [
+      "To scener går side om side; én spiller hører til begge.",
+      "På innropet bytter spilleren i midten til den andre scenen.",
+      "Scenene fortsetter der de slapp."
+    ]
+  },
+  "more": {
+    "en": "One place on the card for each scene. What happens in one can leak into the other.",
+    "no": "Ett sted fra kortet til hver scene. Det som skjer i den ene, kan sive over i den andre."
+  },
+  "asks": [
+    "locations",
+    "locations"
+  ]
+}

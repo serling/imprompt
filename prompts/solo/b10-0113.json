@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone eating a bowl of cereal, mortified."
+    "en": "Someone eating a bowl of cereal, mortified.",
+    "no": "Noen som spiser en bolle frokostblanding, dødsflau."
   },
   "tags": [
     "everyday"

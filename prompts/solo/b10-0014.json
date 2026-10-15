@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone locked out of their house in a dressing gown."
+    "en": "Someone locked out of their house in a dressing gown.",
+    "no": "Noen som er låst ute av huset sitt i morgenkåpe."
   },
   "tags": [
     "everyday"

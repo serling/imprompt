@@ -1,0 +1,43 @@
+{
+  "id": "g02-0088",
+  "status": "draft",
+  "name": {
+    "en": "Conscience",
+    "no": "Samvittighet"
+  },
+  "aliases": {
+    "en": [
+      "Inner Voice"
+    ],
+    "no": [
+      "Indre stemme"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two extra players voice the characters' inner thoughts.",
+    "no": "To ekstra spillere gir stemme til karakterenes indre tanker."
+  },
+  "steps": {
+    "en": [
+      "Two players play a scene.",
+      "Two others stand behind them and speak their characters' thoughts."
+    ],
+    "no": [
+      "To spillere spiller en scene.",
+      "To andre står bak dem og sier karakterenes tanker høyt."
+    ]
+  },
+  "more": {
+    "en": "The thoughts are heard by everyone, characters included.",
+    "no": "Tankene høres av alle, også karakterene."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

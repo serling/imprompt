@@ -1,0 +1,42 @@
+{
+  "id": "g02-0059",
+  "status": "draft",
+  "name": {
+    "en": "Blind Freeze",
+    "no": "Blind freeze"
+  },
+  "aliases": {
+    "en": [
+      "Double Blind Freeze"
+    ],
+    "no": [
+      "Dobbelt blind freeze"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 8
+  },
+  "summary": {
+    "en": "Freeze Tag where the incoming player can't see the pose they take.",
+    "no": "Freeze der spilleren som kommer inn, ikke kan se posituren hen tar."
+  },
+  "steps": {
+    "en": [
+      "Players wait with their backs to the scene.",
+      "One calls freeze, turns, taps a player out and takes their pose at once.",
+      "They start a new scene from it."
+    ],
+    "no": [
+      "Spillerne venter med ryggen mot scenen.",
+      "Én roper frys, snur seg, klapper en spiller ut og tar posituren med én gang.",
+      "Så starter hen en ny scene fra den."
+    ]
+  },
+  "more": {
+    "en": "No time to plan: whatever you see is the scene.",
+    "no": "Ingen tid til å planlegge: det du ser, er scenen."
+  },
+  "asks": []
+}

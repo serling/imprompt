@@ -1,0 +1,40 @@
+{
+  "id": "g02-0070",
+  "status": "draft",
+  "name": {
+    "en": "Press Conference",
+    "no": "Pressekonferanse"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "A player holds a press conference without knowing who they are.",
+    "no": "En spiller holder pressekonferanse uten å vite hvem hen er."
+  },
+  "steps": {
+    "en": [
+      "Send one player out of earshot.",
+      "The reporters agree who the player is and what they are announcing.",
+      "Reporters ask questions until the player works it out."
+    ],
+    "no": [
+      "Send én spiller ut av hørevidde.",
+      "Journalistene blir enige om hvem spilleren er og hva hen kunngjør.",
+      "Journalistene stiller spørsmål til spilleren har skjønt det."
+    ]
+  },
+  "more": {
+    "en": "The job on the card gives the person; the reporters decide the announcement.",
+    "no": "Yrket på kortet gir personen; journalistene bestemmer kunngjøringen."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

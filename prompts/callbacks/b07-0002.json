@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A wedding speech. The best man is {character}."
+    "en": "A wedding speech. The best man is {character}.",
+    "no": "En bryllupstale. Forloveren er {character}."
   },
   "tags": [
     "family",

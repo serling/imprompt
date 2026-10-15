@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "The evening weather forecast. The presenter is {character}."
+    "en": "The evening weather forecast. The presenter is {character}.",
+    "no": "Kveldens værmelding. Værmelderen er {character}."
   },
   "tags": [
     "work",

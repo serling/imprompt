@@ -1,0 +1,44 @@
+{
+  "id": "g01-0008",
+  "status": "draft",
+  "name": {
+    "en": "Helping Hands",
+    "no": "Hjelpende hender"
+  },
+  "aliases": {
+    "en": [
+      "Arms Expert"
+    ],
+    "no": [
+      "Armekspert"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "One player talks; the player behind them supplies the hands.",
+    "no": "Én spiller snakker; spilleren bak står for hendene."
+  },
+  "steps": {
+    "en": [
+      "One player stands with their hands behind their back.",
+      "Another stands close behind and puts their arms through, as the first player's arms.",
+      "The first player gives an expert talk or demonstration and explains whatever the hands do."
+    ],
+    "no": [
+      "Én spiller står med hendene på ryggen.",
+      "En annen stiller seg tett bak og stikker armene fram, som den førstes armer.",
+      "Den første spilleren holder et ekspertforedrag eller en demonstrasjon og forklarer alt hendene gjør."
+    ]
+  },
+  "more": {
+    "en": "A third player can interview the expert.",
+    "no": "En tredje spiller kan intervjue eksperten."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

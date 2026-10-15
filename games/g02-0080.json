@@ -1,0 +1,43 @@
+{
+  "id": "g02-0080",
+  "status": "draft",
+  "name": {
+    "en": "Word at a Time Scene",
+    "no": "Scene ett ord om gangen"
+  },
+  "aliases": {
+    "en": [
+      "Word at a Time Conversation"
+    ],
+    "no": [
+      "Samtale ett ord om gangen"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "Two characters, each played by several players speaking one word at a time.",
+    "no": "To karakterer, hver spilt av flere spillere som snakker ett ord om gangen."
+  },
+  "steps": {
+    "en": [
+      "Two groups each form one character.",
+      "They play a scene, each group speaking one word per player."
+    ],
+    "no": [
+      "To grupper danner hver sin karakter.",
+      "De spiller en scene, og hver gruppe sier ett ord per spiller."
+    ]
+  },
+  "more": {
+    "en": "Stay together physically, as one character.",
+    "no": "Hold dere fysisk sammen, som én karakter."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

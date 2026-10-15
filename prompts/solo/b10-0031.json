@@ -4,7 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "Someone wearing glasses for the very first time."
+    "en": "Someone wearing glasses for the very first time.",
+    "no": "Noen som bruker briller for aller første gang."
   },
   "tags": [
     "character",

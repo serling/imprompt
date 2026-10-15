@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Sarcastic."
+      "en": "Sarcastic.",
+      "no": "Sarkastisk."
     },
     {
-      "en": "More sarcastic."
+      "en": "More sarcastic.",
+      "no": "Mer sarkastisk."
     },
     {
-      "en": "Even more sarcastic."
+      "en": "Even more sarcastic.",
+      "no": "Enda mer sarkastisk."
     },
     {
-      "en": "Suddenly completely sincere."
+      "en": "Suddenly completely sincere.",
+      "no": "Plutselig helt oppriktig."
     }
   ],
   "tags": [

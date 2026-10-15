@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A headteacher being told off by a pupil for being late."
+    "en": "A headteacher being told off by a pupil for being late.",
+    "no": "En rektor som får kjeft av en elev for å komme for sent."
   },
   "tags": [
     "status"

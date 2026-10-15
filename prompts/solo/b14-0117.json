@@ -1,0 +1,13 @@
+{
+  "id": "b14-0117",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A police officer having their rights read by a toddler.",
+    "no": "En politibetjent som får rettighetene sine lest opp av en smårolling."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b13-0117",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A head chef being taught to boil an egg by the dishwasher.",
+    "no": "En kjøkkensjef som får lære å koke egg av oppvaskeren."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

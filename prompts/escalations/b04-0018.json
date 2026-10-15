@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Happy."
+      "en": "Happy.",
+      "no": "Glad."
     },
     {
-      "en": "Happier."
+      "en": "Happier.",
+      "no": "Gladere."
     },
     {
-      "en": "Even happier."
+      "en": "Even happier.",
+      "no": "Enda gladere."
     },
     {
-      "en": "The happiest ever, at a funeral."
+      "en": "The happiest ever, at a funeral.",
+      "no": "Verdens gladeste, i en begravelse."
     }
   ],
   "tags": [

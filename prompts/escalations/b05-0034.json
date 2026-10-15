@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Moody."
+      "en": "Moody.",
+      "no": "Lunefull."
     },
     {
-      "en": "Moodier."
+      "en": "Moodier.",
+      "no": "Mer lunefull."
     },
     {
-      "en": "Even moodier."
+      "en": "Even moodier.",
+      "no": "Enda mer lunefull."
     },
     {
-      "en": "The moodiest ever, and reading the weather forecast."
+      "en": "The moodiest ever, and reading the weather forecast.",
+      "no": "Verdens mest lunefulle, og leser opp værmeldingen."
     }
   ],
   "tags": [

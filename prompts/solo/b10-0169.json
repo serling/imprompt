@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A paranoid ice-cream van."
+    "en": "A paranoid ice-cream van.",
+    "no": "En paranoid isbil."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the paranoid ice-cream van"
+    "en": "the paranoid ice-cream van",
+    "no": "den paranoide isbilen"
   }
 }

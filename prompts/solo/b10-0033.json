@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A former child star, now at the post office."
+    "en": "A former child star, now at the post office.",
+    "no": "En tidligere barnestjerne, nå på postkontoret."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the former child star"
+    "en": "the former child star",
+    "no": "den tidligere barnestjerna"
   }
 }

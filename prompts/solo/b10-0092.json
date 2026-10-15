@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A chief executive asking the receptionist how the company works."
+    "en": "A chief executive asking the receptionist how the company works.",
+    "no": "En toppsjef som spør resepsjonisten hvordan firmaet fungerer."
   },
   "tags": [
     "status",

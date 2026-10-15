@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Romantic."
+      "en": "Romantic.",
+      "no": "Romantisk."
     },
     {
-      "en": "More romantic."
+      "en": "More romantic.",
+      "no": "Mer romantisk."
     },
     {
-      "en": "Even more romantic."
+      "en": "Even more romantic.",
+      "no": "Enda mer romantisk."
     },
     {
-      "en": "Ex-romantic."
+      "en": "Ex-romantic.",
+      "no": "Eks-romantisk."
     }
   ],
   "tags": [

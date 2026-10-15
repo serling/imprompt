@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "An orchestra conductor taking the tempo from the triangle player."
+    "en": "An orchestra conductor taking the tempo from the triangle player.",
+    "no": "En dirigent som tar tempoet fra triangelspilleren."
   },
   "tags": [
     "status",

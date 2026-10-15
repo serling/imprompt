@@ -1,0 +1,41 @@
+{
+  "id": "g02-0009",
+  "status": "draft",
+  "name": {
+    "en": "Death in a Minute",
+    "no": "Død på ett minutt"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "A one-minute scene in which somebody has to die.",
+    "no": "En scene på ett minutt der noen må dø."
+  },
+  "steps": {
+    "en": [
+      "Set a one-minute timer and start a scene.",
+      "Before time runs out, one character must die.",
+      "Make the death follow from the scene."
+    ],
+    "no": [
+      "Sett en tidtaker på ett minutt og start en scene.",
+      "Før tiden er ute, må én karakter dø.",
+      "La døden følge av scenen."
+    ]
+  },
+  "more": {
+    "en": "The fun is in the build-up: the audience knows it's coming, the characters don't.",
+    "no": "Moroa ligger i oppbyggingen: publikum vet at det kommer, karakterene gjør ikke det."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

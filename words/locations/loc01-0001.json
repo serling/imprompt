@@ -1,0 +1,13 @@
+{
+  "id": "loc01-0001",
+  "status": "approved",
+  "text": {
+    "en": "Elevator",
+    "no": "Heis"
+  },
+  "tags": [
+    "public",
+    "everyday",
+    "indoor"
+  ]
+}

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Grateful."
+      "en": "Grateful.",
+      "no": "Takknemlig."
     },
     {
-      "en": "More grateful."
+      "en": "More grateful.",
+      "no": "Mer takknemlig."
     },
     {
-      "en": "Even more grateful."
+      "en": "Even more grateful.",
+      "no": "Enda mer takknemlig."
     },
     {
-      "en": "The most grateful ever, for a parking ticket."
+      "en": "The most grateful ever, for a parking ticket.",
+      "no": "Verdens mest takknemlige, for en parkeringsbot."
     }
   ],
   "tags": [

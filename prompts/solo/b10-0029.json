@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A noble car-park attendant."
+    "en": "A noble car-park attendant.",
+    "no": "En edel parkeringsvakt."
   },
   "tags": [
     "character",
     "status"
   ],
   "callback": {
-    "en": "the noble car-park attendant"
+    "en": "the noble car-park attendant",
+    "no": "den edle parkeringsvakta"
   }
 }

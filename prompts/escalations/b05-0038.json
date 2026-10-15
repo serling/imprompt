@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Worried."
+      "en": "Worried.",
+      "no": "Bekymret."
     },
     {
-      "en": "More worried."
+      "en": "More worried.",
+      "no": "Mer bekymret."
     },
     {
-      "en": "Even more worried."
+      "en": "Even more worried.",
+      "no": "Enda mer bekymret."
     },
     {
-      "en": "The most worried ever, and the lifeguard."
+      "en": "The most worried ever, and the lifeguard.",
+      "no": "Verdens mest bekymrede, og er badevakt."
     }
   ],
   "tags": [

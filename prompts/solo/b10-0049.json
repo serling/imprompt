@@ -4,7 +4,8 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A cashier scanning each item like a newborn baby."
+    "en": "A cashier scanning each item like a newborn baby.",
+    "no": "En kasserer som skanner hver vare som om den var en nyfødt baby."
   },
   "tags": [
     "work",

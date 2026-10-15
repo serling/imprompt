@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A tour guide following the tourists."
+    "en": "A tour guide following the tourists.",
+    "no": "En turistguide som går etter turistene."
   },
   "tags": [
     "status"

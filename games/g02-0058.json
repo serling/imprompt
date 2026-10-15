@@ -1,0 +1,40 @@
+{
+  "id": "g02-0058",
+  "status": "draft",
+  "name": {
+    "en": "Word Replay",
+    "no": "Ordrepris"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Each replay shrinks the dialogue: three words, one word, silence.",
+    "no": "Hver repris krymper dialogen: tre ord, ett ord, stillhet."
+  },
+  "steps": {
+    "en": [
+      "Play a scene.",
+      "Replay it with three-word sentences.",
+      "Then single words, then no words at all."
+    ],
+    "no": [
+      "Spill en scene.",
+      "Spill den om igjen med setninger på tre ord.",
+      "Så enkeltord, så ingen ord i det hele tatt."
+    ]
+  },
+  "more": {
+    "en": "Keep the story; only the words shrink.",
+    "no": "Behold historien; bare ordene krymper."
+  },
+  "asks": [
+    "locations"
+  ]
+}

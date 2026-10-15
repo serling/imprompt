@@ -1,0 +1,44 @@
+{
+  "id": "g02-0099",
+  "status": "draft",
+  "name": {
+    "en": "Superheroes",
+    "no": "Superhelter"
+  },
+  "aliases": {
+    "en": [
+      "Superhero Helpers"
+    ],
+    "no": [
+      "Superhelthjelpere"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Heroes arrive one by one to fix a mundane crisis.",
+    "no": "Helter kommer én etter én for å løse en hverdagslig krise."
+  },
+  "steps": {
+    "en": [
+      "One player starts as a hero facing the problem on the card.",
+      "Each new arrival is named and given a power by the last.",
+      "Together, they solve the problem."
+    ],
+    "no": [
+      "Én spiller starter som en helt som står overfor problemet på kortet.",
+      "Hver ny som kommer, får navn og superkraft av den forrige.",
+      "Sammen løser de problemet."
+    ]
+  },
+  "more": {
+    "en": "Each power should be a little useless.",
+    "no": "Hver superkraft bør være litt ubrukelig."
+  },
+  "asks": [
+    "problems"
+  ]
+}

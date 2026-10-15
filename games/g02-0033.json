@@ -1,0 +1,45 @@
+{
+  "id": "g02-0033",
+  "status": "draft",
+  "name": {
+    "en": "Verses",
+    "no": "Vers"
+  },
+  "aliases": {
+    "en": [
+      "Scene in Verse",
+      "Rhymes"
+    ],
+    "no": [
+      "Scene på vers",
+      "Rim"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Dialogue spoken in rhyming lines.",
+    "no": "Dialog på rim."
+  },
+  "steps": {
+    "en": [
+      "Play a scene where every line rhymes with the one before.",
+      "Keep it spoken, like poetry."
+    ],
+    "no": [
+      "Spill en scene der hver replikk rimer på den før.",
+      "Hold det talt, som poesi."
+    ]
+  },
+  "more": {
+    "en": "A weak rhyme kept moving beats a long pause. Variant: each player rhymes with their own previous line.",
+    "no": "Et svakt rim som holder flyten, slår en lang pause. Variant: hver spiller rimer på sin egen forrige replikk."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A sat-nav that's sure it knows a shortcut."
+    "en": "A sat-nav that's sure it knows a shortcut.",
+    "no": "En GPS som er sikker på at den kan en snarvei."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the sat-nav with the shortcut"
+    "en": "the sat-nav with the shortcut",
+    "no": "GPS-en med snarveien"
   }
 }

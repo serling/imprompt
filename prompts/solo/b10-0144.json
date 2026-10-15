@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first selfie, painted by hand."
+    "en": "The first selfie, painted by hand.",
+    "no": "Den første selfien, malt for hånd."
   },
   "tags": [
     "history"

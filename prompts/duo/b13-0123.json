@@ -1,0 +1,13 @@
+{
+  "id": "b13-0123",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "A mother and her teenage son doing the weekly shop, both terrified.",
+    "no": "En mor og tenåringssønnen hennes som tar ukeshandelen, begge livredde."
+  },
+  "tags": [
+    "family"
+  ]
+}

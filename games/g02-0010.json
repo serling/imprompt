@@ -1,0 +1,49 @@
+{
+  "id": "g02-0010",
+  "status": "draft",
+  "name": {
+    "en": "Emotional Zones",
+    "no": "Følelsessoner"
+  },
+  "aliases": {
+    "en": [
+      "Emotional Quadrants",
+      "Genre Zones"
+    ],
+    "no": [
+      "Følelseshjørner",
+      "Sjangersoner"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Each corner of the stage has a feeling.",
+    "no": "Hvert hjørne av scenen har en følelse."
+  },
+  "steps": {
+    "en": [
+      "Divide the stage into four corners and give each one an emotion from the card.",
+      "Play a scene and move freely.",
+      "Wherever you stand, you feel that corner's emotion."
+    ],
+    "no": [
+      "Del scenen i fire hjørner, og gi hvert hjørne en følelse fra kortet.",
+      "Spill en scene og beveg dere fritt.",
+      "Der du står, føler du det hjørnets følelse."
+    ]
+  },
+  "more": {
+    "en": "Move with a reason in the scene. Genre Zones: use styles instead of emotions.",
+    "no": "Flytt deg med en grunn i scenen. Sjangersoner: bruk stiler i stedet for følelser."
+  },
+  "asks": [
+    "emotions",
+    "emotions",
+    "emotions",
+    "emotions"
+  ]
+}

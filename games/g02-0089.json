@@ -1,0 +1,36 @@
+{
+  "id": "g02-0089",
+  "status": "draft",
+  "name": {
+    "en": "Day in the Life",
+    "no": "En dag i livet"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "One player tells the story of their day; the others replay it, bigger.",
+    "no": "Én spiller forteller om dagen sin; de andre spiller den om igjen, større."
+  },
+  "steps": {
+    "en": [
+      "One player tells the story of a real day of theirs.",
+      "The others replay it as a heightened scene."
+    ],
+    "no": [
+      "Én spiller forteller om en virkelig dag hen har hatt.",
+      "De andre spiller den om igjen som en forsterket scene."
+    ]
+  },
+  "more": {
+    "en": "Pick out small details and make them big.",
+    "no": "Plukk ut små detaljer og gjør dem store."
+  },
+  "asks": []
+}

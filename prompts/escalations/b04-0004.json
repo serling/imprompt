@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Excited."
+      "en": "Excited.",
+      "no": "Gira."
     },
     {
-      "en": "More excited."
+      "en": "More excited.",
+      "no": "Mer gira."
     },
     {
-      "en": "Even more excited."
+      "en": "Even more excited.",
+      "no": "Enda mer gira."
     },
     {
-      "en": "Ex-excited."
+      "en": "Ex-excited.",
+      "no": "Eks-gira."
     }
   ],
   "tags": [

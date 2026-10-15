@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Waiting for toast to pop, like a bomb about to go off."
+    "en": "Waiting for toast to pop, like a bomb about to go off.",
+    "no": "Å vente på at toasten spretter opp, som en bombe som er i ferd med å gå av."
   },
   "tags": [
     "narration"

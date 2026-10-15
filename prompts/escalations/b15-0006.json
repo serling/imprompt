@@ -1,0 +1,28 @@
+{
+  "id": "b15-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Hopeful.",
+      "no": "Håpefull."
+    },
+    {
+      "en": "More hopeful.",
+      "no": "Mer håpefull."
+    },
+    {
+      "en": "Even more hopeful.",
+      "no": "Enda mer håpefull."
+    },
+    {
+      "en": "The most hopeful ever, at a bus stop nobody uses.",
+      "no": "Verdens mest håpefulle, på en bussholdeplass ingen bruker."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

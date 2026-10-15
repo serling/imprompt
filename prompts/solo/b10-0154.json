@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A part-time volcano."
+    "en": "A part-time volcano.",
+    "no": "En deltidsvulkan."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the part-time volcano"
+    "en": "the part-time volcano",
+    "no": "deltidsvulkanen"
   }
 }

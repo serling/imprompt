@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The day someone discovered they could whistle."
+    "en": "The day someone discovered they could whistle.",
+    "no": "Dagen noen oppdaget at det gikk an å plystre."
   },
   "tags": [
     "history"

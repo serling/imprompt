@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A dentist checking teeth, but squeamish about mouths."
+    "en": "A dentist checking teeth, but squeamish about mouths.",
+    "no": "En tannlege som sjekker tenner, men blir kvalm av munner."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the squeamish dentist"
+    "en": "the squeamish dentist",
+    "no": "tannlegen som blir kvalm av munner"
   }
 }

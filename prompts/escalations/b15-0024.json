@@ -1,0 +1,28 @@
+{
+  "id": "b15-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Smitten.",
+      "no": "Betatt."
+    },
+    {
+      "en": "More smitten.",
+      "no": "Mer betatt."
+    },
+    {
+      "en": "Even more smitten.",
+      "no": "Enda mer betatt."
+    },
+    {
+      "en": "The most smitten ever, with a traffic cone.",
+      "no": "Verdens mest betatte, av en trafikkjegle."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Parking a bicycle, like a moon landing."
+    "en": "Parking a bicycle, like a moon landing.",
+    "no": "Å parkere en sykkel, som en månelanding."
   },
   "tags": [
     "narration",

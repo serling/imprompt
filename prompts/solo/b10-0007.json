@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone stuck behind a very slow walker in a narrow corridor."
+    "en": "Someone stuck behind a very slow walker in a narrow corridor.",
+    "no": "Noen som sitter fast bak en som går veldig sakte, i en trang korridor."
   },
   "tags": [
     "everyday",

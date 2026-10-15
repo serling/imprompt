@@ -1,0 +1,42 @@
+{
+  "id": "g02-0021",
+  "status": "draft",
+  "name": {
+    "en": "Movie in a Minute",
+    "no": "Film på ett minutt"
+  },
+  "aliases": {
+    "en": [
+      "Fairy Tale in a Minute"
+    ],
+    "no": [
+      "Eventyr på ett minutt"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "A whole story acted out in sixty seconds.",
+    "no": "En hel historie spilt på seksti sekunder."
+  },
+  "steps": {
+    "en": [
+      "Set a one-minute timer.",
+      "Play the entire fairy tale on the card, beginning to end, before it runs out."
+    ],
+    "no": [
+      "Sett en tidtaker på ett minutt.",
+      "Spill hele eventyret på kortet, fra start til slutt, før tiden er ute."
+    ]
+  },
+  "more": {
+    "en": "Variant: do it again in thirty seconds, then in ten.",
+    "no": "Variant: gjør det igjen på tretti sekunder, så på ti."
+  },
+  "asks": [
+    "fairytales"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "g02-0072",
+  "status": "draft",
+  "name": {
+    "en": "Something Old Something New",
+    "no": "Noe gammelt, noe nytt"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 5,
+    "max": 5
+  },
+  "summary": {
+    "en": "A bride must guess four items from four players' hints.",
+    "no": "En brud må gjette fire ting ut fra hintene til fire spillere."
+  },
+  "steps": {
+    "en": [
+      "Send the bride out of earshot.",
+      "Four players each take an item: old, new, borrowed and blue.",
+      "They hint until the bride guesses each one."
+    ],
+    "no": [
+      "Send bruden ut av hørevidde.",
+      "Fire spillere tar hver sin ting: noe gammelt, noe nytt, noe lånt og noe blått.",
+      "De hinter til bruden har gjettet hver av dem."
+    ]
+  },
+  "more": {
+    "en": "One object from the card for each player, in order: old, new, borrowed, blue.",
+    "no": "Én gjenstand fra kortet til hver spiller, i rekkefølge: gammel, ny, lånt, blå."
+  },
+  "asks": [
+    "objects",
+    "objects",
+    "objects",
+    "objects"
+  ]
+}

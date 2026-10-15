@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Ticklish."
+      "en": "Ticklish.",
+      "no": "Kilen."
     },
     {
-      "en": "More ticklish."
+      "en": "More ticklish.",
+      "no": "Mer kilen."
     },
     {
-      "en": "Even more ticklish."
+      "en": "Even more ticklish.",
+      "no": "Enda mer kilen."
     },
     {
-      "en": "The most ticklish ever, and getting a massage."
+      "en": "The most ticklish ever, and getting a massage.",
+      "no": "Verdens mest kilne, og får massasje."
     }
   ],
   "tags": [

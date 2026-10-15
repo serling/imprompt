@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone filling in a form at the bank, madly in love."
+    "en": "Someone filling in a form at the bank, madly in love.",
+    "no": "Noen som fyller ut et skjema i banken, vanvittig forelsket."
   },
   "tags": [
     "everyday"

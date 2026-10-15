@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone telling a hairdresser they love a haircut they hate."
+    "en": "Someone telling a hairdresser they love a haircut they hate.",
+    "no": "Noen som sier til frisøren at de elsker en sveis de hater."
   },
   "tags": [
     "everyday"

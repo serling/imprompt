@@ -1,0 +1,45 @@
+{
+  "id": "g02-0036",
+  "status": "draft",
+  "name": {
+    "en": "Fast Forward",
+    "no": "Spol fram"
+  },
+  "aliases": {
+    "en": [
+      "Rewind"
+    ],
+    "no": [
+      "Spol tilbake"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A caller jumps the story forward or back in time.",
+    "no": "En innroper hopper fram eller tilbake i tid i historien."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene.",
+      "The caller says \"fast forward\" or \"rewind\" with a time, like \"ten years later\".",
+      "The players pick up from that moment."
+    ],
+    "no": [
+      "To spillere starter en scene.",
+      "Innroperen sier «spol fram» eller «spol tilbake» med et tidspunkt, som «ti år senere».",
+      "Spillerne fortsetter fra det øyeblikket."
+    ]
+  },
+  "more": {
+    "en": "Rewind can also mean \"redo that moment differently\".",
+    "no": "Spol tilbake kan også bety «gjør det øyeblikket om igjen, annerledes»."
+  },
+  "asks": [
+    "relationships",
+    "locations"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A science lecture. The professor is {character}."
+    "en": "A science lecture. The professor is {character}.",
+    "no": "En vitenskapelig forelesning. Professoren er {character}."
   },
   "tags": [
     "work",

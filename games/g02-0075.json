@@ -1,0 +1,44 @@
+{
+  "id": "g02-0075",
+  "status": "draft",
+  "name": {
+    "en": "Dr. Know-It-All",
+    "no": "Dr. Vet-alt"
+  },
+  "aliases": {
+    "en": [
+      "Word at a Time Expert"
+    ],
+    "no": [
+      "Ekspert ett ord om gangen"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 4,
+    "max": 5
+  },
+  "summary": {
+    "en": "A panel of players forms one expert who speaks one word at a time.",
+    "no": "Et panel av spillere danner én ekspert som snakker ett ord om gangen."
+  },
+  "steps": {
+    "en": [
+      "Three players stand shoulder to shoulder as one expert.",
+      "An interviewer asks questions on the topic on the card.",
+      "The expert answers one word per player."
+    ],
+    "no": [
+      "Tre spillere står skulder ved skulder som én ekspert.",
+      "En intervjuer stiller spørsmål om temaet på kortet.",
+      "Eksperten svarer med ett ord per spiller."
+    ]
+  },
+  "more": {
+    "en": "Commit to the sentence even when it goes wrong.",
+    "no": "Gå helt inn i setningen, selv når den går galt."
+  },
+  "asks": [
+    "topics"
+  ]
+}

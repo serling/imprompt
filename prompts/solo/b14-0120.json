@@ -1,0 +1,13 @@
+{
+  "id": "b14-0120",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A world champion asking a beginner for tips.",
+    "no": "En verdensmester som ber en nybegynner om tips."
+  },
+  "tags": [
+    "status"
+  ]
+}

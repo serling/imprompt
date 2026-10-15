@@ -1,0 +1,38 @@
+{
+  "id": "g03-0014",
+  "status": "draft",
+  "name": {
+    "en": "CopyCat",
+    "no": "Hermegåsa"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "A player steps in repeating a line; a new scene grows from it.",
+    "no": "En spiller trer inn og gjentar en replikk; en ny scene vokser fram fra den."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene.",
+      "A player at the side steps in repeating a line just spoken; whoever said it leaves.",
+      "A new scene starts from that line."
+    ],
+    "no": [
+      "To spillere starter en scene.",
+      "En spiller på siden trer inn og gjentar en replikk som nettopp ble sagt; den som sa den, går ut.",
+      "En ny scene starter fra den replikken."
+    ]
+  },
+  "more": {
+    "en": "Variant: carry on the old scene instead.",
+    "no": "Variant: fortsett den gamle scenen i stedet."
+  },
+  "asks": []
+}

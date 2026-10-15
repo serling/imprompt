@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "An anti-gadget grandmother."
+    "en": "An anti-gadget grandmother.",
+    "no": "En bestemor som er imot alle dingser."
   },
   "tags": [
     "character",
     "family"
   ],
   "callback": {
-    "en": "the anti-gadget grandmother"
+    "en": "the anti-gadget grandmother",
+    "no": "bestemoren som er imot dingser"
   }
 }

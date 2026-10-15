@@ -1,0 +1,40 @@
+{
+  "id": "g02-0039",
+  "status": "draft",
+  "name": {
+    "en": "Meanwhile",
+    "no": "Samtidig"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "On \"Meanwhile…\", the scene cuts to another place in the same story.",
+    "no": "På «Samtidig …» klipper scenen til et annet sted i samme historie."
+  },
+  "steps": {
+    "en": [
+      "Start a scene.",
+      "The caller says \"Meanwhile…\" and names a new place or character.",
+      "Players there pick up a new strand of the same story."
+    ],
+    "no": [
+      "Start en scene.",
+      "Innroperen sier «Samtidig …» og nevner et nytt sted eller en ny karakter.",
+      "Spillerne der plukker opp en ny tråd i samme historie."
+    ]
+  },
+  "more": {
+    "en": "The strands should meet in the end. Refresh the location card for each cut.",
+    "no": "Trådene bør møtes til slutt. Trekk et nytt stedskort for hvert klipp."
+  },
+  "asks": [
+    "locations"
+  ]
+}

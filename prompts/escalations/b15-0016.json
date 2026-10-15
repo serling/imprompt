@@ -1,0 +1,28 @@
+{
+  "id": "b15-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Jolly.",
+      "no": "Lystig."
+    },
+    {
+      "en": "Jollier.",
+      "no": "Lystigere."
+    },
+    {
+      "en": "Even jollier.",
+      "no": "Enda lystigere."
+    },
+    {
+      "en": "The jolliest ever, and doing a tax return.",
+      "no": "Verdens lystigste, og fyller ut skattemeldingen."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

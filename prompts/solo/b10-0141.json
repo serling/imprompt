@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "Inventing the wheel, and then the flat tyre."
+    "en": "Inventing the wheel, and then the flat tyre.",
+    "no": "Å finne opp hjulet, og så punkteringen."
   },
   "tags": [
     "history",

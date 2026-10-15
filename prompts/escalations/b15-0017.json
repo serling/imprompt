@@ -1,0 +1,28 @@
+{
+  "id": "b15-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Rushed.",
+      "no": "Hektisk."
+    },
+    {
+      "en": "More rushed.",
+      "no": "Mer hektisk."
+    },
+    {
+      "en": "Even more rushed.",
+      "no": "Enda mer hektisk."
+    },
+    {
+      "en": "The most rushed ever, and a tortoise.",
+      "no": "Verdens mest hektiske, og er en skilpadde."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

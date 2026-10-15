@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Choosing a sandwich, like a judge delivering a verdict."
+    "en": "Choosing a sandwich, like a judge delivering a verdict.",
+    "no": "Å velge en sandwich, som en dommer som avsier dom."
   },
   "tags": [
     "narration"

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Dramatic."
+      "en": "Dramatic.",
+      "no": "Dramatisk."
     },
     {
-      "en": "More dramatic."
+      "en": "More dramatic.",
+      "no": "Mer dramatisk."
     },
     {
-      "en": "Even more dramatic."
+      "en": "Even more dramatic.",
+      "no": "Enda mer dramatisk."
     },
     {
-      "en": "Anti-dramatic."
+      "en": "Anti-dramatic.",
+      "no": "Anti-dramatisk."
     }
   ],
   "tags": [

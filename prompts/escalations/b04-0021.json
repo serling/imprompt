@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Sad."
+      "en": "Sad.",
+      "no": "Trist."
     },
     {
-      "en": "Sadder."
+      "en": "Sadder.",
+      "no": "Tristere."
     },
     {
-      "en": "Even sadder."
+      "en": "Even sadder.",
+      "no": "Enda tristere."
     },
     {
-      "en": "The saddest ever, and a clown."
+      "en": "The saddest ever, and a clown.",
+      "no": "Verdens tristeste, og er klovn."
     }
   ],
   "tags": [

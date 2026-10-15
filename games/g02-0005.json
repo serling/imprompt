@@ -1,0 +1,45 @@
+{
+  "id": "g02-0005",
+  "status": "draft",
+  "name": {
+    "en": "Avoid a Letter",
+    "no": "Unngå en bokstav"
+  },
+  "aliases": {
+    "en": [
+      "No P"
+    ],
+    "no": [
+      "Ingen P"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "One letter is banned; say it and you're out.",
+    "no": "Én bokstav er forbudt; sier du den, er du ute."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene; the letter on the card may not be spoken.",
+      "Anyone who says a word with that letter is replaced by a player from the side.",
+      "The new player continues the same character."
+    ],
+    "no": [
+      "To spillere starter en scene; bokstaven på kortet kan ikke brukes.",
+      "Den som sier et ord med den bokstaven, byttes ut med en spiller fra siden.",
+      "Den nye spilleren fortsetter med samme karakter."
+    ]
+  },
+  "more": {
+    "en": "The players at the side judge. Vowels are brutal; pick a consonant unless you want chaos.",
+    "no": "Spillerne på siden dømmer. Vokaler er brutale; velg en konsonant om dere ikke vil ha kaos."
+  },
+  "asks": [
+    "letters",
+    "locations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "occ01-0001",
+  "status": "approved",
+  "text": {
+    "en": "Dentist",
+    "no": "Tannlege"
+  },
+  "tags": [
+    "health",
+    "everyday",
+    "high"
+  ]
+}

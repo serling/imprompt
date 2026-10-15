@@ -1,0 +1,43 @@
+{
+  "id": "g02-0025",
+  "status": "draft",
+  "name": {
+    "en": "Radio Play",
+    "no": "Hørespill"
+  },
+  "aliases": {
+    "en": [
+      "Radio Drama"
+    ],
+    "no": [
+      "Radioteater"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "An old radio show: everything happens through voices and sound effects.",
+    "no": "Et gammeldags radioprogram: alt skjer gjennom stemmer og lydeffekter."
+  },
+  "steps": {
+    "en": [
+      "Play the story on the card as a radio drama.",
+      "Every action, door and footstep is made with your voice."
+    ],
+    "no": [
+      "Spill historien på kortet som et hørespill.",
+      "Hver handling, dør og hvert fottrinn lages med stemmen."
+    ]
+  },
+  "more": {
+    "en": "Stand side by side as if at microphones. The sound effects are part of the show.",
+    "no": "Stå side om side som foran mikrofoner. Lydeffektene er en del av forestillingen."
+  },
+  "asks": [
+    "titles",
+    "locations"
+  ]
+}

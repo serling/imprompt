@@ -1,0 +1,13 @@
+{
+  "id": "b13-0121",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "A plumber and a homeowner, both thrilled by the leak.",
+    "no": "En rørlegger og en huseier, begge begeistret over lekkasjen."
+  },
+  "tags": [
+    "work"
+  ]
+}

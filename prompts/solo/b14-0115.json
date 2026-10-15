@@ -1,0 +1,13 @@
+{
+  "id": "b14-0115",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A zookeeper being fed by the animals.",
+    "no": "En dyrepasser som blir matet av dyrene."
+  },
+  "tags": [
+    "status"
+  ]
+}

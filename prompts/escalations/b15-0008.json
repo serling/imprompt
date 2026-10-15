@@ -1,0 +1,28 @@
+{
+  "id": "b15-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Thrifty.",
+      "no": "Sparsommelig."
+    },
+    {
+      "en": "Thriftier.",
+      "no": "Mer sparsommelig."
+    },
+    {
+      "en": "Even thriftier.",
+      "no": "Enda mer sparsommelig."
+    },
+    {
+      "en": "The thriftiest ever, and buying a yacht.",
+      "no": "Verdens mest sparsommelige, og kjøper en yacht."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

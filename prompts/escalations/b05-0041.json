@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Determined."
+      "en": "Determined.",
+      "no": "Fast bestemt."
     },
     {
-      "en": "More determined."
+      "en": "More determined.",
+      "no": "Mer fast bestemt."
     },
     {
-      "en": "Even more determined."
+      "en": "Even more determined.",
+      "no": "Enda mer fast bestemt."
     },
     {
-      "en": "The most determined ever, to do nothing at all."
+      "en": "The most determined ever, to do nothing at all.",
+      "no": "Verdens mest bestemte, på å gjøre absolutt ingenting."
     }
   ],
   "tags": [

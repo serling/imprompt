@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Noble."
+      "en": "Noble.",
+      "no": "Edel."
     },
     {
-      "en": "Nobler."
+      "en": "Nobler.",
+      "no": "Edlere."
     },
     {
-      "en": "Even nobler."
+      "en": "Even nobler.",
+      "no": "Enda edlere."
     },
     {
-      "en": "The noblest ever, and stealing the cutlery."
+      "en": "The noblest ever, and stealing the cutlery.",
+      "no": "Verdens edleste, og stjeler bestikket."
     }
   ],
   "tags": [

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A bath plug on its last day before retirement."
+    "en": "A bath plug on its last day before retirement.",
+    "no": "En badekarpropp på sin siste dag før pensjonen."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the retiring bath plug"
+    "en": "the retiring bath plug",
+    "no": "den pensjonsklare badekarproppen"
   }
 }

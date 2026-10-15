@@ -1,0 +1,13 @@
+{
+  "id": "b14-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A very competitive birdwatcher.",
+    "no": "En veldig konkurranseinnstilt fuglekikker."
+  },
+  "tags": [
+    "character"
+  ]
+}

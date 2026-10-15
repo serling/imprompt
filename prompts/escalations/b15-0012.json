@@ -1,0 +1,28 @@
+{
+  "id": "b15-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Dignified.",
+      "no": "Verdig."
+    },
+    {
+      "en": "More dignified.",
+      "no": "Mer verdig."
+    },
+    {
+      "en": "Even more dignified.",
+      "no": "Enda mer verdig."
+    },
+    {
+      "en": "The most dignified ever, and stuck in a revolving door.",
+      "no": "Verdens mest verdige, og sitter fast i en svingdør."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "g03-0023",
+  "status": "draft",
+  "name": {
+    "en": "Voices from Heaven",
+    "no": "Stemmer fra himmelen"
+  },
+  "aliases": {
+    "en": [
+      "Three Dead Characters"
+    ],
+    "no": [
+      "Tre døde karakterer"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "Characters who died together each tell their part of how it happened.",
+    "no": "Karakterer som døde sammen, forteller hver sin del av hvordan det skjedde."
+  },
+  "steps": {
+    "en": [
+      "Each player takes a job from the card.",
+      "In three rounds, each player tells a little more of their story.",
+      "In the last round, all the stories meet in one shared ending."
+    ],
+    "no": [
+      "Hver spiller tar et yrke fra kortet.",
+      "Over tre runder forteller hver spiller litt mer av historien sin.",
+      "I siste runde møtes alle historiene i én felles slutt."
+    ]
+  },
+  "more": {
+    "en": "Plant small details early that can come back at the end.",
+    "no": "Plant små detaljer tidlig som kan komme tilbake på slutten."
+  },
+  "asks": [
+    "occupations",
+    "occupations",
+    "occupations"
+  ]
+}

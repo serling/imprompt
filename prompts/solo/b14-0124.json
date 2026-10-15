@@ -1,0 +1,13 @@
+{
+  "id": "b14-0124",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A weather presenter giving the forecast while it rains in the studio.",
+    "no": "En værmelder som presenterer værvarselet mens det regner i studio."
+  },
+  "tags": [
+    "work"
+  ]
+}

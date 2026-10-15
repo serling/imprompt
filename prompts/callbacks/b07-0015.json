@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "A driving lesson. The instructor is {character}."
+    "en": "A driving lesson. The instructor is {character}.",
+    "no": "En kjøretime. Kjørelæreren er {character}."
   },
   "tags": [
     "everyday",

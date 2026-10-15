@@ -1,0 +1,42 @@
+{
+  "id": "g02-0038",
+  "status": "draft",
+  "name": {
+    "en": "Gibberish Switch",
+    "no": "Gibberish-bytte"
+  },
+  "aliases": {
+    "en": [
+      "Switch Gibberish"
+    ],
+    "no": [
+      "Bytt til gibberish"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "On each call, players flip between their own language and gibberish.",
+    "no": "På hvert innrop veksler spillerne mellom sitt eget språk og gibberish."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player is the caller.",
+      "On the call, switch between real words and gibberish without stopping."
+    ],
+    "no": [
+      "Spill en scene; én spiller er innroper.",
+      "På innropet bytter dere mellom ekte ord og gibberish uten å stoppe."
+    ]
+  },
+  "more": {
+    "en": "Keep the meaning the same across the switch: tone and body carry it.",
+    "no": "Hold meningen den samme gjennom byttet: tonefall og kropp bærer den."
+  },
+  "asks": [
+    "locations"
+  ]
+}

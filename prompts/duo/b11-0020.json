@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A mountain guide and a tourist in flip-flops."
+    "en": "A mountain guide and a tourist in flip-flops.",
+    "no": "En fjellfører og en turist i flipflopper."
   },
   "tags": [
     "physical"

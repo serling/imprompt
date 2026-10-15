@@ -1,0 +1,40 @@
+{
+  "id": "g02-0054",
+  "status": "draft",
+  "name": {
+    "en": "Half Space",
+    "no": "Halv plass"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A scene replayed in half the space each time.",
+    "no": "En scene spilt om igjen på halve plassen hver gang."
+  },
+  "steps": {
+    "en": [
+      "Play a scene using the whole stage.",
+      "Replay it in half the space.",
+      "Then half again, and again."
+    ],
+    "no": [
+      "Spill en scene på hele scenegulvet.",
+      "Spill den om igjen på halve plassen.",
+      "Så halvparten igjen, og igjen."
+    ]
+  },
+  "more": {
+    "en": "Keep every action; just squeeze it in.",
+    "no": "Behold hver handling; bare klem den inn."
+  },
+  "asks": [
+    "locations"
+  ]
+}

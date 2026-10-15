@@ -1,0 +1,13 @@
+{
+  "id": "b14-0118",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A hotel manager carrying the porter's luggage.",
+    "no": "En hotellsjef som bærer bagasjen til pikkoloen."
+  },
+  "tags": [
+    "status"
+  ]
+}

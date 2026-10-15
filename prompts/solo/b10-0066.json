@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Opening a stubborn jar, like a bomb disposal."
+    "en": "Opening a stubborn jar, like a bomb disposal.",
+    "no": "Å åpne et gjenstridig glass, som en bombedesarmering."
   },
   "tags": [
     "narration",

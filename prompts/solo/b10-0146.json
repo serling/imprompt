@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first umbrella, opened indoors."
+    "en": "The first umbrella, opened indoors.",
+    "no": "Den første paraplyen, åpnet innendørs."
   },
   "tags": [
     "history"

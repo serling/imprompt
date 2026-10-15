@@ -1,0 +1,46 @@
+{
+  "id": "g02-0067",
+  "status": "draft",
+  "name": {
+    "en": "Endowments",
+    "no": "Hvem, hvor, hvorfor"
+  },
+  "aliases": {
+    "en": [
+      "Who Where Why Am I"
+    ],
+    "no": [
+      "Hvem, hvor, hvorfor er jeg"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "One player doesn't know who, where or why they are.",
+    "no": "Én spiller vet ikke hvem hen er, hvor hen er eller hvorfor."
+  },
+  "steps": {
+    "en": [
+      "Send one player out of earshot.",
+      "The others take the job, place and relationship from the card.",
+      "They treat the returning player accordingly until all three are guessed."
+    ],
+    "no": [
+      "Send én spiller ut av hørevidde.",
+      "De andre tar yrket, stedet og relasjonen fra kortet.",
+      "De behandler spilleren som kommer tilbake, deretter, til alle tre er gjettet."
+    ]
+  },
+  "more": {
+    "en": "Hint through how you treat them, not by saying it.",
+    "no": "Hint gjennom hvordan dere behandler spilleren, ikke ved å si det."
+  },
+  "asks": [
+    "occupations",
+    "locations",
+    "relationships"
+  ]
+}

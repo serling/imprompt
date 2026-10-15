@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A dog trainer and a dog who is clearly cleverer."
+    "en": "A dog trainer and a dog who is clearly cleverer.",
+    "no": "En hundetrener og en hund som tydelig er smartere."
   },
   "tags": [
     "status",

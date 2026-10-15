@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Fierce."
+      "en": "Fierce.",
+      "no": "Barsk."
     },
     {
-      "en": "Fiercer."
+      "en": "Fiercer.",
+      "no": "Barskere."
     },
     {
-      "en": "Even fiercer."
+      "en": "Even fiercer.",
+      "no": "Enda barskere."
     },
     {
-      "en": "The fiercest ever, and holding a kitten."
+      "en": "The fiercest ever, and holding a kitten.",
+      "no": "Verdens barskeste, og holder en kattunge."
     }
   ],
   "tags": [

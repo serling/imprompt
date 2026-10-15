@@ -1,0 +1,42 @@
+{
+  "id": "g03-0021",
+  "status": "draft",
+  "name": {
+    "en": "Monologue Thief",
+    "no": "Monologtyven"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "word-story",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Players rant on their own topics; anyone can steal the speaker's last words.",
+    "no": "Spillerne tirader om hvert sitt tema; hvem som helst kan stjele talerens siste ord."
+  },
+  "steps": {
+    "en": [
+      "Each player takes a topic; with more players, others pick their own.",
+      "One player starts a rant on theirs.",
+      "Anyone can grab the speaker's last few words and use them to start their own rant."
+    ],
+    "no": [
+      "Hver spiller tar et tema; er dere flere, velger de andre sitt eget.",
+      "Én spiller starter en tirade om sitt.",
+      "Hvem som helst kan snappe talerens siste ord og bruke dem til å starte sin egen tirade."
+    ]
+  },
+  "more": {
+    "en": "Steal mid-flow. The joy is in how the same words turn.",
+    "no": "Stjel midt i flyten. Gleden ligger i hvordan de samme ordene får en ny vri."
+  },
+  "asks": [
+    "topics",
+    "topics",
+    "topics"
+  ]
+}

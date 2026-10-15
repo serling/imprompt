@@ -1,0 +1,38 @@
+{
+  "id": "g02-0098",
+  "status": "draft",
+  "name": {
+    "en": "Superhero Eulogy",
+    "no": "Minnetale for en superhelt"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "Speakers at a superhero's funeral each name the next speaker.",
+    "no": "Talerne i en superhelts begravelse sier hver hvem som er neste taler."
+  },
+  "steps": {
+    "en": [
+      "The first speaker gives a eulogy for a superhero.",
+      "They name the next speaker and their power.",
+      "The next speaker carries on."
+    ],
+    "no": [
+      "Den første taleren holder minnetale over en superhelt.",
+      "Taleren sier navnet og superkraften til neste taler.",
+      "Neste taler fortsetter."
+    ]
+  },
+  "more": {
+    "en": "The sillier the hero's name, the better the eulogy.",
+    "no": "Jo dummere heltenavn, jo bedre minnetale."
+  },
+  "asks": []
+}

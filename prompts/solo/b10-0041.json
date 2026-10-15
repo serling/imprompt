@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A pilot making the announcements, but very shy."
+    "en": "A pilot making the announcements, but very shy.",
+    "no": "En pilot som snakker i høyttaleren, men er veldig sjenert."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the shy pilot"
+    "en": "the shy pilot",
+    "no": "den sjenerte piloten"
   }
 }

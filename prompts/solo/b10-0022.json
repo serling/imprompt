@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A semi-professional complainer."
+    "en": "A semi-professional complainer.",
+    "no": "En halvprofesjonell syter."
   },
   "tags": [
     "character",
     "status"
   ],
   "callback": {
-    "en": "the semi-professional complainer"
+    "en": "the semi-professional complainer",
+    "no": "den halvprofesjonelle syteren"
   }
 }

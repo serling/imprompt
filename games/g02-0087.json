@@ -1,0 +1,41 @@
+{
+  "id": "g02-0087",
+  "status": "draft",
+  "name": {
+    "en": "Boris",
+    "no": "Boris"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "An interrogator throws random details at a suspect, who folds each into a confession.",
+    "no": "En avhører slenger tilfeldige detaljer mot en mistenkt, som bygger hver av dem inn i en tilståelse."
+  },
+  "steps": {
+    "en": [
+      "One player is the suspect, one the interrogator.",
+      "The interrogator throws in odd details; the suspect must use each in their confession.",
+      "Invisible Boris is the threat if they don't."
+    ],
+    "no": [
+      "Én spiller er den mistenkte, én er avhøreren.",
+      "Avhøreren slenger inn rare detaljer; den mistenkte må bruke hver av dem i tilståelsen.",
+      "Den usynlige Boris er trusselen hvis ikke."
+    ]
+  },
+  "more": {
+    "en": "The details can come from the card. The suspect justifies everything.",
+    "no": "Detaljene kan komme fra kortet. Den mistenkte begrunner alt."
+  },
+  "asks": [
+    "objects",
+    "locations"
+  ]
+}

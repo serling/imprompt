@@ -4,12 +4,14 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone guarding the last slice of cake at an office party."
+    "en": "Someone guarding the last slice of cake at an office party.",
+    "no": "Noen som vokter det siste kakestykket på en kontorfest."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the guardian of the last slice"
+    "en": "the guardian of the last slice",
+    "no": "vokteren av det siste kakestykket"
   }
 }

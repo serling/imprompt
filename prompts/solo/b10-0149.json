@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "Hearing an echo, for the first time in human history."
+    "en": "Hearing an echo, for the first time in human history.",
+    "no": "Å høre et ekko, for første gang i menneskehetens historie."
   },
   "tags": [
     "history"

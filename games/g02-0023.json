@@ -1,0 +1,40 @@
+{
+  "id": "g02-0023",
+  "status": "draft",
+  "name": {
+    "en": "Pecking Order",
+    "no": "Hakkeorden"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "Everyone plays a status rank; the order shows in the scene.",
+    "no": "Alle spiller en statusrang; rekkefølgen viser seg i scenen."
+  },
+  "steps": {
+    "en": [
+      "Each player privately picks a rank from one to the number of players.",
+      "Play a scene in the place on the card, showing your rank in how you treat each other.",
+      "At the end, line up in the order you think it was."
+    ],
+    "no": [
+      "Hver spiller velger i hemmelighet en rang fra én til antall spillere.",
+      "Spill en scene på stedet på kortet, og vis rangen din i hvordan dere behandler hverandre.",
+      "Til slutt stiller dere dere opp i den rekkefølgen dere tror det var."
+    ]
+  },
+  "more": {
+    "en": "Rank lives in eye contact, space and who waits for whom. It's fine if two players picked the same rank.",
+    "no": "Rang sitter i blikkontakt, plass og hvem som venter på hvem. Det gjør ingenting om to spillere valgte samme rang."
+  },
+  "asks": [
+    "locations"
+  ]
+}

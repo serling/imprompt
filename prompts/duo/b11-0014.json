@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A queen and her new, extremely relaxed bodyguard."
+    "en": "A queen and her new, extremely relaxed bodyguard.",
+    "no": "En dronning og hennes nye, ekstremt avslappede livvakt."
   },
   "tags": [
     "status"

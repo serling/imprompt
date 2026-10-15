@@ -1,0 +1,38 @@
+{
+  "id": "g03-0024",
+  "status": "draft",
+  "name": {
+    "en": "Black Box",
+    "no": "Den svarte boksen"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "A box with buttons controls a player's body.",
+    "no": "En boks med knapper styrer kroppen til en spiller."
+  },
+  "steps": {
+    "en": [
+      "One player holds a box and warns the other never to press the red button.",
+      "Each other button makes the presser's body do something odd.",
+      "Eventually, the red button gets pressed."
+    ],
+    "no": [
+      "Én spiller holder en boks og advarer den andre mot å trykke på den røde knappen.",
+      "Hver av de andre knappene får kroppen til den som trykker, til å gjøre noe rart.",
+      "Til slutt blir den røde knappen trykket på."
+    ]
+  },
+  "more": {
+    "en": "Keep the effects spoken or physical. The red button should be worth waiting for.",
+    "no": "Hold effektene til tale eller det fysiske. Den røde knappen bør være verdt å vente på."
+  },
+  "asks": []
+}

@@ -2,21 +2,24 @@
 
 Short improv prompts and scene setups, one at a time, on a phone.
 
-Two modes:
+Three modes:
 
-- **Rapid fire:** round-robin prompts for one or two players.
-- **Scenes:** a setup for two, three or four players, dealt with an emotion and a style the
-  host can side-coach with.
+- **Rapid fire:** round-robin prompts for one or two players. Two-player prompts come with a few
+  gimmicks the host can throw in (a way of speaking, a staging rule, a tempo).
+- **Scenes:** a setup for two, three or four players, dealt with an emotion, a physical condition
+  and a way of speaking the host can offer as side-coaching.
+- **Games:** a short-form game at random, with the suggestions it needs (a location, an
+  emotion …) dealt alongside. How to play opens on the card.
 
 Tap a player count to deal. While it plays:
 
 - **Buzzer:** rings to call time.
-- **Heighten:** some one-player prompts escalate step by step; two-player scenes can be rerun
-  with a twist, such as "in reverse" or "entirely in gibberish".
+- **Heighten:** some one-player prompts escalate step by step.
 - **Next:** a new prompt for the same number of players.
 - **Back** returns to the player count. **Skip** moves on without playing the prompt; it goes
   back in the pile.
-- In Scenes, the refresh icon beside the emotion or the style swaps just that one.
+- The refresh icon beside a labelled line (a gimmick, a coaching line, a game's suggestion) swaps
+  just that one. The lines are suggestions: use one, several or none.
 
 Later in a session, characters from earlier prompts come back in new situations. Nothing
 repeats on the same device until you tap **Reset**.
@@ -30,11 +33,36 @@ One JSON file per prompt, in `prompts/`:
 | `solo/`, `duo/` | A single prompt, with an optional `callback` phrase for characters that can come back |
 | `escalations/` | Four `steps`, each a complete line; the last is a twist. The host decides how far to go. |
 | `callbacks/` | A frame with one `{character}` placeholder |
-| `modifiers/` | A twist for rerunning a two-player scene, with a `kind` (speech, tempo, tone, physical) |
 | `scenes/` | A setup for 2, 3 or 4 `players` |
-| `emotions/`, `styles/` | Side-coaching words for scenes |
 
-Every text is keyed by language (`"en"` is the source; translations sit alongside it).
+## The words
+
+Shared word lists live in `words/`, one JSON file per word, for every mode to draw on:
+`locations/`, `occupations/`, `relationships/`, `objects/` and `styles/`; the character lists
+`emotions/` and `physical/`; the gimmicks `speech/`, `staging/` and `tempo/`; and lists games ask
+for: `titles/`, `topics/`, `activities/`, `fairytales/`, `problems/`, `animals/` and `letters/`. Scenes are dealt
+an emotion, a physical condition and a way of speaking; two-player Rapid fire prompts a way of
+speaking, a staging rule and a tempo. A word may recur; it is never used up.
+
+```json
+{ "id": "loc01-0004", "status": "draft", "text": { "en": "Hospital corridor" }, "tags": ["health", "everyday", "indoor"] }
+```
+
+Tags come from a fixed list in `words/tags.json`: a `domain` shared by every kind (home, work,
+travel …), a `feel` (everyday or unusual), and a few per kind, such as `standing` for an
+occupation or `bond` for a relationship. The checker rejects any other tag.
+Kind, axis and tag names are ids; their labels and descriptions are keyed by language like every
+other text, so the tags translate with the words.
+
+## The games
+
+One JSON file per short-form game, in `games/`: a `name`, `aliases`, a one-line `summary`, up to
+four `steps`, a `more` note, a `family` (rule, host-calls, elimination, replay, tag-out, guessing,
+word-story, physical, other), a `players` range, and `asks`: the word kinds dealt with it, one
+line each. A kind appears once when its words are used one after another (refresh gives the next),
+and several times only when they are in play together. Games are never used up.
+
+Prompts, words and games alike: every text is keyed by language (`"en"` is the source; translations sit alongside it).
 `status` is `draft`, `approved` or `retired`. Retired prompts are never played.
 
 ## Working on it

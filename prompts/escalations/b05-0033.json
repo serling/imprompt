@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Dizzy."
+      "en": "Dizzy.",
+      "no": "Svimmel."
     },
     {
-      "en": "Dizzier."
+      "en": "Dizzier.",
+      "no": "Svimlere."
     },
     {
-      "en": "Even dizzier."
+      "en": "Even dizzier.",
+      "no": "Enda svimlere."
     },
     {
-      "en": "The dizziest ever, and walking a tightrope."
+      "en": "The dizziest ever, and walking a tightrope.",
+      "no": "Verdens svimleste, og går på line."
     }
   ],
   "tags": [

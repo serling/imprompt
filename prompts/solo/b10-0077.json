@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A king asking the jester for career advice."
+    "en": "A king asking the jester for career advice.",
+    "no": "En konge som ber hoffnarren om karriereråd."
   },
   "tags": [
     "status"

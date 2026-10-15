@@ -1,0 +1,28 @@
+{
+  "id": "b15-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Stiff.",
+      "no": "Stiv."
+    },
+    {
+      "en": "Stiffer.",
+      "no": "Stivere."
+    },
+    {
+      "en": "Even stiffer.",
+      "no": "Enda stivere."
+    },
+    {
+      "en": "The stiffest ever, and at a disco.",
+      "no": "Verdens stiveste, og på diskotek."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

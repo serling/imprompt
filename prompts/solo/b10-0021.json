@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A part-time mermaid."
+    "en": "A part-time mermaid.",
+    "no": "En deltidshavfrue."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the part-time mermaid"
+    "en": "the part-time mermaid",
+    "no": "deltidshavfrua"
   }
 }

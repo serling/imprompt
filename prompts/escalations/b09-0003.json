@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Stubborn."
+      "en": "Stubborn.",
+      "no": "Sta."
     },
     {
-      "en": "More stubborn."
+      "en": "More stubborn.",
+      "no": "Mer sta."
     },
     {
-      "en": "Even more stubborn."
+      "en": "Even more stubborn.",
+      "no": "Enda mer sta."
     },
     {
-      "en": "Suddenly agreeing with everything."
+      "en": "Suddenly agreeing with everything.",
+      "no": "Plutselig enig i alt."
     }
   ],
   "tags": [

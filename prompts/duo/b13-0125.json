@@ -1,0 +1,13 @@
+{
+  "id": "b13-0125",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A surgeon and a nurse doing a routine operation, but whispering everything.",
+    "no": "En kirurg og en sykepleier som tar en rutineoperasjon, men hvisker alt."
+  },
+  "tags": [
+    "work"
+  ]
+}

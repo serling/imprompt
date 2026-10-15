@@ -1,0 +1,46 @@
+{
+  "id": "g02-0004",
+  "status": "draft",
+  "name": {
+    "en": "Animal Characters",
+    "no": "Dyrekarakterer"
+  },
+  "aliases": {
+    "en": [
+      "Animalistics"
+    ],
+    "no": [
+      "Dyretrekk"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "People with the habits of an animal.",
+    "no": "Mennesker med et dyrs vaner."
+  },
+  "steps": {
+    "en": [
+      "Each player plays a human who moves, eats and reacts like an animal.",
+      "Two players take an animal each from the card; any others choose their own.",
+      "Play an ordinary scene in the place on the card."
+    ],
+    "no": [
+      "Hver spiller spiller et menneske som beveger seg, spiser og reagerer som et dyr.",
+      "To spillere tar hvert sitt dyr fra kortet; eventuelle andre velger sitt eget.",
+      "Spill en helt vanlig scene på stedet på kortet."
+    ]
+  },
+  "more": {
+    "en": "Not a costume: a person with a cat's curiosity or a goat's stubbornness. Start small and let it grow.",
+    "no": "Ikke et kostyme: et menneske med en katts nysgjerrighet eller en geits stahet. Start smått og la det vokse."
+  },
+  "asks": [
+    "animals",
+    "animals",
+    "locations"
+  ]
+}

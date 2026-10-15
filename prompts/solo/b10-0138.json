@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "Someone working out what a sneeze is."
+    "en": "Someone working out what a sneeze is.",
+    "no": "Noen som prøver å finne ut hva et nys er."
   },
   "tags": [
     "history",

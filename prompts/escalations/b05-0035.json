@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Confident."
+      "en": "Confident.",
+      "no": "Selvsikker."
     },
     {
-      "en": "More confident."
+      "en": "More confident.",
+      "no": "Mer selvsikker."
     },
     {
-      "en": "Even more confident."
+      "en": "Even more confident.",
+      "no": "Enda mer selvsikker."
     },
     {
-      "en": "The most confident ever, and completely wrong."
+      "en": "The most confident ever, and completely wrong.",
+      "no": "Verdens mest selvsikre, og tar helt feil."
     }
   ],
   "tags": [

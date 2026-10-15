@@ -1,0 +1,41 @@
+{
+  "id": "g02-0053",
+  "status": "draft",
+  "name": {
+    "en": "Emotional Replay",
+    "no": "Følelsesrepris"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "A short scene, replayed in a new emotion each time.",
+    "no": "En kort scene, spilt om igjen i en ny følelse hver gang."
+  },
+  "steps": {
+    "en": [
+      "Play a short scene, straight.",
+      "Replay it in the emotion on the card, keeping the story.",
+      "Refresh the emotion and replay again."
+    ],
+    "no": [
+      "Spill en kort scene, helt rett.",
+      "Spill den om igjen i følelsen på kortet, med samme historie.",
+      "Trekk en ny følelse og spill den om igjen."
+    ]
+  },
+  "more": {
+    "en": "Keep the lines as close as you can; the emotion changes everything else.",
+    "no": "Hold replikkene så like som mulig; følelsen endrer alt det andre."
+  },
+  "asks": [
+    "emotions",
+    "locations"
+  ]
+}

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Scared."
+      "en": "Scared.",
+      "no": "Redd."
     },
     {
-      "en": "More scared."
+      "en": "More scared.",
+      "no": "Reddere."
     },
     {
-      "en": "Even more scared."
+      "en": "Even more scared.",
+      "no": "Enda reddere."
     },
     {
-      "en": "The most scared ever, and a ghost."
+      "en": "The most scared ever, and a ghost.",
+      "no": "Verdens reddeste, og er et spøkelse."
     }
   ],
   "tags": [

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Cold."
+      "en": "Cold.",
+      "no": "Frossen."
     },
     {
-      "en": "Colder."
+      "en": "Colder.",
+      "no": "Mer frossen."
     },
     {
-      "en": "Even colder."
+      "en": "Even colder.",
+      "no": "Enda mer frossen."
     },
     {
-      "en": "The coldest ever, and selling ice cream."
+      "en": "The coldest ever, and selling ice cream.",
+      "no": "Verdens mest frosne, og selger is."
     }
   ],
   "tags": [

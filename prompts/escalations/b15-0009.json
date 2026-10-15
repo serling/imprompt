@@ -1,0 +1,28 @@
+{
+  "id": "b15-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Chirpy.",
+      "no": "Blid."
+    },
+    {
+      "en": "Chirpier.",
+      "no": "Blidere."
+    },
+    {
+      "en": "Even chirpier.",
+      "no": "Enda blidere."
+    },
+    {
+      "en": "The chirpiest ever, at four in the morning.",
+      "no": "Verdens blideste, klokka fire om morgenen."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A retired spy who can't stop checking the exits."
+    "en": "A retired spy who can't stop checking the exits.",
+    "no": "En pensjonert spion som ikke klarer å slutte å sjekke utgangene."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the retired spy"
+    "en": "the retired spy",
+    "no": "den pensjonerte spionen"
   }
 }

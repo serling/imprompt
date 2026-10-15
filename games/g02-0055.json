@@ -1,0 +1,42 @@
+{
+  "id": "g02-0055",
+  "status": "draft",
+  "name": {
+    "en": "Half-Life",
+    "no": "Halveringstid"
+  },
+  "aliases": {
+    "en": [
+      "Countdown"
+    ],
+    "no": [
+      "Nedtelling"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A scene replayed in half the time, again and again.",
+    "no": "En scene spilt om igjen på halve tiden, igjen og igjen."
+  },
+  "steps": {
+    "en": [
+      "Play a one-minute scene.",
+      "Replay it in thirty seconds, then fifteen, then five."
+    ],
+    "no": [
+      "Spill en scene på ett minutt.",
+      "Spill den om igjen på tretti sekunder, så femten, så fem."
+    ]
+  },
+  "more": {
+    "en": "Keep the key moments. Somebody watches the phone timer.",
+    "no": "Behold de viktigste øyeblikkene. Noen følger med på tidtakeren på telefonen."
+  },
+  "asks": [
+    "locations"
+  ]
+}

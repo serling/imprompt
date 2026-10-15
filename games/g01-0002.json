@@ -1,0 +1,48 @@
+{
+  "id": "g01-0002",
+  "status": "draft",
+  "name": {
+    "en": "Freeze Tag",
+    "no": "Freeze"
+  },
+  "aliases": {
+    "en": [
+      "Freeze",
+      "Switch",
+      "Tap Out"
+    ],
+    "no": [
+      "Freeze Tag",
+      "Bytt",
+      "Tap Out"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 3,
+    "max": 10
+  },
+  "summary": {
+    "en": "Anyone can freeze the scene and take over a pose.",
+    "no": "Hvem som helst kan fryse scenen og overta en positur."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene with big, physical choices.",
+      "Anyone at the side calls “Freeze!” and both players hold still.",
+      "They tap one player out, take the exact pose and start a new scene that explains it."
+    ],
+    "no": [
+      "To spillere starter en scene med store, fysiske valg.",
+      "Hvem som helst på siden roper «Frys!», og begge spillerne står helt stille.",
+      "Den som ropte, klapper én spiller ut, tar nøyaktig samme positur og starter en ny scene som forklarer den."
+    ]
+  },
+  "more": {
+    "en": "The new scene should have nothing to do with the old one. Freeze on a strong shape, not a good line.",
+    "no": "Den nye scenen skal ikke ha noe med den gamle å gjøre. Frys på en sterk positur, ikke på en god replikk."
+  },
+  "asks": [
+    "locations"
+  ]
+}

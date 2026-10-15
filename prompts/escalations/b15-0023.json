@@ -1,0 +1,28 @@
+{
+  "id": "b15-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Tense.",
+      "no": "Anspent."
+    },
+    {
+      "en": "Tenser.",
+      "no": "Mer anspent."
+    },
+    {
+      "en": "Even tenser.",
+      "no": "Enda mer anspent."
+    },
+    {
+      "en": "Suddenly completely relaxed.",
+      "no": "Plutselig helt avslappet."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

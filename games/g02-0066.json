@@ -1,0 +1,40 @@
+{
+  "id": "g02-0066",
+  "status": "draft",
+  "name": {
+    "en": "Double Endowment",
+    "no": "Dobbel oppgave"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Each player tries to get the other to do something, without asking outright.",
+    "no": "Hver spiller prøver å få den andre til å gjøre noe, uten å be om det rett ut."
+  },
+  "steps": {
+    "en": [
+      "Each player privately picks something the other must do.",
+      "Play a scene and steer your partner towards it.",
+      "When both tasks are done, the scene ends."
+    ],
+    "no": [
+      "Hver spiller velger i hemmelighet noe den andre må gjøre.",
+      "Spill en scene og styr partneren din mot det.",
+      "Når begge oppgavene er gjort, slutter scenen."
+    ]
+  },
+  "more": {
+    "en": "No direct asking. The tasks are open fun between you, not something to hide in the story.",
+    "no": "Ingen direkte spørsmål. Oppgavene er åpen moro mellom dere, ikke noe som skal skjules i historien."
+  },
+  "asks": [
+    "locations"
+  ]
+}

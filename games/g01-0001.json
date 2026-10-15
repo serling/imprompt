@@ -1,0 +1,45 @@
+{
+  "id": "g01-0001",
+  "status": "draft",
+  "name": {
+    "en": "Questions Only",
+    "no": "Bare spørsmål"
+  },
+  "aliases": {
+    "en": [
+      "Only Questions"
+    ],
+    "no": [
+      "Kun spørsmål"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 8
+  },
+  "summary": {
+    "en": "Every line must be a question.",
+    "no": "Hver replikk må være et spørsmål."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene; everyone else waits in a line at the side.",
+      "Make a statement, hesitate or repeat a question, and you step out.",
+      "The next player in line takes your place and the scene carries on."
+    ],
+    "no": [
+      "To spillere starter en scene; resten venter i kø på siden.",
+      "Kommer du med en påstand, nøler eller gjentar et spørsmål, går du ut.",
+      "Neste spiller i køen tar plassen din, og scenen fortsetter."
+    ]
+  },
+  "more": {
+    "en": "Play it fast: the fun is in the swaps. The line decides what counts as a question.",
+    "no": "Spill det raskt: moroa ligger i byttene. Køen avgjør hva som teller som et spørsmål."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

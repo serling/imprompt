@@ -1,0 +1,40 @@
+{
+  "id": "g02-0074",
+  "status": "draft",
+  "name": {
+    "en": "Conducted Story",
+    "no": "Dirigert historie"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "word-story",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "A conductor switches storytellers mid-sentence.",
+    "no": "En dirigent bytter forteller midt i setningen."
+  },
+  "steps": {
+    "en": [
+      "Players stand in a line; one is the conductor.",
+      "The conductor points, and that player tells the story on the card.",
+      "The next player picks up exactly where the last stopped."
+    ],
+    "no": [
+      "Spillerne står på en rekke; én er dirigent.",
+      "Dirigenten peker, og den spilleren forteller historien på kortet.",
+      "Neste spiller fortsetter nøyaktig der den forrige stoppet."
+    ]
+  },
+  "more": {
+    "en": "No elimination: just keep the story flowing.",
+    "no": "Ingen blir slått ut: bare hold historien flytende."
+  },
+  "asks": [
+    "titles"
+  ]
+}

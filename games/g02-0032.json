@@ -1,0 +1,43 @@
+{
+  "id": "g02-0032",
+  "status": "draft",
+  "name": {
+    "en": "Touch to Talk",
+    "no": "Berør for å snakke"
+  },
+  "aliases": {
+    "en": [
+      "Talk at Touch"
+    ],
+    "no": [
+      "Snakk ved berøring"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "You may only speak while touching another player.",
+    "no": "Du får bare snakke mens du berører en annen spiller."
+  },
+  "steps": {
+    "en": [
+      "Play a scene.",
+      "No touch, no talk: you must be touching someone to speak."
+    ],
+    "no": [
+      "Spill en scene.",
+      "Ingen berøring, ingen prat: du må ta på noen for å snakke."
+    ]
+  },
+  "more": {
+    "en": "Justify every touch in the scene. Agree on what touch is comfortable before you start.",
+    "no": "Begrunn hver berøring i scenen. Bli enige om hva slags berøring som føles greit før dere starter."
+  },
+  "asks": [
+    "relationships",
+    "locations"
+  ]
+}

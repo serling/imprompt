@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A suspiciously helpful stranger."
+    "en": "A suspiciously helpful stranger.",
+    "no": "En mistenkelig hjelpsom fremmed."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the suspiciously helpful stranger"
+    "en": "the suspiciously helpful stranger",
+    "no": "den mistenkelig hjelpsomme fremmede"
   }
 }

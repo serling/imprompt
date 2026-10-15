@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Guilty."
+      "en": "Guilty.",
+      "no": "Skyldbetynget."
     },
     {
-      "en": "More guilty."
+      "en": "More guilty.",
+      "no": "Mer skyldbetynget."
     },
     {
-      "en": "Even more guilty."
+      "en": "Even more guilty.",
+      "no": "Enda mer skyldbetynget."
     },
     {
-      "en": "The most guilty ever, and completely innocent."
+      "en": "The most guilty ever, and completely innocent.",
+      "no": "Verdens mest skyldbetyngede, og helt uskyldig."
     }
   ],
   "tags": [

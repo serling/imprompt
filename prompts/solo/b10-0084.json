@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A pop star queuing for their accountant's autograph."
+    "en": "A pop star queuing for their accountant's autograph.",
+    "no": "En popstjerne som står i kø for autografen til regnskapsføreren sin."
   },
   "tags": [
     "status"

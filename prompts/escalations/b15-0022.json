@@ -1,0 +1,28 @@
+{
+  "id": "b15-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Grand.",
+      "no": "Storslått."
+    },
+    {
+      "en": "Grander.",
+      "no": "Mer storslått."
+    },
+    {
+      "en": "Even grander.",
+      "no": "Enda mer storslått."
+    },
+    {
+      "en": "The grandest ever, and in a tiny tent.",
+      "no": "Verdens mest storslåtte, og i et bittelite telt."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b14-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A tour guide with a favourite lamp post.",
+    "no": "En turistguide med en yndlingslyktestolpe."
+  },
+  "tags": [
+    "character"
+  ]
+}

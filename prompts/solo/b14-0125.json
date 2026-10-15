@@ -1,0 +1,13 @@
+{
+  "id": "b14-0125",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A nurse taking a temperature, but the patient is a snowman.",
+    "no": "En sykepleier som måler temperaturen, men pasienten er en snømann."
+  },
+  "tags": [
+    "work"
+  ]
+}

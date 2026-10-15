@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A homesick satellite."
+    "en": "A homesick satellite.",
+    "no": "En satellitt med hjemlengsel."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the homesick satellite"
+    "en": "the homesick satellite",
+    "no": "satellitten med hjemlengsel"
   }
 }

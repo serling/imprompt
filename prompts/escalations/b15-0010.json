@@ -1,0 +1,28 @@
+{
+  "id": "b15-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Suspicious.",
+      "no": "Mistenksom."
+    },
+    {
+      "en": "More suspicious.",
+      "no": "Mer mistenksom."
+    },
+    {
+      "en": "Even more suspicious.",
+      "no": "Enda mer mistenksom."
+    },
+    {
+      "en": "The most suspicious ever, of a birthday cake.",
+      "no": "Verdens mest mistenksomme, overfor en bursdagskake."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

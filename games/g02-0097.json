@@ -1,0 +1,42 @@
+{
+  "id": "g02-0097",
+  "status": "draft",
+  "name": {
+    "en": "Sportscast",
+    "no": "Sportssending"
+  },
+  "aliases": {
+    "en": [
+      "Sports Commentary"
+    ],
+    "no": [
+      "Sportskommentator"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "An everyday activity commentated as a major sporting event.",
+    "no": "En hverdagslig aktivitet kommentert som et stort idrettsarrangement."
+  },
+  "steps": {
+    "en": [
+      "One player performs the activity on the card.",
+      "Two commentators narrate it as if it were the Olympics."
+    ],
+    "no": [
+      "Én spiller utfører aktiviteten på kortet.",
+      "To kommentatorer kommenterer den som om det var OL."
+    ]
+  },
+  "more": {
+    "en": "Commentators: tactics, replays, interviews.",
+    "no": "Kommentatorer: taktikk, reprise, intervjuer."
+  },
+  "asks": [
+    "activities"
+  ]
+}

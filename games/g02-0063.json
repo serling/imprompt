@@ -1,0 +1,42 @@
+{
+  "id": "g02-0063",
+  "status": "draft",
+  "name": {
+    "en": "Celebrity Party",
+    "no": "Kjendisfest"
+  },
+  "aliases": {
+    "en": [
+      "Endowment Party"
+    ],
+    "no": [
+      "Tilskrivningsfest"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "Guests don't know which famous person they are; the others give it away.",
+    "no": "Gjestene vet ikke hvilken kjendis de er; de andre røper det."
+  },
+  "steps": {
+    "en": [
+      "Send the guests out of earshot; the host picks a famous person for each.",
+      "At the party, everyone treats each guest as that person.",
+      "Each guest works out who they are."
+    ],
+    "no": [
+      "Send gjestene ut av hørevidde; verten velger en kjendis til hver av dem.",
+      "På festen behandler alle hver gjest som den personen.",
+      "Hver gjest finner ut hvem de er."
+    ]
+  },
+  "more": {
+    "en": "Choose famous people everyone in the room knows. A guest who guesses stays in character.",
+    "no": "Velg kjente personer som alle i rommet kjenner. En gjest som gjetter riktig, blir i rollen."
+  },
+  "asks": []
+}

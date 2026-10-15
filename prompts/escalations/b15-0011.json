@@ -1,0 +1,28 @@
+{
+  "id": "b15-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Picky.",
+      "no": "Kresen."
+    },
+    {
+      "en": "Pickier.",
+      "no": "Kresnere."
+    },
+    {
+      "en": "Even pickier.",
+      "no": "Enda kresnere."
+    },
+    {
+      "en": "The pickiest ever, and judging a pie contest.",
+      "no": "Verdens kresneste, og dommer i en paikonkurranse."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "g03-0025",
+  "status": "draft",
+  "name": {
+    "en": "Janus Dance",
+    "no": "Janusdans"
+  },
+  "aliases": {
+    "en": [
+      "Back to Back"
+    ],
+    "no": [
+      "Rygg mot rygg"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Two players play a scene without seeing each other's faces.",
+    "no": "To spillere spiller en scene uten å se hverandres ansikter."
+  },
+  "steps": {
+    "en": [
+      "Sit back to back, so you can't see each other.",
+      "Play a full scene that way."
+    ],
+    "no": [
+      "Sitt rygg mot rygg, så dere ikke ser hverandre.",
+      "Spill en hel scene sånn."
+    ]
+  },
+  "more": {
+    "en": "Listening is everything. Variant, if both are comfortable: slow-dance cheek to shoulder.",
+    "no": "Lytting er alt. Variant, hvis begge er komfortable med det: sakte dans, kinn mot skulder."
+  },
+  "asks": [
+    "relationships"
+  ]
+}

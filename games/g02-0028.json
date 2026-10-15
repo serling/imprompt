@@ -1,0 +1,43 @@
+{
+  "id": "g02-0028",
+  "status": "draft",
+  "name": {
+    "en": "Silent Scene",
+    "no": "Stum scene"
+  },
+  "aliases": {
+    "en": [
+      "Without Words"
+    ],
+    "no": [
+      "Uten ord"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A complete scene with no words at all.",
+    "no": "En hel scene helt uten ord."
+  },
+  "steps": {
+    "en": [
+      "Play a scene without speaking.",
+      "The story comes through body, face and mime."
+    ],
+    "no": [
+      "Spill en scene uten å snakke.",
+      "Historien kommer fram gjennom kropp, ansikt og mime."
+    ]
+  },
+  "more": {
+    "en": "No mouthing words. Silence makes every look and every object count.",
+    "no": "Ikke form ord med munnen. Stillheten gjør at hvert blikk og hver gjenstand teller."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

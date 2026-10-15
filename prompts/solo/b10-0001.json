@@ -4,12 +4,14 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone trying to return a jumper they've clearly worn."
+    "en": "Someone trying to return a jumper they've clearly worn.",
+    "no": "Noen som prøver å levere tilbake en genser de tydelig har brukt."
   },
   "tags": [
     "everyday"
   ],
   "callback": {
-    "en": "the jumper returner"
+    "en": "the jumper returner",
+    "no": "personen som leverer tilbake genseren"
   }
 }

@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "An elegant tow-truck driver."
+    "en": "An elegant tow-truck driver.",
+    "no": "En elegant bergingsbilsjåfør."
   },
   "tags": [
     "character",
     "status"
   ],
   "callback": {
-    "en": "the elegant tow-truck driver"
+    "en": "the elegant tow-truck driver",
+    "no": "den elegante bergingsbilsjåføren"
   }
 }

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone reading a bus timetable, moved to tears."
+    "en": "Someone reading a bus timetable, moved to tears.",
+    "no": "Noen som leser bussrutetabellen, rørt til tårer."
   },
   "tags": [
     "everyday"

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone reading the instructions on a microwave meal, very seriously."
+    "en": "Someone reading the instructions on a microwave meal, very seriously.",
+    "no": "Noen som leser bruksanvisningen på en mikrorett, veldig alvorlig."
   },
   "tags": [
     "everyday"

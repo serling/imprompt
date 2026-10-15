@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "Someone on their fifth coffee of the morning."
+    "en": "Someone on their fifth coffee of the morning.",
+    "no": "Noen som er på morgenens femte kopp kaffe."
   },
   "tags": [
     "character",
     "physical"
   ],
   "callback": {
-    "en": "the person on their fifth coffee"
+    "en": "the person on their fifth coffee",
+    "no": "personen som er på femte kopp kaffe"
   }
 }

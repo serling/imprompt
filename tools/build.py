@@ -20,14 +20,24 @@ def main():
         shutil.rmtree(out)
     shutil.copytree(ROOT / "app", out)
     deck = {}
-    for folder in ("solo", "duo", "escalations", "callbacks", "modifiers", "scenes", "emotions", "styles"):
+    kinds = json.loads((ROOT / "words" / "tags.json").read_text())["kinds"]
+    sources = [("prompts", f) for f in ("solo", "duo", "escalations", "callbacks", "scenes")]
+    sources += [("words", k) for k in kinds]
+    for top, folder in sources:
         items = []
-        for f in sorted((ROOT / "prompts" / folder).glob("*.json")):
+        for f in sorted((ROOT / top / folder).glob("*.json")):
             p = json.loads(f.read_text())
             if p.get("status") in PLAYABLE:
                 p.pop("status", None)
                 items.append(p)
         deck[folder] = items
+    # Short-form games: reusable frames, never used up.
+    deck["games"] = [g for g in (json.loads(f.read_text()) for f in sorted((ROOT / "games").glob("*.json")))
+                     if g.get("status") in PLAYABLE]
+    for g in deck["games"]:
+        g.pop("status", None)
+    # Word kind labels, by language, for the player to show ("Emotion", "Speech" …).
+    deck["kinds"] = {k: {"label": v["label"]} for k, v in kinds.items()}
     (out / "deck.json").write_text(json.dumps(deck, ensure_ascii=False, separators=(",", ":")))
     print({k: len(v) for k, v in deck.items()}, "->", out)
 

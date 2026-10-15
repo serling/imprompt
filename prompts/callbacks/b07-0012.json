@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A pitch to investors. The founder is {character}."
+    "en": "A pitch to investors. The founder is {character}.",
+    "no": "En pitch for investorer. Gründeren er {character}."
   },
   "tags": [
     "work",

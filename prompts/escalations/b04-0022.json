@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Fancy."
+      "en": "Fancy.",
+      "no": "Fornem."
     },
     {
-      "en": "Fancier."
+      "en": "Fancier.",
+      "no": "Mer fornem."
     },
     {
-      "en": "Even fancier."
+      "en": "Even fancier.",
+      "no": "Enda mer fornem."
     },
     {
-      "en": "The fanciest ever, and eating with your hands."
+      "en": "The fanciest ever, and eating with your hands.",
+      "no": "Verdens mest fornemme, og spiser med fingrene."
     }
   ],
   "tags": [

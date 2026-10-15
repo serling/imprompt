@@ -1,0 +1,40 @@
+{
+  "id": "g02-0046",
+  "status": "draft",
+  "name": {
+    "en": "Zoom In Zoom Out",
+    "no": "Zoom inn, zoom ut"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "The caller shrinks the scene to a tiny scale and back again.",
+    "no": "Innroperen krymper scenen til bitteliten skala og tilbake igjen."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player is the caller.",
+      "On \"zoom out\", continue the scene with tiny gestures, as if from far away.",
+      "On \"zoom in\", return to full size."
+    ],
+    "no": [
+      "Spill en scene; én spiller er innroper.",
+      "På «zoom ut» fortsetter dere scenen med bittesmå bevegelser, som sett langt unna.",
+      "På «zoom inn» går dere tilbake til full størrelse."
+    ]
+  },
+  "more": {
+    "en": "Keep the story going in both sizes: only the scale changes.",
+    "no": "Hold historien i gang i begge størrelser: bare skalaen endrer seg."
+  },
+  "asks": [
+    "locations"
+  ]
+}

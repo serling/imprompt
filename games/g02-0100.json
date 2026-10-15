@@ -1,0 +1,44 @@
+{
+  "id": "g02-0100",
+  "status": "draft",
+  "name": {
+    "en": "Good Bad Ugly Advice",
+    "no": "Gode, dårlige og ekle råd"
+  },
+  "aliases": {
+    "en": [
+      "The Good, the Bad and the Ugly"
+    ],
+    "no": [
+      "Den gode, den onde og den stygge"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "Three advisers take a problem: one gives good advice, one useless, one revolting.",
+    "no": "Tre rådgivere tar et problem: én gir gode råd, én ubrukelige, én motbydelige."
+  },
+  "steps": {
+    "en": [
+      "One player gives good advice on the problem on the card.",
+      "The next gives useless advice.",
+      "The last gives revolting advice."
+    ],
+    "no": [
+      "Én spiller gir gode råd om problemet på kortet.",
+      "Den neste gir ubrukelige råd.",
+      "Den siste gir motbydelige råd."
+    ]
+  },
+  "more": {
+    "en": "Keep it quick: three answers per problem.",
+    "no": "Hold det kjapt: tre svar per problem."
+  },
+  "asks": [
+    "problems"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b14-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A newly qualified magician who can't stop doing tricks.",
+    "no": "En nyutdannet tryllekunstner som ikke klarer å slutte å gjøre triks."
+  },
+  "tags": [
+    "character"
+  ]
+}

@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A secretly sentimental bouncer."
+    "en": "A sentimental bouncer.",
+    "no": "En sentimental dørvakt."
   },
   "tags": [
     "character",
     "work"
   ],
   "callback": {
-    "en": "the sentimental bouncer"
+    "en": "the sentimental bouncer",
+    "no": "den sentimentale dørvakta"
   }
 }

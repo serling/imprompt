@@ -1,0 +1,39 @@
+{
+  "id": "g02-0017",
+  "status": "draft",
+  "name": {
+    "en": "Last Letter Scene",
+    "no": "Siste bokstav"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Each line starts with the last letter of the line before.",
+    "no": "Hver replikk begynner på siste bokstav i replikken før."
+  },
+  "steps": {
+    "en": [
+      "The first line is free.",
+      "Every next line must start with the last letter of the line before it."
+    ],
+    "no": [
+      "Første replikk er fri.",
+      "Hver neste replikk må begynne på siste bokstav i replikken før."
+    ]
+  },
+  "more": {
+    "en": "Listening is the whole game: you can't plan your line until you hear the end of theirs.",
+    "no": "Lytting er hele leken: du kan ikke planlegge replikken din før du hører slutten på deres."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

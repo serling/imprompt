@@ -1,0 +1,44 @@
+{
+  "id": "g02-0082",
+  "status": "draft",
+  "name": {
+    "en": "Slide Show",
+    "no": "Lysbildeshow"
+  },
+  "aliases": {
+    "en": [
+      "Slideshow"
+    ],
+    "no": [
+      "Slideshow"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "A narrator presents the group's holiday slides as frozen poses.",
+    "no": "En forteller viser gruppens feriebilder som frosne positurer."
+  },
+  "steps": {
+    "en": [
+      "One player is the narrator.",
+      "The others form a frozen pose for each slide.",
+      "The narrator describes each slide; click, and a new pose appears."
+    ],
+    "no": [
+      "Én spiller er forteller.",
+      "De andre danner en frossen positur for hvert lysbilde.",
+      "Fortelleren beskriver hvert bilde; klikk, og en ny positur dukker opp."
+    ]
+  },
+  "more": {
+    "en": "The narrator justifies whatever pose appears, not the other way round.",
+    "no": "Fortelleren begrunner den posituren som dukker opp, ikke omvendt."
+  },
+  "asks": [
+    "locations"
+  ]
+}

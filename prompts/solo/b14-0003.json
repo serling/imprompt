@@ -1,0 +1,13 @@
+{
+  "id": "b14-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A retired stuntman doing the weekly shop.",
+    "no": "En pensjonert stuntmann som tar ukeshandelen."
+  },
+  "tags": [
+    "character"
+  ]
+}

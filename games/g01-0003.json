@@ -1,0 +1,44 @@
+{
+  "id": "g01-0003",
+  "status": "draft",
+  "name": {
+    "en": "Emotional Rollercoaster",
+    "no": "Følelsesberg-og-dal-bane"
+  },
+  "aliases": {
+    "en": [
+      "Continuing Emotions"
+    ],
+    "no": [
+      "Følelsesbytte"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "The scene keeps going while the caller keeps changing the emotion.",
+    "no": "Scenen fortsetter mens innroperen stadig bytter følelse."
+  },
+  "steps": {
+    "en": [
+      "One player is the caller; the others play a scene.",
+      "The caller freezes the scene and calls the next emotion.",
+      "Pick up exactly where you stopped, now in that emotion."
+    ],
+    "no": [
+      "Én spiller er innroper; de andre spiller en scene.",
+      "Innroperen fryser scenen og roper inn neste følelse.",
+      "Fortsett nøyaktig der dere stoppet, nå i den følelsen."
+    ]
+  },
+  "more": {
+    "en": "A call can go to the whole scene or to one player. Refresh the emotion for the next call.",
+    "no": "Et innrop kan gjelde hele scenen eller én spiller. Trekk en ny følelse til neste innrop."
+  },
+  "asks": [
+    "emotions"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "b15-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Jumpy.",
+      "no": "Skvetten."
+    },
+    {
+      "en": "Jumpier.",
+      "no": "Mer skvetten."
+    },
+    {
+      "en": "Even jumpier.",
+      "no": "Enda mer skvetten."
+    },
+    {
+      "en": "The jumpiest ever, and working in a haunted house.",
+      "no": "Verdens mest skvetne, og jobber i et spøkelseshus."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

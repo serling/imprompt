@@ -1,0 +1,38 @@
+{
+  "id": "g03-0012",
+  "status": "draft",
+  "name": {
+    "en": "No Laughs Scene",
+    "no": "Ingen latter"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "elimination",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "Play it straight; whoever draws a laugh is swapped out.",
+    "no": "Spill det helt seriøst; den som får noen til å le, byttes ut."
+  },
+  "steps": {
+    "en": [
+      "Play a completely serious scene.",
+      "Whoever makes someone laugh is replaced by a player from the side."
+    ],
+    "no": [
+      "Spill en helt seriøs scene.",
+      "Den som får noen til å le, erstattes av en spiller fra siden."
+    ]
+  },
+  "more": {
+    "en": "The players at the side judge, and their laughs count too.",
+    "no": "Spillerne på siden dømmer, og latteren deres teller også."
+  },
+  "asks": [
+    "locations"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "g03-0019",
+  "status": "draft",
+  "name": {
+    "en": "Dating Game",
+    "no": "Dateleken"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "A dater questions three contestants, then guesses each one's quirk.",
+    "no": "En dater utspør tre deltakere, og gjetter så hver deltakers særhet."
+  },
+  "steps": {
+    "en": [
+      "Send the dater out of earshot.",
+      "Each contestant takes a quirk: one from each line of the card.",
+      "The dater asks three questions, then guesses each quirk."
+    ],
+    "no": [
+      "Send dateren ut av hørevidde.",
+      "Hver deltaker tar en særhet: én fra hver linje på kortet.",
+      "Dateren stiller tre spørsmål, og gjetter så hver særhet."
+    ]
+  },
+  "more": {
+    "en": "Contestants: show more of the quirk with each answer.",
+    "no": "Deltakere: vis mer av særheten for hvert svar."
+  },
+  "asks": [
+    "occupations",
+    "emotions",
+    "physical"
+  ]
+}

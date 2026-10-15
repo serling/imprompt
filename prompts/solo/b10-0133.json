@@ -4,13 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A dog seeing snow for the first time."
+    "en": "A dog seeing snow for the first time.",
+    "no": "En hund som ser snø for første gang."
   },
   "tags": [
     "character",
     "nature"
   ],
   "callback": {
-    "en": "the dog who's never seen snow"
+    "en": "the dog who's never seen snow",
+    "no": "hunden som aldri har sett snø"
   }
 }

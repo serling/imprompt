@@ -1,0 +1,40 @@
+{
+  "id": "g03-0022",
+  "status": "draft",
+  "name": {
+    "en": "Story Solo",
+    "no": "Solohistorie"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "word-story",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "One player tells a story; the others throw in words that must be used.",
+    "no": "Én spiller forteller en historie; de andre kaster inn ord som må brukes."
+  },
+  "steps": {
+    "en": [
+      "One player tells the story on the card.",
+      "On a signal, another player calls out an unrelated word.",
+      "The teller uses it in their next sentence."
+    ],
+    "no": [
+      "Én spiller forteller historien på kortet.",
+      "På et signal roper en annen spiller ut et ord som ikke har noe med saken å gjøre.",
+      "Fortelleren bruker det i neste setning."
+    ]
+  },
+  "more": {
+    "en": "Throw words that challenge, not words that stop the story.",
+    "no": "Kast inn ord som utfordrer, ikke ord som stopper historien."
+  },
+  "asks": [
+    "titles"
+  ]
+}

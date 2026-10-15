@@ -1,0 +1,46 @@
+{
+  "id": "g02-0065",
+  "status": "draft",
+  "name": {
+    "en": "Crime Endowments",
+    "no": "Forbrytelsen"
+  },
+  "aliases": {
+    "en": [
+      "Interrogation"
+    ],
+    "no": [
+      "Avhør"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "A suspect must confess to a crime they didn't hear about.",
+    "no": "En mistenkt må tilstå en forbrytelse hen ikke har hørt om."
+  },
+  "steps": {
+    "en": [
+      "Send the suspect out of earshot.",
+      "The others agree a crime from the card: place, weapon and act.",
+      "The interrogators drop hints until the suspect confesses all three."
+    ],
+    "no": [
+      "Send den mistenkte ut av hørevidde.",
+      "De andre blir enige om en forbrytelse fra kortet: sted, våpen og handling.",
+      "Avhørerne kommer med hint til den mistenkte har tilstått alle tre."
+    ]
+  },
+  "more": {
+    "en": "Interrogators: hint, never say. Suspect: guess boldly and stay in the scene.",
+    "no": "Avhørere: hint, aldri si det. Mistenkt: gjett frimodig og bli i scenen."
+  },
+  "asks": [
+    "locations",
+    "objects",
+    "activities"
+  ]
+}

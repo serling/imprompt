@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Tidy."
+      "en": "Tidy.",
+      "no": "Ryddig."
     },
     {
-      "en": "Tidier."
+      "en": "Tidier.",
+      "no": "Ryddigere."
     },
     {
-      "en": "Even tidier."
+      "en": "Even tidier.",
+      "no": "Enda ryddigere."
     },
     {
-      "en": "Ex-tidy."
+      "en": "Ex-tidy.",
+      "no": "Eks-ryddig."
     }
   ],
   "tags": [

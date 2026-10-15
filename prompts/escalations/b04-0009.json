@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Proud."
+      "en": "Proud.",
+      "no": "Stolt."
     },
     {
-      "en": "Prouder."
+      "en": "Prouder.",
+      "no": "Stoltere."
     },
     {
-      "en": "Even prouder."
+      "en": "Even prouder.",
+      "no": "Enda stoltere."
     },
     {
-      "en": "The proudest ever, of a very small potato."
+      "en": "The proudest ever, of a very small potato.",
+      "no": "Verdens stolteste, over en bitteliten potet."
     }
   ],
   "tags": [

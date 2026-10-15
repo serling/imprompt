@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Lost."
+      "en": "Lost.",
+      "no": "Bortkommen."
     },
     {
-      "en": "More lost."
+      "en": "More lost.",
+      "no": "Mer bortkommen."
     },
     {
-      "en": "Even more lost."
+      "en": "Even more lost.",
+      "no": "Enda mer bortkommen."
     },
     {
-      "en": "The most lost ever, and the tour guide."
+      "en": "The most lost ever, and the tour guide.",
+      "no": "Verdens mest bortkomne, og er guiden."
     }
   ],
   "tags": [

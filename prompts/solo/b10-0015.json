@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone trying to eat spaghetti elegantly on a first date."
+    "en": "Someone trying to eat spaghetti elegantly on a first date.",
+    "no": "Noen som prøver å spise spagetti elegant på første date."
   },
   "tags": [
     "everyday",

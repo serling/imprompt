@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first dentist appointment in history."
+    "en": "The first dentist appointment in history.",
+    "no": "Den første tannlegetimen i historien."
   },
   "tags": [
     "history"

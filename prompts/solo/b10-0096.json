@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone opening a birthday card, suspicious."
+    "en": "Someone opening a birthday card, suspicious.",
+    "no": "Noen som åpner et bursdagskort, mistenksom."
   },
   "tags": [
     "everyday"

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Fragile."
+      "en": "Fragile.",
+      "no": "Skjør."
     },
     {
-      "en": "More fragile."
+      "en": "More fragile.",
+      "no": "Skjørere."
     },
     {
-      "en": "Even more fragile."
+      "en": "Even more fragile.",
+      "no": "Enda skjørere."
     },
     {
-      "en": "The most fragile ever, and a bouncer."
+      "en": "The most fragile ever, and a bouncer.",
+      "no": "Verdens skjøreste, og er dørvakt."
     }
   ],
   "tags": [

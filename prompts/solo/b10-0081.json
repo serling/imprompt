@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A general taking orders from a cadet with a clipboard."
+    "en": "A general taking orders from a cadet with a clipboard.",
+    "no": "En general som tar imot ordre fra en kadett med skriveplate."
   },
   "tags": [
     "status"

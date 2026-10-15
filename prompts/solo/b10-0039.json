@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A lifeguard on their first day, afraid of water."
+    "en": "A lifeguard on their first day, afraid of water.",
+    "no": "En badevakt på første arbeidsdag, som er redd for vann."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the lifeguard who's afraid of water"
+    "en": "the lifeguard who's afraid of water",
+    "no": "badevakta som er redd for vann"
   }
 }

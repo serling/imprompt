@@ -1,0 +1,28 @@
+{
+  "id": "b15-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Forgetful.",
+      "no": "Glemsk."
+    },
+    {
+      "en": "More forgetful.",
+      "no": "Mer glemsk."
+    },
+    {
+      "en": "Even more forgetful.",
+      "no": "Enda mer glemsk."
+    },
+    {
+      "en": "The most forgetful ever, and giving the best man's speech.",
+      "no": "Verdens mest glemske, og holder forlovertalen."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

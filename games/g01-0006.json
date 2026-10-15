@@ -1,0 +1,45 @@
+{
+  "id": "g01-0006",
+  "status": "draft",
+  "name": {
+    "en": "Puppets",
+    "no": "Dukker"
+  },
+  "aliases": {
+    "en": [
+      "Moving People"
+    ],
+    "no": [
+      "Flytte folk"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two players speak; two others move them.",
+    "no": "To spillere snakker; to andre beveger dem."
+  },
+  "steps": {
+    "en": [
+      "Two players play a scene but may not move on their own.",
+      "Two puppeteers move their arms, legs and heads for them.",
+      "Every move has to make sense in the scene, however odd."
+    ],
+    "no": [
+      "To spillere spiller en scene, men får ikke bevege seg selv.",
+      "To dukkeførere beveger armene, beina og hodene deres for dem.",
+      "Hver bevegelse må gi mening i scenen, uansett hvor rar den er."
+    ]
+  },
+  "more": {
+    "en": "Puppeteers: slow and specific. Actors: follow the move and give it a reason.",
+    "no": "Dukkeførere: sakte og presist. Skuespillere: følg bevegelsen og gi den en grunn."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

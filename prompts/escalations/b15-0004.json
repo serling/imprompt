@@ -1,0 +1,28 @@
+{
+  "id": "b15-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Greedy.",
+      "no": "Grådig."
+    },
+    {
+      "en": "Greedier.",
+      "no": "Grådigere."
+    },
+    {
+      "en": "Even greedier.",
+      "no": "Enda grådigere."
+    },
+    {
+      "en": "The greediest ever, and sharing one crisp.",
+      "no": "Verdens grådigste, og deler én eneste potetgullbit."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

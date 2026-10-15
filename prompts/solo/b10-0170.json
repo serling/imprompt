@@ -4,7 +4,8 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A grieving garden hose."
+    "en": "A grieving garden hose.",
+    "no": "En sørgende hageslange."
   },
   "tags": [
     "character"

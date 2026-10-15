@@ -1,0 +1,40 @@
+{
+  "id": "g03-0013",
+  "status": "draft",
+  "name": {
+    "en": "One for All",
+    "no": "Én for alle"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "A busy scene, replayed with fewer and fewer players.",
+    "no": "En travel scene, spilt om igjen med færre og færre spillere."
+  },
+  "steps": {
+    "en": [
+      "Three players play a short scene with three clear characters.",
+      "Replay it with two, one covering the missing role too.",
+      "Replay it with one player playing all three."
+    ],
+    "no": [
+      "Tre spillere spiller en kort scene med tre tydelige karakterer.",
+      "Spill den om igjen med to, der én også tar rollen som mangler.",
+      "Spill den om igjen med én spiller som spiller alle tre."
+    ]
+  },
+  "more": {
+    "en": "Clear, different characters make the last replay possible. A player at the side chooses who leaves.",
+    "no": "Tydelige, ulike karakterer gjør den siste reprisen mulig. En spiller på siden velger hvem som går ut."
+  },
+  "asks": [
+    "locations"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Making toast, as a heist film."
+    "en": "Making toast, as a heist film.",
+    "no": "Å lage toast, som en kuppfilm."
   },
   "tags": [
     "narration"

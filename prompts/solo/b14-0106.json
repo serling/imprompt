@@ -1,0 +1,13 @@
+{
+  "id": "b14-0106",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A lion tamer being told to sit by the lion.",
+    "no": "En løvetemmer som får beskjed om å sitte, av løven."
+  },
+  "tags": [
+    "status"
+  ]
+}

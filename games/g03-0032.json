@@ -1,0 +1,40 @@
+{
+  "id": "g03-0032",
+  "status": "draft",
+  "name": {
+    "en": "Big Blob",
+    "no": "Den store klumpen"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "The players wade through a huge, gross mass their characters never notice.",
+    "no": "Spillerne vasser gjennom en svær, ekkel masse som karakterene aldri legger merke til."
+  },
+  "steps": {
+    "en": [
+      "Imagine a huge, sticky blob filling the room.",
+      "Play an ordinary scene in the place on the card.",
+      "Your bodies fight through the blob; your characters never mention it."
+    ],
+    "no": [
+      "Se for dere en svær, klissete klump som fyller rommet.",
+      "Spill en helt vanlig scene på stedet på kortet.",
+      "Kroppene deres kjemper seg gjennom klumpen; karakterene nevner den aldri."
+    ]
+  },
+  "more": {
+    "en": "The struggle is all physical. The more normal the talk, the funnier the wading.",
+    "no": "Kampen er helt fysisk. Jo mer normal praten er, jo morsommere er vassingen."
+  },
+  "asks": [
+    "locations"
+  ]
+}

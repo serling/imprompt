@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A kettle with strong opinions about tea."
+    "en": "A kettle with strong opinions about tea.",
+    "no": "En vannkoker med sterke meninger om te."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the opinionated kettle"
+    "en": "the opinionated kettle",
+    "no": "den meningssterke vannkokeren"
   }
 }

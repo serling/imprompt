@@ -1,0 +1,44 @@
+{
+  "id": "g02-0071",
+  "status": "draft",
+  "name": {
+    "en": "Repair Shop",
+    "no": "Reklamasjon"
+  },
+  "aliases": {
+    "en": [
+      "Reclamation"
+    ],
+    "no": [
+      "Verkstedet"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "A customer must work out what they are returning, and what's wrong with it.",
+    "no": "En kunde må finne ut hva hen leverer tilbake, og hva som er galt med det."
+  },
+  "steps": {
+    "en": [
+      "Send the customer out of earshot.",
+      "The staff agree the object on the card and its fault.",
+      "The customer returns it, guided by the staff's hints."
+    ],
+    "no": [
+      "Send kunden ut av hørevidde.",
+      "De ansatte blir enige om gjenstanden på kortet og feilen med den.",
+      "Kunden leverer den tilbake, ledet av hintene fra de ansatte."
+    ]
+  },
+  "more": {
+    "en": "Staff: describe, never name. The customer can mime holding it.",
+    "no": "Ansatte: beskriv, aldri si hva det er. Kunden kan mime at hen holder den."
+  },
+  "asks": [
+    "objects"
+  ]
+}

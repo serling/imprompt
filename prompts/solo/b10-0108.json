@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone folding a napkin, smug."
+    "en": "Someone folding a napkin, smug.",
+    "no": "Noen som bretter en serviett, selvgod."
   },
   "tags": [
     "everyday"

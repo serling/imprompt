@@ -1,0 +1,47 @@
+{
+  "id": "g02-0044",
+  "status": "draft",
+  "name": {
+    "en": "Switcheroo",
+    "no": "Rollebytte"
+  },
+  "aliases": {
+    "en": [
+      "Switch Characters",
+      "Role Reversal"
+    ],
+    "no": [
+      "Bytt karakterer",
+      "Omvendte roller"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "On a call, players swap characters and carry on.",
+    "no": "På et innrop bytter spillerne karakter og fortsetter."
+  },
+  "steps": {
+    "en": [
+      "Two or more players start a scene.",
+      "When the caller says \"switch\", players rotate into each other's characters.",
+      "Carry on the story without a pause."
+    ],
+    "no": [
+      "To eller flere spillere starter en scene.",
+      "Når innroperen sier «bytt», roterer spillerne inn i hverandres karakterer.",
+      "Fortsett historien uten pause."
+    ]
+  },
+  "more": {
+    "en": "Copy the voice, posture and opinions of the character you take over.",
+    "no": "Kopier stemmen, holdningen og meningene til karakteren du tar over."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

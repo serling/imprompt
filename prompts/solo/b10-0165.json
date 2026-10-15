@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A hungover cuckoo clock."
+    "en": "A hungover cuckoo clock.",
+    "no": "Et bakfullt gjøkur."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the hungover cuckoo clock"
+    "en": "the hungover cuckoo clock",
+    "no": "det bakfulle gjøkuret"
   }
 }

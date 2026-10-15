@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Picking a seat on the bus, like a chess grandmaster."
+    "en": "Picking a seat on the bus, like a chess grandmaster.",
+    "no": "Å velge sete på bussen, som en sjakkstormester."
   },
   "tags": [
     "narration"

@@ -1,0 +1,13 @@
+{
+  "id": "b14-0127",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A painter painting a portrait, but the model won't stop moving.",
+    "no": "En maler som maler et portrett, men modellen klarer ikke å sitte stille."
+  },
+  "tags": [
+    "work"
+  ]
+}

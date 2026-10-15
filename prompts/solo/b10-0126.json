@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A vending machine that just wants to be loved."
+    "en": "A vending machine that just wants to be loved.",
+    "no": "En salgsautomat som bare vil bli elsket."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the lonely vending machine"
+    "en": "the lonely vending machine",
+    "no": "den ensomme salgsautomaten"
   }
 }

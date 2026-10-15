@@ -4,13 +4,15 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A swimming teacher giving a lesson, without getting wet."
+    "en": "A swimming teacher giving a lesson, without getting wet.",
+    "no": "En svømmelærer som holder en svømmetime, uten å bli våt."
   },
   "tags": [
     "work",
     "physical"
   ],
   "callback": {
-    "en": "the swimming teacher who stays dry"
+    "en": "the swimming teacher who stays dry",
+    "no": "svømmelæreren som holder seg tørr"
   }
 }

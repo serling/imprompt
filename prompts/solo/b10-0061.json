@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Hanging out the washing, like a royal ceremony."
+    "en": "Hanging out the washing, like a royal ceremony.",
+    "no": "Å henge opp klesvasken, som en kongelig seremoni."
   },
   "tags": [
     "narration",

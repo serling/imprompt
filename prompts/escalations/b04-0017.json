@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Patient."
+      "en": "Patient.",
+      "no": "Tålmodig."
     },
     {
-      "en": "More patient."
+      "en": "More patient.",
+      "no": "Mer tålmodig."
     },
     {
-      "en": "Even more patient."
+      "en": "Even more patient.",
+      "no": "Enda mer tålmodig."
     },
     {
-      "en": "Suddenly impatient."
+      "en": "Suddenly impatient.",
+      "no": "Plutselig utålmodig."
     }
   ],
   "tags": [

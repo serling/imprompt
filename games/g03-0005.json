@@ -1,0 +1,38 @@
+{
+  "id": "g03-0005",
+  "status": "draft",
+  "name": {
+    "en": "Invisibility",
+    "no": "Usynlig"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A character everyone treats as present, but nobody plays.",
+    "no": "En karakter alle behandler som til stede, men som ingen spiller."
+  },
+  "steps": {
+    "en": [
+      "Agree on one invisible character.",
+      "Play a scene where everyone talks to and reacts to them."
+    ],
+    "no": [
+      "Bli enige om én usynlig karakter.",
+      "Spill en scene der alle snakker til og reagerer på den."
+    ]
+  },
+  "more": {
+    "en": "Keep the invisible character consistent. Variant: a player at the side gives them a voice.",
+    "no": "Hold den usynlige karakteren konsekvent. Variant: en spiller på siden gir den en stemme."
+  },
+  "asks": [
+    "locations"
+  ]
+}

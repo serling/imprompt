@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A boss nervously asking the intern for a pay rise."
+    "en": "A boss nervously asking the intern for a pay rise.",
+    "no": "En sjef som nervøst ber praktikanten om lønnsøkning."
   },
   "tags": [
     "status",

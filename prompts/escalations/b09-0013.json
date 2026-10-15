@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Competitive."
+      "en": "Competitive.",
+      "no": "Konkurranseinnstilt."
     },
     {
-      "en": "More competitive."
+      "en": "More competitive.",
+      "no": "Mer konkurranseinnstilt."
     },
     {
-      "en": "Even more competitive."
+      "en": "Even more competitive.",
+      "no": "Enda mer konkurranseinnstilt."
     },
     {
-      "en": "Anti-competitive."
+      "en": "Anti-competitive.",
+      "no": "Anti-konkurranseinnstilt."
     }
   ],
   "tags": [

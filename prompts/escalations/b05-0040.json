@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Generous."
+      "en": "Generous.",
+      "no": "Gavmild."
     },
     {
-      "en": "More generous."
+      "en": "More generous.",
+      "no": "Gavmildere."
     },
     {
-      "en": "Even more generous."
+      "en": "Even more generous.",
+      "no": "Enda gavmildere."
     },
     {
-      "en": "The most generous ever, and completely broke."
+      "en": "The most generous ever, and completely broke.",
+      "no": "Verdens gavmildeste, og helt blakk."
     }
   ],
   "tags": [

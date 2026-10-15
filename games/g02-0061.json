@@ -1,0 +1,44 @@
+{
+  "id": "g02-0061",
+  "status": "draft",
+  "name": {
+    "en": "Hitch-Hiker",
+    "no": "Haikeren"
+  },
+  "aliases": {
+    "en": [
+      "Hitchhiker"
+    ],
+    "no": [
+      "Haiker"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "Each new passenger brings a strong trait that everyone in the car takes on.",
+    "no": "Hver nye passasjer har med seg et sterkt særtrekk som alle i bilen kopierer."
+  },
+  "steps": {
+    "en": [
+      "Two players drive a car.",
+      "A hitch-hiker gets in with a strong trait, and everyone takes it on.",
+      "Someone leaves, and the next hitch-hiker brings a new trait."
+    ],
+    "no": [
+      "To spillere kjører i en bil.",
+      "En haiker setter seg inn med et sterkt særtrekk, og alle andre kopierer.",
+      "Noen går av, og neste haiker har med seg et nytt særtrekk."
+    ]
+  },
+  "more": {
+    "en": "The card's emotion is the first passenger's trait; refresh it for each new one.",
+    "no": "Tildel en ny følelse for hver passasjer."
+  },
+  "asks": [
+    "emotions"
+  ]
+}

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A timid bodybuilder."
+    "en": "A timid bodybuilder.",
+    "no": "En engstelig kroppsbygger."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the timid bodybuilder"
+    "en": "the timid bodybuilder",
+    "no": "den engstelige kroppsbyggeren"
   }
 }

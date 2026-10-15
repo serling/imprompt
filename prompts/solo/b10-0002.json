@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone arguing with a self-checkout about an unexpected item."
+    "en": "Someone arguing with a self-checkout about an unexpected item.",
+    "no": "Noen som krangler med en selvbetjent kasse om en uventet vare."
   },
   "tags": [
     "everyday"

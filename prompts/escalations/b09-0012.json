@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Restless."
+      "en": "Restless.",
+      "no": "Rastløs."
     },
     {
-      "en": "More restless."
+      "en": "More restless.",
+      "no": "Mer rastløs."
     },
     {
-      "en": "Even more restless."
+      "en": "Even more restless.",
+      "no": "Enda mer rastløs."
     },
     {
-      "en": "The most restless ever, and posing for a portrait."
+      "en": "The most restless ever, and posing for a portrait.",
+      "no": "Verdens mest rastløse, og sitter modell for et portrett."
     }
   ],
   "tags": [

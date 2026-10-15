@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A librarian shushing people, but very loudly."
+    "en": "A librarian shushing people, but very loudly.",
+    "no": "En bibliotekar som hysjer på folk, men veldig høyt."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the loud librarian"
+    "en": "the loud librarian",
+    "no": "den høylytte bibliotekaren"
   }
 }

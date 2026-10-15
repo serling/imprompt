@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A vet and a very worried goldfish owner."
+    "en": "A vet and a very worried goldfish owner.",
+    "no": "En veterinær og en svært bekymret gullfiskeier."
   },
   "tags": [
     "work"

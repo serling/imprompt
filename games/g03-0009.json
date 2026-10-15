@@ -1,0 +1,46 @@
+{
+  "id": "g03-0009",
+  "status": "draft",
+  "name": {
+    "en": "Colour Change",
+    "no": "Fargebytte"
+  },
+  "aliases": {
+    "en": [
+      "Color Change"
+    ],
+    "no": [
+      "Fargeskifte"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "Three colours, three places; the caller names a colour and the scene jumps.",
+    "no": "Tre farger, tre steder; innroperen sier en farge, og scenen hopper."
+  },
+  "steps": {
+    "en": [
+      "Give each of the three places on the card a colour.",
+      "Start a scene; the caller names a colour now and then.",
+      "The scene carries on in that colour's place."
+    ],
+    "no": [
+      "Gi hvert av de tre stedene på kortet en farge.",
+      "Start en scene; innroperen sier en farge nå og da.",
+      "Scenen fortsetter på stedet med den fargen."
+    ]
+  },
+  "more": {
+    "en": "The story carries on through each jump; only the place changes.",
+    "no": "Historien fortsetter gjennom hvert hopp; bare stedet endrer seg."
+  },
+  "asks": [
+    "locations",
+    "locations",
+    "locations"
+  ]
+}

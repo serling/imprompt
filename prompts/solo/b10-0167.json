@@ -4,7 +4,8 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A smug parking warden."
+    "en": "A smug parking warden.",
+    "no": "En selvgod parkeringsvakt."
   },
   "tags": [
     "character"

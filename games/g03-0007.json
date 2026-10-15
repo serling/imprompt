@@ -1,0 +1,40 @@
+{
+  "id": "g03-0007",
+  "status": "draft",
+  "name": {
+    "en": "Timeline",
+    "no": "Tidslinje"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 6
+  },
+  "summary": {
+    "en": "One story that starts in prehistory and moves era by era into the future.",
+    "no": "Én historie som starter i forhistorisk tid og går epoke for epoke inn i framtiden."
+  },
+  "steps": {
+    "en": [
+      "Begin the story in prehistoric times.",
+      "Jump forward through the ages, keeping the same characters.",
+      "End in the future."
+    ],
+    "no": [
+      "Start historien i forhistorisk tid.",
+      "Hopp framover gjennom tidene med de samme karakterene.",
+      "Avslutt i framtiden."
+    ]
+  },
+  "more": {
+    "en": "Each era can change tools and habits, but the story must carry on through all of them.",
+    "no": "Hver epoke kan endre redskaper og vaner, men historien må fortsette gjennom alle."
+  },
+  "asks": [
+    "relationships"
+  ]
+}

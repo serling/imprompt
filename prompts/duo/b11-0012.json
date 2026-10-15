@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A grandad and his grandson, sharing one pair of reading glasses."
+    "en": "A grandad and his grandson, sharing one pair of reading glasses.",
+    "no": "En bestefar og barnebarnet hans, som deler ett par lesebriller."
   },
   "tags": [
     "family",

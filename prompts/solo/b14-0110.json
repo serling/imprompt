@@ -1,0 +1,13 @@
+{
+  "id": "b14-0110",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A security guard asking a burglar if he may leave.",
+    "no": "En vekter som spør en innbruddstyv om han får lov til å gå."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "g02-0024",
+  "status": "draft",
+  "name": {
+    "en": "Pootie Tang",
+    "no": "Pootie Tang"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "One character speaks only gibberish; everyone else understands perfectly.",
+    "no": "Én karakter snakker bare gibberish; alle andre forstår perfekt."
+  },
+  "steps": {
+    "en": [
+      "One player speaks only gibberish.",
+      "The others treat every word as completely clear and answer it."
+    ],
+    "no": [
+      "Én spiller snakker bare gibberish.",
+      "De andre behandler hvert ord som helt klart og svarer på det."
+    ]
+  },
+  "more": {
+    "en": "The others decide what the gibberish meant, so they shape the story. The gibberish player should commit to their intentions.",
+    "no": "De andre bestemmer hva gibberishen betydde, så de former historien. Gibberish-spilleren bør gå helt inn i intensjonene sine."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "loc02-0125",
+  "status": "approved",
+  "text": {
+    "en": "Metro station",
+    "no": "T-banestasjon"
+  },
+  "tags": [
+    "public",
+    "travel",
+    "everyday",
+    "indoor"
+  ]
+}

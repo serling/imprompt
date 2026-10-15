@@ -1,0 +1,13 @@
+{
+  "id": "b14-0111",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A fashion designer asking a toddler what to wear.",
+    "no": "En motedesigner som spør en smårolling hva som skal på i dag."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A self-defence class. The instructor is {character}."
+    "en": "A self-defence class. The instructor is {character}.",
+    "no": "Et selvforsvarskurs. Instruktøren er {character}."
   },
   "tags": [
     "work",

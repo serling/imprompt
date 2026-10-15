@@ -1,0 +1,47 @@
+{
+  "id": "g01-0004",
+  "status": "draft",
+  "name": {
+    "en": "Genre Replay",
+    "no": "Sjangerrepris"
+  },
+  "aliases": {
+    "en": [
+      "Styles Replay",
+      "Scene Three Ways"
+    ],
+    "no": [
+      "Stilrepris",
+      "Scene på tre måter"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Play a short scene, then replay it in one genre after another.",
+    "no": "Spill en kort scene, og spill den så om igjen i den ene sjangeren etter den andre."
+  },
+  "steps": {
+    "en": [
+      "Play a short scene of about a minute, straight.",
+      "Replay the same scene in the genre on the card, keeping the story.",
+      "Refresh the style for the next genre and replay again."
+    ],
+    "no": [
+      "Spill en kort scene på rundt ett minutt, helt rett.",
+      "Spill samme scene om igjen i sjangeren på kortet, med samme historie.",
+      "Trekk en ny stil til neste sjanger og spill den om igjen."
+    ]
+  },
+  "more": {
+    "en": "Keep the plot and the lines as close as you can: the comedy is in what each genre does to them.",
+    "no": "Hold handlingen og replikkene så like som mulig: komikken ligger i hva hver sjanger gjør med dem."
+  },
+  "asks": [
+    "locations",
+    "styles"
+  ]
+}

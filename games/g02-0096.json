@@ -1,0 +1,40 @@
+{
+  "id": "g02-0096",
+  "status": "draft",
+  "name": {
+    "en": "Sound Effects",
+    "no": "Lydeffekter"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "Offstage players make every sound in the scene.",
+    "no": "Spillere utenfor scenen lager alle lydene i scenen."
+  },
+  "steps": {
+    "en": [
+      "Two players act the scene.",
+      "Two others at the side make all the sound effects.",
+      "The actors must use whatever sounds they get."
+    ],
+    "no": [
+      "To spillere spiller scenen.",
+      "To andre på siden lager alle lydeffektene.",
+      "Skuespillerne må bruke de lydene de får."
+    ]
+  },
+  "more": {
+    "en": "Sound players: surprise them. Actors: justify everything.",
+    "no": "Lydspillere: overrask dem. Skuespillere: begrunn alt."
+  },
+  "asks": [
+    "locations"
+  ]
+}

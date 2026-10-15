@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A bishop being told off by the choirboy."
+    "en": "A bishop being told off by the choirboy.",
+    "no": "En biskop som får kjeft av korgutten."
   },
   "tags": [
     "status"

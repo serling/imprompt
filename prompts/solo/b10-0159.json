@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A jet-lagged hamster."
+    "en": "A jet-lagged hamster.",
+    "no": "En hamster med jetlag."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the jet-lagged hamster"
+    "en": "the jet-lagged hamster",
+    "no": "hamsteren med jetlag"
   }
 }

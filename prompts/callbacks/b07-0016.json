@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "A police interrogation. The suspect is {character}."
+    "en": "A police interrogation. The suspect is {character}.",
+    "no": "Et politiavhør. Den mistenkte er {character}."
   },
   "tags": [
     "work",

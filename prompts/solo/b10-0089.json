@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A queen cleaning the palace while the cleaners have tea."
+    "en": "A queen cleaning the palace while the cleaners have tea.",
+    "no": "En dronning som vasker slottet mens vaskehjelpene drikker te."
   },
   "tags": [
     "status"

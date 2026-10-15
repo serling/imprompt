@@ -1,0 +1,36 @@
+{
+  "id": "g02-0015",
+  "status": "draft",
+  "name": {
+    "en": "Historical Scene",
+    "no": "Historisk scene"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "A famous moment from history, played loosely.",
+    "no": "Et kjent øyeblikk fra historien, spilt løst."
+  },
+  "steps": {
+    "en": [
+      "Pick a well-known historical event together.",
+      "Play it, finding the comedy in its small details."
+    ],
+    "no": [
+      "Velg en kjent historisk hendelse sammen.",
+      "Spill den, og finn komikken i de små detaljene."
+    ]
+  },
+  "more": {
+    "en": "Accuracy is optional. The small human moments around the big event are the scene.",
+    "no": "Nøyaktighet er valgfritt. De små menneskelige øyeblikkene rundt den store hendelsen er scenen."
+  },
+  "asks": []
+}

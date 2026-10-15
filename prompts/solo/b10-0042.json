@@ -4,13 +4,15 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A tattoo artist starting their first tattoo, with shaky hands."
+    "en": "A tattoo artist starting their first tattoo, with shaky hands.",
+    "no": "En tatovør som begynner på sin første tatovering, med skjelvende hender."
   },
   "tags": [
     "work",
     "physical"
   ],
   "callback": {
-    "en": "the shaky tattoo artist"
+    "en": "the shaky tattoo artist",
+    "no": "den skjelvende tatovøren"
   }
 }

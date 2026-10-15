@@ -1,0 +1,13 @@
+{
+  "id": "b14-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A painfully honest estate agent.",
+    "no": "En smertelig ærlig eiendomsmegler."
+  },
+  "tags": [
+    "character"
+  ]
+}

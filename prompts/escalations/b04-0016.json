@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Curious."
+      "en": "Curious.",
+      "no": "Nysgjerrig."
     },
     {
-      "en": "More curious."
+      "en": "More curious.",
+      "no": "Mer nysgjerrig."
     },
     {
-      "en": "Even more curious."
+      "en": "Even more curious.",
+      "no": "Enda mer nysgjerrig."
     },
     {
-      "en": "Anti-curious."
+      "en": "Anti-curious.",
+      "no": "Anti-nysgjerrig."
     }
   ],
   "tags": [

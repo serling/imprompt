@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "A haircut. The customer is {character}."
+    "en": "A haircut. The customer is {character}.",
+    "no": "En tur til frisøren. Kunden er {character}."
   },
   "tags": [
     "everyday",

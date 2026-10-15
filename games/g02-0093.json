@@ -1,0 +1,45 @@
+{
+  "id": "g02-0093",
+  "status": "draft",
+  "name": {
+    "en": "Gibberish Expert",
+    "no": "Gibberish-ekspert"
+  },
+  "aliases": {
+    "en": [
+      "Translator"
+    ],
+    "no": [
+      "Tolken"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "A visitor speaks only gibberish; an interpreter translates.",
+    "no": "En besøkende snakker bare gibberish; en tolk oversetter."
+  },
+  "steps": {
+    "en": [
+      "One player is an expert who speaks only gibberish.",
+      "An interpreter translates for an interviewer.",
+      "The interview is about the topic on the card."
+    ],
+    "no": [
+      "Én spiller er en ekspert som bare snakker gibberish.",
+      "En tolk oversetter for en intervjuer.",
+      "Intervjuet handler om temaet på kortet."
+    ]
+  },
+  "more": {
+    "en": "The interpreter can translate freely, but should follow the expert's tone.",
+    "no": "Tolken kan oversette fritt, men bør følge ekspertens tonefall."
+  },
+  "asks": [
+    "occupations",
+    "topics"
+  ]
+}

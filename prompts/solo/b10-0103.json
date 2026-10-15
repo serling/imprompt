@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone buying stamps, elated."
+    "en": "Someone buying stamps, elated.",
+    "no": "Noen som kjøper frimerker, overlykkelig."
   },
   "tags": [
     "everyday"

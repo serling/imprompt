@@ -1,0 +1,42 @@
+{
+  "id": "g03-0028",
+  "status": "draft",
+  "name": {
+    "en": "Commercial",
+    "no": "Reklame"
+  },
+  "aliases": {
+    "en": [
+      "Advert"
+    ],
+    "no": [
+      "Reklamefilm"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "Players act out an advert for a product.",
+    "no": "Spillerne spiller en reklame for et produkt."
+  },
+  "steps": {
+    "en": [
+      "The product is the object on the card.",
+      "Play an advert for it."
+    ],
+    "no": [
+      "Produktet er gjenstanden på kortet.",
+      "Spill en reklame for den."
+    ]
+  },
+  "more": {
+    "en": "No jingles. Exaggerate the claims; play it like a real advert.",
+    "no": "Ingen jingler. Overdriv påstandene; spill det som en ekte reklame."
+  },
+  "asks": [
+    "objects"
+  ]
+}

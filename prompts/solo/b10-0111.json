@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone choosing toothpaste, jealous."
+    "en": "Someone choosing toothpaste, jealous.",
+    "no": "Noen som velger tannkrem, sjalu."
   },
   "tags": [
     "everyday"

@@ -1,0 +1,14 @@
+{
+  "id": "b13-0119",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A general and the private who has just been made his superior.",
+    "no": "En general og den menige soldaten som nettopp er blitt hans overordnede."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

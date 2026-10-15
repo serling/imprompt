@@ -1,0 +1,48 @@
+{
+  "id": "g02-0003",
+  "status": "draft",
+  "name": {
+    "en": "Alphabet Game",
+    "no": "Alfabetleken"
+  },
+  "aliases": {
+    "en": [
+      "ABC Game",
+      "Alphabet Scene"
+    ],
+    "no": [
+      "ABC-leken",
+      "Alfabetscene"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Each line starts with the next letter of the alphabet.",
+    "no": "Hver replikk begynner på neste bokstav i alfabetet."
+  },
+  "steps": {
+    "en": [
+      "The first line starts with the letter on the card.",
+      "Every following line starts with the next letter, round to the start letter again.",
+      "The scene ends on the line before the letter you began with."
+    ],
+    "no": [
+      "Første replikk begynner på bokstaven på kortet.",
+      "Hver neste replikk begynner på neste bokstav, rundt til startbokstaven igjen.",
+      "Scenen slutter på replikken før bokstaven dere begynte med."
+    ]
+  },
+  "more": {
+    "en": "Keep the story moving: a good scene beats a clever word. Skip hard letters with a quick \"X-actly\".",
+    "no": "Hold historien i gang: en god scene slår et smart ord. Hopp over vanskelige bokstaver med et kjapt «X-akt»."
+  },
+  "asks": [
+    "letters",
+    "locations",
+    "relationships"
+  ]
+}

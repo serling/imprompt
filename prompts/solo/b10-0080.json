@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A dog owner obeying every command from the dog."
+    "en": "A dog owner obeying every command from the dog.",
+    "no": "En hundeeier som adlyder alle kommandoer fra hunden."
   },
   "tags": [
     "status",

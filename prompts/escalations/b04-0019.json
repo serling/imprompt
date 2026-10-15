@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Old."
+      "en": "Old.",
+      "no": "Gammel."
     },
     {
-      "en": "Older."
+      "en": "Older.",
+      "no": "Eldre."
     },
     {
-      "en": "Even older."
+      "en": "Even older.",
+      "no": "Enda eldre."
     },
     {
-      "en": "The oldest ever, and starting school today."
+      "en": "The oldest ever, and starting school today.",
+      "no": "Verdens eldste, og begynner på skolen i dag."
     }
   ],
   "tags": [

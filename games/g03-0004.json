@@ -1,0 +1,38 @@
+{
+  "id": "g03-0004",
+  "status": "draft",
+  "name": {
+    "en": "F.I.S.H.",
+    "no": "F.I.S.K."
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Lines start with the letters of a short word, in turn.",
+    "no": "Replikkene begynner på bokstavene i et kort ord, etter tur."
+  },
+  "steps": {
+    "en": [
+      "Choose a short word together, like FISH.",
+      "Each line starts with the next letter of that word, round and round."
+    ],
+    "no": [
+      "Velg et kort ord sammen, som FISK.",
+      "Hver replikk begynner på neste bokstav i ordet, rundt og rundt."
+    ]
+  },
+  "more": {
+    "en": "A short word means the same letters come back fast; the scene has to keep moving.",
+    "no": "Et kort ord betyr at de samme bokstavene kommer fort tilbake; scenen må holde seg i gang."
+  },
+  "asks": [
+    "locations"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "g02-0056",
+  "status": "draft",
+  "name": {
+    "en": "Point of View",
+    "no": "Synsvinkel"
+  },
+  "aliases": {
+    "en": [
+      "Rashomon"
+    ],
+    "no": [
+      "Rashomon"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "The same scene replayed from each character's version of events.",
+    "no": "Samme scene spilt om igjen etter hver karakters versjon av hendelsene."
+  },
+  "steps": {
+    "en": [
+      "Play a scene.",
+      "Replay it as one character remembers it.",
+      "Replay it again from another character's view."
+    ],
+    "no": [
+      "Spill en scene.",
+      "Spill den om igjen slik én karakter husker den.",
+      "Spill den om igjen fra en annen karakters ståsted."
+    ]
+  },
+  "more": {
+    "en": "Everyone is the hero of their own version.",
+    "no": "Alle er helten i sin egen versjon."
+  },
+  "asks": [
+    "relationships",
+    "locations"
+  ]
+}

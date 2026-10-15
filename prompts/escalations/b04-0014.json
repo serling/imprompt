@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Lazy."
+      "en": "Lazy.",
+      "no": "Lat."
     },
     {
-      "en": "Lazier."
+      "en": "Lazier.",
+      "no": "Latere."
     },
     {
-      "en": "Even lazier."
+      "en": "Even lazier.",
+      "no": "Enda latere."
     },
     {
-      "en": "The laziest ever, and running a marathon."
+      "en": "The laziest ever, and running a marathon.",
+      "no": "Verdens lateste, og løper maraton."
     }
   ],
   "tags": [

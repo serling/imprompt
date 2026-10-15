@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone putting out the bins, terrified."
+    "en": "Someone putting out the bins, terrified.",
+    "no": "Noen som setter ut søppeldunkene, livredd."
   },
   "tags": [
     "everyday",

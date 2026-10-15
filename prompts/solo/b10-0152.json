@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first person to say \"fine, thanks\" when they weren't."
+    "en": "The first person to say \"fine, thanks\" when they weren't.",
+    "no": "Den første som sa «bare bra, takk» uten at det var sant."
   },
   "tags": [
     "history"

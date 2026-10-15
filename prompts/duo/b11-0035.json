@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A knight and a squire who would rather be a chef."
+    "en": "A knight and a squire who would rather be a chef.",
+    "no": "En ridder og en væpner som heller vil bli kokk."
   },
   "tags": [
     "status"

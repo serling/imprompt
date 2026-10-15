@@ -1,0 +1,13 @@
+{
+  "id": "loc02-0123",
+  "status": "approved",
+  "text": {
+    "en": "Town square",
+    "no": "Torg"
+  },
+  "tags": [
+    "public",
+    "everyday",
+    "outdoor"
+  ]
+}

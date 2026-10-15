@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Gloomy."
+      "en": "Gloomy.",
+      "no": "Dyster."
     },
     {
-      "en": "Gloomier."
+      "en": "Gloomier.",
+      "no": "Dystrere."
     },
     {
-      "en": "Even gloomier."
+      "en": "Even gloomier.",
+      "no": "Enda dystrere."
     },
     {
-      "en": "The gloomiest ever, and hosting a children's party."
+      "en": "The gloomiest ever, and hosting a children's party.",
+      "no": "Verdens dystreste, og arrangerer barnebursdag."
     }
   ],
   "tags": [

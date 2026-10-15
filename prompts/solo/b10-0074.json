@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Returning a library book, like smuggling it across a border."
+    "en": "Returning a library book, like smuggling it across a border.",
+    "no": "Å levere tilbake en bok på biblioteket, som å smugle den over en grense."
   },
   "tags": [
     "narration"

@@ -1,0 +1,14 @@
+{
+  "id": "b13-0115",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A boss giving the employee a perfectly honest review of the boss.",
+    "no": "En sjef som gir den ansatte en helt ærlig vurdering av sjefen."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

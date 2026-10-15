@@ -4,7 +4,8 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A sleep-deprived lighthouse."
+    "en": "A sleep-deprived lighthouse.",
+    "no": "Et fyrtårn med søvnmangel."
   },
   "tags": [
     "character"

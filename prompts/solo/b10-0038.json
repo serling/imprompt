@@ -4,13 +4,15 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A smug weather presenter."
+    "en": "A smug weather presenter.",
+    "no": "En selvgod værmelder."
   },
   "tags": [
     "character",
     "work"
   ],
   "callback": {
-    "en": "the smug weather presenter"
+    "en": "the smug weather presenter",
+    "no": "den selvgode værmelderen"
   }
 }

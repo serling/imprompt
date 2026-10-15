@@ -1,0 +1,42 @@
+{
+  "id": "g02-0083",
+  "status": "draft",
+  "name": {
+    "en": "Three-Way Dubbing",
+    "no": "Treveis dubbing"
+  },
+  "aliases": {
+    "en": [
+      "Cross Dubbing"
+    ],
+    "no": [
+      "Kryssdubbing"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 3
+  },
+  "summary": {
+    "en": "Players on stage voice each other rather than themselves.",
+    "no": "Spillerne på scenen gir stemme til hverandre i stedet for seg selv."
+  },
+  "steps": {
+    "en": [
+      "Play a scene.",
+      "Each player voices another player's character."
+    ],
+    "no": [
+      "Spill en scene.",
+      "Hver spiller gir stemme til en annen spillers karakter."
+    ]
+  },
+  "more": {
+    "en": "Watch your partner's mouth and body for clues.",
+    "no": "Se på partnerens munn og kropp etter hint."
+  },
+  "asks": [
+    "locations"
+  ]
+}

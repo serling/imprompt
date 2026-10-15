@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A stand-in Santa and a child who knows the real one."
+    "en": "A stand-in Santa and a child who knows the real one.",
+    "no": "En vikar-julenisse og et barn som kjenner den ekte julenissen."
   },
   "tags": [
     "character"

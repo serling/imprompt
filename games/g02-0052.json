@@ -1,0 +1,41 @@
+{
+  "id": "g02-0052",
+  "status": "draft",
+  "name": {
+    "en": "Director's Cut",
+    "no": "Regissørens versjon"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "A director stops the scene and has it replayed with new notes.",
+    "no": "En regissør stopper scenen og får den spilt om igjen med nye anvisninger."
+  },
+  "steps": {
+    "en": [
+      "Two players play a short scene; one player is the director.",
+      "The director stops it and gives a note about emotion, character or roles.",
+      "The scene is replayed with the note."
+    ],
+    "no": [
+      "To spillere spiller en kort scene; én spiller er regissør.",
+      "Regissøren stopper den og gir en anvisning om følelse, karakter eller roller.",
+      "Scenen spilles om igjen med anvisningen."
+    ]
+  },
+  "more": {
+    "en": "Notes can be specific: \"more\", \"less\", \"louder\", \"you're in love with her\".",
+    "no": "Anvisningene kan være konkrete: «mer», «mindre», «høyere», «du er forelsket i henne»."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

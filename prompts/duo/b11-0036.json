@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "An ice-cream seller and the last customer of the summer."
+    "en": "An ice-cream seller and the last customer of the summer.",
+    "no": "En isselger og sommerens siste kunde."
   },
   "tags": [
     "everyday"

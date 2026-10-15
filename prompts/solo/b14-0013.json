@@ -1,0 +1,14 @@
+{
+  "id": "b14-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A grandad trying out his new electric scooter.",
+    "no": "En bestefar som prøver den nye elsparkesykkelen sin."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "g03-0031",
+  "status": "draft",
+  "name": {
+    "en": "News Report",
+    "no": "Nyhetssending"
+  },
+  "aliases": {
+    "en": [
+      "TV News"
+    ],
+    "no": [
+      "TV-nyheter"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 3
+  },
+  "summary": {
+    "en": "An anchor, a weather presenter and a reporter on location put together a newscast.",
+    "no": "En nyhetsoppleser, en værmelder og en reporter på stedet lager en nyhetssending."
+  },
+  "steps": {
+    "en": [
+      "One player is the anchor, one the weather presenter, one a reporter on location.",
+      "The reporter's location is the place on the card."
+    ],
+    "no": [
+      "Én spiller er nyhetsoppleser, én værmelder og én reporter på stedet.",
+      "Reporterens sted er stedet på kortet."
+    ]
+  },
+  "more": {
+    "en": "The anchor links the items. The weather can be strange.",
+    "no": "Nyhetsoppleseren binder sakene sammen. Været kan være rart."
+  },
+  "asks": [
+    "locations"
+  ]
+}

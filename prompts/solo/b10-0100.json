@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone tying their shoelaces, ashamed."
+    "en": "Someone tying their shoelaces, ashamed.",
+    "no": "Noen som knyter skolissene, skamfull."
   },
   "tags": [
     "everyday"

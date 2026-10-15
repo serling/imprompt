@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A self-taught surgeon."
+    "en": "A self-taught surgeon.",
+    "no": "En selvlært kirurg."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the self-taught surgeon"
+    "en": "the self-taught surgeon",
+    "no": "den selvlærte kirurgen"
   }
 }

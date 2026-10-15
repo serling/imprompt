@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "An undercover lollipop lady."
+    "en": "An undercover lollipop lady.",
+    "no": "En skolepatruljevakt som jobber undercover."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the undercover lollipop lady"
+    "en": "the undercover lollipop lady",
+    "no": "skolepatruljevakta som jobber undercover"
   }
 }

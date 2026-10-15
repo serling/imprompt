@@ -1,0 +1,28 @@
+{
+  "id": "b15-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Calm.",
+      "no": "Rolig."
+    },
+    {
+      "en": "Calmer.",
+      "no": "Roligere."
+    },
+    {
+      "en": "Even calmer.",
+      "no": "Enda roligere."
+    },
+    {
+      "en": "The calmest ever, in a burning kitchen.",
+      "no": "Verdens roligste, på et brennende kjøkken."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

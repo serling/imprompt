@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Sneezy."
+      "en": "Sneezy.",
+      "no": "Nysete."
     },
     {
-      "en": "Sneezier."
+      "en": "Sneezier.",
+      "no": "Mer nysete."
     },
     {
-      "en": "Even sneezier."
+      "en": "Even sneezier.",
+      "no": "Enda mer nysete."
     },
     {
-      "en": "The sneeziest ever, and whispering a secret."
+      "en": "The sneeziest ever, and whispering a secret.",
+      "no": "Verdens mest nysete, og hvisker en hemmelighet."
     }
   ],
   "tags": [

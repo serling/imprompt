@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Strong."
+      "en": "Strong.",
+      "no": "Sterk."
     },
     {
-      "en": "Stronger."
+      "en": "Stronger.",
+      "no": "Sterkere."
     },
     {
-      "en": "Even stronger."
+      "en": "Even stronger.",
+      "no": "Enda sterkere."
     },
     {
-      "en": "The strongest ever, and unable to open a jar."
+      "en": "The strongest ever, and unable to open a jar.",
+      "no": "Verdens sterkeste, og klarer ikke å åpne et syltetøyglass."
     }
   ],
   "tags": [

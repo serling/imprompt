@@ -1,0 +1,13 @@
+{
+  "id": "b14-0112",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A president queueing to be let into their own palace.",
+    "no": "En president som står i kø for å slippe inn i sitt eget palass."
+  },
+  "tags": [
+    "status"
+  ]
+}

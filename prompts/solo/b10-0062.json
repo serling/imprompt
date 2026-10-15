@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "A trip to the recycling bins, as a polar expedition."
+    "en": "A trip to the recycling bins, as a polar expedition.",
+    "no": "En tur til miljøstasjonen, som en polarekspedisjon."
   },
   "tags": [
     "narration",

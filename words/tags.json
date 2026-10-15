@@ -1,0 +1,588 @@
+{
+  "about": "The kinds of word and the tags a word may carry. Keys are ids, never shown; everything a person reads is keyed by language like the words themselves (\"en\" is the source). Every tag belongs to one axis; an axis applies to some kinds of word and sets how many of its tags a word takes. tools/check.py rejects any other tag.",
+  "kinds": {
+    "locations": {
+      "label": {
+        "en": "Location",
+        "no": "Sted"
+      },
+      "max_words": 5,
+      "tagged": true
+    },
+    "occupations": {
+      "label": {
+        "en": "Occupation",
+        "no": "Yrke"
+      },
+      "max_words": 4,
+      "tagged": true
+    },
+    "relationships": {
+      "label": {
+        "en": "Relationship",
+        "no": "Relasjon"
+      },
+      "max_words": 5,
+      "tagged": true
+    },
+    "objects": {
+      "label": {
+        "en": "Object",
+        "no": "Gjenstand"
+      },
+      "max_words": 4,
+      "tagged": true
+    },
+    "styles": {
+      "label": {
+        "en": "Style",
+        "no": "Stil"
+      },
+      "max_words": 5,
+      "tagged": false
+    },
+    "emotions": {
+      "label": {
+        "en": "Emotion",
+        "no": "Følelse"
+      },
+      "max_words": 5,
+      "tagged": false
+    },
+    "physical": {
+      "label": {
+        "en": "Physical",
+        "no": "Fysisk"
+      },
+      "max_words": 5,
+      "tagged": false
+    },
+    "speech": {
+      "label": {
+        "en": "Speech",
+        "no": "Tale"
+      },
+      "max_words": 10,
+      "tagged": false
+    },
+    "staging": {
+      "label": {
+        "en": "Staging",
+        "no": "Regi"
+      },
+      "max_words": 6,
+      "tagged": false
+    },
+    "tempo": {
+      "label": {
+        "en": "Tempo",
+        "no": "Tempo"
+      },
+      "max_words": 9,
+      "tagged": false
+    },
+    "titles": {
+      "label": {
+        "en": "Title",
+        "no": "Tittel"
+      },
+      "max_words": 8,
+      "tagged": false
+    },
+    "topics": {
+      "label": {
+        "en": "Topic",
+        "no": "Tema"
+      },
+      "max_words": 5,
+      "tagged": false
+    },
+    "activities": {
+      "label": {
+        "en": "Activity",
+        "no": "Aktivitet"
+      },
+      "max_words": 5,
+      "tagged": false
+    },
+    "fairytales": {
+      "label": {
+        "en": "Fairy tale",
+        "no": "Eventyr"
+      },
+      "max_words": 6,
+      "tagged": false
+    },
+    "problems": {
+      "label": {
+        "en": "Problem",
+        "no": "Problem"
+      },
+      "max_words": 8,
+      "tagged": false
+    },
+    "animals": {
+      "label": {
+        "en": "Animal",
+        "no": "Dyr"
+      },
+      "max_words": 3,
+      "tagged": false
+    },
+    "letters": {
+      "label": {
+        "en": "Letter",
+        "no": "Bokstav"
+      },
+      "max_words": 1,
+      "tagged": false
+    }
+  },
+  "axes": {
+    "domain": {
+      "label": {
+        "en": "Domain",
+        "no": "Område"
+      },
+      "about": {
+        "en": "The world a word belongs to. Shared by every kind, so a theme can draw locations, occupations, relationships and objects that fit together.",
+        "no": "Verdenen et ord hører til. Felles for alle typer, så et tema kan hente steder, yrker, relasjoner og gjenstander som passer sammen."
+      },
+      "kinds": [
+        "locations",
+        "occupations",
+        "relationships",
+        "objects"
+      ],
+      "min": 1,
+      "max": 2,
+      "values": {
+        "home": {
+          "label": {
+            "en": "Home",
+            "no": "Hjem"
+          },
+          "about": {
+            "en": "Houses, gardens, family life",
+            "no": "Hus, hager, familieliv"
+          }
+        },
+        "work": {
+          "label": {
+            "en": "Work",
+            "no": "Jobb"
+          },
+          "about": {
+            "en": "Offices, workplaces, colleagues",
+            "no": "Kontorer, arbeidsplasser, kolleger"
+          }
+        },
+        "school": {
+          "label": {
+            "en": "School",
+            "no": "Skole"
+          },
+          "about": {
+            "en": "Schools, teaching, learning",
+            "no": "Skoler, undervisning, læring"
+          }
+        },
+        "health": {
+          "label": {
+            "en": "Health",
+            "no": "Helse"
+          },
+          "about": {
+            "en": "Doctors, hospitals, the body",
+            "no": "Leger, sykehus, kroppen"
+          }
+        },
+        "food": {
+          "label": {
+            "en": "Food",
+            "no": "Mat"
+          },
+          "about": {
+            "en": "Cooking, eating, restaurants",
+            "no": "Matlaging, måltider, restauranter"
+          }
+        },
+        "shops": {
+          "label": {
+            "en": "Shops",
+            "no": "Butikker"
+          },
+          "about": {
+            "en": "Shops and services",
+            "no": "Butikker og tjenester"
+          }
+        },
+        "travel": {
+          "label": {
+            "en": "Travel",
+            "no": "Reise"
+          },
+          "about": {
+            "en": "Journeys, transport, holidays",
+            "no": "Reiser, transport, ferier"
+          }
+        },
+        "nature": {
+          "label": {
+            "en": "Nature",
+            "no": "Natur"
+          },
+          "about": {
+            "en": "The outdoors, animals, weather",
+            "no": "Friluft, dyr, vær"
+          }
+        },
+        "leisure": {
+          "label": {
+            "en": "Leisure",
+            "no": "Fritid"
+          },
+          "about": {
+            "en": "Hobbies, entertainment, sport",
+            "no": "Hobbyer, underholdning, sport"
+          }
+        },
+        "occasion": {
+          "label": {
+            "en": "Occasion",
+            "no": "Anledning"
+          },
+          "about": {
+            "en": "Weddings, funerals, birthdays and other events",
+            "no": "Bryllup, begravelser, bursdager og andre begivenheter"
+          }
+        },
+        "public": {
+          "label": {
+            "en": "Public places",
+            "no": "Offentlige steder"
+          },
+          "about": {
+            "en": "Streets, civic life, authorities",
+            "no": "Gater, samfunnsliv, myndigheter"
+          }
+        },
+        "past": {
+          "label": {
+            "en": "The past",
+            "no": "Fortiden"
+          },
+          "about": {
+            "en": "Other centuries",
+            "no": "Andre århundrer"
+          }
+        },
+        "fantasy": {
+          "label": {
+            "en": "Fantasy",
+            "no": "Fantasi"
+          },
+          "about": {
+            "en": "Magic, myth, the future",
+            "no": "Magi, myter, fremtiden"
+          }
+        }
+      }
+    },
+    "feel": {
+      "label": {
+        "en": "Feel",
+        "no": "Preg"
+      },
+      "about": {
+        "en": "How ordinary the word is. Most words are everyday; unusual ones are seasoning.",
+        "no": "Hvor vanlig ordet er. De fleste ordene er hverdagslige; uvanlige ord er krydder."
+      },
+      "kinds": [
+        "locations",
+        "occupations",
+        "relationships",
+        "objects"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "everyday": {
+          "label": {
+            "en": "Everyday",
+            "no": "Hverdagslig"
+          },
+          "about": {
+            "en": "Something everyone has seen or done",
+            "no": "Noe alle har sett eller gjort"
+          }
+        },
+        "unusual": {
+          "label": {
+            "en": "Unusual",
+            "no": "Uvanlig"
+          },
+          "about": {
+            "en": "Rare, odd or impossible",
+            "no": "Sjeldent, rart eller umulig"
+          }
+        }
+      }
+    },
+    "setting": {
+      "label": {
+        "en": "Setting",
+        "no": "Omgivelser"
+      },
+      "about": {
+        "en": "Where a location is.",
+        "no": "Hvor et sted ligger."
+      },
+      "kinds": [
+        "locations"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "indoor": {
+          "label": {
+            "en": "Indoor",
+            "no": "Innendørs"
+          },
+          "about": {
+            "en": "Inside",
+            "no": "Inne"
+          }
+        },
+        "outdoor": {
+          "label": {
+            "en": "Outdoor",
+            "no": "Utendørs"
+          },
+          "about": {
+            "en": "Outside",
+            "no": "Ute"
+          }
+        }
+      }
+    },
+    "standing": {
+      "label": {
+        "en": "Standing",
+        "no": "Anseelse"
+      },
+      "about": {
+        "en": "How the world usually ranks an occupation. A starting point for status play, not a rule.",
+        "no": "Hvordan verden vanligvis rangerer et yrke. Et utgangspunkt for statusspill, ikke en regel."
+      },
+      "kinds": [
+        "occupations"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "high": {
+          "label": {
+            "en": "High",
+            "no": "Høy"
+          },
+          "about": {
+            "en": "Usually looked up to",
+            "no": "Vanligvis sett opp til"
+          }
+        },
+        "middle": {
+          "label": {
+            "en": "Middle",
+            "no": "Middels"
+          },
+          "about": {
+            "en": "Neither",
+            "no": "Verken eller"
+          }
+        },
+        "low": {
+          "label": {
+            "en": "Low",
+            "no": "Lav"
+          },
+          "about": {
+            "en": "Usually overlooked",
+            "no": "Vanligvis oversett"
+          }
+        }
+      }
+    },
+    "bond": {
+      "label": {
+        "en": "Bond",
+        "no": "Bånd"
+      },
+      "about": {
+        "en": "What ties the two sides of a relationship.",
+        "no": "Hva som binder de to sidene i en relasjon sammen."
+      },
+      "kinds": [
+        "relationships"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "family": {
+          "label": {
+            "en": "Family",
+            "no": "Familie"
+          },
+          "about": {
+            "en": "Related",
+            "no": "I slekt"
+          }
+        },
+        "romantic": {
+          "label": {
+            "en": "Romantic",
+            "no": "Romantisk"
+          },
+          "about": {
+            "en": "Together, or once were",
+            "no": "Sammen, eller var det en gang"
+          }
+        },
+        "friends": {
+          "label": {
+            "en": "Friends",
+            "no": "Venner"
+          },
+          "about": {
+            "en": "Friends, or once were",
+            "no": "Venner, eller var det en gang"
+          }
+        },
+        "colleagues": {
+          "label": {
+            "en": "Colleagues",
+            "no": "Kolleger"
+          },
+          "about": {
+            "en": "They work together",
+            "no": "De jobber sammen"
+          }
+        },
+        "service": {
+          "label": {
+            "en": "Service",
+            "no": "Tjeneste"
+          },
+          "about": {
+            "en": "One serves the other: doctor and patient, landlord and tenant",
+            "no": "Den ene betjener den andre: lege og pasient, huseier og leietaker"
+          }
+        },
+        "community": {
+          "label": {
+            "en": "Community",
+            "no": "Fellesskap"
+          },
+          "about": {
+            "en": "Neighbours, flatmates, people who share a place",
+            "no": "Naboer, kollektiv, folk som deler et sted"
+          }
+        },
+        "strangers": {
+          "label": {
+            "en": "Strangers",
+            "no": "Fremmede"
+          },
+          "about": {
+            "en": "They have just met",
+            "no": "De har nettopp møttes"
+          }
+        }
+      }
+    },
+    "balance": {
+      "label": {
+        "en": "Balance",
+        "no": "Balanse"
+      },
+      "about": {
+        "en": "Whether one side of a relationship starts above the other.",
+        "no": "Om den ene siden i en relasjon starter over den andre."
+      },
+      "kinds": [
+        "relationships"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "equal": {
+          "label": {
+            "en": "Equal",
+            "no": "Likestilt"
+          },
+          "about": {
+            "en": "Neither side outranks the other",
+            "no": "Ingen av sidene står over den andre"
+          }
+        },
+        "unequal": {
+          "label": {
+            "en": "Unequal",
+            "no": "Ulik"
+          },
+          "about": {
+            "en": "One side starts with more power",
+            "no": "Den ene siden starter med mer makt"
+          }
+        }
+      }
+    },
+    "size": {
+      "label": {
+        "en": "Size",
+        "no": "Størrelse"
+      },
+      "about": {
+        "en": "How big an object is, which decides how it is mimed.",
+        "no": "Hvor stor en gjenstand er, som avgjør hvordan den mimes."
+      },
+      "kinds": [
+        "objects"
+      ],
+      "min": 1,
+      "max": 1,
+      "values": {
+        "small": {
+          "label": {
+            "en": "Small",
+            "no": "Liten"
+          },
+          "about": {
+            "en": "Held in one hand",
+            "no": "Holdes i én hånd"
+          }
+        },
+        "medium": {
+          "label": {
+            "en": "Medium",
+            "no": "Middels stor"
+          },
+          "about": {
+            "en": "Carried with both hands",
+            "no": "Bæres med begge hender"
+          }
+        },
+        "large": {
+          "label": {
+            "en": "Large",
+            "no": "Stor"
+          },
+          "about": {
+            "en": "Too big to carry",
+            "no": "For stor til å bæres"
+          }
+        }
+      }
+    }
+  }
+}

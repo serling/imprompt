@@ -1,0 +1,46 @@
+{
+  "id": "g02-0048",
+  "status": "draft",
+  "name": {
+    "en": "Story Story Die",
+    "no": "Fortell, fortell, dø"
+  },
+  "aliases": {
+    "en": [
+      "Story Die",
+      "Die"
+    ],
+    "no": [
+      "Story Die",
+      "Dø"
+    ]
+  },
+  "family": "elimination",
+  "players": {
+    "min": 4,
+    "max": 7
+  },
+  "summary": {
+    "en": "A conductor passes one story along a line; slip up and you die.",
+    "no": "En dirigent sender én historie bortover en rekke; gjør du feil, dør du."
+  },
+  "steps": {
+    "en": [
+      "Players stand in a line; one is the conductor.",
+      "The conductor points, and that player continues the story on the card.",
+      "Stumble, repeat or contradict, and you die on the spot, dramatically."
+    ],
+    "no": [
+      "Spillerne står på en rekke; én er dirigent.",
+      "Dirigenten peker, og den spilleren fortsetter historien på kortet.",
+      "Snubler, gjentar eller motsier du, dør du på stedet, dramatisk."
+    ]
+  },
+  "more": {
+    "en": "Switch mid-word. The deaths are part of the show: give each one a moment.",
+    "no": "Bytt midt i et ord. Dødsfallene er en del av forestillingen: gi hvert av dem et øyeblikk."
+  },
+  "asks": [
+    "titles"
+  ]
+}

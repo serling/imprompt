@@ -1,0 +1,28 @@
+{
+  "id": "b15-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Impatient.",
+      "no": "Utålmodig."
+    },
+    {
+      "en": "More impatient.",
+      "no": "Mer utålmodig."
+    },
+    {
+      "en": "Even more impatient.",
+      "no": "Enda mer utålmodig."
+    },
+    {
+      "en": "The most impatient ever, and watching paint dry.",
+      "no": "Verdens mest utålmodige, og ser på maling som tørker."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

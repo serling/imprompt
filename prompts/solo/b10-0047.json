@@ -4,7 +4,8 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A traffic reporter describing a jam they are stuck in."
+    "en": "A traffic reporter describing a jam they are stuck in.",
+    "no": "En trafikkreporter som melder om en kø, fra midt inne i køen."
   },
   "tags": [
     "work",

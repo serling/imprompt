@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Confused."
+      "en": "Confused.",
+      "no": "Forvirret."
     },
     {
-      "en": "More confused."
+      "en": "More confused.",
+      "no": "Mer forvirret."
     },
     {
-      "en": "Even more confused."
+      "en": "Even more confused.",
+      "no": "Enda mer forvirret."
     },
     {
-      "en": "The most confused ever, and giving a lecture."
+      "en": "The most confused ever, and giving a lecture.",
+      "no": "Verdens mest forvirrede, og holder foredrag."
     }
   ],
   "tags": [

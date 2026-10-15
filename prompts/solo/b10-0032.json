@@ -4,7 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "Someone with a very stiff neck."
+    "en": "Someone with a very stiff neck.",
+    "no": "Noen med veldig stiv nakke."
   },
   "tags": [
     "character",

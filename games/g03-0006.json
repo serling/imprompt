@@ -1,0 +1,41 @@
+{
+  "id": "g03-0006",
+  "status": "draft",
+  "name": {
+    "en": "Parallel Universe",
+    "no": "Parallelluniverset"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two scenes play side by side on one stage, each ignoring the other.",
+    "no": "To scener spilles side om side på én scene, og hver overser den andre."
+  },
+  "steps": {
+    "en": [
+      "Two pairs each take one place from the card.",
+      "Both scenes run at the same time on the same stage.",
+      "Each pair ignores the other completely."
+    ],
+    "no": [
+      "To par tar hvert sitt sted fra kortet.",
+      "Begge scenene går samtidig på samme scene.",
+      "Hvert par overser det andre fullstendig."
+    ]
+  },
+  "more": {
+    "en": "Share focus: when one pair gets loud, the other gets quiet.",
+    "no": "Del fokus: når ett par blir høylytt, blir det andre stille."
+  },
+  "asks": [
+    "locations",
+    "locations"
+  ]
+}

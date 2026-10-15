@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A traffic cone that has been put on the wrong road."
+    "en": "A traffic cone that has been put on the wrong road.",
+    "no": "En trafikkjegle som har blitt satt på feil vei."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the misplaced traffic cone"
+    "en": "the misplaced traffic cone",
+    "no": "den feilplasserte trafikkjegla"
   }
 }

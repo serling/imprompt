@@ -4,13 +4,15 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A window cleaner on the fortieth floor, chatting to everyone inside."
+    "en": "A window cleaner on the fortieth floor, chatting to everyone inside.",
+    "no": "En vindusvasker i førtiende etasje som prater med alle der inne."
   },
   "tags": [
     "work",
     "physical"
   ],
   "callback": {
-    "en": "the chatty window cleaner"
+    "en": "the chatty window cleaner",
+    "no": "den pratsomme vindusvaskeren"
   }
 }

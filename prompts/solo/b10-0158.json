@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A recovering escalator."
+    "en": "A recovering escalator.",
+    "no": "En rulletrapp i rehab."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the recovering escalator"
+    "en": "the recovering escalator",
+    "no": "rulletrappa i rehab"
   }
 }

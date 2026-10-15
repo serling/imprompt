@@ -1,0 +1,46 @@
+{
+  "id": "g02-0035",
+  "status": "draft",
+  "name": {
+    "en": "Diamond",
+    "no": "Diamant"
+  },
+  "aliases": {
+    "en": [
+      "Dutch Square",
+      "Four Square"
+    ],
+    "no": [
+      "Dutch Square",
+      "Firkant"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Four players rotate, and each front pair plays its own scene.",
+    "no": "Fire spillere roterer, og hvert par foran spiller sin egen scene."
+  },
+  "steps": {
+    "en": [
+      "Stand in a diamond; the two in front play a scene.",
+      "When the caller says \"turn\", everyone rotates and the new front pair starts its scene.",
+      "Each pair returns to its own scene where it left off."
+    ],
+    "no": [
+      "Stå i en diamant; de to foran spiller en scene.",
+      "Når innroperen sier «snu», roterer alle, og det nye paret foran starter sin scene.",
+      "Hvert par går tilbake til sin egen scene der de slapp."
+    ]
+  },
+  "more": {
+    "en": "Each pair keeps its own story. Use the card's relationship for the first pair; refresh for the others.",
+    "no": "Hvert par holder på sin egen historie. Bruk relasjonen på kortet til det første paret; trekk på nytt for de andre."
+  },
+  "asks": [
+    "relationships"
+  ]
+}

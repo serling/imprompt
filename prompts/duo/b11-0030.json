@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A night porter and a hotel guest who sleepwalks."
+    "en": "A night porter and a hotel guest who sleepwalks.",
+    "no": "En nattportier og en hotellgjest som går i søvne."
   },
   "tags": [
     "everyday"

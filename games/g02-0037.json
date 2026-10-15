@@ -1,0 +1,47 @@
+{
+  "id": "g02-0037",
+  "status": "draft",
+  "name": {
+    "en": "Genre Rollercoaster",
+    "no": "Sjangerberg-og-dal-bane"
+  },
+  "aliases": {
+    "en": [
+      "Continuing Styles",
+      "Genre Switch"
+    ],
+    "no": [
+      "Stilbytte",
+      "Sjangerbytte"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "The story continues, but the caller keeps changing the genre.",
+    "no": "Historien fortsetter, men innroperen bytter stadig sjanger."
+  },
+  "steps": {
+    "en": [
+      "Two or more players start a scene; one player is the caller.",
+      "The caller freezes the scene and calls the next style.",
+      "Pick up exactly where you stopped, now in that style."
+    ],
+    "no": [
+      "To eller flere spillere starter en scene; én spiller er innroper.",
+      "Innroperen fryser scenen og roper inn neste stil.",
+      "Fortsett nøyaktig der dere stoppet, nå i den stilen."
+    ]
+  },
+  "more": {
+    "en": "The card shows one style: refresh it for each call. Keep the story going through every switch.",
+    "no": "Kortet viser én stil: trekk en ny til hvert innrop. Hold historien i gang gjennom hvert bytte."
+  },
+  "asks": [
+    "styles",
+    "locations"
+  ]
+}

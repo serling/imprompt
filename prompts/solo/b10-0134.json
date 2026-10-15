@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first person ever to sit on a chair."
+    "en": "The first person ever to sit on a chair.",
+    "no": "Den første personen noensinne som satte seg på en stol."
   },
   "tags": [
     "history",

@@ -1,0 +1,28 @@
+{
+  "id": "b15-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Busy.",
+      "no": "Travel."
+    },
+    {
+      "en": "Busier.",
+      "no": "Travlere."
+    },
+    {
+      "en": "Even busier.",
+      "no": "Enda travlere."
+    },
+    {
+      "en": "The busiest ever, and on holiday.",
+      "no": "Verdens travleste, og på ferie."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

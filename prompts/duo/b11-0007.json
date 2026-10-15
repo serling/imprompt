@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A park ranger and a camper who has brought far too much."
+    "en": "A park ranger and a camper who has brought far too much.",
+    "no": "En parkvokter og en campinggjest som har tatt med seg altfor mye."
   },
   "tags": [
     "character"

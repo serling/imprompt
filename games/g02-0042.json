@@ -1,0 +1,47 @@
+{
+  "id": "g02-0042",
+  "status": "draft",
+  "name": {
+    "en": "Pillars",
+    "no": "Søyler"
+  },
+  "aliases": {
+    "en": [
+      "Options",
+      "Hesitation"
+    ],
+    "no": [
+      "Alternativer",
+      "Nøling"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two players stop mid-sentence; two pillars at the side supply the next word.",
+    "no": "To spillere stopper midt i en setning; to søyler på siden gir dem neste ord."
+  },
+  "steps": {
+    "en": [
+      "Two players play a scene, with one pillar standing beside each.",
+      "A player pauses mid-sentence, and their pillar gives a word.",
+      "The player must use it and carry on."
+    ],
+    "no": [
+      "To spillere spiller en scene, med én søyle stående ved siden av hver.",
+      "En spiller tar en pause midt i setningen, og søylen ved siden av gir et ord.",
+      "Spilleren må bruke det og fortsette."
+    ]
+  },
+  "more": {
+    "en": "Pillars: surprising, not obstructive. Players: make the word fit as if you meant it.",
+    "no": "Søyler: overraskende, ikke ødeleggende. Spillere: få ordet til å passe som om dere mente det."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

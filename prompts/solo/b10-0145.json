@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "Discovering that ice is slippery."
+    "en": "Discovering that ice is slippery.",
+    "no": "Å oppdage at is er glatt."
   },
   "tags": [
     "history",

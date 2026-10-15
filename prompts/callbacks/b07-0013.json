@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "A first date. One of them is {character}."
+    "en": "A first date. One of them is {character}.",
+    "no": "En første date. Den ene er {character}."
   },
   "tags": [
     "everyday",

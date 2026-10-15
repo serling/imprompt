@@ -1,0 +1,40 @@
+{
+  "id": "g03-0020",
+  "status": "draft",
+  "name": {
+    "en": "Five Things",
+    "no": "Fem ting"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A guesser must find five changed details of an activity, from gibberish and mime.",
+    "no": "En gjetter må finne fem endrede detaljer i en aktivitet, ut fra gibberish og mime."
+  },
+  "steps": {
+    "en": [
+      "Send the guesser out of earshot.",
+      "The others take the activity on the card and change five details: who, where, with what.",
+      "They act it in gibberish until the guesser names all five."
+    ],
+    "no": [
+      "Send gjetteren ut av hørevidde.",
+      "De andre tar aktiviteten på kortet og endrer fem detaljer: hvem, hvor, med hva.",
+      "De spiller den på gibberish til gjetteren har sagt alle fem."
+    ]
+  },
+  "more": {
+    "en": "Set a five-minute timer if you want an end.",
+    "no": "Sett en tidtaker på fem minutter om dere vil ha en slutt."
+  },
+  "asks": [
+    "activities"
+  ]
+}

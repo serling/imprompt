@@ -4,12 +4,14 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone trying to leave a party without saying goodbye to anyone."
+    "en": "Someone trying to leave a party without saying goodbye to anyone.",
+    "no": "Noen som prøver å gå fra en fest uten å si ha det til noen."
   },
   "tags": [
     "everyday"
   ],
   "callback": {
-    "en": "the person sneaking out of the party"
+    "en": "the person sneaking out of the party",
+    "no": "personen som sniker seg ut fra festen"
   }
 }

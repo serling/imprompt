@@ -4,7 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "Someone who has just learned one word of French."
+    "en": "Someone who has just learned one word of French.",
+    "no": "Noen som nettopp har lært seg ett ord på fransk."
   },
   "tags": [
     "character"

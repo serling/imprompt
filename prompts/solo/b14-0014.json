@@ -1,0 +1,13 @@
+{
+  "id": "b14-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone who has read one book about manners.",
+    "no": "Noen som har lest én bok om folkeskikk."
+  },
+  "tags": [
+    "character"
+  ]
+}

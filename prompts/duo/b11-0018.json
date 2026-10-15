@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A vampire and their dentist."
+    "en": "A vampire and their dentist.",
+    "no": "En vampyr og vampyrens tannlege."
   },
   "tags": [
     "character"

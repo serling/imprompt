@@ -4,7 +4,8 @@
   "players": 1,
   "type": "premise",
   "text": {
-    "en": "Someone teaching their grandmother to take a selfie."
+    "en": "Someone teaching their grandmother to take a selfie.",
+    "no": "Noen som lærer bestemoren sin å ta en selfie."
   },
   "tags": [
     "family"

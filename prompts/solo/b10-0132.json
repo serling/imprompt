@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A paper aeroplane on its very first flight."
+    "en": "A paper aeroplane on its very first flight.",
+    "no": "Et papirfly på sin aller første flytur."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the paper aeroplane"
+    "en": "the paper aeroplane",
+    "no": "papirflyet"
   }
 }

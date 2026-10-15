@@ -1,0 +1,36 @@
+{
+  "id": "g02-0092",
+  "status": "draft",
+  "name": {
+    "en": "Game-O-Matic",
+    "no": "Lekemaskinen"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 6
+  },
+  "summary": {
+    "en": "Invent a game from a made-up name, then play it.",
+    "no": "Finn på en lek ut fra et oppdiktet navn, og spill den."
+  },
+  "steps": {
+    "en": [
+      "Make up a game title together.",
+      "Work out what the game must be, then play it."
+    ],
+    "no": [
+      "Finn på en tittel på en lek sammen.",
+      "Finn ut hva leken må være, og spill den."
+    ]
+  },
+  "more": {
+    "en": "Experienced players only. The title sets the rules.",
+    "no": "Bare for erfarne spillere. Tittelen bestemmer reglene."
+  },
+  "asks": []
+}

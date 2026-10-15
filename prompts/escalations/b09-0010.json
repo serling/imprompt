@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Vain."
+      "en": "Vain.",
+      "no": "Forfengelig."
     },
     {
-      "en": "Vainer."
+      "en": "Vainer.",
+      "no": "Mer forfengelig."
     },
     {
-      "en": "Even vainer."
+      "en": "Even vainer.",
+      "no": "Enda mer forfengelig."
     },
     {
-      "en": "The vainest ever, and having a very bad hair day."
+      "en": "The vainest ever, and having a very bad hair day.",
+      "no": "Verdens mest forfengelige, og har en skikkelig dårlig hårdag."
     }
   ],
   "tags": [

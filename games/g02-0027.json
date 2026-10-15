@@ -1,0 +1,42 @@
+{
+  "id": "g02-0027",
+  "status": "draft",
+  "name": {
+    "en": "Shakespeare",
+    "no": "Shakespeare"
+  },
+  "aliases": {
+    "en": [
+      "Shakespearean Scene"
+    ],
+    "no": [
+      "Shakespeare-scene"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "A small everyday problem played as a Shakespeare tragedy.",
+    "no": "Et lite hverdagsproblem spilt som en Shakespeare-tragedie."
+  },
+  "steps": {
+    "en": [
+      "Take the problem on the card.",
+      "Play it in grand, old-fashioned language, with asides and big speeches."
+    ],
+    "no": [
+      "Ta problemet på kortet.",
+      "Spill det på et storslått, gammeldags språk, med replikker til salen og store monologer."
+    ]
+  },
+  "more": {
+    "en": "No need to know Shakespeare: grand words, \"thee\" and \"thou\", and a death or two will do.",
+    "no": "Du trenger ikke kunne Shakespeare: store ord, «I» og «Eder» og et dødsfall eller to holder."
+  },
+  "asks": [
+    "problems"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A bodyguard hiding behind the person they protect."
+    "en": "A bodyguard hiding behind the person they protect.",
+    "no": "En livvakt som gjemmer seg bak personen som skal beskyttes."
   },
   "tags": [
     "status",

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first human to learn to swim."
+    "en": "The first human to learn to swim.",
+    "no": "Det første mennesket som lærte å svømme."
   },
   "tags": [
     "history",

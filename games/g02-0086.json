@@ -1,0 +1,38 @@
+{
+  "id": "g02-0086",
+  "status": "draft",
+  "name": {
+    "en": "Award Ceremony",
+    "no": "Prisutdeling"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Each winner calls the next player up for a ridiculous award.",
+    "no": "Hver vinner roper opp neste spiller til en latterlig pris."
+  },
+  "steps": {
+    "en": [
+      "One player starts by announcing an award and its winner.",
+      "The winner comes up and gives a short speech.",
+      "They then announce the next award and winner."
+    ],
+    "no": [
+      "Én spiller starter med å kunngjøre en pris og vinneren.",
+      "Vinneren kommer opp og holder en kort tale.",
+      "Så kunngjør vinneren neste pris og neste vinner."
+    ]
+  },
+  "more": {
+    "en": "Keep it short: a ridiculous award and a ridiculous speech.",
+    "no": "Hold det kort: en latterlig pris og en latterlig takketale."
+  },
+  "asks": []
+}

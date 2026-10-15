@@ -1,0 +1,47 @@
+{
+  "id": "g01-0005",
+  "status": "draft",
+  "name": {
+    "en": "New Choice",
+    "no": "Nytt valg"
+  },
+  "aliases": {
+    "en": [
+      "Ding",
+      "Should Have Said"
+    ],
+    "no": [
+      "Ding",
+      "Burde ha sagt"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "Whenever the caller says “New choice”, the last line has to change.",
+    "no": "Hver gang innroperen sier «Nytt valg», må den siste replikken byttes ut."
+  },
+  "steps": {
+    "en": [
+      "One player is the caller; two play a scene.",
+      "On “New choice”, the player who spoke last swaps their line or action for a different one.",
+      "The caller can ask again and again until the scene goes somewhere new."
+    ],
+    "no": [
+      "Én spiller er innroper; to spiller en scene.",
+      "På «Nytt valg» bytter den som snakket sist ut replikken eller handlingen sin med noe annet.",
+      "Innroperen kan be om det igjen og igjen til scenen tar en ny retning."
+    ]
+  },
+  "more": {
+    "en": "Callers: call early and often, and push the same line two or three times. Players: commit to every new choice.",
+    "no": "Innropere: rop tidlig og ofte, og press den samme replikken to–tre ganger. Spillere: gå helt inn i hvert nye valg."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

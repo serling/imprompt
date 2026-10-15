@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Dreamy."
+      "en": "Dreamy.",
+      "no": "Drømmende."
     },
     {
-      "en": "Dreamier."
+      "en": "Dreamier.",
+      "no": "Mer drømmende."
     },
     {
-      "en": "Even dreamier."
+      "en": "Even dreamier.",
+      "no": "Enda mer drømmende."
     },
     {
-      "en": "The dreamiest ever, and an air traffic controller."
+      "en": "The dreamiest ever, and an air traffic controller.",
+      "no": "Verdens mest drømmende, og er flygeleder."
     }
   ],
   "tags": [

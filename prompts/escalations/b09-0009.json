@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Cheeky."
+      "en": "Cheeky.",
+      "no": "Frekk."
     },
     {
-      "en": "Cheekier."
+      "en": "Cheekier.",
+      "no": "Frekkere."
     },
     {
-      "en": "Even cheekier."
+      "en": "Even cheekier.",
+      "no": "Enda frekkere."
     },
     {
-      "en": "The cheekiest ever, and meeting the headteacher."
+      "en": "The cheekiest ever, and meeting the headteacher.",
+      "no": "Verdens frekkeste, og møter rektor."
     }
   ],
   "tags": [

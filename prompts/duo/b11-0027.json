@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A wizard's apprentice and an ancient wizard who has forgotten everything."
+    "en": "A wizard's apprentice and an ancient wizard who has forgotten everything.",
+    "no": "En trollmannslærling og en eldgammel trollmann som har glemt alt."
   },
   "tags": [
     "status",

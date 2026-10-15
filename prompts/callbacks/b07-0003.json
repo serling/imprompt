@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A cooking show. The host is {character}."
+    "en": "A cooking show. The host is {character}.",
+    "no": "Et matprogram. Programlederen er {character}."
   },
   "tags": [
     "work",

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The first time anyone wrapped a present."
+    "en": "The first time anyone wrapped a present.",
+    "no": "Første gang noen pakket inn en gave."
   },
   "tags": [
     "history",

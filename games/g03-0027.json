@@ -1,0 +1,41 @@
+{
+  "id": "g03-0027",
+  "status": "draft",
+  "name": {
+    "en": "Beatnik Poet",
+    "no": "Beatpoeten"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "elimination",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "At a coffee-house reading, each poet must rhyme and use two odd words.",
+    "no": "På en opplesning på kafé må hver poet rime og bruke to rare ord."
+  },
+  "steps": {
+    "en": [
+      "Each poet in turn performs a short spoken poem.",
+      "It must rhyme and use both words on the card.",
+      "Miss either rule, and you're out."
+    ],
+    "no": [
+      "Hver poet framfører etter tur et kort, talt dikt.",
+      "Det må rime og bruke begge ordene på kortet.",
+      "Bryter du én av reglene, er du ute."
+    ]
+  },
+  "more": {
+    "en": "Refresh the words for each poet. Grand, slow and pretentious.",
+    "no": "Trekk nye ord for hver poet. Storslått, sakte og pretensiøst."
+  },
+  "asks": [
+    "objects",
+    "topics"
+  ]
+}

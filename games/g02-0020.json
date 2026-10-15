@@ -1,0 +1,40 @@
+{
+  "id": "g02-0020",
+  "status": "draft",
+  "name": {
+    "en": "Move and Speak",
+    "no": "Beveg deg og snakk"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "You may only talk while using a new object.",
+    "no": "Du får bare snakke mens du bruker en ny gjenstand."
+  },
+  "steps": {
+    "en": [
+      "Play a scene in the place on the card.",
+      "To speak, you must be handling an object you haven't used yet.",
+      "Stop handling it and you stop talking."
+    ],
+    "no": [
+      "Spill en scene på stedet på kortet.",
+      "For å snakke må du holde på med en gjenstand du ikke har brukt før.",
+      "Slutter du å holde på med den, slutter du å snakke."
+    ]
+  },
+  "more": {
+    "en": "Great for object work. Players run out of new objects fast, which is half the fun.",
+    "no": "Supert for objektarbeid. Spillerne går fort tom for nye gjenstander, og det er halve moroa."
+  },
+  "asks": [
+    "locations"
+  ]
+}

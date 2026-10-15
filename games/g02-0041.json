@@ -1,0 +1,40 @@
+{
+  "id": "g02-0041",
+  "status": "draft",
+  "name": {
+    "en": "Oscar Moment",
+    "no": "Oscar-øyeblikk"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "On a call, a player bursts into an overblown dramatic moment.",
+    "no": "På et innrop bryter en spiller ut i et overdrevent dramatisk øyeblikk."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player is the caller.",
+      "When the caller says \"Oscar moment\" and a name, that player gives the line of their life.",
+      "Then the scene carries straight on."
+    ],
+    "no": [
+      "Spill en scene; én spiller er innroper.",
+      "Når innroperen sier «Oscar-øyeblikk» og et navn, leverer den spilleren sitt livs replikk.",
+      "Så fortsetter scenen rett videre."
+    ]
+  },
+  "more": {
+    "en": "Go huge, then snap back to normal. The return is as funny as the moment.",
+    "no": "Gå kjempestort, og knips så tilbake til normalen. Returen er like morsom som øyeblikket."
+  },
+  "asks": [
+    "locations"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "g02-0064",
+  "status": "draft",
+  "name": {
+    "en": "Chain Murder",
+    "no": "Mordkjeden"
+  },
+  "aliases": {
+    "en": [
+      "Chain Mystery Endowment"
+    ],
+    "no": [
+      "Mysteriekjeden"
+    ]
+  },
+  "family": "guessing",
+  "players": {
+    "min": 4,
+    "max": 5
+  },
+  "summary": {
+    "en": "A murder is passed down a line in mime, and the mistakes pile up.",
+    "no": "Et mord sendes bortover en rekke i mime, og feilene hoper seg opp."
+  },
+  "steps": {
+    "en": [
+      "All but one player wait out of earshot.",
+      "The first shows the next a job, a place and a weapon from the card, in mime only.",
+      "Each passes it on; the last says what they think happened."
+    ],
+    "no": [
+      "Alle unntatt én spiller venter utenfor hørevidde.",
+      "Den første viser den neste et yrke, et sted og et våpen fra kortet, bare med mime.",
+      "Hver sender det videre; den siste sier hva hen tror skjedde."
+    ]
+  },
+  "more": {
+    "en": "Mime only, no words. The gap between the first and last version is the fun.",
+    "no": "Bare mime, ingen ord. Avstanden mellom første og siste versjon er moroa."
+  },
+  "asks": [
+    "occupations",
+    "locations",
+    "objects"
+  ]
+}

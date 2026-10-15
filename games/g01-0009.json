@@ -1,0 +1,44 @@
+{
+  "id": "g01-0009",
+  "status": "draft",
+  "name": {
+    "en": "World's Worst",
+    "no": "Verdens verste"
+  },
+  "aliases": {
+    "en": [
+      "Line Gag"
+    ],
+    "no": [
+      "Line Gag"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Step forward with a line from the world's worst version of something.",
+    "no": "Ta et steg frem med en replikk fra verdens verste utgave av noe."
+  },
+  "steps": {
+    "en": [
+      "Everyone stands in a line.",
+      "Anyone steps out with one line from the world's worst one, then steps back.",
+      "When the ideas dry up, refresh for a new one."
+    ],
+    "no": [
+      "Alle står på en rekke.",
+      "Hvem som helst tar et steg frem med én replikk fra verdens verste, og går tilbake igjen.",
+      "Når ideene tar slutt, trekker dere en ny."
+    ]
+  },
+  "more": {
+    "en": "One line, then back in line. Places and objects work as well as jobs.",
+    "no": "Én replikk, så tilbake i rekken. Steder og ting fungerer like godt som yrker."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

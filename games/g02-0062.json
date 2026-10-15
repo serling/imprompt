@@ -1,0 +1,44 @@
+{
+  "id": "g02-0062",
+  "status": "draft",
+  "name": {
+    "en": "Understudy",
+    "no": "Innhopper"
+  },
+  "aliases": {
+    "en": [
+      "Simple Continuation"
+    ],
+    "no": [
+      "Enkel fortsettelse"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 8
+  },
+  "summary": {
+    "en": "Mid-scene, new players take over the characters and carry on.",
+    "no": "Midt i scenen tar nye spillere over karakterene og fortsetter."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene.",
+      "On a call, two new players replace them.",
+      "They continue the same characters and story."
+    ],
+    "no": [
+      "To spillere starter en scene.",
+      "På et innrop erstatter to nye spillere dem.",
+      "De fortsetter med de samme karakterene og den samme historien."
+    ]
+  },
+  "more": {
+    "en": "Copy what you saw: voices, posture, objects.",
+    "no": "Kopier det du så: stemmer, holdning, gjenstander."
+  },
+  "asks": [
+    "locations"
+  ]
+}

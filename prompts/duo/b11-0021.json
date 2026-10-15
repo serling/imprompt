@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A hotel receptionist and a guest who wants the room they had in 1987."
+    "en": "A hotel receptionist and a guest who wants the room they had in 1987.",
+    "no": "En hotellresepsjonist og en gjest som vil ha det samme rommet som i 1987."
   },
   "tags": [
     "work"

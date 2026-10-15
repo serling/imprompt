@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "Inventing queue-jumping."
+    "en": "Inventing queue-jumping.",
+    "no": "Å finne opp køsniking."
   },
   "tags": [
     "history"

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Bouncy."
+      "en": "Bouncy.",
+      "no": "Hoppete."
     },
     {
-      "en": "Bouncier."
+      "en": "Bouncier.",
+      "no": "Mer hoppete."
     },
     {
-      "en": "Even bouncier."
+      "en": "Even bouncier.",
+      "no": "Enda mer hoppete."
     },
     {
-      "en": "The bounciest ever, and meeting the King."
+      "en": "The bounciest ever, and meeting the King.",
+      "no": "Verdens mest hoppete, og møter kongen."
     }
   ],
   "tags": [

@@ -1,0 +1,38 @@
+{
+  "id": "g02-0031",
+  "status": "draft",
+  "name": {
+    "en": "Three Rules",
+    "no": "Tre regler"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Three odd rules bind everyone for the scene.",
+    "no": "Tre rare regler gjelder for alle i scenen."
+  },
+  "steps": {
+    "en": [
+      "A player at the side sets three rules: a gesture, a word and a habit, for example.",
+      "Play a scene in the place on the card, following all three."
+    ],
+    "no": [
+      "En spiller på siden lager tre regler: for eksempel en gest, et ord og en vane.",
+      "Spill en scene på stedet på kortet, og følg alle tre."
+    ]
+  },
+  "more": {
+    "en": "The rules are known to everyone. Keep them simple enough to remember mid-scene.",
+    "no": "Alle kjenner reglene. Hold dem enkle nok til å huske midt i scenen."
+  },
+  "asks": [
+    "locations"
+  ]
+}

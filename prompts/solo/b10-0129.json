@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "An alarm clock nobody ever listens to."
+    "en": "An alarm clock nobody ever listens to.",
+    "no": "En vekkerklokke som ingen noen gang hører på."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the ignored alarm clock"
+    "en": "the ignored alarm clock",
+    "no": "vekkerklokka som ingen hører på"
   }
 }

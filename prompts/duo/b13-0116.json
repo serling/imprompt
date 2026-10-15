@@ -1,0 +1,14 @@
+{
+  "id": "b13-0116",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A ship's captain taking orders from the ship's cat.",
+    "no": "En skipskaptein som tar imot ordre fra skipskatten."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

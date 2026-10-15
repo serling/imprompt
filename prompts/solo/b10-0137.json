@@ -4,7 +4,8 @@
   "players": 1,
   "type": "origin",
   "text": {
-    "en": "The very first queue."
+    "en": "The very first queue.",
+    "no": "Den aller første køen."
   },
   "tags": [
     "history"

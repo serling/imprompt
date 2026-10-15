@@ -1,0 +1,46 @@
+{
+  "id": "g02-0011",
+  "status": "draft",
+  "name": {
+    "en": "Entrances and Exits",
+    "no": "Inn og ut"
+  },
+  "aliases": {
+    "en": [
+      "In-Out",
+      "Walkout"
+    ],
+    "no": [
+      "Inn-ut",
+      "Walkout"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "Each player has a word; when it's said, they enter or leave.",
+    "no": "Hver spiller har et ord; når det blir sagt, går de inn eller ut."
+  },
+  "steps": {
+    "en": [
+      "Each player picks a common word as their trigger.",
+      "Play a scene in the place on the card.",
+      "Whenever your word is said, you leave if you're on, or come on if you're off, with a reason."
+    ],
+    "no": [
+      "Hver spiller velger et vanlig ord som sitt stikkord.",
+      "Spill en scene på stedet på kortet.",
+      "Hver gang ordet ditt blir sagt, går du ut hvis du er inne, eller inn hvis du er ute, med en grunn."
+    ]
+  },
+  "more": {
+    "en": "Players will start saying each other's words on purpose. Let them.",
+    "no": "Spillerne kommer til å si hverandres ord med vilje. La dem."
+  },
+  "asks": [
+    "locations"
+  ]
+}

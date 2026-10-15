@@ -1,0 +1,44 @@
+{
+  "id": "g03-0017",
+  "status": "draft",
+  "name": {
+    "en": "Stunt Double",
+    "no": "Stuntdobbel"
+  },
+  "aliases": {
+    "en": [
+      "Stunt Doubles"
+    ],
+    "no": [
+      "Stuntdobler"
+    ]
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "When something risky comes up, a double does it.",
+    "no": "Når noe risikabelt dukker opp, gjør en dobbel det."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one or two players wait as doubles.",
+      "When a character faces something dangerous or unpleasant, a double takes over.",
+      "The double does the stunt in mime, then the original returns."
+    ],
+    "no": [
+      "Spill en scene; én eller to spillere venter som dobler.",
+      "Når en karakter står overfor noe farlig eller ubehagelig, tar en dobbel over.",
+      "Dobbelen gjør stuntet i mime, så kommer originalen tilbake."
+    ]
+  },
+  "more": {
+    "en": "Keep the stunts mimed and controlled. They can grow wilder as the scene goes on.",
+    "no": "Hold stuntene mimet og kontrollert. De kan bli villere etter hvert som scenen går."
+  },
+  "asks": [
+    "locations"
+  ]
+}

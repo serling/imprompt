@@ -1,0 +1,42 @@
+{
+  "id": "g03-0018",
+  "status": "draft",
+  "name": {
+    "en": "Trizophrenia",
+    "no": "Trizofreni"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "tag-out",
+  "players": {
+    "min": 4,
+    "max": 5
+  },
+  "summary": {
+    "en": "One character with three personalities, played by three rotating players.",
+    "no": "Én karakter med tre personligheter, spilt av tre spillere som roterer."
+  },
+  "steps": {
+    "en": [
+      "One player plays a scene partner.",
+      "Three players share one character, each with an emotion from the card.",
+      "On a clap, they rotate; the partner treats them as one person."
+    ],
+    "no": [
+      "Én spiller spiller scenepartneren.",
+      "Tre spillere deler én karakter, hver med en følelse fra kortet.",
+      "På et klapp roterer de; partneren behandler dem som én person."
+    ]
+  },
+  "more": {
+    "en": "The rotating players keep the same story; only the personality changes.",
+    "no": "Spillerne som roterer, holder på samme historie; bare personligheten endrer seg."
+  },
+  "asks": [
+    "emotions",
+    "emotions",
+    "emotions"
+  ]
+}

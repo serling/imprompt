@@ -4,12 +4,14 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A magician doing a trick, honestly explaining how it works."
+    "en": "A magician doing a trick, honestly explaining how it works.",
+    "no": "En tryllekunstner som gjør et triks og ærlig forklarer hvordan det funker."
   },
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the honest magician"
+    "en": "the honest magician",
+    "no": "den ærlige tryllekunstneren"
   }
 }

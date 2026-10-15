@@ -1,0 +1,40 @@
+{
+  "id": "g02-0008",
+  "status": "draft",
+  "name": {
+    "en": "Categories",
+    "no": "Kategorier"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Every line you speak must be about your own subject.",
+    "no": "Hver replikk du sier, må handle om ditt eget tema."
+  },
+  "steps": {
+    "en": [
+      "Each player takes one topic from the card as their subject.",
+      "Play a scene where every line touches your subject, however far-fetched."
+    ],
+    "no": [
+      "Hver spiller tar ett emne fra kortet som sitt tema.",
+      "Spill en scene der hver replikk berører temaet ditt, uansett hvor søkt det blir."
+    ]
+  },
+  "more": {
+    "en": "The scene still has to make sense. Bending a subject into the story is the game.",
+    "no": "Scenen må fortsatt gi mening. Å bøye temaet inn i historien er selve leken."
+  },
+  "asks": [
+    "topics",
+    "topics",
+    "locations"
+  ]
+}

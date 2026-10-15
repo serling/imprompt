@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "An ex-pirate librarian."
+    "en": "An ex-pirate librarian.",
+    "no": "En bibliotekar som har vært pirat."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the ex-pirate librarian"
+    "en": "the ex-pirate librarian",
+    "no": "bibliotekaren som har vært pirat"
   }
 }

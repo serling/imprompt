@@ -1,0 +1,43 @@
+{
+  "id": "g02-0019",
+  "status": "draft",
+  "name": {
+    "en": "Modern Fairy Tale",
+    "no": "Moderne eventyr"
+  },
+  "aliases": {
+    "en": [
+      "Fairy Tale Modern"
+    ],
+    "no": [
+      "Eventyr i dag"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 5
+  },
+  "summary": {
+    "en": "A well-known fairy tale retold today.",
+    "no": "Et kjent eventyr fortalt i dag."
+  },
+  "steps": {
+    "en": [
+      "Play the fairy tale on the card, set in the present.",
+      "The place on the card is where it happens."
+    ],
+    "no": [
+      "Spill eventyret på kortet, lagt til vår tid.",
+      "Stedet på kortet er der det skjer."
+    ]
+  },
+  "more": {
+    "en": "Translate every magic thing into something modern: the glass slipper, the poisoned apple, the wolf.",
+    "no": "Gjør alt magisk om til noe moderne: glasskoen, det forgiftede eplet, ulven."
+  },
+  "asks": [
+    "fairytales",
+    "locations"
+  ]
+}

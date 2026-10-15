@@ -1,0 +1,41 @@
+{
+  "id": "g02-0022",
+  "status": "draft",
+  "name": {
+    "en": "Old Job New Job",
+    "no": "Gammel jobb, ny jobb"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Someone does their new job with the habits of their old one.",
+    "no": "Noen gjør den nye jobben sin med vanene fra den gamle."
+  },
+  "steps": {
+    "en": [
+      "One player has a new job, the other is a customer or colleague.",
+      "The first job on the card is the new one, the second the old one.",
+      "Play the new job with every habit of the old one."
+    ],
+    "no": [
+      "Én spiller har en ny jobb, den andre er kunde eller kollega.",
+      "Det første yrket på kortet er den nye jobben, det andre den gamle.",
+      "Spill den nye jobben med alle vanene fra den gamle."
+    ]
+  },
+  "more": {
+    "en": "A former dentist working as a waiter will want to look in your mouth. Let the old job leak into everything.",
+    "no": "En tidligere tannlege som jobber som servitør, vil se inn i munnen din. La den gamle jobben sive inn i alt."
+  },
+  "asks": [
+    "occupations",
+    "occupations"
+  ]
+}

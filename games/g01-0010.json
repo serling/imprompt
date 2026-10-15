@@ -1,0 +1,41 @@
+{
+  "id": "g01-0010",
+  "status": "draft",
+  "name": {
+    "en": "Emotional Transfer",
+    "no": "Følelsesoverføring"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Two players start with different emotions and trade them by the end.",
+    "no": "To spillere starter med hver sin følelse og har byttet dem ved slutten."
+  },
+  "steps": {
+    "en": [
+      "Each player takes one of the two emotions.",
+      "Play the scene, letting each emotion slowly pass to the other player.",
+      "End with the emotions fully swapped."
+    ],
+    "no": [
+      "Hver spiller tar én av de to følelsene.",
+      "Spill scenen og la hver følelse sakte gli over til den andre spilleren.",
+      "Avslutt med følelsene helt byttet."
+    ]
+  },
+  "more": {
+    "en": "Make the swap gradual: the middle of the scene, where both are half-way, is the best part.",
+    "no": "La byttet skje gradvis: midten av scenen, der begge er halvveis, er det beste."
+  },
+  "asks": [
+    "emotions",
+    "emotions"
+  ]
+}

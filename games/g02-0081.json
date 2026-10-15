@@ -1,0 +1,47 @@
+{
+  "id": "g02-0081",
+  "status": "draft",
+  "name": {
+    "en": "Dubbing",
+    "no": "Dubbing"
+  },
+  "aliases": {
+    "en": [
+      "Dubbed Movie",
+      "Voice Over"
+    ],
+    "no": [
+      "Dubbet film",
+      "Voice-over"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two players act, and two others supply their voices.",
+    "no": "To spillere spiller, og to andre står for stemmene deres."
+  },
+  "steps": {
+    "en": [
+      "Two players move and mouth on stage.",
+      "Two others at the side voice them.",
+      "Play a scene in the style on the card."
+    ],
+    "no": [
+      "To spillere beveger seg og former ord med munnen på scenen.",
+      "To andre på siden gir dem stemme.",
+      "Spill en scene i stilen på kortet."
+    ]
+  },
+  "more": {
+    "en": "Actors: give the voices something to say. Voices: watch closely.",
+    "no": "Skuespillere: gi stemmene noe å si. Stemmer: følg nøye med."
+  },
+  "asks": [
+    "locations",
+    "styles"
+  ]
+}

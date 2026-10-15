@@ -1,0 +1,39 @@
+{
+  "id": "g02-0001",
+  "status": "draft",
+  "name": {
+    "en": "Adjective Scene",
+    "no": "Adjektivscene"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "Play the whole scene as soaked in one quality as you can.",
+    "no": "Spill hele scenen så gjennomsyret av én egenskap som du klarer."
+  },
+  "steps": {
+    "en": [
+      "Take the emotion on the card as the scene's flavour.",
+      "Everything you say and do leans into it, all the way to the end."
+    ],
+    "no": [
+      "Ta følelsen på kortet som scenens smak.",
+      "Alt du sier og gjør, lener seg inn i den, helt til slutten."
+    ]
+  },
+  "more": {
+    "en": "Variant: give each player their own word, refreshing the line for the second one.",
+    "no": "Variant: gi hver spiller sitt eget ord, og trekk linjen på nytt for den andre."
+  },
+  "asks": [
+    "emotions",
+    "locations"
+  ]
+}

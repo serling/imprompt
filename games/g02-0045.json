@@ -1,0 +1,40 @@
+{
+  "id": "g02-0045",
+  "status": "draft",
+  "name": {
+    "en": "What Happens Next",
+    "no": "Hva skjer så"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "The scene stops, and a caller decides what happens next.",
+    "no": "Scenen stopper, og en innroper bestemmer hva som skjer så."
+  },
+  "steps": {
+    "en": [
+      "Start a scene; one player is the caller.",
+      "The caller stops it and says what happens next.",
+      "The players make it happen, then carry on."
+    ],
+    "no": [
+      "Start en scene; én spiller er innroper.",
+      "Innroperen stopper den og sier hva som skjer så.",
+      "Spillerne får det til å skje, og fortsetter så."
+    ]
+  },
+  "more": {
+    "en": "Callers: small, specific instructions. Players: do it fully, then add something.",
+    "no": "Innropere: små, konkrete instrukser. Spillere: gjør det fullt ut, og legg så til noe."
+  },
+  "asks": [
+    "locations"
+  ]
+}

@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Sleepy."
+      "en": "Sleepy.",
+      "no": "Søvnig."
     },
     {
-      "en": "Sleepier."
+      "en": "Sleepier.",
+      "no": "Søvnigere."
     },
     {
-      "en": "Even sleepier."
+      "en": "Even sleepier.",
+      "no": "Enda søvnigere."
     },
     {
-      "en": "The sleepiest ever, and flying the plane."
+      "en": "The sleepiest ever, and flying the plane.",
+      "no": "Verdens søvnigste, og flyr flyet."
     }
   ],
   "tags": [

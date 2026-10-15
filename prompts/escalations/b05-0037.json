@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Elegant."
+      "en": "Elegant.",
+      "no": "Elegant."
     },
     {
-      "en": "More elegant."
+      "en": "More elegant.",
+      "no": "Mer elegant."
     },
     {
-      "en": "Even more elegant."
+      "en": "Even more elegant.",
+      "no": "Enda mer elegant."
     },
     {
-      "en": "The most elegant ever, and covered in mud."
+      "en": "The most elegant ever, and covered in mud.",
+      "no": "Verdens mest elegante, og dekket av gjørme."
     }
   ],
   "tags": [

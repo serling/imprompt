@@ -1,0 +1,39 @@
+{
+  "id": "g02-0029",
+  "status": "draft",
+  "name": {
+    "en": "Split Environments",
+    "no": "Delte steder"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Each player believes they are somewhere different.",
+    "no": "Hver spiller tror de er et annet sted."
+  },
+  "steps": {
+    "en": [
+      "Each player takes one place from the card.",
+      "Play a scene together, each fully in your own place."
+    ],
+    "no": [
+      "Hver spiller tar ett sted fra kortet.",
+      "Spill en scene sammen, hver helt og fullt på sitt eget sted."
+    ]
+  },
+  "more": {
+    "en": "Don't explain it away. Two people convinced they are in different places is the scene.",
+    "no": "Ikke bortforklar det. To mennesker som er overbevist om at de er på forskjellige steder, er scenen."
+  },
+  "asks": [
+    "locations",
+    "locations"
+  ]
+}

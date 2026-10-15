@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "An ex-scarecrow."
+    "en": "An ex-scarecrow.",
+    "no": "Et eks-fugleskremsel."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the ex-scarecrow"
+    "en": "the ex-scarecrow",
+    "no": "eks-fugleskremselet"
   }
 }

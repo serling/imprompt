@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A cowboy and the horse he just bought, who refuses to move."
+    "en": "A cowboy and the horse he just bought, who refuses to move.",
+    "no": "En cowboy og hesten han nettopp har kjøpt, som nekter å flytte seg."
   },
   "tags": [
     "physical",

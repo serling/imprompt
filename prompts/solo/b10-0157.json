@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A secretly vain toddler."
+    "en": "A vain toddler.",
+    "no": "En forfengelig smårolling."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the vain toddler"
+    "en": "the vain toddler",
+    "no": "den forfengelige smårollingen"
   }
 }

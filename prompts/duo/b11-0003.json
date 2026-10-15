@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A hot-air balloon pilot and a passenger who is afraid of heights."
+    "en": "A hot-air balloon pilot and a passenger who is afraid of heights.",
+    "no": "En ballongfører og en passasjer med høydeskrekk."
   },
   "tags": [
     "work",

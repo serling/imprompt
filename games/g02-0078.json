@@ -1,0 +1,40 @@
+{
+  "id": "g02-0078",
+  "status": "draft",
+  "name": {
+    "en": "String of Pearls",
+    "no": "Perlekjede"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "word-story",
+  "players": {
+    "min": 5,
+    "max": 8
+  },
+  "summary": {
+    "en": "The first and last lines are set, then the gaps are filled.",
+    "no": "Første og siste replikk er bestemt, så fylles hullene."
+  },
+  "steps": {
+    "en": [
+      "One player says the first line of the story; another the last.",
+      "The others step in, one by one, with lines that fit between.",
+      "Retell the whole story in order."
+    ],
+    "no": [
+      "Én spiller sier historiens første replikk, en annen den siste.",
+      "De andre trer inn én etter én med replikker som passer imellom.",
+      "Fortell hele historien på nytt i rekkefølge."
+    ]
+  },
+  "more": {
+    "en": "Each new line must fit what's before and after it.",
+    "no": "Hver nye replikk må passe med det som kommer før og etter."
+  },
+  "asks": [
+    "titles"
+  ]
+}

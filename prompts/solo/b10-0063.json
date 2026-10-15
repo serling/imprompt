@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Finding the TV remote, like a detective solving a murder."
+    "en": "Finding the TV remote, like a detective solving a murder.",
+    "no": "Å finne fjernkontrollen, som en detektiv som løser et mord."
   },
   "tags": [
     "narration"

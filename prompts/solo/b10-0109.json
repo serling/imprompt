@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone queuing at the post office, ecstatic."
+    "en": "Someone queuing at the post office, ecstatic.",
+    "no": "Noen som står i kø på postkontoret, i ekstase."
   },
   "tags": [
     "everyday"

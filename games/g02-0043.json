@@ -1,0 +1,44 @@
+{
+  "id": "g02-0043",
+  "status": "draft",
+  "name": {
+    "en": "Remote Control",
+    "no": "Fjernkontroll"
+  },
+  "aliases": {
+    "en": [
+      "Video Tape Machine"
+    ],
+    "no": [
+      "Videospiller"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A controller pauses, rewinds and fast-forwards the scene.",
+    "no": "En kontrollør setter scenen på pause, spoler tilbake og spoler fram."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player holds an imaginary remote.",
+      "The controller calls pause, rewind, fast forward, slow motion or play.",
+      "The players follow at once."
+    ],
+    "no": [
+      "Spill en scene; én spiller holder en innbilt fjernkontroll.",
+      "Kontrolløren roper pause, spol tilbake, spol fram, sakte film eller play.",
+      "Spillerne følger med én gang."
+    ]
+  },
+  "more": {
+    "en": "A rewind replays lines backwards, sounds and all.",
+    "no": "Når det spoles tilbake, spilles replikkene baklengs, med lyder og alt."
+  },
+  "asks": [
+    "locations"
+  ]
+}

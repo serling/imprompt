@@ -1,0 +1,38 @@
+{
+  "id": "g03-0026",
+  "status": "draft",
+  "name": {
+    "en": "Sideways",
+    "no": "Sidelengs"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "physical",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "The back wall becomes the floor, and gravity goes strange.",
+    "no": "Bakveggen blir gulvet, og tyngdekraften blir rar."
+  },
+  "steps": {
+    "en": [
+      "Standing up is lying down in the scene; lying on the floor is standing at a wall.",
+      "Play a scene with the new gravity."
+    ],
+    "no": [
+      "Å stå oppreist er å ligge i scenen; å ligge på gulvet er å stå ved en vegg.",
+      "Spill en scene med den nye tyngdekraften."
+    ]
+  },
+  "more": {
+    "en": "Walk on walls, hang upside down: let the new gravity make the scene.",
+    "no": "Gå på veggene, heng opp ned: la den nye tyngdekraften skape scenen."
+  },
+  "asks": [
+    "locations"
+  ]
+}

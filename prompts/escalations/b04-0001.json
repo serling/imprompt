@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Grumpy."
+      "en": "Grumpy.",
+      "no": "Grinete."
     },
     {
-      "en": "Grumpier."
+      "en": "Grumpier.",
+      "no": "Grinetere."
     },
     {
-      "en": "Even grumpier."
+      "en": "Even grumpier.",
+      "no": "Enda grinetere."
     },
     {
-      "en": "Anti-grumpy."
+      "en": "Anti-grumpy.",
+      "no": "Anti-grinete."
     }
   ],
   "tags": [

@@ -4,12 +4,14 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A reformed gossip."
+    "en": "A reformed gossip.",
+    "no": "En rehabilitert sladrebøtte."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the reformed gossip"
+    "en": "the reformed gossip",
+    "no": "den rehabiliterte sladrebøtta"
   }
 }

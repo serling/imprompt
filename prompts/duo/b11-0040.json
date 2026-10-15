@@ -4,7 +4,8 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "A spy and a neighbour who notices absolutely everything."
+    "en": "A spy and a neighbour who notices absolutely everything.",
+    "no": "En spion og en nabo som legger merke til absolutt alt."
   },
   "tags": [
     "character"

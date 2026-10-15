@@ -1,0 +1,38 @@
+{
+  "id": "g03-0003",
+  "status": "draft",
+  "name": {
+    "en": "Counting Game",
+    "no": "Telleleken"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "Every sentence you say has exactly your number of words.",
+    "no": "Hver setning du sier, har nøyaktig like mange ord som tallet ditt."
+  },
+  "steps": {
+    "en": [
+      "A player at the side gives each player a number, from one to seven.",
+      "Play a scene where every sentence has exactly that many words."
+    ],
+    "no": [
+      "En spiller på siden gir hver spiller et tall fra én til sju.",
+      "Spill en scene der hver setning har nøyaktig så mange ord."
+    ]
+  },
+  "more": {
+    "en": "Count on your fingers. Variant: everyone shares one number, and the caller keeps changing it.",
+    "no": "Tell på fingrene. Variant: alle deler ett tall, og innroperen bytter det stadig."
+  },
+  "asks": [
+    "locations"
+  ]
+}

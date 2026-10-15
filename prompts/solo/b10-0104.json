@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone saying goodnight to their goldfish, nostalgic."
+    "en": "Someone saying goodnight to their goldfish, nostalgic.",
+    "no": "Noen som sier god natt til gullfisken sin, nostalgisk."
   },
   "tags": [
     "everyday"

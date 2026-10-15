@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "An old married couple at a speed-dating night, together."
+    "en": "An old married couple at a speed-dating night, together.",
+    "no": "Et gammelt ektepar på speeddating-kveld, sammen."
   },
   "tags": [
     "family"

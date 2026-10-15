@@ -1,0 +1,43 @@
+{
+  "id": "g02-0014",
+  "status": "draft",
+  "name": {
+    "en": "He Said She Said",
+    "no": "Sa han, sa hun"
+  },
+  "aliases": {
+    "en": [
+      "Stage Directions"
+    ],
+    "no": [
+      "Sceneanvisninger"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Each player ends a line by narrating what the other does next.",
+    "no": "Hver spiller avslutter replikken med å fortelle hva den andre gjør så."
+  },
+  "steps": {
+    "en": [
+      "Speak your line, then add an action for your partner: \"…he said, climbing onto the table.\"",
+      "Your partner does that action, then speaks and narrates one for you."
+    ],
+    "no": [
+      "Si replikken din, og legg til en handling for partneren din: «… sa han og klatret opp på bordet.»",
+      "Partneren din gjør handlingen, sier så sin replikk og forteller én for deg."
+    ]
+  },
+  "more": {
+    "en": "Give actions that help the scene as well as ones that test your partner.",
+    "no": "Gi handlinger som hjelper scenen, ikke bare sånne som setter partneren på prøve."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

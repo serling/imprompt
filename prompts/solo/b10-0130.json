@@ -4,12 +4,14 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A doormat that wants to be noticed."
+    "en": "A doormat that wants to be noticed.",
+    "no": "En dørmatte som vil bli lagt merke til."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the doormat"
+    "en": "the doormat",
+    "no": "dørmatta"
   }
 }

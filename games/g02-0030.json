@@ -1,0 +1,45 @@
+{
+  "id": "g02-0030",
+  "status": "draft",
+  "name": {
+    "en": "Status Transfer",
+    "no": "Statusoverføring"
+  },
+  "aliases": {
+    "en": [
+      "Status Swap"
+    ],
+    "no": [
+      "Statusbytte"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "One player starts high status and the other low; by the end they have swapped.",
+    "no": "Én spiller starter med høy status og den andre med lav; ved slutten har de byttet."
+  },
+  "steps": {
+    "en": [
+      "Decide who starts high and who starts low.",
+      "Play the scene, shifting status a little with each exchange.",
+      "End with the status fully reversed."
+    ],
+    "no": [
+      "Bestem hvem som starter høyt og hvem som starter lavt.",
+      "Spill scenen, og skift status litt for hver vekslingsrunde.",
+      "Avslutt med statusen helt snudd."
+    ]
+  },
+  "more": {
+    "en": "Make the shift gradual. The middle, where both are equal, is the best part.",
+    "no": "La skiftet skje gradvis. Midten, der begge er like, er det beste."
+  },
+  "asks": [
+    "relationships",
+    "locations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "b14-0114",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A parent being sent to bed by the baby.",
+    "no": "En forelder som blir sendt i seng av babyen."
+  },
+  "tags": [
+    "status"
+  ]
+}

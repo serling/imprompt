@@ -1,0 +1,13 @@
+{
+  "id": "b14-0113",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A shepherd being herded by the sheep.",
+    "no": "En gjeter som blir gjetet av sauene."
+  },
+  "tags": [
+    "status"
+  ]
+}

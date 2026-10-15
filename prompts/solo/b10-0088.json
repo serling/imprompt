@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A teacher sitting the exam while the class invigilates."
+    "en": "A teacher sitting the exam while the class invigilates.",
+    "no": "En lærer som tar eksamen mens klassen er eksamensvakter."
   },
   "tags": [
     "status"

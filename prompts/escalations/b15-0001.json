@@ -1,0 +1,28 @@
+{
+  "id": "b15-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Careful.",
+      "no": "Forsiktig."
+    },
+    {
+      "en": "More careful.",
+      "no": "Mer forsiktig."
+    },
+    {
+      "en": "Even more careful.",
+      "no": "Enda mer forsiktig."
+    },
+    {
+      "en": "The most careful ever, and driving a bumper car.",
+      "no": "Verdens mest forsiktige, og kjører radiobil."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

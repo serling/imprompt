@@ -1,0 +1,28 @@
+{
+  "id": "b15-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Sulky.",
+      "no": "Furten."
+    },
+    {
+      "en": "Sulkier.",
+      "no": "Mer furten."
+    },
+    {
+      "en": "Even sulkier.",
+      "no": "Enda mer furten."
+    },
+    {
+      "en": "Ex-sulky.",
+      "no": "Eks-furten."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

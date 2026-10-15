@@ -1,0 +1,14 @@
+{
+  "id": "b14-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A dog walker on their hundredth dog of the day.",
+    "no": "En hundelufter på dagens hundrede hund."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

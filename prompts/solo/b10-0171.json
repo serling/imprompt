@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A reluctant trampoline."
+    "en": "A reluctant trampoline.",
+    "no": "En motvillig trampoline."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the reluctant trampoline"
+    "en": "the reluctant trampoline",
+    "no": "den motvillige trampolinen"
   }
 }

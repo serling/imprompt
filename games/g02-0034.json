@@ -1,0 +1,49 @@
+{
+  "id": "g02-0034",
+  "status": "draft",
+  "name": {
+    "en": "Channel Surfing",
+    "no": "Zapping"
+  },
+  "aliases": {
+    "en": [
+      "Zapping",
+      "Radio Channels"
+    ],
+    "no": [
+      "Kanalsurfing",
+      "Radiokanaler"
+    ]
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A caller flicks between TV channels, all on the same topic.",
+    "no": "En innroper zapper mellom TV-kanaler som alle handler om samme tema."
+  },
+  "steps": {
+    "en": [
+      "Each player is a channel with one of the styles on the card.",
+      "The caller names a channel, and that player performs until switched away.",
+      "Every channel is about the topic on the card."
+    ],
+    "no": [
+      "Hver spiller er en kanal med én av stilene på kortet.",
+      "Innroperen sier en kanal, og den spilleren spiller til det zappes videre.",
+      "Hver kanal handler om temaet på kortet."
+    ]
+  },
+  "more": {
+    "en": "Players can pick up where they left off. Spoken radio and TV formats only; no music channels.",
+    "no": "Spillerne kan fortsette der de slapp. Bare talte radio- og TV-formater; ingen musikkanaler."
+  },
+  "asks": [
+    "topics",
+    "styles",
+    "styles",
+    "styles"
+  ]
+}

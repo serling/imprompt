@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Mysterious."
+      "en": "Mysterious.",
+      "no": "Mystisk."
     },
     {
-      "en": "More mysterious."
+      "en": "More mysterious.",
+      "no": "Mer mystisk."
     },
     {
-      "en": "Even more mysterious."
+      "en": "Even more mysterious.",
+      "no": "Enda mer mystisk."
     },
     {
-      "en": "The most mysterious ever, and wearing a name tag."
+      "en": "The most mysterious ever, and wearing a name tag.",
+      "no": "Verdens mest mystiske, og går med navnelapp."
     }
   ],
   "tags": [

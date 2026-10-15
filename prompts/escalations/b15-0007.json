@@ -1,0 +1,28 @@
+{
+  "id": "b15-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Clingy.",
+      "no": "Klengete."
+    },
+    {
+      "en": "Clingier.",
+      "no": "Mer klengete."
+    },
+    {
+      "en": "Even clingier.",
+      "no": "Enda mer klengete."
+    },
+    {
+      "en": "Anti-clingy.",
+      "no": "Anti-klengete."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

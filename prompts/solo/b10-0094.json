@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A grandmother asking her grandson if she can stay up late."
+    "en": "A grandmother asking her grandson if she can stay up late.",
+    "no": "En bestemor som spør barnebarnet sitt om hun får være lenge oppe."
   },
   "tags": [
     "status",

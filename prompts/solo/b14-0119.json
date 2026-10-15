@@ -1,0 +1,13 @@
+{
+  "id": "b14-0119",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A ballet teacher being corrected by the cleaner.",
+    "no": "En ballettlærer som blir rettet på av vaskehjelpen."
+  },
+  "tags": [
+    "status"
+  ]
+}

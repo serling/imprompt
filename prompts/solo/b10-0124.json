@@ -4,13 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A seagull planning a chip heist on the seafront."
+    "en": "A seagull planning a chip heist on the seafront.",
+    "no": "En måke som planlegger et pommes frites-kupp på strandpromenaden."
   },
   "tags": [
     "character",
     "nature"
   ],
   "callback": {
-    "en": "the chip-stealing seagull"
+    "en": "the chip-stealing seagull",
+    "no": "måka som stjeler pommes frites"
   }
 }

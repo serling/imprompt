@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A dog-show judge and the owner of the only cat."
+    "en": "A dog-show judge and the owner of the only cat.",
+    "no": "En dommer på hundeutstilling og eieren av den eneste katten."
   },
   "tags": [
     "character"

@@ -4,7 +4,8 @@
   "players": 2,
   "type": "callback",
   "text": {
-    "en": "Meeting the parents. The new partner is {character}."
+    "en": "Meeting the parents. The new partner is {character}.",
+    "no": "Å møte foreldrene. Den nye kjæresten er {character}."
   },
   "tags": [
     "family",

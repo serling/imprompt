@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Wise."
+      "en": "Wise.",
+      "no": "Klok."
     },
     {
-      "en": "Wiser."
+      "en": "Wiser.",
+      "no": "Klokere."
     },
     {
-      "en": "Even wiser."
+      "en": "Even wiser.",
+      "no": "Enda klokere."
     },
     {
-      "en": "The wisest ever, and four years old."
+      "en": "The wisest ever, and four years old.",
+      "no": "Verdens klokeste, og fire år gammel."
     }
   ],
   "tags": [

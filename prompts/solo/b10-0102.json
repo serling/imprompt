@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone watering the garden, overcome with guilt."
+    "en": "Someone watering the garden, overcome with guilt.",
+    "no": "Noen som vanner hagen, overveldet av skyldfølelse."
   },
   "tags": [
     "everyday"

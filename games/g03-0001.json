@@ -1,0 +1,45 @@
+{
+  "id": "g03-0001",
+  "status": "draft",
+  "name": {
+    "en": "3 Free",
+    "no": "3 frie"
+  },
+  "aliases": {
+    "en": [
+      "Three Sentences Free"
+    ],
+    "no": [
+      "Tre setninger fritt"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 6
+  },
+  "summary": {
+    "en": "Each player may speak only three sentences in the whole scene.",
+    "no": "Hver spiller får bare si tre setninger i hele scenen."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; every player has three sentences to spend.",
+      "Count them down on your fingers.",
+      "Once yours are gone, you can only show, not tell."
+    ],
+    "no": [
+      "Spill en scene; hver spiller har tre setninger å bruke.",
+      "Tell dem ned på fingrene.",
+      "Når dine er brukt opp, kan du bare vise, ikke si."
+    ]
+  },
+  "more": {
+    "en": "Save your sentences for when they matter. The scene should make sense of the silence.",
+    "no": "Spar setningene til de betyr noe. Scenen bør gi mening til stillheten."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

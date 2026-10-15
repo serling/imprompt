@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Leaving a voicemail, like a retirement speech."
+    "en": "Leaving a voicemail, like a retirement speech.",
+    "no": "Å legge igjen en talebeskjed, som en avskjedstale ved pensjonering."
   },
   "tags": [
     "narration"

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone brushing the dog, betrayed."
+    "en": "Someone brushing the dog, betrayed.",
+    "no": "Noen som børster hunden, forrådt."
   },
   "tags": [
     "everyday"

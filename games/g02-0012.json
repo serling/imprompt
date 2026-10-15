@@ -1,0 +1,47 @@
+{
+  "id": "g02-0012",
+  "status": "draft",
+  "name": {
+    "en": "Fairy Tale with Quirks",
+    "no": "Eventyr med særheter"
+  },
+  "aliases": {
+    "en": [
+      "Handicapped Fairy Tale"
+    ],
+    "no": [
+      "Handikappet eventyr"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A known fairy tale where every character has an odd condition.",
+    "no": "Et kjent eventyr der hver karakter har en særegenhet."
+  },
+  "steps": {
+    "en": [
+      "Play the fairy tale on the card.",
+      "Each player's main character carries one condition from the card.",
+      "Keep the story on track despite everything."
+    ],
+    "no": [
+      "Spill eventyret på kortet.",
+      "Hver spillers hovedkarakter har én særegenhet fra kortet.",
+      "Pass på at historien ikke sporer av."
+    ]
+  },
+  "more": {
+    "en": "Everyone knows the plot, so the conditions get all the attention.",
+    "no": "Alle kan handlingen, så karakterene får all oppmerksomheten."
+  },
+  "asks": [
+    "fairytales",
+    "physical",
+    "physical",
+    "physical"
+  ]
+}

@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A judge on trial in their own courtroom."
+    "en": "A judge on trial in their own courtroom.",
+    "no": "En dommer som står tiltalt i sin egen rettssal."
   },
   "tags": [
     "status"

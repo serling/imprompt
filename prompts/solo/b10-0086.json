@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A landlord begging the tenant not to move out."
+    "en": "A landlord begging the tenant not to move out.",
+    "no": "En huseier som trygler leietakeren om ikke å flytte ut."
   },
   "tags": [
     "status"

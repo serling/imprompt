@@ -4,13 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A pigeon guarding its spot on a statue."
+    "en": "A pigeon guarding its spot on a statue.",
+    "no": "En due som vokter plassen sin på en statue."
   },
   "tags": [
     "character",
     "nature"
   ],
   "callback": {
-    "en": "the pigeon on the statue"
+    "en": "the pigeon on the statue",
+    "no": "duen på statuen"
   }
 }

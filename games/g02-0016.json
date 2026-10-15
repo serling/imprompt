@@ -1,0 +1,43 @@
+{
+  "id": "g02-0016",
+  "status": "draft",
+  "name": {
+    "en": "Just Gibberish",
+    "no": "Bare gibberish"
+  },
+  "aliases": {
+    "en": [
+      "Gibberish Scene"
+    ],
+    "no": [
+      "Gibberish-scene"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A whole scene in made-up language.",
+    "no": "En hel scene på et oppdiktet språk."
+  },
+  "steps": {
+    "en": [
+      "Everyone speaks only gibberish.",
+      "The story comes through tone, face, body and mime."
+    ],
+    "no": [
+      "Alle snakker bare gibberish.",
+      "Historien kommer fram gjennom tonefall, ansikt, kropp og mime."
+    ]
+  },
+  "more": {
+    "en": "Commit to the sounds and let your partner understand you. Clear wants make gibberish readable.",
+    "no": "Gå helt inn i lydene og la partneren forstå deg. Tydelige ønsker gjør gibberish lett å lese."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

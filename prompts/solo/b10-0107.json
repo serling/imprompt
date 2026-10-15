@@ -4,7 +4,8 @@
   "players": 1,
   "type": "emotion-swap",
   "text": {
-    "en": "Someone checking the weather on their phone, starstruck."
+    "en": "Someone checking the weather on their phone, starstruck.",
+    "no": "Noen som sjekker været på mobilen, stjerneslått."
   },
   "tags": [
     "everyday"

@@ -4,7 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "An astronaut and the cleaner on the space station."
+    "en": "An astronaut and the cleaner on the space station.",
+    "no": "En astronaut og renholderen på romstasjonen."
   },
   "tags": [
     "work",

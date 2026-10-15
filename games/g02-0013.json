@@ -1,0 +1,40 @@
+{
+  "id": "g02-0013",
+  "status": "draft",
+  "name": {
+    "en": "Guest Game",
+    "no": "Gjesteleken"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "A visitor arrives; everyone else shares something the visitor doesn't know.",
+    "no": "En gjest kommer; alle de andre deler noe gjesten ikke vet."
+  },
+  "steps": {
+    "en": [
+      "Send one player out of earshot: they will be the guest.",
+      "The others agree on something they all know about the guest or the place.",
+      "The guest arrives, and the scene slowly reveals it."
+    ],
+    "no": [
+      "Send én spiller ut av hørevidde: det er gjesten.",
+      "De andre blir enige om noe de alle vet om gjesten eller stedet.",
+      "Gjesten kommer, og scenen avslører det litt etter litt."
+    ]
+  },
+  "more": {
+    "en": "The secret is shared among the hosts and played openly with the guest; it comes out through the scene, not a quiz.",
+    "no": "Hemmeligheten deles av vertene og spilles åpent med gjesten; den kommer fram gjennom scenen, ikke gjennom en quiz."
+  },
+  "asks": [
+    "locations"
+  ]
+}

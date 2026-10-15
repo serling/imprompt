@@ -1,0 +1,40 @@
+{
+  "id": "g02-0057",
+  "status": "draft",
+  "name": {
+    "en": "Synchro Replay",
+    "no": "Synkronrepris"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 4,
+    "max": 6
+  },
+  "summary": {
+    "en": "Players who missed a scene voice its silent replay.",
+    "no": "Spillere som gikk glipp av en scene, legger stemmer på den stumme reprisen."
+  },
+  "steps": {
+    "en": [
+      "Two players leave the room.",
+      "Two others play a scene, then replay it silently.",
+      "The two return and voice the replay, inventing a story to fit the moves."
+    ],
+    "no": [
+      "To spillere går ut av rommet.",
+      "To andre spiller en scene, og spiller den så om igjen uten lyd.",
+      "De to kommer tilbake og legger stemmer på reprisen, og finner på en historie som passer bevegelsene."
+    ]
+  },
+  "more": {
+    "en": "The voices are performed live from the side, like dubbing.",
+    "no": "Stemmene gjøres live fra siden, som dubbing."
+  },
+  "asks": [
+    "locations"
+  ]
+}

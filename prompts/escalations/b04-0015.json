@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Clumsy."
+      "en": "Clumsy.",
+      "no": "Klønete."
     },
     {
-      "en": "Clumsier."
+      "en": "Clumsier.",
+      "no": "Klønetere."
     },
     {
-      "en": "Even clumsier."
+      "en": "Even clumsier.",
+      "no": "Enda klønetere."
     },
     {
-      "en": "The clumsiest ever, and defusing a bomb."
+      "en": "The clumsiest ever, and defusing a bomb.",
+      "no": "Verdens mest klønete, og desarmerer en bombe."
     }
   ],
   "tags": [

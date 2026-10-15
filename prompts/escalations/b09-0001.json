@@ -5,16 +5,20 @@
   "type": "escalation",
   "steps": [
     {
-      "en": "Loud."
+      "en": "Loud.",
+      "no": "Bråkete."
     },
     {
-      "en": "Louder."
+      "en": "Louder.",
+      "no": "Mer bråkete."
     },
     {
-      "en": "Even louder."
+      "en": "Even louder.",
+      "no": "Enda mer bråkete."
     },
     {
-      "en": "The loudest ever, in a library."
+      "en": "The loudest ever, in a library.",
+      "no": "Verdens mest bråkete, på et bibliotek."
     }
   ],
   "tags": [

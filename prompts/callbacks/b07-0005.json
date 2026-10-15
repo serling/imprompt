@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A motivational seminar. The speaker is {character}."
+    "en": "A motivational seminar. The speaker is {character}.",
+    "no": "Et motivasjonsseminar. Foredragsholderen er {character}."
   },
   "tags": [
     "work",

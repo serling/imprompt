@@ -4,7 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A funeral director who is secretly delighted."
+    "en": "A delighted funeral director.",
+    "no": "En begeistret begravelsesagent."
   },
   "tags": [
     "character",

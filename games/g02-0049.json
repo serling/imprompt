@@ -1,0 +1,40 @@
+{
+  "id": "g02-0049",
+  "status": "draft",
+  "name": {
+    "en": "Zulu",
+    "no": "Zulu"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "elimination",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Players invent new product names in turn; stall and you're out.",
+    "no": "Spillerne finner på nye produktnavn etter tur; stopper du opp, er du ute."
+  },
+  "steps": {
+    "en": [
+      "Stand in a line.",
+      "In turn, each player names a new brand of the object on the card.",
+      "Hesitate or repeat, and you're out."
+    ],
+    "no": [
+      "Stå på en rekke.",
+      "Etter tur sier hver spiller et nytt merke av gjenstanden på kortet.",
+      "Nøler eller gjentar du, er du ute."
+    ]
+  },
+  "more": {
+    "en": "Keep the rhythm fast. Last one standing wins.",
+    "no": "Hold et raskt tempo. Den siste som er igjen, vinner."
+  },
+  "asks": [
+    "objects"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "g03-0002",
+  "status": "draft",
+  "name": {
+    "en": "Call from Ray",
+    "no": "Telefon fra Ray"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "At some point, a character has to get a call from Ray.",
+    "no": "På et tidspunkt må en karakter få en telefon fra Ray."
+  },
+  "steps": {
+    "en": [
+      "Play an ordinary scene in the place on the card.",
+      "Somewhere in it, a character must receive a call from Ray, by phone or any stranger means.",
+      "Ray never appears."
+    ],
+    "no": [
+      "Spill en helt vanlig scene på stedet på kortet.",
+      "Et sted i scenen må en karakter få en oppringning fra Ray, på telefon eller på en rarere måte.",
+      "Ray dukker aldri opp."
+    ]
+  },
+  "more": {
+    "en": "The odder the way the call arrives, the better. Pick any name instead of Ray.",
+    "no": "Jo rarere måten oppringningen kommer på, jo bedre. Velg gjerne et annet navn enn Ray."
+  },
+  "asks": [
+    "locations"
+  ]
+}

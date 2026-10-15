@@ -1,0 +1,28 @@
+{
+  "id": "b15-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Squeamish.",
+      "no": "Pysete."
+    },
+    {
+      "en": "More squeamish.",
+      "no": "Mer pysete."
+    },
+    {
+      "en": "Even more squeamish.",
+      "no": "Enda mer pysete."
+    },
+    {
+      "en": "The most squeamish ever, on a surgeon's first day.",
+      "no": "Verdens mest pysete, på kirurgens første dag."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

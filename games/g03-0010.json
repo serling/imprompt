@@ -1,0 +1,40 @@
+{
+  "id": "g03-0010",
+  "status": "draft",
+  "name": {
+    "en": "Cut and Paste",
+    "no": "Klipp og lim"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "host-calls",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "The caller cuts a player out of the scene, then pastes them back in.",
+    "no": "Innroperen klipper en spiller ut av scenen, og limer hen inn igjen."
+  },
+  "steps": {
+    "en": [
+      "Play a scene; one player is the caller.",
+      "On \"cut\", one player leaves, and the others carry on as if the character were still there.",
+      "On \"paste\", the player returns and must fit whatever was said about them."
+    ],
+    "no": [
+      "Spill en scene; én spiller er innroper.",
+      "På «klipp» går én spiller ut, og de andre fortsetter som om karakteren fortsatt var der.",
+      "På «lim» kommer spilleren tilbake og må passe med alt som ble sagt om hen."
+    ]
+  },
+  "more": {
+    "en": "The others should describe what the missing character is doing. That's the fun of coming back.",
+    "no": "De andre bør beskrive hva den savnede karakteren driver med. Det er moroa når hen kommer tilbake."
+  },
+  "asks": [
+    "locations"
+  ]
+}

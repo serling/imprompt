@@ -4,12 +4,14 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A freshly divorced toaster."
+    "en": "A freshly divorced toaster.",
+    "no": "En nyskilt brødrister."
   },
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the divorced toaster"
+    "en": "the divorced toaster",
+    "no": "den skilte brødristeren"
   }
 }

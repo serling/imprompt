@@ -1,0 +1,13 @@
+{
+  "id": "b14-0109",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "text": {
+    "en": "A professor taking notes at a student's lecture.",
+    "no": "En professor som tar notater på en students forelesning."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "g02-0068",
+  "status": "draft",
+  "name": {
+    "en": "Fortune Teller",
+    "no": "Spåkona"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "guessing",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "A fortune teller must find the predictions the clients steer towards.",
+    "no": "En spåkone må finne spådommene kundene styrer mot."
+  },
+  "steps": {
+    "en": [
+      "Send the fortune teller out of earshot.",
+      "Each client agrees a prediction they want to hear.",
+      "The fortune teller reads their future, and the clients steer with reactions."
+    ],
+    "no": [
+      "Send spåkona ut av hørevidde.",
+      "Hver kunde bestemmer seg for en spådom de vil høre.",
+      "Spåkona leser framtiden deres, og kundene styrer med reaksjonene sine."
+    ]
+  },
+  "more": {
+    "en": "Clients react to warmer and colder guesses. Use the card's job as one client's future.",
+    "no": "Kundene reagerer på varmere og kaldere gjetninger. Bruk yrket på kortet som én kundes framtid."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

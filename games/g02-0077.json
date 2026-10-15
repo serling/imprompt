@@ -1,0 +1,42 @@
+{
+  "id": "g02-0077",
+  "status": "draft",
+  "name": {
+    "en": "Speak in One Voice",
+    "no": "Én stemme"
+  },
+  "aliases": {
+    "en": [
+      "One Mouth"
+    ],
+    "no": [
+      "Én munn"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "A group speaks in unison as one character.",
+    "no": "En gruppe snakker i kor som én karakter."
+  },
+  "steps": {
+    "en": [
+      "Several players stand together as one character.",
+      "They answer questions together, word for word, at the same time."
+    ],
+    "no": [
+      "Flere spillere står sammen som én karakter.",
+      "De svarer på spørsmål sammen, ord for ord, samtidig."
+    ]
+  },
+  "more": {
+    "en": "Slow down and listen. The job on the card gives the character.",
+    "no": "Senk tempoet og lytt. Yrket på kortet gir karakteren."
+  },
+  "asks": [
+    "occupations"
+  ]
+}

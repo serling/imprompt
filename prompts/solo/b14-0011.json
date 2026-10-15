@@ -1,0 +1,13 @@
+{
+  "id": "b14-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "Someone convinced they're about to be discovered.",
+    "no": "Noen som er sikker på å bli oppdaget når som helst."
+  },
+  "tags": [
+    "character"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "g02-0051",
+  "status": "draft",
+  "name": {
+    "en": "Deaf Replay",
+    "no": "Døv repris"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "replay",
+  "players": {
+    "min": 4,
+    "max": 4
+  },
+  "summary": {
+    "en": "Two players watch a scene with ears covered, then replay its moves.",
+    "no": "To spillere ser en scene med hendene for ørene, og spiller så bevegelsene om igjen."
+  },
+  "steps": {
+    "en": [
+      "Two players leave or cover their ears.",
+      "Two others play a short scene.",
+      "The first two replay its movements exactly, with their own dialogue."
+    ],
+    "no": [
+      "To spillere går ut eller holder seg for ørene.",
+      "To andre spiller en kort scene.",
+      "De to første spiller bevegelsene nøyaktig om igjen, med sin egen dialog."
+    ]
+  },
+  "more": {
+    "en": "They will guess wrong. Commit to your version of the story.",
+    "no": "De kommer til å gjette feil. Gå helt inn i din versjon av historien."
+  },
+  "asks": [
+    "locations"
+  ]
+}

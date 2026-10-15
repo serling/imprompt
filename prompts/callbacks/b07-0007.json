@@ -4,7 +4,8 @@
   "players": 1,
   "type": "callback",
   "text": {
-    "en": "A royal address to the nation. The monarch is {character}."
+    "en": "A royal address to the nation. The monarch is {character}.",
+    "no": "En kongelig tale til folket. Monarken er {character}."
   },
   "tags": [
     "history",

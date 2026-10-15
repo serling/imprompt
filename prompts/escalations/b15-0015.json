@@ -1,0 +1,28 @@
+{
+  "id": "b15-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "escalation",
+  "steps": [
+    {
+      "en": "Gentle.",
+      "no": "Mild."
+    },
+    {
+      "en": "Gentler.",
+      "no": "Mildere."
+    },
+    {
+      "en": "Even gentler.",
+      "no": "Enda mildere."
+    },
+    {
+      "en": "The gentlest ever, and a lumberjack.",
+      "no": "Verdens mildeste, og er tømmerhugger."
+    }
+  ],
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

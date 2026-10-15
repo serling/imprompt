@@ -4,7 +4,8 @@
   "players": 1,
   "type": "reframe",
   "text": {
-    "en": "Getting a parking ticket, like accepting an award."
+    "en": "Getting a parking ticket, like accepting an award.",
+    "no": "Å få en parkeringsbot, som å ta imot en pris."
   },
   "tags": [
     "narration"

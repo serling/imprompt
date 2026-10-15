@@ -4,7 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A customer serving dinner to the waiter."
+    "en": "A customer serving dinner to the waiter.",
+    "no": "En kunde som serverer middag til servitøren."
   },
   "tags": [
     "status"

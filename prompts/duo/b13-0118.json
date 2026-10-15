@@ -1,0 +1,14 @@
+{
+  "id": "b13-0118",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A parent asking their eight-year-old for an advance on pocket money.",
+    "no": "En forelder som ber åtteåringen sin om forskudd på ukepengene."
+  },
+  "tags": [
+    "status",
+    "family"
+  ]
+}

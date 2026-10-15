@@ -1,0 +1,40 @@
+{
+  "id": "g02-0090",
+  "status": "draft",
+  "name": {
+    "en": "Famous Last Words",
+    "no": "Berømte siste ord"
+  },
+  "aliases": {
+    "en": [
+      "Epitaphs"
+    ],
+    "no": [
+      "Gravskrifter"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Line gag: the last words of someone with the job on the card.",
+    "no": "Line gag: de siste ordene til noen med yrket på kortet."
+  },
+  "steps": {
+    "en": [
+      "Players step forward with last words or gravestone lines for the job on the card."
+    ],
+    "no": [
+      "Spillerne tar et steg frem med siste ord eller gravsteinsinnskrifter for yrket på kortet."
+    ]
+  },
+  "more": {
+    "en": "Refresh the job for a new round.",
+    "no": "Trekk et nytt yrke for en ny runde."
+  },
+  "asks": [
+    "occupations"
+  ]
+}
