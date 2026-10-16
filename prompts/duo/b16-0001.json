@@ -3,8 +3,8 @@
   "status": "draft",
   "players": 2,
   "text": {
-    "en": "A dentist and a patient who swears they floss every day.",
-    "no": "En tannlege og en pasient som sverger på å bruke tanntråd hver dag."
+    "en": "A dentist and a patient who flosses through the whole check-up.",
+    "no": "En tannlege og en pasient som bruker tanntråd gjennom hele kontrollen."
   },
   "world": "everyday",
   "type": "premise",

@@ -4,8 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A very eager new church warden.",
-    "no": "En svært ivrig ny kirketjener."
+    "en": "A church warden who treats every service like a rock concert.",
+    "no": "En kirketjener som behandler hver gudstjeneste som en rockekonsert."
   },
   "world": "everyday",
   "tags": [
@@ -13,7 +13,7 @@
     "work"
   ],
   "callback": {
-    "en": "the eager church warden",
-    "no": "den ivrige kirketjeneren"
+    "en": "the church warden who thinks it's a rock concert",
+    "no": "kirketjeneren som tror det er rockekonsert"
   }
 }

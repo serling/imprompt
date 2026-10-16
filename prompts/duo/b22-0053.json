@@ -4,8 +4,8 @@
   "players": 2,
   "type": "status-flip",
   "text": {
-    "en": "A professor with her hand up, waiting for the cleaner to pick her.",
-    "no": "En professor som rekker opp hånda og venter på at vaskehjelpen skal gi henne ordet."
+    "en": "A professor in the cleaner's evening class, hand up, desperate to be picked.",
+    "no": "En professor på vaskehjelpens kveldskurs, med hånda i været, desperat etter å få svare."
   },
   "world": "everyday",
   "tags": [

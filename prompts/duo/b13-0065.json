@@ -4,8 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A bank manager and a customer with a jar of buttons.",
-    "no": "En banksjef og en kunde med et glass fullt av knapper."
+    "en": "A bank manager and a customer who wants a loan against his button collection.",
+    "no": "En banksjef og en kunde som vil låne penger med knappesamlingen sin som sikkerhet."
   },
   "world": "everyday",
   "tags": [

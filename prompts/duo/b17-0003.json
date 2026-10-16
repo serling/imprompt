@@ -4,8 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A dragon and a fire safety inspector.",
-    "no": "En drage og en branninspektør."
+    "en": "A fire safety inspector testing the smoke alarms in a dragon's cave.",
+    "no": "En branninspektør som tester røykvarslerne i hulen til en drage."
   },
   "world": "fantastical",
   "tags": [

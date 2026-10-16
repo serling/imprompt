@@ -4,8 +4,8 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A tired old rowing boat and the shiny new motorboat moored beside it.",
-    "no": "En sliten gammel robåt og den skinnende nye motorbåten som ligger fortøyd ved siden av."
+    "en": "A tired old rowing boat being towed behind the shiny new motorboat.",
+    "no": "En sliten gammel robåt på slep etter den skinnende nye motorbåten."
   },
   "world": "fantastical",
   "tags": [

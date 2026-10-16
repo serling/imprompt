@@ -4,8 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A four-year-old who insists on doing everything herself.",
-    "no": "En fireåring som insisterer på å gjøre alt selv."
+    "en": "A four-year-old who insists on driving herself to nursery.",
+    "no": "En fireåring som insisterer på å kjøre seg selv til barnehagen."
   },
   "world": "everyday",
   "tags": [
@@ -14,7 +14,7 @@
     "physical"
   ],
   "callback": {
-    "en": "the four-year-old who does it herself",
-    "no": "fireåringen som vil gjøre alt selv"
+    "en": "the four-year-old who drives herself",
+    "no": "fireåringen som kjører seg selv"
   }
 }

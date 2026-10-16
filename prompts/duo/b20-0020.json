@@ -1,11 +1,11 @@
 {
   "id": "b20-0020",
-  "status": "draft",
+  "status": "retired",
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "Loki and a lie-detector expert.",
-    "no": "Loke og en ekspert på løgndetektor."
+    "en": "A lie-detector expert asking Loki the easy warm-up questions.",
+    "no": "En ekspert på løgndetektor som stiller Loke de enkle oppvarmingsspørsmålene."
   },
   "world": "fantastical",
   "tags": [

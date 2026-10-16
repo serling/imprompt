@@ -4,15 +4,15 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A witch and the cat she has accidentally turned into her landlord.",
-    "no": "En heks og katten hun ved et uhell har gjort om til utleieren sin."
+    "en": "A witch and the landlord she has accidentally turned into a cat.",
+    "no": "En heks og utleieren hun ved et uhell har gjort om til en katt."
   },
   "world": "fantastical",
   "tags": [
     "fantasy"
   ],
   "callback": {
-    "en": "the cat who became a landlord",
-    "no": "katten som ble utleier"
+    "en": "the landlord who became a cat",
+    "no": "utleieren som ble katt"
   }
 }

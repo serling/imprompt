@@ -4,15 +4,15 @@
   "players": 1,
   "type": "twisted-role",
   "text": {
-    "en": "A security guard checking bags, but extremely nosy.",
-    "no": "En vekter som sjekker vesker, men er ekstremt nysgjerrig."
+    "en": "A security guard checking bags, thrilled by every single thing inside.",
+    "no": "En vekter som sjekker vesker, helt begeistret over alt som ligger i dem."
   },
   "world": "everyday",
   "tags": [
     "work"
   ],
   "callback": {
-    "en": "the nosy security guard",
-    "no": "den nysgjerrige vekteren"
+    "en": "the thrilled security guard",
+    "no": "den begeistrede vekteren"
   }
 }

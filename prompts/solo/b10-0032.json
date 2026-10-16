@@ -4,12 +4,16 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "Someone with a very stiff neck.",
-    "no": "Noen med veldig stiv nakke."
+    "en": "A tennis umpire with a very stiff neck.",
+    "no": "En tennisdommer med veldig stiv nakke."
   },
-  "world": "everyday",
+  "world": "sport",
   "tags": [
     "character",
     "physical"
-  ]
+  ],
+  "callback": {
+    "en": "the umpire with the stiff neck",
+    "no": "tennisdommeren med stiv nakke"
+  }
 }
