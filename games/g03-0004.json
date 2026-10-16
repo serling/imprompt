@@ -22,11 +22,11 @@
   },
   "steps": {
     "en": [
-      "Choose a short word together, like FISH.",
+      "Use the dealt animal as the word, or choose a short one together, like FISH.",
       "Each line starts with the next letter of that word, round and round."
     ],
     "no": [
-      "Velg et kort ord sammen, som FISK.",
+      "Bruk dyret dere fikk som ord, eller velg et kort ord sammen, som FISK.",
       "Hver replikk begynner på neste bokstav i ordet, rundt og rundt."
     ]
   },
@@ -35,6 +35,7 @@
     "no": "Et kort ord betyr at de samme bokstavene kommer fort tilbake; scenen må holde seg i gang."
   },
   "asks": [
+    "animals",
     "locations"
   ]
 }

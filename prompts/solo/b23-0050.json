@@ -4,7 +4,7 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A barn nisse, the night nobody brings the porridge.",
+    "en": "A nisse, the night nobody brings the porridge.",
     "no": "En fjøsnisse, den kvelden ingen kommer med grøten."
   },
   "tags": [
@@ -12,7 +12,7 @@
     "fantasy"
   ],
   "callback": {
-    "en": "the barn nisse",
+    "en": "the nisse",
     "no": "fjøsnissen"
   }
 }

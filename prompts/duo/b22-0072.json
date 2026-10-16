@@ -5,13 +5,13 @@
   "type": "character",
   "text": {
     "en": "A waiter who remembers every customer's whole life, and a man ordering a coffee.",
-    "no": "En kelner som husker hele livshistorien til hver gjest, og en mann som bestiller en kaffe."
+    "no": "En servitør som husker hele livshistorien til hver gjest, og en mann som bestiller en kaffe."
   },
   "tags": [
     "work"
   ],
   "callback": {
     "en": "the waiter who remembers everything",
-    "no": "kelneren som husker alt"
+    "no": "servitøren som husker alt"
   }
 }

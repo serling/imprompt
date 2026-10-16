@@ -37,6 +37,7 @@
     "no": "Sjefen må snu seg ofte. Den siste som er igjen, vinner."
   },
   "asks": [
+    "occupations",
     "problems"
   ]
 }

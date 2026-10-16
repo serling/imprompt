@@ -38,10 +38,13 @@
     ]
   },
   "more": {
-    "en": "Each pair keeps its own story.",
-    "no": "Hvert par holder på sin egen historie."
+    "en": "Each pair keeps its own story; give each new pair the next relationship.",
+    "no": "Hvert par holder på sin egen historie; gi hvert nytt par den neste relasjonen."
   },
   "asks": [
+    "relationships",
+    "relationships",
+    "relationships",
     "relationships"
   ]
 }

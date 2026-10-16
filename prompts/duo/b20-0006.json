@@ -4,7 +4,7 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A farm gnome and the family who forgot his Christmas porridge.",
+    "en": "A nisse and the family who forgot his Christmas porridge.",
     "no": "En fjøsnisse og familien som glemte julegrøten hans."
   },
   "tags": [
@@ -12,7 +12,7 @@
     "status"
   ],
   "callback": {
-    "en": "the farm gnome",
+    "en": "the nisse",
     "no": "fjøsnissen"
   }
 }

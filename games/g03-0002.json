@@ -33,10 +33,11 @@
     ]
   },
   "more": {
-    "en": "The odder the way the call arrives, the better. Pick any name instead of Ray.",
-    "no": "Jo rarere måten oppringningen kommer på, jo bedre. Velg gjerne et annet navn enn Ray."
+    "en": "The odder the way the call arrives, the better; the dealt object can be the phone. Pick any name instead of Ray.",
+    "no": "Jo rarere måten oppringningen kommer på, jo bedre; gjenstanden dere fikk, kan være telefonen. Velg gjerne et annet navn enn Ray."
   },
   "asks": [
-    "locations"
+    "locations",
+    "objects"
   ]
 }

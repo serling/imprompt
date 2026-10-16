@@ -36,7 +36,5 @@
     "en": "Clients react to warmer and colder guesses.",
     "no": "Kundene reagerer på varmere og kaldere gjetninger."
   },
-  "asks": [
-    "occupations"
-  ]
+  "asks": []
 }

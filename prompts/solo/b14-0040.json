@@ -5,13 +5,13 @@
   "type": "mismatch",
   "text": {
     "en": "A grumpy cloud.",
-    "no": "En grinete sky."
+    "no": "En gretten sky."
   },
   "tags": [
     "character"
   ],
   "callback": {
     "en": "the grumpy cloud",
-    "no": "den grinete skya"
+    "no": "den gretne skyen"
   }
 }
