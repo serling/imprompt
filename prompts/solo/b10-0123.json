@@ -4,15 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A kettle with strong opinions about tea.",
-    "no": "En vannkoker med sterke meninger om te."
+    "en": "A coffee maker with strong opinions about coffee.",
+    "no": "En kaffetrakter med sterke meninger om kaffe."
   },
   "world": "fantastical",
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the opinionated kettle",
-    "no": "den meningssterke vannkokeren"
+    "en": "the opinionated coffee maker",
+    "no": "den meningssterke kaffetrakteren"
   }
 }

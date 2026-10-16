@@ -4,15 +4,15 @@
   "players": 1,
   "type": "mismatch",
   "text": {
-    "en": "A courageous teacup.",
-    "no": "En tapper tekopp."
+    "en": "A courageous coffee cup.",
+    "no": "En tapper kaffekopp."
   },
   "world": "fantastical",
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the courageous teacup",
-    "no": "den tapre tekoppen"
+    "en": "the courageous coffee cup",
+    "no": "den tapre kaffekoppen"
   }
 }

@@ -4,8 +4,8 @@
   "players": 1,
   "type": "status-flip",
   "text": {
-    "en": "A queen cleaning the palace while the cleaners have tea.",
-    "no": "En dronning som vasker slottet mens vaskehjelpene drikker te."
+    "en": "A queen cleaning the palace while the cleaners have a coffee break.",
+    "no": "En dronning som vasker slottet mens vaskehjelpene tar kaffepause."
   },
   "world": "royalty",
   "tags": [
