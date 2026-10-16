@@ -20,7 +20,8 @@ Three modes, each one row of buttons for the whole session, with the buzzer on t
 A gimmick is drawn from four separate word lists (a physical condition, a way of speaking, a
 staging rule, a tempo) and shown simply as "Gimmick". The refresh icon beside a labelled line (an
 emotion, a gimmick, a game's suggestion) swaps just that one. The lines are suggestions: use one,
-several or none. The **Buzzer** only rings to call time.
+several or none. A want or a secret has a faint dashed underline: tap it to show just that line
+full screen to one performer, and tap again to close. The **Buzzer** only rings to call time.
 
 Later in a session, characters from the last half hour come back in new situations.
 

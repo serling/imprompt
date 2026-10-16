@@ -28,6 +28,7 @@ const UI = {
     scene: "Scene · {who}", game: "Game · {range} players",
     callback: "Callback",
     howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}", gimmick: "Gimmick",
+    tapClose: "Tap to close", showLine: "Show {kind} full screen",
     timerAria: "Stopwatch {t}. Tap to start over.",
     soundOn: "Sound on. Tap to mute.", soundOff: "Sound off. Tap to unmute.",
     langAria: "Language: {lang}. Tap for {other}.",
@@ -54,6 +55,7 @@ const UI = {
     scene: "Scene · {who}", game: "Spill · {range} spillere",
     callback: "Callback",
     howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}", gimmick: "Gimmick",
+    tapClose: "Trykk for å lukke", showLine: "Vis {kind} på hele skjermen",
     timerAria: "Stoppeklokke {t}. Trykk for å starte på nytt.",
     soundOn: "Lyd på. Trykk for å dempe.", soundOff: "Lyd av. Trykk for å slå på.",
     langAria: "Språk: {lang}. Trykk for {other}.",
@@ -329,11 +331,29 @@ function dealLines() {
   for (const slot of lineKinds(state.current)) dealCoach(slot);
   state.lastCoach = null;
 }
+// Wants and secrets are often shown to one performer alone: tapping one fills the screen with it.
+const SHOWN = ["wants", "secrets"];
+function showLine(slot) {
+  const x = state.coaching.find(c => c.slot === slot);
+  if (!x) return;
+  $("revealKind").textContent = kindLabel(x.kind);
+  $("revealText").textContent = say(x.entry.text);
+  $("reveal").hidden = false;
+}
+function hideLine() { $("reveal").hidden = true; }
 function renderLines() {
   $("mods").hidden = !state.coaching.length;
   $("modList").replaceChildren(...state.coaching.map(x => {
     const li = kindLine(GIMMICK.includes(x.kind) ? "gimmick" : x.kind, x.entry.text, { coach: x.slot });
     li.className = "coach-line" + (x.slot === state.lastCoach ? " fresh" : "");
+    if (SHOWN.includes(x.kind)) {
+      const s = li.querySelector(".say");
+      s.classList.add("show");
+      s.dataset.show = x.slot;
+      s.setAttribute("role", "button");
+      s.tabIndex = 0;
+      s.setAttribute("aria-label", ui("showLine", { kind: kindLabel(x.kind).toLowerCase() }));
+    }
     return li;
   }));
 }
@@ -770,7 +790,18 @@ renderLang();
 $("dealScene").addEventListener("click", drawScene);
 $("dealRapid").addEventListener("click", drawRapid);
 $("group").addEventListener("change", e => setGroup(+e.target.value));
-$("modList").addEventListener("click", e => { const b = e.target.closest(".refresh"); if (b) coach(b.dataset.coach); });
+$("modList").addEventListener("click", e => {
+  const b = e.target.closest(".refresh");
+  if (b) return coach(b.dataset.coach);
+  const s = e.target.closest(".say.show");
+  if (s) showLine(s.dataset.show);
+});
+$("modList").addEventListener("keydown", e => {
+  const s = e.target.closest(".say.show");
+  if (s && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); showLine(s.dataset.show); }
+});
+$("reveal").addEventListener("click", hideLine);
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("reveal").hidden) hideLine(); });
 $("modeRapid").addEventListener("click", () => setMode("rapid"));
 $("modeScenes").addEventListener("click", () => setMode("scenes"));
 $("modeGames").addEventListener("click", () => setMode("games"));
