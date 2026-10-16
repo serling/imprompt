@@ -4,9 +4,10 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "A retired headmaster helping his grandson with homework.",
-    "no": "En pensjonert rektor som hjelper barnebarnet med leksene."
+    "en": "A retired headmaster helping his grandson with homework, ringing a school bell between subjects.",
+    "no": "En pensjonert rektor som hjelper barnebarnet med leksene og ringer med skoleklokka mellom hvert fag."
   },
+  "world": "everyday",
   "tags": [
     "family",
     "status"

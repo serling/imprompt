@@ -1,0 +1,15 @@
+{
+  "id": "b28-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "The assembly instructions for a snowman.",
+    "no": "Monteringsanvisningen for en snømann."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

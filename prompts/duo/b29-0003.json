@@ -1,0 +1,15 @@
+{
+  "id": "b29-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "Three-in-the-morning you and lunchtime you, folding the laundry together.",
+    "no": "Du klokka tre om natta og du i lunsjpausen bretter klesvasken sammen."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

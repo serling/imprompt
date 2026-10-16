@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four colleagues on their first day in a new open-plan office.",
-    "no": "Fire kolleger på første dag i et nytt åpent kontorlandskap."
-  }
+    "en": "Four accountants assembling their own desks in the new open-plan office.",
+    "no": "Fire regnskapsførere som skrur sammen sine egne pulter i det nye kontorlandskapet."
+  },
+  "world": "everyday"
 }

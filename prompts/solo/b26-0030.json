@@ -1,0 +1,15 @@
+{
+  "id": "b26-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "reframe",
+  "text": {
+    "en": "A bank robbery, planned like a child's birthday party.",
+    "no": "Et bankran, planlagt som et barnebursdagsselskap."
+  },
+  "tags": [
+    "crime",
+    "narration"
+  ],
+  "world": "crime"
+}

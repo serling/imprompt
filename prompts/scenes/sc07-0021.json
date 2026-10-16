@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 3,
   "text": {
-    "en": "A nisse family of three cooking rice porridge in the hayloft.",
+    "en": "A gnome family of three cooking rice porridge in the hayloft.",
     "no": "En nissefamilie på tre som koker risgrøt på låven."
-  }
+  },
+  "world": "fantastical"
 }

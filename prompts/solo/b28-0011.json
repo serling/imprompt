@@ -1,0 +1,15 @@
+{
+  "id": "b28-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A food critic reviewing the waffle on the ferry.",
+    "no": "En matanmelder anmelder vaffelen på ferja."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

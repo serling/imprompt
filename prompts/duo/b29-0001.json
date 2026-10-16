@@ -1,0 +1,15 @@
+{
+  "id": "b29-0001",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You at nine and you at sixty, building a snowman together.",
+    "no": "Du som niåring og du som sekstiåring bygger en snømann sammen."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

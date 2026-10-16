@@ -1,0 +1,15 @@
+{
+  "id": "b26-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "text": {
+    "en": "A robot giving a hug, before any robot had tried.",
+    "no": "En robot som gir en klem, før noen robot hadde prøvd."
+  },
+  "tags": [
+    "future",
+    "physical"
+  ],
+  "world": "future"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b26-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A robot hairdresser cutting hair, when a software update starts.",
+    "no": "En robotfrisør som klipper hår, når en programvareoppdatering starter."
+  },
+  "tags": [
+    "future",
+    "physical"
+  ],
+  "world": "future"
+}

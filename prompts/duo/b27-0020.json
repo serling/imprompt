@@ -1,0 +1,14 @@
+{
+  "id": "b27-0020",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "text": {
+    "en": "A self-driving car and a passenger stamping on a brake that isn't there.",
+    "no": "En selvkjørende bil og en passasjer som tråkker på en brems som ikke finnes."
+  },
+  "tags": [
+    "physical"
+  ],
+  "world": "future"
+}

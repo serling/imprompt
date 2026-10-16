@@ -1,0 +1,15 @@
+{
+  "id": "b29-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You, and you in a past life as a pirate, assembling a flat-pack wardrobe.",
+    "no": "Du og deg selv i et tidligere liv som sjørøver skrur sammen et nytt garderobeskap."
+  },
+  "world": "sea",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

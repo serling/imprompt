@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A hermit crab moving into a bigger shell.",
-    "no": "En eremittkreps som flytter inn i et større skall."
+    "en": "A hermit crab moving into a bigger shell, giving a grand tour of it.",
+    "no": "En eremittkreps som flytter inn i et større skall, og viser stolt rundt."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "nature"

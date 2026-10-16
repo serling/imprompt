@@ -1,0 +1,15 @@
+{
+  "id": "b26-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "A ski jumper on the beginners' slope at the school ski day.",
+    "no": "En skihopper i barnebakken på skidagen."
+  },
+  "tags": [
+    "sport",
+    "physical"
+  ],
+  "world": "sport"
+}

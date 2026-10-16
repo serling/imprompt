@@ -1,0 +1,14 @@
+{
+  "id": "b27-0021",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A museum guide in the year 3000, showing a schoolboy a toaster.",
+    "no": "En museumsguide i år 3000 som viser en skolegutt en brødrister."
+  },
+  "tags": [
+    "work"
+  ],
+  "world": "future"
+}

@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A cat being taken to the vet.",
-    "no": "En katt som blir tatt med til dyrlegen."
+    "en": "A cat being taken to the vet, playing dead the whole way.",
+    "no": "En katt som blir tatt med til dyrlegen, og spiller død hele veien."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "nature"

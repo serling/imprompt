@@ -1,0 +1,19 @@
+{
+  "id": "b27-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "text": {
+    "en": "A mad professor and a lab assistant who follows every safety rule.",
+    "no": "En gal professor og en laboratorieassistent som følger alle sikkerhetsreglene."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the mad professor",
+    "no": "den gale professoren"
+  },
+  "world": "science"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b29-0025",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "text": {
+    "en": "Two lawyers closing a deal, in a world where every handshake is a long secret handshake.",
+    "no": "To advokater som inngår en avtale, i en verden der alle håndtrykk er lange, hemmelige håndtrykk."
+  },
+  "world": "everyday",
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b26-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A time traveller from the far future, amazed by a candle.",
+    "no": "En tidsreisende fra en fjern framtid, helt betatt av et stearinlys."
+  },
+  "tags": [
+    "future",
+    "character"
+  ],
+  "callback": {
+    "en": "the time traveller",
+    "no": "den tidsreisende"
+  },
+  "world": "future"
+}

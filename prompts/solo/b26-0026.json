@@ -1,0 +1,19 @@
+{
+  "id": "b26-0026",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A daydreaming sprinter.",
+    "no": "En dagdrømmende sprinter."
+  },
+  "tags": [
+    "sport",
+    "character"
+  ],
+  "callback": {
+    "en": "the daydreaming sprinter",
+    "no": "den dagdrømmende sprinteren"
+  },
+  "world": "sport"
+}

@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four strangers at a bus stop in the rain.",
-    "no": "Fire fremmede på en bussholdeplass i regnet."
-  }
+    "en": "A bus driver and three passengers, pushing the bus out of a ditch in the rain.",
+    "no": "En bussjåfør og tre passasjerer som skyver bussen opp av grøfta i regnet."
+  },
+  "world": "everyday"
 }

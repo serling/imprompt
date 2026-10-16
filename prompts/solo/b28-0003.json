@@ -1,0 +1,15 @@
+{
+  "id": "b28-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "The safety briefing before your first ride on a dragon.",
+    "no": "Sikkerhetsinstruksen før din første tur på dragerygg."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ],
+  "world": "fantastical"
+}

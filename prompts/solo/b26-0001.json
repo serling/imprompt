@@ -1,0 +1,19 @@
+{
+  "id": "b26-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A claustrophobic astronaut.",
+    "no": "En klaustrofobisk astronaut."
+  },
+  "tags": [
+    "space",
+    "character"
+  ],
+  "callback": {
+    "en": "the claustrophobic astronaut",
+    "no": "den klaustrofobiske astronauten"
+  },
+  "world": "space"
+}

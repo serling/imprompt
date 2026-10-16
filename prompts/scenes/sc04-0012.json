@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 3,
   "text": {
-    "en": "Three strangers in the queue at the passport office.",
-    "no": "Tre fremmede i køen på passkontoret."
-  }
+    "en": "A photographer at the passport office, taking photos of an elderly couple.",
+    "no": "En fotograf på passkontoret som tar bilder av et eldre ektepar."
+  },
+  "world": "everyday"
 }

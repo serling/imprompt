@@ -1,0 +1,15 @@
+{
+  "id": "b26-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A jungle explorer hacking through the undergrowth with nail scissors.",
+    "no": "En jungelutforsker som baner seg vei gjennom krattet med neglesaks."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "world": "wild"
+}

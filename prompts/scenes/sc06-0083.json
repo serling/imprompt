@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four taxi drivers at the rank, at two in the morning.",
-    "no": "Fire drosjesjåfører på holdeplassen, klokka to om natta."
-  }
+    "en": "Four taxi drivers changing a flat tyre at the rank, at two in the morning.",
+    "no": "Fire drosjesjåfører som skifter et punktert dekk på holdeplassen, klokka to om natta."
+  },
+  "world": "everyday"
 }

@@ -1,0 +1,15 @@
+{
+  "id": "b26-0025",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Winning Olympic gold, bored stiff.",
+    "no": "Å vinne OL-gull, og kjede seg fryktelig."
+  },
+  "tags": [
+    "sport",
+    "character"
+  ],
+  "world": "sport"
+}

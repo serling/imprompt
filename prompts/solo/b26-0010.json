@@ -1,0 +1,15 @@
+{
+  "id": "b26-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A ship's cook frying pancakes in a storm.",
+    "no": "En skipskokk som steker pannekaker i storm."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ],
+  "world": "sea"
+}

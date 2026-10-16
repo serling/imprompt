@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A cowbell on a very lively cow.",
-    "no": "En kubjelle på en veldig livlig ku."
+    "en": "A cowbell on a lively cow, trying to keep the beat like a drummer.",
+    "no": "En kubjelle på en livlig ku, som prøver å holde takten som en trommeslager."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "physical"

@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A lost glove on a park railing.",
-    "no": "En mistet hanske på et gjerde i parken."
+    "en": "A lost glove on a park railing, high-fiving everyone who passes.",
+    "no": "En mistet hanske på et gjerde i parken, som gir high five til alle som går forbi."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

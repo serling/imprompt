@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A windscreen wiper in a cloudburst.",
-    "no": "En vindusvisker i et skybrudd."
+    "en": "A windscreen wiper in a cloudburst, conducting it like an orchestra.",
+    "no": "En vindusvisker i et skybrudd, som dirigerer det som et orkester."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "physical"

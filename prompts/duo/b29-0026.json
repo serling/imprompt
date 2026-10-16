@@ -1,0 +1,14 @@
+{
+  "id": "b29-0026",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "text": {
+    "en": "An estate agent and a buyer, in a world where everything is paid for in compliments.",
+    "no": "En eiendomsmegler og en kjøper, i en verden der alt betales med komplimenter."
+  },
+  "world": "everyday",
+  "tags": [
+    "status"
+  ]
+}

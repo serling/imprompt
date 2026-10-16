@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A dog seeing snow for the first time.",
-    "no": "En hund som ser snø for første gang."
+    "en": "A dog seeing snow for the first time, reporting it like breaking news.",
+    "no": "En hund som ser snø for første gang, og melder om det som ekstranyheter."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "nature"

@@ -4,9 +4,10 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "An astronaut and the cleaner on the space station.",
-    "no": "En astronaut og renholderen på romstasjonen."
+    "en": "An astronaut and the cleaner on the space station, who has been up there for twenty years.",
+    "no": "En astronaut og renholderen på romstasjonen, som har vært der oppe i tjue år."
   },
+  "world": "space",
   "tags": [
     "work",
     "status"

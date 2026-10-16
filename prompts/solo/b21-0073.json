@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A puddle on the busiest pavement in town.",
-    "no": "En vanndam på det travleste fortauet i byen."
+    "en": "A puddle on the busiest pavement in town, as proud as a lake.",
+    "no": "En vanndam på det travleste fortauet i byen, stolt som en innsjø."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ]

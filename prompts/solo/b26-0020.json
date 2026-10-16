@@ -1,0 +1,15 @@
+{
+  "id": "b26-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "reframe",
+  "text": {
+    "en": "Mixing chemicals in the lab, like a bartender showing off.",
+    "no": "Å blande kjemikalier på laben, som en bartender som viser seg fram."
+  },
+  "tags": [
+    "science",
+    "physical"
+  ],
+  "world": "science"
+}

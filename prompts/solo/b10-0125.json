@@ -4,14 +4,15 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A bouncy castle at the end of a long party.",
-    "no": "Et hoppeslott på slutten av en lang fest."
+    "en": "A bouncy castle at the end of a long party, deflating with great dignity.",
+    "no": "Et hoppeslott på slutten av en lang fest, som synker sammen med stor verdighet."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ],
   "callback": {
-    "en": "the exhausted bouncy castle",
-    "no": "det utslitte hoppeslottet"
+    "en": "the dignified bouncy castle",
+    "no": "det verdige hoppeslottet"
   }
 }

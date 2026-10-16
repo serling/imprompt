@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A snowman on the first warm day of spring.",
-    "no": "En snømann på vårens første varme dag."
+    "en": "A snowman on the first warm day of spring, cheerfully planning the summer.",
+    "no": "En snømann på vårens første varme dag, som blidt legger planer for sommeren."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ],

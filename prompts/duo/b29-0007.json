@@ -1,0 +1,15 @@
+{
+  "id": "b29-0007",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "Job-interview you and the real you, writing your dating profile together.",
+    "no": "Du på jobbintervju og du til vanlig skriver datingprofilen din sammen."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "status"
+  ]
+}

@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A pencil being sharpened for the last time.",
-    "no": "En blyant som blir spisset for siste gang."
+    "en": "A pencil being sharpened for the last time, as calm as a monk.",
+    "no": "En blyant som blir spisset for siste gang, rolig som en munk."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

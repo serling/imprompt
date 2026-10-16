@@ -4,15 +4,16 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A nisse, the night nobody brings the porridge.",
-    "no": "En fjøsnisse, den kvelden ingen kommer med grøten."
+    "en": "A gnome, the night nobody brings the porridge, pretending not to mind.",
+    "no": "En fjøsnisse, den kvelden ingen kommer med grøten, som later som det ikke gjør noe."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "fantasy"
   ],
   "callback": {
-    "en": "the nisse",
+    "en": "the gnome",
     "no": "fjøsnissen"
   }
 }

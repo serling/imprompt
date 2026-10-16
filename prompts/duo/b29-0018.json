@@ -1,0 +1,15 @@
+{
+  "id": "b29-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "text": {
+    "en": "An old radiator teaching a brand-new one how to clank.",
+    "no": "En gammel radiator som lærer en splitter ny radiator å klonke."
+  },
+  "world": "fantastical",
+  "tags": [
+    "sound",
+    "status"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b26-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "An astronaut back from a year in space, relearning the stairs.",
+    "no": "En astronaut hjemme etter et år i rommet, som må lære seg trapper på nytt."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ],
+  "world": "space"
+}

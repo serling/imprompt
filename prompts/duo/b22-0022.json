@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A waffle iron and the colleague making waffles for the Friday meeting.",
-    "no": "Et vaffeljern og kollegaen som steker vafler til fredagsmøtet."
+    "en": "A waffle iron and the colleague making two hundred waffles for the Friday meeting.",
+    "no": "Et vaffeljern og kollegaen som steker to hundre vafler til fredagsmøtet."
   },
+  "world": "fantastical",
   "tags": [
     "work"
   ],

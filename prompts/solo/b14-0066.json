@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A balloon slowly losing its air.",
-    "no": "En ballong som sakte mister lufta."
+    "en": "A balloon slowly losing its air, trying to keep everyone's spirits up.",
+    "no": "En ballong som sakte mister lufta, og prøver å holde humøret oppe hos alle."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

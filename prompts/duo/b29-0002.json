@@ -1,0 +1,15 @@
+{
+  "id": "b29-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You at fifteen and you at forty-five, clearing out your old bedroom.",
+    "no": "Du som femtenåring og du som førtifemåring rydder det gamle barnerommet ditt."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "family"
+  ]
+}

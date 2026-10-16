@@ -1,0 +1,16 @@
+{
+  "id": "b25-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A ferry captain and the passenger he lets steer in to the quay.",
+    "no": "En fergekaptein og passasjeren han lar styre inn til kaia."
+  },
+  "world": "everyday",
+  "tags": [
+    "status",
+    "work",
+    "physical"
+  ]
+}

@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A parking space on Christmas Eve.",
-    "no": "En parkeringsplass på julaften."
+    "en": "A parking space on Christmas Eve, playing hard to get.",
+    "no": "En parkeringsplass på julaften, som spiller kostbar."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

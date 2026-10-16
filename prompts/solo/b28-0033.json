@@ -1,0 +1,15 @@
+{
+  "id": "b28-0033",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "The ferry's foghorn, saying good morning to the whole fjord.",
+    "no": "Tåkelura på ferja, som sier god morgen til hele fjorden."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ],
+  "world": "sea"
+}

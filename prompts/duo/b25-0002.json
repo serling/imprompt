@@ -1,0 +1,20 @@
+{
+  "id": "b25-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A Viking chieftain and his mum, packing his lunch for the raid.",
+    "no": "En vikinghøvding og moren hans, som smører matpakke til ham før toktet."
+  },
+  "world": "history",
+  "tags": [
+    "status",
+    "history",
+    "family"
+  ],
+  "callback": {
+    "en": "the Viking chieftain who has to ask his mum",
+    "no": "vikinghøvdingen som må spørre mamma"
+  }
+}

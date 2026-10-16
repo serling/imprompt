@@ -302,7 +302,8 @@ function draw(players) {
 // not. They are inspiration, never rules stacked on the prompt. Words recur (never logged as used).
 // Each slot holds one line; its refresh icon swaps it. Labels come from words/tags.json, by language.
 // The gimmick slot draws from four separate lists (physical, speech, staging, tempo) and is shown
-// simply as "Gimmick"; each word keeps its own kind. Rapid fire, two players: one gimmick.
+// simply as "Gimmick"; each word keeps its own kind. Rapid fire deals no lines: its prompt
+// already carries its one twist, and a second would stack on it.
 // Scenes: a line for the character and a second line. The character line deals an emotion, a
 // want or a secret, each kind as likely as the others whatever the size of its list, and shows
 // its own kind, since the three are played differently. The second line pools the gimmicks with
@@ -311,13 +312,11 @@ function draw(players) {
 // A slot is a list of groups: a group is picked with even odds, then a word from its lists pooled.
 const GIMMICK = ["physical", "speech", "staging", "tempo"];
 const SLOTS = {
-  gimmick: [GIMMICK],
   character: [["emotions"], ["wants"], ["secrets"]],
   opener: [[...GIMMICK, "firstlines"]],
 };
-const LINES = { duo: ["gimmick"], scene: ["character", "opener"] };
-const lineKinds = c => !c ? [] : c.kind === "scene" ? LINES.scene
-  : c.kind !== "game" && c.entry.players === 2 ? LINES.duo : [];
+const LINES = { scene: ["character", "opener"] };
+const lineKinds = c => c?.kind === "scene" ? LINES.scene : [];
 // A kind, or a kind narrowed by tags ("adjectives:condition"): narrowed asks show the first tag's label.
 const askParts = spec => { const [kind, narrow = ""] = spec.split(":"); return { kind, tags: narrow.split("+").filter(Boolean) }; };
 const kindLabel = spec => {

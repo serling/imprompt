@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four salespeople at a car dealership, on a slow Tuesday.",
-    "no": "Fire selgere hos en bilforhandler, en stille tirsdag."
-  }
+    "en": "A car dealer and three salespeople polishing the cars in the showroom.",
+    "no": "En bilforhandler og tre selgere som polerer bilene i utstillingslokalet."
+  },
+  "world": "everyday"
 }

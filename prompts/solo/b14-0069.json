@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A pair of sunglasses in January.",
-    "no": "Et par solbriller i januar."
+    "en": "A pair of sunglasses in January, still going on about last summer.",
+    "no": "Et par solbriller i januar, som fortsatt snakker om i fjor sommer."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

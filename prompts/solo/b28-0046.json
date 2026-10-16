@@ -1,0 +1,15 @@
+{
+  "id": "b28-0046",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "text": {
+    "en": "The same world as ours, with one change: every grown-up naps after lunch.",
+    "no": "Den samme verdenen som vår, med én endring: alle voksne tar en lur etter lunsj."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "world": "everyday"
+}

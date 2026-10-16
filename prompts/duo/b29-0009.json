@@ -1,0 +1,15 @@
+{
+  "id": "b29-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "New Year's Eve you and mid-February you, at the gym together.",
+    "no": "Du på nyttårsaften og du i midten av februar, på treningssenteret sammen."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

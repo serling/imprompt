@@ -1,0 +1,15 @@
+{
+  "id": "b26-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Walking the plank, overflowing with gratitude.",
+    "no": "Å gå planken, full av takknemlighet."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ],
+  "world": "sea"
+}

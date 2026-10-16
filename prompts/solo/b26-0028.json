@@ -1,0 +1,15 @@
+{
+  "id": "b26-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "text": {
+    "en": "A detective searching a crime scene, on roller skates.",
+    "no": "En detektiv som gjennomsøker et åsted, på rulleskøyter."
+  },
+  "tags": [
+    "crime",
+    "physical"
+  ],
+  "world": "crime"
+}

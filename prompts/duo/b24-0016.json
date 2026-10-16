@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A woven paper heart and the child making it at the Christmas workshop.",
-    "no": "Et flettet julehjerte og barnet som lager det på juleverkstedet."
+    "en": "A woven paper heart that keeps coming undone, and the child determined to finish it.",
+    "no": "Et flettet julehjerte som hele tiden går opp, og barnet som er fast bestemt på å få det ferdig."
   },
+  "world": "fantastical",
   "tags": [
     "family",
     "physical"

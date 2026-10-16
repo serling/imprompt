@@ -1,0 +1,14 @@
+{
+  "id": "b29-0016",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "text": {
+    "en": "Two old foghorns across the fjord, catching up after a whole summer without fog.",
+    "no": "To gamle tåkelurer på hver sin side av fjorden, med mye å prate om etter en hel sommer uten tåke."
+  },
+  "world": "sea",
+  "tags": [
+    "sound"
+  ]
+}

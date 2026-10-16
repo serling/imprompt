@@ -1,0 +1,15 @@
+{
+  "id": "b28-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A giant's recipe for one single pancake.",
+    "no": "En kjempes oppskrift på én eneste pannekake."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ],
+  "world": "fantastical"
+}

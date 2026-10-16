@@ -1,0 +1,15 @@
+{
+  "id": "b27-0012",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "An astronaut trimming a crewmate's fringe, with the clippings floating everywhere.",
+    "no": "En astronaut som klipper luggen til en kollega, mens hårstråene svever overalt."
+  },
+  "tags": [
+    "physical",
+    "work"
+  ],
+  "world": "space"
+}

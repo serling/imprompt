@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A pram on its first walk with a newborn.",
-    "no": "En barnevogn på sin første trilletur med en nyfødt."
+    "en": "A pram's first walk with a newborn, as if carrying the crown jewels.",
+    "no": "En barnevogn på første trilletur med en nyfødt, som om den fraktet kronjuvelene."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "family"

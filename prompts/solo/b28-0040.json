@@ -1,0 +1,15 @@
+{
+  "id": "b28-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "text": {
+    "en": "A world where nobody walks: everyone hops, and nothing else is different.",
+    "no": "En verden der ingen går: alle hopper, og ingenting annet er annerledes."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "world": "everyday"
+}

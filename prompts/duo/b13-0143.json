@@ -4,9 +4,10 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A crossing guard and a family of ducks.",
-    "no": "En trafikkvakt og en andefamilie."
+    "en": "A crossing guard and a mother duck with thirty-one ducklings.",
+    "no": "En trafikkvakt og en andemor med trettien andunger."
   },
+  "world": "everyday",
   "tags": [
     "work"
   ]

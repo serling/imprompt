@@ -1,0 +1,15 @@
+{
+  "id": "b28-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "An obituary for the summer holidays, on the first day of school.",
+    "no": "En nekrolog over sommerferien, skrevet første skoledag."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

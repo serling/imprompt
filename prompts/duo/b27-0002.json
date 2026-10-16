@@ -1,0 +1,14 @@
+{
+  "id": "b27-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A ski jumper and her grandmother, who is jumping first.",
+    "no": "En skihopper og bestemora hennes, som skal hoppe først."
+  },
+  "tags": [
+    "family"
+  ],
+  "world": "sport"
+}

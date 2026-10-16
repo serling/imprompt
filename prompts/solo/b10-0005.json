@@ -1,12 +1,13 @@
 {
   "id": "b10-0005",
-  "status": "draft",
+  "status": "retired",
   "players": 1,
   "type": "premise",
   "text": {
     "en": "Someone trying to leave a party without saying goodbye to anyone.",
     "no": "Noen som prøver å gå fra en fest uten å si ha det til noen."
   },
+  "world": "everyday",
   "tags": [
     "everyday"
   ],

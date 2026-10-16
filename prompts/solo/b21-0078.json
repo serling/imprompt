@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A pair of skis being waxed for the first trip of winter.",
-    "no": "Et par ski som blir smurt til vinterens første tur."
+    "en": "A pair of skis being waxed for winter, enjoying it like a spa day.",
+    "no": "Et par ski som blir smurt til vinteren, og nyter det som en spadag."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ]

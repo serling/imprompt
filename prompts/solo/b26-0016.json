@@ -1,0 +1,15 @@
+{
+  "id": "b26-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "A desert explorer delighted by every single grain of sand.",
+    "no": "En ørkenutforsker som blir begeistret for hvert eneste sandkorn."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ],
+  "world": "wild"
+}

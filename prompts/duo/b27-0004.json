@@ -1,0 +1,15 @@
+{
+  "id": "b27-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "origin",
+  "text": {
+    "en": "Two neighbours holding a ski race before anyone has thought of a finish line.",
+    "no": "To naboer som går et skirenn før noen har funnet på en målstrek."
+  },
+  "tags": [
+    "physical",
+    "nature"
+  ],
+  "world": "sport"
+}

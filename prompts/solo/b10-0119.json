@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A hot-water bottle in the middle of summer.",
-    "no": "En varmeflaske midt på sommeren."
+    "en": "A hot-water bottle in the middle of summer, still offering to help.",
+    "no": "En varmeflaske midt på sommeren, som fortsatt tilbyr seg å hjelpe."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ],

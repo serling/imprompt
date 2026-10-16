@@ -1,0 +1,14 @@
+{
+  "id": "b29-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You, and you after a year in space, doing the weekly shop together.",
+    "no": "Du og deg selv etter et år i verdensrommet tar ukeshandelen sammen."
+  },
+  "world": "space",
+  "tags": [
+    "character"
+  ]
+}

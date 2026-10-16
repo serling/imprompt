@@ -1,0 +1,15 @@
+{
+  "id": "b28-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A Viking reading out his to-do list for the week.",
+    "no": "En viking som leser opp huskelista si for uka."
+  },
+  "tags": [
+    "history",
+    "narration"
+  ],
+  "world": "history"
+}

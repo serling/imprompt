@@ -1,0 +1,19 @@
+{
+  "id": "b28-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "text": {
+    "en": "Three howls from a werewolf, each more apologetic than the last.",
+    "no": "Tre hyl fra en varulv, hvert mer unnskyldende enn det forrige."
+  },
+  "tags": [
+    "fantasy",
+    "physical"
+  ],
+  "callback": {
+    "en": "the apologetic werewolf",
+    "no": "den unnskyldende varulven"
+  },
+  "world": "fantastical"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b27-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "reframe",
+  "text": {
+    "en": "Two astronauts docking with the space station, like reversing a caravan onto a campsite pitch.",
+    "no": "To astronauter som dokker med romstasjonen, som om de rygger en campingvogn på plass."
+  },
+  "tags": [
+    "physical",
+    "everyday"
+  ],
+  "world": "space"
+}

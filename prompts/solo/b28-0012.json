@@ -1,0 +1,15 @@
+{
+  "id": "b28-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A spaceship captain's log, after a year of nothing happening.",
+    "no": "Loggboka til en romskipskaptein, etter et år der ingenting har skjedd."
+  },
+  "tags": [
+    "space",
+    "narration"
+  ],
+  "world": "space"
+}

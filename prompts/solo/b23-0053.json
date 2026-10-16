@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A church bell on a busy wedding Saturday.",
-    "no": "En kirkeklokke på en travel bryllupslørdag."
+    "en": "A church bell on a busy wedding Saturday, with a sore throat.",
+    "no": "En kirkeklokke på en travel bryllupslørdag, med sår hals."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "physical"

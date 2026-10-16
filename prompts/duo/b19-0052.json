@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A baby monitor and the exhausted parent listening to it.",
-    "no": "En babycall og den utslitte forelderen som lytter på den."
+    "en": "An overdramatic baby monitor and the exhausted parent listening to it.",
+    "no": "En overdramatisk babycall og den utslitte forelderen som lytter på den."
   },
+  "world": "fantastical",
   "tags": [
     "family"
   ]

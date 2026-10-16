@@ -1,0 +1,15 @@
+{
+  "id": "b28-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "A lake freezing over for the winter, groaning like an old man getting up.",
+    "no": "Et vann som fryser til for vinteren, og stønner som en gammel mann som skal reise seg."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "world": "everyday"
+}

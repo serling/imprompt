@@ -1,0 +1,14 @@
+{
+  "id": "b27-0030",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "Two burglars tiptoeing through a house, in clogs.",
+    "no": "To innbruddstyver som lister seg gjennom et hus, i tresko."
+  },
+  "tags": [
+    "physical"
+  ],
+  "world": "crime"
+}

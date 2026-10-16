@@ -1,0 +1,15 @@
+{
+  "id": "b28-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "The washing instructions sewn into a bunad.",
+    "no": "Vaskeanvisningen som er sydd inn i en bunad."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

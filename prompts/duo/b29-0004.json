@@ -1,0 +1,14 @@
+{
+  "id": "b29-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You before your first coffee and you after it, making breakfast for guests.",
+    "no": "Du før morgenkaffen og du etter, som lager frokost til gjester."
+  },
+  "world": "everyday",
+  "tags": [
+    "character"
+  ]
+}

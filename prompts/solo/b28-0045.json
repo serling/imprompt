@@ -1,0 +1,15 @@
+{
+  "id": "b28-0045",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "text": {
+    "en": "Our world, but people say hello by sticking out their tongue.",
+    "no": "Vår verden, bare at folk hilser ved å rekke tunge."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "world": "everyday"
+}

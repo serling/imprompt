@@ -1,0 +1,15 @@
+{
+  "id": "b27-0005",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A team-car driver handing a cyclist her packed lunch at full speed.",
+    "no": "En sjåfør i lagbilen som skal rekke en syklist matpakka i full fart."
+  },
+  "tags": [
+    "physical",
+    "work"
+  ],
+  "world": "sport"
+}

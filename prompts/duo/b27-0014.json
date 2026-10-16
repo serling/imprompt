@@ -1,0 +1,14 @@
+{
+  "id": "b27-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two astronauts stepping out onto Mars, deeply unimpressed.",
+    "no": "To astronauter som tar de første skrittene på Mars, dypt uimponerte."
+  },
+  "tags": [
+    "physical"
+  ],
+  "world": "space"
+}

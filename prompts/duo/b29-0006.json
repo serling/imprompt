@@ -1,0 +1,14 @@
+{
+  "id": "b29-0006",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "The you who went to the party and the you who didn't, walking the dog next morning.",
+    "no": "Du som dro på festen og du som ble hjemme, på hundetur dagen derpå."
+  },
+  "world": "everyday",
+  "tags": [
+    "character"
+  ]
+}

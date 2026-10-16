@@ -1,0 +1,14 @@
+{
+  "id": "b29-0021",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "text": {
+    "en": "A thunderstorm trying all night to make friends with the dog under the bed.",
+    "no": "Et tordenvær som hele natta prøver å bli venner med hunden under senga."
+  },
+  "world": "everyday",
+  "tags": [
+    "sound"
+  ]
+}

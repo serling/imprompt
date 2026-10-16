@@ -1,0 +1,15 @@
+{
+  "id": "b26-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "text": {
+    "en": "Discovering gravity, one dropped apple at a time.",
+    "no": "Å oppdage tyngdekraften, ett fallende eple om gangen."
+  },
+  "tags": [
+    "science",
+    "physical"
+  ],
+  "world": "science"
+}

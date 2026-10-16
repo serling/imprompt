@@ -1,0 +1,15 @@
+{
+  "id": "b28-0031",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "An old staff-room coffee machine, making its last cup as dramatically as it can.",
+    "no": "En gammel kaffetrakter på pauserommet som lager sin siste kopp, så dramatisk den bare kan."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "world": "fantastical"
+}

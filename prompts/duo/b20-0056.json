@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A mosquito and a camper trying to sleep.",
-    "no": "En mygg og en campinggjest som prøver å sove."
+    "en": "A very apologetic mosquito and a camper trying to sleep.",
+    "no": "En veldig unnskyldende mygg og en campinggjest som prøver å sove."
   },
+  "world": "everyday",
   "tags": [
     "nature",
     "physical"

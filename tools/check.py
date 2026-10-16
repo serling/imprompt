@@ -33,7 +33,11 @@ _texts += [v[f] for ax in SCHEMA["axes"].values() for v in ax["values"].values()
 assert all(isinstance(t, dict) and t.get("en") for t in _texts), "words/tags.json: a label or about without \"en\""
 
 TYPES = {"premise", "character", "twisted-role", "reframe", "status-flip", "emotion-swap",
-         "point-of-view", "origin", "mismatch"}
+         "point-of-view", "origin", "mismatch", "document", "series", "sound", "two-of-you",
+         "one-rule-world"}
+# Recipes that only work with one player count.
+SOLO_ONLY = {"series"}
+DUO_ONLY = {"two-of-you"}
 STATUSES = {"draft", "approved", "retired"}
 MAX_WORDS = {1: 14, 2: 18}
 MAX_SCENE_WORDS = 20
@@ -69,9 +73,17 @@ SPORT = {
 }
 # Balance limits for a word list: warnings, not failures. A domain may lead (family
 # relationships are mostly "home"), but not crowd out the rest.
-MAX_UNUSUAL = 0.2
+MAX_UNUSUAL = 0.35
 MAX_SPORT = 0.06
 MAX_DOMAIN = 0.4
+# The world mix: every live solo, duo and scene prompt names its world. The mix is reported and
+# warned on, never failed: a deck reaches it by adding prompts, not by cutting them.
+WORLDS = {"everyday", "fantastical", "history", "space", "future", "sea", "wild", "crime", "sport",
+          "science", "showbiz", "royalty"}
+WORLD_MIX = {"everyday": (0.60, 0.65), "fantastical": (0.15, 0.20), "other worlds": (0.15, 0.20)}
+# Rapid fire is the joke and may be more colourful; everyday stays its largest share.
+RAPID_WORLD_MIX = {"everyday": (0.50, 0.65), "fantastical": (0.15, 0.30), "other worlds": (0.15, 0.30)}
+MAX_ONE_WORLD = 0.04
 
 
 def norm(s):
@@ -190,6 +202,9 @@ def check(entries, exclude):
         seen_ids[p.get("id")] = where
         if p.get("status") not in STATUSES:
             problems.append(f"{where}: status must be one of {sorted(STATUSES)}")
+        if folder in ("solo", "duo", "scenes") and p.get("status") != "retired" \
+                and p.get("world") not in WORLDS:
+            problems.append(f"{where}: world must be one of {sorted(WORLDS)}")
 
         if folder == "scenes":
             if p.get("players") not in (2, 3, 4):
@@ -210,6 +225,8 @@ def check(entries, exclude):
         if folder in ("solo", "duo"):
             if p.get("type") not in TYPES:
                 problems.append(f"{where}: unknown type")
+            if p.get("type") in SOLO_ONLY and folder != "solo" or p.get("type") in DUO_ONLY and folder != "duo":
+                problems.append(f"{where}: {p['type']} does not belong in {folder}")
             if p.get("players") in MAX_WORDS and len(texts(folder, p)[0].split()) > MAX_WORDS[p["players"]]:
                 problems.append(f"{where}: too long (max {MAX_WORDS[p['players']]} words)")
             cb = p.get("callback", {}).get("en")
@@ -300,6 +317,32 @@ def balance(entries):
     return lines, warnings
 
 
+def world_mix(entries):
+    """How the playable prompts of each mode spread over the worlds, against the aimed mix."""
+    lines, warnings = [], []
+    for folder in ("solo", "duo", "scenes"):
+        ws = [p.get("world") for f, _, p in entries
+              if f == folder and "_error" not in p and p.get("status") != "retired"]
+        if not ws:
+            continue
+        n = len(ws)
+        share = {w: ws.count(w) / n for w in WORLDS}
+        groups = {"everyday": share["everyday"], "fantastical": share["fantastical"],
+                  "other worlds": sum(v for w, v in share.items() if w not in ("everyday", "fantastical"))}
+        lines.append(f"{folder:7} {n:4}  " + "  ".join(f"{g} {v:4.0%}" for g, v in groups.items()))
+        others = sorted(((w, v) for w, v in share.items() if w not in ("everyday", "fantastical")),
+                        key=lambda x: -x[1])
+        lines.append("         " + " ".join(f"{w} {v:.0%}" for w, v in others))
+        aim = RAPID_WORLD_MIX if folder in ("solo", "duo") else WORLD_MIX
+        for g, (lo, hi) in aim.items():
+            if not lo <= groups[g] <= hi:
+                warnings.append(f"{folder}: {g} is {groups[g]:.0%} (aim {lo:.0%}–{hi:.0%})")
+        for w, v in others:
+            if v > MAX_ONE_WORLD:
+                warnings.append(f"{folder}: '{w}' is {v:.0%} (limit {MAX_ONE_WORLD:.0%})")
+    return lines, warnings
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--exclude", type=Path)
@@ -317,6 +360,12 @@ def main():
         print(f"{f:12} " + ", ".join(f"{n} {s}" for s, n in sorted(by_folder[f].items())))
     lines, warnings = balance(entries)
     print("\nWord balance")
+    for line in lines:
+        print("  " + line)
+    for w in warnings:
+        print("  warning: " + w)
+    lines, warnings = world_mix(entries)
+    print("\nWorld mix")
     for line in lines:
         print("  " + line)
     for w in warnings:

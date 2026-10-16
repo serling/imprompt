@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four strangers in a doctor's waiting room, on a Monday morning.",
-    "no": "Fire fremmede på venterommet hos legen, en mandag morgen."
-  }
+    "en": "Four patients in a doctor's waiting room, doing the jigsaw on the table.",
+    "no": "Fire pasienter på venterommet hos legen som legger puslespillet på bordet."
+  },
+  "world": "everyday"
 }

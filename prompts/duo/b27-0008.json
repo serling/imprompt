@@ -1,0 +1,14 @@
+{
+  "id": "b27-0008",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two old sailors heaving up the anchor, giggling like schoolchildren.",
+    "no": "To gamle sjøfolk som heiser opp ankeret og fniser som skolebarn."
+  },
+  "tags": [
+    "physical"
+  ],
+  "world": "sea"
+}

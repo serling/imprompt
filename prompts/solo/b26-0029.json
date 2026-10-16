@@ -1,0 +1,19 @@
+{
+  "id": "b26-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "text": {
+    "en": "A forgetful spy.",
+    "no": "En glemsk spion."
+  },
+  "tags": [
+    "crime",
+    "character"
+  ],
+  "callback": {
+    "en": "the forgetful spy",
+    "no": "den glemske spionen"
+  },
+  "world": "crime"
+}

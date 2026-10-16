@@ -1,0 +1,18 @@
+{
+  "id": "b27-0007",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A submarine captain and a passenger who would like to open a window.",
+    "no": "En ubåtkaptein og en passasjer som gjerne vil åpne et vindu."
+  },
+  "tags": [
+    "status"
+  ],
+  "callback": {
+    "en": "the passenger who wants to open a window",
+    "no": "passasjeren som vil åpne et vindu"
+  },
+  "world": "sea"
+}

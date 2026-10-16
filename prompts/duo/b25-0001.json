@@ -1,0 +1,15 @@
+{
+  "id": "b25-0001",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A lion tamer and a lion who is teaching him to sit.",
+    "no": "En løvetemmer og en løve som lærer ham å sitte."
+  },
+  "world": "fantastical",
+  "tags": [
+    "status",
+    "physical"
+  ]
+}

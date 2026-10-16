@@ -1,0 +1,15 @@
+{
+  "id": "b28-0032",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "The wind trying to get in under the cabin door, asking very nicely.",
+    "no": "Vinden som prøver å komme seg inn under hyttedøra, og spør veldig pent."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "world": "everyday"
+}

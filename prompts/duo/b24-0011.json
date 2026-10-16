@@ -4,9 +4,10 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A rescue diver and a sea serpent tangled in a fishing net.",
-    "no": "En redningsdykker og en sjøorm som har viklet seg inn i et fiskegarn."
+    "en": "A rescue diver and a deeply embarrassed sea serpent, tangled in a fishing net.",
+    "no": "En redningsdykker og en svært flau sjøorm som har viklet seg inn i et fiskegarn."
   },
+  "world": "fantastical",
   "tags": [
     "fantasy",
     "work",

@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A remote control lost down the sofa, and the person searching for it.",
-    "no": "En fjernkontroll som har forsvunnet ned i sofaen, og personen som leter etter den."
+    "en": "A remote control that likes it down the sofa, and the person searching for it.",
+    "no": "En fjernkontroll som trives nede i sofaen, og personen som leter etter den."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

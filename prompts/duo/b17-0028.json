@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A queen bee and a drone on his first day.",
-    "no": "En bidronning og en drone på hans første dag."
+    "en": "A queen bee and a far too eager drone, on his first day.",
+    "no": "En bidronning og en altfor ivrig drone på hans første dag."
   },
+  "world": "fantastical",
   "tags": [
     "nature"
   ]

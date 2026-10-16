@@ -1,0 +1,15 @@
+{
+  "id": "b26-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "A polar explorer packing for a picnic in the park.",
+    "no": "En polfarer som pakker til piknik i parken."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ],
+  "world": "wild"
+}

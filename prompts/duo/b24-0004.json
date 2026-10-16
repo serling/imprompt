@@ -4,9 +4,10 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "Two nisser shovelling snow off the barn roof on Christmas Eve.",
-    "no": "To fjøsnisser som måker snø av låvetaket på julaften."
+    "en": "Two gnomes shovelling snow off the barn roof, with Santa's sleigh circling overhead, waiting to land.",
+    "no": "To fjøsnisser som måker snø av låvetaket mens julenissen sirkler over med sleden og venter på å lande."
   },
+  "world": "fantastical",
   "tags": [
     "fantasy",
     "physical"

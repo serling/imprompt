@@ -1,0 +1,15 @@
+{
+  "id": "b28-0039",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "text": {
+    "en": "A world where the only difference is that everyone says \"boing\" instead of \"yes\".",
+    "no": "En verden der den eneste forskjellen er at alle sier «boing» i stedet for «ja»."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "world": "everyday"
+}

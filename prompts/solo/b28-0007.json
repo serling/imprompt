@@ -1,0 +1,15 @@
+{
+  "id": "b28-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "The note you leave on a car you've just scraped.",
+    "no": "Lappen du legger igjen på en bil du nettopp har skrapt borti."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

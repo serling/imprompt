@@ -1,0 +1,15 @@
+{
+  "id": "b29-0010",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You on day one of a cold and you on day five, making soup together.",
+    "no": "Du på første dag med forkjølelse og du på femte, som lager suppe sammen."
+  },
+  "world": "everyday",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

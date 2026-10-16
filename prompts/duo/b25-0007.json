@@ -1,0 +1,19 @@
+{
+  "id": "b25-0007",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A bodyguard hiding behind the little old lady he is meant to protect.",
+    "no": "En livvakt som gjemmer seg bak den lille, gamle damen han skal beskytte."
+  },
+  "world": "everyday",
+  "tags": [
+    "status",
+    "physical"
+  ],
+  "callback": {
+    "en": "the bodyguard who hides",
+    "no": "livvakta som gjemmer seg"
+  }
+}

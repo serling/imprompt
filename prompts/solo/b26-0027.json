@@ -1,0 +1,15 @@
+{
+  "id": "b26-0027",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "A safecracker opening the key box at the family cabin.",
+    "no": "En safeknekker som åpner nøkkelboksen på familiehytta."
+  },
+  "tags": [
+    "crime",
+    "physical"
+  ],
+  "world": "crime"
+}

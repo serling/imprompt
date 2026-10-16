@@ -9,8 +9,7 @@ and games can come up.
 Three modes, each one row of buttons for the whole session, with the buzzer on the left:
 
 - **Rapid fire:** round-robin prompts. **New prompt** deals the next one straight away, for one
-  or two players at random; the card says which. Two-player prompts come with a gimmick the host
-  can throw in.
+  or two players at random; the card says which. The prompt stands alone, with nothing under it.
 - **Scenes:** **New scene** deals a setup for as many players as you have or fewer, with a
   line for the character (an emotion; a want, what the character is after; or a secret, for the
   host to read out or show one player) and a second line the host can offer: a gimmick, or a
@@ -52,7 +51,7 @@ Shared word lists live in `words/`, one JSON file per word, for every mode to dr
 `emotions/`, `wants/`, `secrets/` and `physical/`; the gimmicks `speech/`, `staging/` and `tempo/`;
 `firstlines/`, lines of dialogue to open a scene; and lists games ask
 for: `adjectives/` (describing words that aren't feelings, tagged by aspect and tone), `titles/`, `topics/`, `activities/`, `fairytales/`, `problems/`, `animals/` and `letters/`. Scenes are dealt
-an emotion, a want or a secret (each kind equally likely), and a gimmick or a first line; two-player Rapid fire prompts a gimmick. A gimmick is drawn
+an emotion, a want or a secret (each kind equally likely), and a gimmick or a first line. A gimmick is drawn
 from `physical/`, `speech/`, `staging/` and `tempo/`. A word may recur; it is never used up.
 
 ```json

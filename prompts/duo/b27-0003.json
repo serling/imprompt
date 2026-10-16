@@ -1,0 +1,14 @@
+{
+  "id": "b27-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Two curlers sweeping in front of the stone, in deep mourning.",
+    "no": "To curlingspillere som feier foran steinen, i dyp sorg."
+  },
+  "tags": [
+    "physical"
+  ],
+  "world": "sport"
+}

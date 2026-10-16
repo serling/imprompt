@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A goldfish while its bowl is being cleaned.",
-    "no": "En gullfisk mens bollen dens blir vasket."
+    "en": "A goldfish while its bowl is cleaned, inspecting the work like a foreman.",
+    "no": "En gullfisk mens bollen dens blir vasket, som inspiserer jobben som en formann."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

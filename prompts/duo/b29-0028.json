@@ -1,0 +1,14 @@
+{
+  "id": "b29-0028",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "text": {
+    "en": "A doctor's appointment, in a world where bad news is only ever given by hand puppet.",
+    "no": "En legetime, i en verden der dårlige nyheter alltid blir gitt med hånddukke."
+  },
+  "world": "everyday",
+  "tags": [
+    "work"
+  ]
+}

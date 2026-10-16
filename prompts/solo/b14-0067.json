@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A garden gnome when the family goes on holiday.",
-    "no": "En hagenisse når familien drar på ferie."
+    "en": "A garden gnome when the family goes on holiday, trying out the trampoline.",
+    "no": "En hagenisse når familien drar på ferie, og prøver trampolinen."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

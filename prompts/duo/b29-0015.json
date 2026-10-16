@@ -1,0 +1,15 @@
+{
+  "id": "b29-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You at the foot of the mountain and you at the top, sharing one packed lunch.",
+    "no": "Du ved foten av fjellet og du på toppen, som deler én matpakke."
+  },
+  "world": "wild",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

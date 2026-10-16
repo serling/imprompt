@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A paper aeroplane on its very first flight.",
-    "no": "Et papirfly på sin aller første flytur."
+    "en": "A paper aeroplane on its very first flight, showing off like a fighter jet.",
+    "no": "Et papirfly på sin aller første flytur, som viser seg fram som et jagerfly."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ],

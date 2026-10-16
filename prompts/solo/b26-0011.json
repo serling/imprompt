@@ -1,0 +1,15 @@
+{
+  "id": "b26-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A message in a bottle, fifty years at sea, bragging about it.",
+    "no": "En flaskepost etter femti år på havet, som skryter av det."
+  },
+  "tags": [
+    "sea",
+    "character"
+  ],
+  "world": "sea"
+}

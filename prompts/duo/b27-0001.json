@@ -1,0 +1,18 @@
+{
+  "id": "b27-0001",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A marathon runner and a fan who runs the whole race beside her, chatting.",
+    "no": "En maratonløper og en tilskuer som løper hele løpet ved siden av henne og prater."
+  },
+  "tags": [
+    "physical"
+  ],
+  "callback": {
+    "en": "the fan who runs the whole marathon",
+    "no": "tilskueren som løper hele maratonet"
+  },
+  "world": "sport"
+}

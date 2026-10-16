@@ -1,0 +1,15 @@
+{
+  "id": "b28-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "This week's horoscope, written for dogs.",
+    "no": "Ukens horoskop, skrevet for hunder."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ],
+  "world": "everyday"
+}

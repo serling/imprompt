@@ -1,0 +1,15 @@
+{
+  "id": "b26-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "text": {
+    "en": "Pouring a drink in space, before anyone knew what would happen.",
+    "no": "Å skjenke opp et glass i rommet, før noen visste hva som ville skje."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ],
+  "world": "space"
+}

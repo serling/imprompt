@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A coat hook in a very busy hallway.",
-    "no": "En knagg i en veldig travel gang."
+    "en": "A coat hook in a busy hallway, allowing only one coat at a time.",
+    "no": "En knagg i en travel gang, som bare slipper til én jakke om gangen."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

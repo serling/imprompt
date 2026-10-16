@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A cot and a dad lowering a sleeping baby into it.",
-    "no": "En barneseng og en pappa som legger en sovende baby ned i den."
+    "en": "A creaky cot and a dad lowering a sleeping baby into it.",
+    "no": "En knirkete barneseng og en pappa som legger en sovende baby ned i den."
   },
+  "world": "fantastical",
   "tags": [
     "family",
     "physical"

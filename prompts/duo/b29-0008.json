@@ -1,0 +1,14 @@
+{
+  "id": "b29-0008",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "Christmas Eve you and January you, taking down the Christmas tree.",
+    "no": "Du på julaften og du i januar, som kler av juletreet."
+  },
+  "world": "everyday",
+  "tags": [
+    "character"
+  ]
+}

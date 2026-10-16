@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 3,
   "text": {
-    "en": "Three neighbours waiting for the lift in their block, on a Monday morning.",
-    "no": "Tre naboer som venter på heisen i blokka, en mandag morgen."
-  }
+    "en": "Three neighbours hanging out their washing in the block's shared drying loft.",
+    "no": "Tre naboer som henger opp klesvasken sin på tørkeloftet i blokka."
+  },
+  "world": "everyday"
 }

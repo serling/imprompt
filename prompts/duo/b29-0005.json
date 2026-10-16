@@ -1,0 +1,14 @@
+{
+  "id": "b29-0005",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "Last-day-of-the-holiday you and first-day-back-at-work you, unpacking the suitcase.",
+    "no": "Du på siste feriedag og du på første arbeidsdag, som pakker ut kofferten."
+  },
+  "world": "everyday",
+  "tags": [
+    "character"
+  ]
+}

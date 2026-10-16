@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A cuckoo and the clockmaker.",
-    "no": "En gjøk og urmakeren."
+    "en": "A cuckoo with stage fright, and the clockmaker.",
+    "no": "En gjøk med sceneskrekk og urmakeren."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

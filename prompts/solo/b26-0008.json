@@ -1,0 +1,19 @@
+{
+  "id": "b26-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "text": {
+    "en": "A self-driving car that is scared of roundabouts.",
+    "no": "En selvkjørende bil som er redd for rundkjøringer."
+  },
+  "tags": [
+    "future",
+    "character"
+  ],
+  "callback": {
+    "en": "the nervous self-driving car",
+    "no": "den nervøse selvkjørende bilen"
+  },
+  "world": "future"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b27-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "origin",
+  "text": {
+    "en": "The inventor of the umbrella and her mum, testing it in the rain.",
+    "no": "Oppfinneren av paraplyen og mora hennes, som tester den i regnet."
+  },
+  "tags": [
+    "family",
+    "physical"
+  ],
+  "world": "science"
+}

@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four colleagues in the staff kitchen on a Monday morning.",
-    "no": "Fire kolleger på pauserommet en mandag morgen."
-  }
+    "en": "A head of department and three of the team, defrosting the staff fridge.",
+    "no": "En avdelingsleder og tre fra teamet som avrimer kjøleskapet på pauserommet."
+  },
+  "world": "everyday"
 }

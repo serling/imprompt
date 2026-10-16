@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A cat and the new baby.",
-    "no": "En katt og den nye babyen."
+    "en": "A cat and the new baby, who the cat has decided to raise as its own kitten.",
+    "no": "En katt og den nye babyen, som katten har bestemt seg for å oppdra som sin egen kattunge."
   },
+  "world": "everyday",
   "tags": [
     "family"
   ]

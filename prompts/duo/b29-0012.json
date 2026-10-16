@@ -1,0 +1,14 @@
+{
+  "id": "b29-0012",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You and the ghost you will one day be, spring-cleaning the flat.",
+    "no": "Du og gjenferdet du en gang skal bli, tar vårrengjøring i leiligheten."
+  },
+  "world": "fantastical",
+  "tags": [
+    "character"
+  ]
+}

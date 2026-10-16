@@ -1,0 +1,14 @@
+{
+  "id": "b27-0017",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A rocket scientist and a neighbour asking to borrow a cup of fuel.",
+    "no": "En rakettforsker og en nabo som vil låne en kopp drivstoff."
+  },
+  "tags": [
+    "everyday"
+  ],
+  "world": "science"
+}

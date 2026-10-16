@@ -1,0 +1,15 @@
+{
+  "id": "b26-0024",
+  "status": "draft",
+  "players": 1,
+  "type": "reframe",
+  "text": {
+    "en": "A curler sweeping the ice, like tidying up after a party.",
+    "no": "En curlingspiller som feier isen, som å rydde etter en fest."
+  },
+  "tags": [
+    "sport",
+    "physical"
+  ],
+  "world": "sport"
+}

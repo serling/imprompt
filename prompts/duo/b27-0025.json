@@ -1,0 +1,15 @@
+{
+  "id": "b27-0025",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A jungle guide and a tourist who has brought a deckchair.",
+    "no": "En jungelguide og en turist som har tatt med seg en fluktstol."
+  },
+  "tags": [
+    "nature",
+    "work"
+  ],
+  "world": "wild"
+}

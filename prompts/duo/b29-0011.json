@@ -1,0 +1,15 @@
+{
+  "id": "b29-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "text": {
+    "en": "You and your reflection, getting ready for a wedding.",
+    "no": "Du og speilbildet ditt gjør dere klare til bryllup."
+  },
+  "world": "fantastical",
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

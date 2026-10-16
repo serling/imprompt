@@ -4,9 +4,10 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A church bell and its brand-new bell-ringer.",
-    "no": "Ei kirkeklokke og den splitter nye klokkeringeren."
+    "en": "A very shy church bell and its brand-new bell-ringer.",
+    "no": "Ei veldig sjenert kirkeklokke og den splitter nye klokkeringeren."
   },
+  "world": "fantastical",
   "tags": [
     "work",
     "physical"

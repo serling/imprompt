@@ -1,0 +1,15 @@
+{
+  "id": "b29-0020",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "text": {
+    "en": "Two rumbling stomachs, side by side in a silent meeting.",
+    "no": "To rumlende mager, side om side i et stille møte."
+  },
+  "world": "everyday",
+  "tags": [
+    "sound",
+    "work"
+  ]
+}

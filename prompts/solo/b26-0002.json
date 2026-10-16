@@ -1,0 +1,15 @@
+{
+  "id": "b26-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Stepping onto the Moon, mildly annoyed.",
+    "no": "Å sette foten på månen, lettere irritert."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ],
+  "world": "space"
+}

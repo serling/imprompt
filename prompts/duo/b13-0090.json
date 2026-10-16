@@ -4,9 +4,10 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A gardener and the mole who lives under the lawn.",
-    "no": "En gartner og muldvarpen som bor under plenen."
+    "en": "A gardener and the mole under her lawn, proudly showing her round his tunnels.",
+    "no": "En gartner og muldvarpen under plenen hennes, som stolt viser henne rundt i tunnelene sine."
   },
+  "world": "everyday",
   "tags": [
     "nature"
   ],

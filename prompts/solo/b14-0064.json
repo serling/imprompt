@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A wheelie bin on collection day.",
-    "no": "En søppeldunk på tømmedagen."
+    "en": "A wheelie bin on collection day, waiting at the kerb like an eager puppy.",
+    "no": "En søppeldunk på tømmedagen, som venter ved fortauskanten som en ivrig valp."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ]

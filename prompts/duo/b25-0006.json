@@ -1,0 +1,16 @@
+{
+  "id": "b25-0006",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A giant and the small child he needs to reach the top shelf.",
+    "no": "En kjempe og det lille barnet han trenger for å nå den øverste hylla."
+  },
+  "world": "fantastical",
+  "tags": [
+    "status",
+    "fantasy",
+    "physical"
+  ]
+}

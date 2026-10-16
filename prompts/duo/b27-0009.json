@@ -1,0 +1,15 @@
+{
+  "id": "b27-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A bank cashier and a pirate paying in a chest of treasure.",
+    "no": "En bankfunksjonær og en pirat som skal sette inn en skattekiste i banken."
+  },
+  "tags": [
+    "work",
+    "everyday"
+  ],
+  "world": "sea"
+}

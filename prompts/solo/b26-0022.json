@@ -1,0 +1,15 @@
+{
+  "id": "b26-0022",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "text": {
+    "en": "Counting bacteria under the microscope, euphoric.",
+    "no": "Å telle bakterier i mikroskopet, helt euforisk."
+  },
+  "tags": [
+    "science",
+    "work"
+  ],
+  "world": "science"
+}

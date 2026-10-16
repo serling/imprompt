@@ -1,0 +1,15 @@
+{
+  "id": "b26-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "text": {
+    "en": "A pirate returning empty bottles at the supermarket.",
+    "no": "En pirat som panter tomflasker på butikken."
+  },
+  "tags": [
+    "sea",
+    "character"
+  ],
+  "world": "sea"
+}

@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A Christmas tree on the sixth of January.",
-    "no": "Et juletre den sjette januar."
+    "en": "A Christmas tree on the sixth of January, trying to pass as a houseplant.",
+    "no": "Et juletre den sjette januar, som prøver å gli inn som potteplante."
   },
+  "world": "fantastical",
   "tags": [
     "character"
   ],

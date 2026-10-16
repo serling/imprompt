@@ -1,0 +1,15 @@
+{
+  "id": "b28-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "text": {
+    "en": "Four goodbyes in the hallway, each longer than the last.",
+    "no": "Fire farvel i gangen, hvert lengre enn det forrige."
+  },
+  "tags": [
+    "family",
+    "character"
+  ],
+  "world": "everyday"
+}

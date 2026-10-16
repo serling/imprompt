@@ -1,0 +1,18 @@
+{
+  "id": "b27-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "Ground control and an astronaut who keeps asking if they're nearly there.",
+    "no": "Bakkekontrollen og en astronaut som hele tiden spør om de snart er fremme."
+  },
+  "tags": [
+    "work"
+  ],
+  "callback": {
+    "en": "the astronaut who keeps asking if we're nearly there",
+    "no": "astronauten som hele tiden spør om vi snart er fremme"
+  },
+  "world": "space"
+}

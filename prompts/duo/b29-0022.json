@@ -1,0 +1,18 @@
+{
+  "id": "b29-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "text": {
+    "en": "A moose and a man doing a very bad moose call.",
+    "no": "En elg og en mann som er elendig til å lokke på elg."
+  },
+  "world": "wild",
+  "tags": [
+    "sound"
+  ],
+  "callback": {
+    "en": "the terrible moose caller",
+    "no": "den elendige elglokkeren"
+  }
+}

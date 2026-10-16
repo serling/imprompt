@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A single sock after the wash.",
-    "no": "En enslig sokk etter vasken."
+    "en": "A single sock after the wash, loving the single life.",
+    "no": "En enslig sokk etter vasken, som nyter singellivet."
   },
+  "world": "fantastical",
   "tags": [
     "everyday"
   ],

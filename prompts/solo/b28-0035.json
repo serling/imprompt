@@ -1,0 +1,15 @@
+{
+  "id": "b28-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "The computer voice of a spaceship, slowly running out of patience.",
+    "no": "Datastemmen på et romskip, som sakte mister tålmodigheten."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ],
+  "world": "space"
+}

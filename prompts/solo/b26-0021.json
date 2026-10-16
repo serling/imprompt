@@ -1,0 +1,19 @@
+{
+  "id": "b26-0021",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "text": {
+    "en": "An inventor who tests every invention on himself.",
+    "no": "En oppfinner som tester alle oppfinnelsene sine på seg selv."
+  },
+  "tags": [
+    "science",
+    "character"
+  ],
+  "callback": {
+    "en": "the inventor",
+    "no": "oppfinneren"
+  },
+  "world": "science"
+}

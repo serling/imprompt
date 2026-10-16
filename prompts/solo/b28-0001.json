@@ -1,0 +1,19 @@
+{
+  "id": "b28-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A troll's small ad, selling a lightly used bridge.",
+    "no": "Et troll som legger ut en lite brukt bru for salg."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ],
+  "callback": {
+    "en": "the troll selling a bridge",
+    "no": "trollet som selger en bru"
+  },
+  "world": "fantastical"
+}

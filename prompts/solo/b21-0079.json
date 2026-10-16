@@ -4,9 +4,10 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A teddy bear going round in the washing machine.",
-    "no": "En kosebamse som går rundt i vaskemaskinen."
+    "en": "A teddy bear in the washing machine, having the time of its life.",
+    "no": "En kosebamse i vaskemaskinen, som koser seg glugg i hjel."
   },
+  "world": "fantastical",
   "tags": [
     "character",
     "physical"

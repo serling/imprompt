@@ -3,7 +3,8 @@
   "status": "draft",
   "players": 4,
   "text": {
-    "en": "Four guests around the drinks table at a gallery opening.",
-    "no": "Fire gjester rundt drikkebordet på en vernissasje."
-  }
+    "en": "A gallery owner and three artists hanging the paintings, the night before the opening.",
+    "no": "En galleriseier og tre kunstnere som henger opp bildene, kvelden før vernissasjen."
+  },
+  "world": "everyday"
 }

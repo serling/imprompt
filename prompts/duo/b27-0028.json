@@ -1,0 +1,18 @@
+{
+  "id": "b27-0028",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "text": {
+    "en": "A spy on a park bench and a pensioner who knows every code word.",
+    "no": "En spion på en parkbenk og en pensjonist som kan alle kodeordene."
+  },
+  "tags": [
+    "status"
+  ],
+  "callback": {
+    "en": "the pensioner who knows every code word",
+    "no": "pensjonisten som kan alle kodeordene"
+  },
+  "world": "crime"
+}

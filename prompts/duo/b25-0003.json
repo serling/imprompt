@@ -1,0 +1,16 @@
+{
+  "id": "b25-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "text": {
+    "en": "A surgeon and a wide-awake patient showing her how to do the stitches.",
+    "no": "En kirurg og en lys våken pasient som viser henne hvordan stingene skal sys."
+  },
+  "world": "everyday",
+  "tags": [
+    "status",
+    "work",
+    "physical"
+  ]
+}

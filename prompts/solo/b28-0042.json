@@ -1,0 +1,15 @@
+{
+  "id": "b28-0042",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "text": {
+    "en": "A world just like ours, except you say sorry by blowing a raspberry.",
+    "no": "En verden akkurat som vår, bortsett fra at man sier unnskyld ved å lage prompelyd med munnen."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ],
+  "world": "everyday"
+}

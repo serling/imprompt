@@ -1,0 +1,15 @@
+{
+  "id": "b28-0037",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "text": {
+    "en": "A whale trying to strike up a conversation with a submarine.",
+    "no": "En hval som prøver å få i gang en samtale med en ubåt."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ],
+  "world": "sea"
+}

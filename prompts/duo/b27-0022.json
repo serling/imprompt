@@ -1,0 +1,15 @@
+{
+  "id": "b27-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "text": {
+    "en": "A hologram doctor trying to take a patient's pulse.",
+    "no": "En hologramlege som prøver å kjenne pulsen til en pasient."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ],
+  "world": "future"
+}

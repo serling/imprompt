@@ -1,0 +1,15 @@
+{
+  "id": "b28-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "text": {
+    "en": "A royal decree on whose turn it is to empty the dishwasher.",
+    "no": "Et kongelig dekret om hvem sin tur det er å tømme oppvaskmaskinen."
+  },
+  "tags": [
+    "status",
+    "narration"
+  ],
+  "world": "royalty"
+}
