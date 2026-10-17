@@ -1,0 +1,19 @@
+{
+  "id": "b32-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "sea",
+  "text": {
+    "en": "A pirate captain obsessed with health and safety.",
+    "no": "En piratkaptein som er besatt av HMS."
+  },
+  "tags": [
+    "sea",
+    "character"
+  ],
+  "callback": {
+    "en": "the pirate captain obsessed with safety",
+    "no": "piratkapteinen som er besatt av HMS"
+  }
+}

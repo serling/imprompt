@@ -1,0 +1,15 @@
+{
+  "id": "b34-0029",
+  "status": "retired",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "Student you and pensioner you, sharing one bedsit.",
+    "no": "Du som student og du som pensjonist, som deler én hybel."
+  },
+  "tags": [
+    "character",
+    "everyday"
+  ]
+}

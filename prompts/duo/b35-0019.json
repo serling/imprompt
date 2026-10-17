@@ -1,0 +1,14 @@
+{
+  "id": "b35-0019",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A car salesman talking a customer out of every car he likes.",
+    "no": "En bilselger som fraråder kunden hver eneste bil han liker."
+  },
+  "tags": [
+    "work"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Pretending to be your own secretary on the phone, to sound important.",
+    "no": "Å late som man er sin egen sekretær i telefonen, for å virke viktig."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

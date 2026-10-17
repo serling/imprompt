@@ -1,0 +1,19 @@
+{
+  "id": "b32-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "crime",
+  "text": {
+    "en": "A spy at a speed-dating evening, giving nothing away.",
+    "no": "En spion på speeddate-kveld som ikke røper noe som helst."
+  },
+  "tags": [
+    "crime",
+    "character"
+  ],
+  "callback": {
+    "en": "the spy at speed dating",
+    "no": "spionen på speeddate"
+  }
+}

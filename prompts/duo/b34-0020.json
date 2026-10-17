@@ -1,0 +1,15 @@
+{
+  "id": "b34-0020",
+  "status": "retired",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A wildly romantic tax inspector, and a fisherman with a shoebox full of receipts.",
+    "no": "En vilt romantisk skatterevisor, og en fisker med en skoeske full av kvitteringer."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

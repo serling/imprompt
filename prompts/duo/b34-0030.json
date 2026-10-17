@@ -1,0 +1,14 @@
+{
+  "id": "b34-0030",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "world": "royalty",
+  "text": {
+    "en": "A king queueing at the post office, and the clerk refusing to hurry for him.",
+    "no": "En konge i kø på postkontoret, og ekspeditøren som nekter å skynde seg for hans skyld."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0043",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "Grandma's forty pages of instructions for feeding her cat.",
+    "no": "Bestemors førti sider med instrukser for å mate katten."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

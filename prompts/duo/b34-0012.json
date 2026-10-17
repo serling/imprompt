@@ -1,0 +1,15 @@
+{
+  "id": "b34-0012",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A bouncer unable to say no, and a nine-year-old trying to get into the club.",
+    "no": "En dørvakt som ikke klarer å si nei, og en niåring som prøver å komme inn på klubben."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

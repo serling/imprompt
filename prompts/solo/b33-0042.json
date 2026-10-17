@@ -1,0 +1,15 @@
+{
+  "id": "b33-0042",
+  "status": "retired",
+  "players": 1,
+  "type": "sound",
+  "world": "science",
+  "text": {
+    "en": "A Geiger counter in a lab, getting excited about absolutely everything.",
+    "no": "En geigerteller på et laboratorium som blir begeistret for absolutt alt."
+  },
+  "tags": [
+    "sound",
+    "science"
+  ]
+}

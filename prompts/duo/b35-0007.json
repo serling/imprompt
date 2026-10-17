@@ -1,0 +1,15 @@
+{
+  "id": "b35-0007",
+  "status": "retired",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "everyday",
+  "text": {
+    "en": "Out on the ferry deck, a seagull and a man, both set on eating his shrimp sandwich.",
+    "no": "Ute på fergedekket er en måke og en mann begge fast bestemt på å spise rekesmørbrødet hans."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

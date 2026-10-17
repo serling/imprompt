@@ -1,0 +1,14 @@
+{
+  "id": "b35-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "world": "fantastical",
+  "text": {
+    "en": "A fairy godmother granting Cinderella's wishes, both seething with spite.",
+    "no": "En god fe som oppfyller Askepotts ønsker, og begge to syder av ondskap."
+  },
+  "tags": [
+    "fantasy"
+  ]
+}

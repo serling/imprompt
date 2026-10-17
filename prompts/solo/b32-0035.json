@@ -1,0 +1,15 @@
+{
+  "id": "b32-0035",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "fantastical",
+  "text": {
+    "en": "A seagull's ransom note for your packed lunch.",
+    "no": "Et løsepengebrev fra en måke som har tatt matpakka di."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ]
+}

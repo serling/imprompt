@@ -1,0 +1,15 @@
+{
+  "id": "b32-0027",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A beekeeper collecting honey, apologising to every bee.",
+    "no": "En birøkter som høster honning og ber hver eneste bie om unnskyldning."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

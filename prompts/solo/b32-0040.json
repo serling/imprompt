@@ -1,0 +1,15 @@
+{
+  "id": "b32-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "fantastical",
+  "text": {
+    "en": "The big bad wolf's review of the three little pigs' houses.",
+    "no": "Den store stygge ulvens anmeldelse av husene til de tre små grisene."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ]
+}

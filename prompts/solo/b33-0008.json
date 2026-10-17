@@ -1,0 +1,15 @@
+{
+  "id": "b33-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "world": "everyday",
+  "text": {
+    "en": "A bloodthirsty florist.",
+    "no": "En blodtørstig blomsterhandler."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0039",
+  "status": "retired",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "A letter to the neighbours explaining last night's noise.",
+    "no": "Et brev til naboene som forklarer bråket i natt."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

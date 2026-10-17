@@ -1,0 +1,15 @@
+{
+  "id": "b33-0019",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "world": "everyday",
+  "text": {
+    "en": "Blowing up balloons for a child's birthday, consumed by spite.",
+    "no": "Å blåse opp ballonger til et barneselskap, full av ondskap."
+  },
+  "tags": [
+    "family",
+    "physical"
+  ]
+}

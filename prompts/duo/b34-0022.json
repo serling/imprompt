@@ -1,0 +1,15 @@
+{
+  "id": "b34-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "The you who kept the farm and the city-lawyer you, milking the cows together.",
+    "no": "Du som overtok gården og du som ble advokat i byen, som melker kyrne sammen."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

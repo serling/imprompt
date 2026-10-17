@@ -1,0 +1,15 @@
+{
+  "id": "b32-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A tax inspector with a poet's soul.",
+    "no": "En skatterevisor med en poets sjel."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b34-0024",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "sport",
+  "text": {
+    "en": "Olympic-champion you and always-came-last you, in the parents' race at sports day.",
+    "no": "Du som ble olympisk mester og du som alltid kom sist, i foreldreløpet på idrettsdagen."
+  },
+  "tags": [
+    "character",
+    "physical"
+  ]
+}

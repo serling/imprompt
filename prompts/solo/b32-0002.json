@@ -1,0 +1,20 @@
+{
+  "id": "b32-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "fantastical",
+  "text": {
+    "en": "A werewolf giving the quarterly presentation as the full moon rises.",
+    "no": "En varulv som holder kvartalspresentasjonen mens fullmånen stiger."
+  },
+  "tags": [
+    "fantasy",
+    "work",
+    "physical"
+  ],
+  "callback": {
+    "en": "the werewolf in sales",
+    "no": "varulven på salgsavdelingen"
+  }
+}

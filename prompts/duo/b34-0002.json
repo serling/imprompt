@@ -1,0 +1,15 @@
+{
+  "id": "b34-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "fantastical",
+  "text": {
+    "en": "A teacher at parents' evening, telling a mother dragon that her son bites.",
+    "no": "En lærer på utviklingssamtalen som må fortelle en dragemamma at sønnen hennes biter."
+  },
+  "tags": [
+    "fantasy",
+    "family"
+  ]
+}

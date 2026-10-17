@@ -1,0 +1,19 @@
+{
+  "id": "b32-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "fantastical",
+  "text": {
+    "en": "A troll on a strict diet.",
+    "no": "Et troll på streng diett."
+  },
+  "tags": [
+    "fantasy",
+    "character"
+  ],
+  "callback": {
+    "en": "the troll on a diet",
+    "no": "trollet på slankekur"
+  }
+}

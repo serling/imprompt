@@ -1,0 +1,15 @@
+{
+  "id": "b32-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "science",
+  "text": {
+    "en": "Defending a doctoral thesis on the right way to load a dishwasher.",
+    "no": "Å forsvare en doktoravhandling om den riktige måten å fylle oppvaskmaskinen på."
+  },
+  "tags": [
+    "science",
+    "narration"
+  ]
+}

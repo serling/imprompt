@@ -1,0 +1,14 @@
+{
+  "id": "b34-0019",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "fantastical",
+  "text": {
+    "en": "A tooth fairy squeamish about teeth, and a child holding one out.",
+    "no": "En tannfe som synes tenner er ekle, og et barn som rekker henne en tann."
+  },
+  "tags": [
+    "fantasy"
+  ]
+}

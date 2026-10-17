@@ -1,0 +1,15 @@
+{
+  "id": "b35-0029",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "world": "fantastical",
+  "text": {
+    "en": "A funeral reception, in a world where the sadder you feel, the lighter you get.",
+    "no": "Et minnesamvær etter en begravelse, i en verden der jo tristere du er, jo lettere blir du."
+  },
+  "tags": [
+    "fantasy",
+    "physical"
+  ]
+}

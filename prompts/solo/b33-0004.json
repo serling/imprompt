@@ -1,0 +1,15 @@
+{
+  "id": "b33-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "A metal detector on the beach, getting its hopes up over every bottle cap.",
+    "no": "En metalldetektor på stranda som får håpet opp for hver eneste flaskekork."
+  },
+  "tags": [
+    "physical",
+    "character"
+  ]
+}

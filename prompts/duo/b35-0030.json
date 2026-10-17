@@ -1,0 +1,14 @@
+{
+  "id": "b35-0030",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "world": "crime",
+  "text": {
+    "en": "In a world where people beep when they're nervous, a police interview.",
+    "no": "I en verden der folk piper når de er nervøse: et politiavhør."
+  },
+  "tags": [
+    "physical"
+  ]
+}

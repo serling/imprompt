@@ -1,0 +1,15 @@
+{
+  "id": "b32-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "royalty",
+  "text": {
+    "en": "Auditioning to be jester for a king with no sense of humour.",
+    "no": "Å prøvespille som hoffnarr for en konge uten humoristisk sans."
+  },
+  "tags": [
+    "status",
+    "character"
+  ]
+}

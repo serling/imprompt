@@ -1,0 +1,15 @@
+{
+  "id": "b32-0021",
+  "status": "retired",
+  "players": 1,
+  "type": "character",
+  "world": "future",
+  "text": {
+    "en": "A robot with stage fright.",
+    "no": "En robot med sceneskrekk."
+  },
+  "tags": [
+    "future",
+    "character"
+  ]
+}

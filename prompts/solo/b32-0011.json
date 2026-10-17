@@ -1,0 +1,15 @@
+{
+  "id": "b32-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Giving the toast at your parents' divorce party.",
+    "no": "Å holde talen på foreldrenes skilsmissefest."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

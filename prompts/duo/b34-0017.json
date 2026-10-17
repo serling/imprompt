@@ -1,0 +1,14 @@
+{
+  "id": "b34-0017",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "crime",
+  "text": {
+    "en": "A getaway driver who obeys every speed limit, and the robber in the back seat.",
+    "no": "En fluktsjåfør som overholder hver eneste fartsgrense, og raneren i baksetet."
+  },
+  "tags": [
+    "character"
+  ]
+}

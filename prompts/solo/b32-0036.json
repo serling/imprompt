@@ -1,0 +1,15 @@
+{
+  "id": "b32-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "The weather forecast for a teenager's bedroom.",
+    "no": "Værmeldingen for et tenåringsrom."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

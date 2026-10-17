@@ -1,0 +1,18 @@
+{
+  "id": "b35-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "A garden gnome begging the woman planting tulips to take him on holiday.",
+    "no": "En hagenisse som tigger damen som planter tulipaner om å få bli med på ferie."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the garden gnome with wanderlust",
+    "no": "hagenissen med reiselyst"
+  }
+}

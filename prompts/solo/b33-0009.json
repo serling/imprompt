@@ -1,0 +1,15 @@
+{
+  "id": "b33-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "world": "everyday",
+  "text": {
+    "en": "A hyperactive undertaker.",
+    "no": "En hyperaktiv begravelsesagent."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

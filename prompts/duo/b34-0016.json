@@ -1,0 +1,15 @@
+{
+  "id": "b34-0016",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A gossiping priest, and a parishioner trying to have a private word.",
+    "no": "En sladrete prest, og et menighetsmedlem som prøver å få en fortrolig prat."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

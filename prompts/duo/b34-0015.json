@@ -1,0 +1,15 @@
+{
+  "id": "b34-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "fantastical",
+  "text": {
+    "en": "A troll set on sunbathing, and his wife blocking the cave door.",
+    "no": "Et troll som er fast bestemt på å sole seg, og kona som sperrer huleåpningen."
+  },
+  "tags": [
+    "fantasy",
+    "family"
+  ]
+}

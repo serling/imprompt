@@ -1,0 +1,15 @@
+{
+  "id": "b33-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "world": "everyday",
+  "text": {
+    "en": "Raking leaves, personally insulted by every single leaf.",
+    "no": "Å rake løv, personlig fornærmet av hvert eneste blad."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

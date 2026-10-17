@@ -1,0 +1,14 @@
+{
+  "id": "b34-0026",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "crime",
+  "text": {
+    "en": "Police-officer you and burglar you, meeting in the same dark living room.",
+    "no": "Du som ble politi og du som ble innbruddstyv, ansikt til ansikt i en mørk stue."
+  },
+  "tags": [
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b35-0016",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "fantastical",
+  "text": {
+    "en": "A bank adviser helping a dragon open a savings account.",
+    "no": "En bankrådgiver som hjelper en drage med å åpne sparekonto."
+  },
+  "tags": [
+    "work",
+    "fantasy"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b34-0013",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A deeply gentle drill sergeant, and a recruit begging to be shouted at.",
+    "no": "En usedvanlig mild drillsersjant, og en rekrutt som trygler om å bli kjeftet på."
+  },
+  "tags": [
+    "character",
+    "status"
+  ]
+}

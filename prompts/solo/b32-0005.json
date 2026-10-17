@@ -1,0 +1,15 @@
+{
+  "id": "b32-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Holding a press conference to announce you're leaving the family group chat.",
+    "no": "Å holde pressekonferanse for å kunngjøre at man forlater familiens gruppechat."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

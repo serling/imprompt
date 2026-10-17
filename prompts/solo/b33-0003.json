@@ -1,0 +1,15 @@
+{
+  "id": "b33-0003",
+  "status": "retired",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "royalty",
+  "text": {
+    "en": "The king's crown at the staff Christmas party, desperate to fit in.",
+    "no": "Kongens krone på julebordet til de ansatte, desperat etter å passe inn."
+  },
+  "tags": [
+    "status",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0045",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "royalty",
+  "text": {
+    "en": "The palace cook, crowned king this morning by mistake.",
+    "no": "Slottskokken, kronet til konge i morges ved en feil."
+  },
+  "tags": [
+    "status",
+    "character"
+  ]
+}

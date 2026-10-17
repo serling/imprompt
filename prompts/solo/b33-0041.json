@@ -1,0 +1,15 @@
+{
+  "id": "b33-0041",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "sport",
+  "text": {
+    "en": "A starting pistol that can't bring itself to go bang.",
+    "no": "En startpistol som ikke får seg til å smelle."
+  },
+  "tags": [
+    "sound",
+    "character"
+  ]
+}

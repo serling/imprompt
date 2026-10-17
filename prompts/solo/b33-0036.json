@@ -1,0 +1,15 @@
+{
+  "id": "b33-0036",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "Old water pipes, gossiping about the neighbours all night.",
+    "no": "Gamle vannrør som sladrer om naboene hele natta."
+  },
+  "tags": [
+    "sound",
+    "everyday"
+  ]
+}

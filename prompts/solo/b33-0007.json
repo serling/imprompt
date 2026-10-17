@@ -1,0 +1,15 @@
+{
+  "id": "b33-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "wild",
+  "text": {
+    "en": "An avalanche rescue dog out on a search, terrified of snow.",
+    "no": "En lavinehund på leteaksjon, livredd for snø."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0041",
+  "status": "retired",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "The speech at the opening of a new bus shelter.",
+    "no": "Talen ved åpningen av et nytt busskur."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b35-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "emotion-swap",
+  "world": "everyday",
+  "text": {
+    "en": "A pharmacist and a customer reading out the side effects, thrilled by every single one.",
+    "no": "En farmasøyt og en kunde som leser opp bivirkningene, begeistret over hver eneste en."
+  },
+  "tags": [
+    "work"
+  ]
+}

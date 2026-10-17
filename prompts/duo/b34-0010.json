@@ -1,0 +1,14 @@
+{
+  "id": "b34-0010",
+  "status": "retired",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "A mother and her grown-up son, both hiding in the car from the same family party.",
+    "no": "En mor og hennes voksne sønn, begge gjemt i bilen for å slippe unna familieselskapet."
+  },
+  "tags": [
+    "family"
+  ]
+}

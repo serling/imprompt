@@ -1,0 +1,15 @@
+{
+  "id": "b32-0030",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "fantastical",
+  "text": {
+    "en": "Father Christmas wrapping the presents, on a very tight budget this year.",
+    "no": "Julenissen som pakker inn gavene, med svært stramt budsjett i år."
+  },
+  "tags": [
+    "fantasy",
+    "physical"
+  ]
+}

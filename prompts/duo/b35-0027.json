@@ -1,0 +1,15 @@
+{
+  "id": "b35-0027",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A hoarse rooster at dawn, and the farmer coaching him through it.",
+    "no": "En hes hane i soloppgangen, og bonden som heier ham fram."
+  },
+  "tags": [
+    "sound",
+    "nature"
+  ]
+}

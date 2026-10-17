@@ -1,0 +1,15 @@
+{
+  "id": "b32-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A miserly ice-cream van driver.",
+    "no": "En gjerrig isbilsjåfør."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

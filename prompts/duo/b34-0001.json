@@ -1,0 +1,14 @@
+{
+  "id": "b34-0001",
+  "status": "retired",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Two drivers in the ferry queue, with room on board for one more car.",
+    "no": "To bilister i fergekøen, og det er plass til én bil til om bord."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

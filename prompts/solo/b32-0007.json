@@ -1,0 +1,15 @@
+{
+  "id": "b32-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "wild",
+  "text": {
+    "en": "A jungle explorer lost in the garden centre, rationing the water.",
+    "no": "En jungeloppdager som har gått seg vill på hagesenteret og rasjonerer vannet."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ]
+}

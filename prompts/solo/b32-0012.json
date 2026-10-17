@@ -1,0 +1,19 @@
+{
+  "id": "b32-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A pessimistic birthday clown.",
+    "no": "En pessimistisk bursdagsklovn."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the pessimistic birthday clown",
+    "no": "den pessimistiske bursdagsklovnen"
+  }
+}

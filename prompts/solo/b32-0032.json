@@ -1,0 +1,15 @@
+{
+  "id": "b32-0032",
+  "status": "retired",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "fantastical",
+  "text": {
+    "en": "A wizard teaching a spell class, having forgotten every spell.",
+    "no": "En trollmann som underviser i trylleformler, og har glemt alle sammen."
+  },
+  "tags": [
+    "fantasy",
+    "character"
+  ]
+}

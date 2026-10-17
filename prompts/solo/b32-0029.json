@@ -1,0 +1,15 @@
+{
+  "id": "b32-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A wedding planner setting out the chairs, firmly against marriage.",
+    "no": "En bryllupsplanlegger som setter ut stoler, og er inderlig imot ekteskap."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

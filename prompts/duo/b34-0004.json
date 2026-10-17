@@ -1,0 +1,15 @@
+{
+  "id": "b34-0004",
+  "status": "retired",
+  "players": 2,
+  "type": "premise",
+  "world": "fantastical",
+  "text": {
+    "en": "A lab scientist and her mouse, each convinced the other is the experiment.",
+    "no": "En forsker og labmusa hennes, begge overbevist om at den andre er forsøkskaninen."
+  },
+  "tags": [
+    "fantasy",
+    "work"
+  ]
+}

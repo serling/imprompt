@@ -1,0 +1,15 @@
+{
+  "id": "b32-0038",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "fantastical",
+  "text": {
+    "en": "The handover notes an old ghost leaves for the new ghost.",
+    "no": "Overleveringsnotatene et gammelt spøkelse etterlater til det nye spøkelset."
+  },
+  "tags": [
+    "fantasy",
+    "narration"
+  ]
+}

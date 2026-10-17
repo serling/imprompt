@@ -1,0 +1,15 @@
+{
+  "id": "b35-0025",
+  "status": "retired",
+  "players": 2,
+  "type": "sound",
+  "world": "sea",
+  "text": {
+    "en": "Two walruses on one small rock, negotiating in grunts.",
+    "no": "To hvalrosser på en bitteliten stein, som forhandler i grynt."
+  },
+  "tags": [
+    "sound",
+    "nature"
+  ]
+}

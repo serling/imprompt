@@ -1,0 +1,15 @@
+{
+  "id": "b34-0025",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "fantastical",
+  "text": {
+    "en": "You, and the you raised by wolves, cooking Sunday dinner together.",
+    "no": "Du, og du som ble oppdratt av ulver, som lager søndagsmiddag sammen."
+  },
+  "tags": [
+    "character",
+    "fantasy"
+  ]
+}

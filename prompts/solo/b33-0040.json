@@ -1,0 +1,15 @@
+{
+  "id": "b33-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A cockerel that has overslept, making up for it at noon.",
+    "no": "En hane som har forsovet seg, og tar det igjen ved tolvtiden."
+  },
+  "tags": [
+    "sound",
+    "nature"
+  ]
+}

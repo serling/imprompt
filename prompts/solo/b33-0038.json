@@ -1,0 +1,15 @@
+{
+  "id": "b33-0038",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A grandfather clock striking thirteen, and trying to cover it up.",
+    "no": "Et gulvur som slår tretten, og prøver å dekke over det."
+  },
+  "tags": [
+    "sound",
+    "character"
+  ]
+}

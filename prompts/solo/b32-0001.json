@@ -1,0 +1,15 @@
+{
+  "id": "b32-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Practising your surprised face for a surprise party you know all about.",
+    "no": "Å øve inn overraskelsesansiktet før en overraskelsesfest man vet alt om."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b35-0024",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A farmer and a mechanic discussing the broken tractor, only in engine noises.",
+    "no": "En bonde og en mekaniker som diskuterer den ødelagte traktoren, bare med motorlyder."
+  },
+  "tags": [
+    "sound",
+    "work"
+  ]
+}

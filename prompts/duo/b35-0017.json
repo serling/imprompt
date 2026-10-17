@@ -1,0 +1,14 @@
+{
+  "id": "b35-0017",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A café owner serving the health inspector on his day off.",
+    "no": "En kafeeier som serverer en inspektør fra Mattilsynet på fridagen hans."
+  },
+  "tags": [
+    "work"
+  ]
+}

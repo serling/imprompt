@@ -1,0 +1,15 @@
+{
+  "id": "b33-0037",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A wolf at full moon, howling a formal complaint.",
+    "no": "En ulv ved fullmåne som uler fram en formell klage."
+  },
+  "tags": [
+    "sound",
+    "nature"
+  ]
+}

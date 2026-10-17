@@ -1,0 +1,15 @@
+{
+  "id": "b33-0043",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "fantastical",
+  "text": {
+    "en": "A eulogy, in a world where everyone gets three lives.",
+    "no": "En minnetale, i en verden der alle har tre liv."
+  },
+  "tags": [
+    "occasion",
+    "narration"
+  ]
+}

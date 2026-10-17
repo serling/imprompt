@@ -1,0 +1,15 @@
+{
+  "id": "b35-0026",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A ghost that can only moan and rattle, showing the new tenant where the fuse box is.",
+    "no": "Et spøkelse som bare kan stønne og rasle, og som viser den nye leietakeren hvor sikringsskapet er."
+  },
+  "tags": [
+    "sound",
+    "fantasy"
+  ]
+}

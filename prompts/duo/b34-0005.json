@@ -1,0 +1,14 @@
+{
+  "id": "b34-0005",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "showbiz",
+  "text": {
+    "en": "A ventriloquist's dummy breaking up with the ventriloquist.",
+    "no": "En buktalerdukke som slår opp med buktaleren."
+  },
+  "tags": [
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b34-0008",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "The bride's mother and the groom's mother, each insisting on paying for the whole wedding.",
+    "no": "Brudens mor og brudgommens mor, som begge insisterer på å betale hele bryllupet."
+  },
+  "tags": [
+    "family",
+    "status"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b33-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "sea",
+  "text": {
+    "en": "A sunken treasure chest, rehearsing what it will say when it's finally found.",
+    "no": "En sunket skattekiste som øver på hva den skal si når den endelig blir funnet."
+  },
+  "tags": [
+    "character",
+    "narration"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b32-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "history",
+  "text": {
+    "en": "A shy town crier.",
+    "no": "En sjenert byutroper."
+  },
+  "tags": [
+    "history",
+    "character"
+  ],
+  "callback": {
+    "en": "the shy town crier",
+    "no": "den sjenerte byutroperen"
+  }
+}

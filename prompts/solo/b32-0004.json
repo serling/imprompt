@@ -1,0 +1,15 @@
+{
+  "id": "b32-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Reading your teenage diary aloud at your own fortieth birthday.",
+    "no": "Å lese høyt fra tenåringsdagboka si på sin egen førtiårsdag."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

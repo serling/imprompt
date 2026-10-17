@@ -1,0 +1,15 @@
+{
+  "id": "b32-0025",
+  "status": "retired",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A supermarket cashier scanning the shopping, haggling over every price.",
+    "no": "En kasserer på butikken som skanner varene og pruter på hver eneste pris."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0044",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "fantastical",
+  "text": {
+    "en": "A dragon, demoted to guarding the bike shed.",
+    "no": "En drage som er degradert til å vokte sykkelskuret."
+  },
+  "tags": [
+    "fantasy",
+    "status"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0026",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "showbiz",
+  "text": {
+    "en": "A newsreader reading the evening news, having just won the lottery.",
+    "no": "En nyhetsoppleser som leser kveldsnyhetene, rett etter å ha vunnet i lotto."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

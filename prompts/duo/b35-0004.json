@@ -1,0 +1,15 @@
+{
+  "id": "b35-0004",
+  "status": "draft",
+  "players": 2,
+  "type": "reframe",
+  "world": "sea",
+  "text": {
+    "en": "A pirate captain and a deckhand at the plank, played as the yearly staff appraisal.",
+    "no": "En piratkaptein og en matros ved planken, spilt som den årlige medarbeidersamtalen."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

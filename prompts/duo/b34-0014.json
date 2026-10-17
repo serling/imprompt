@@ -1,0 +1,15 @@
+{
+  "id": "b34-0014",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A fortune teller with no imagination at all, and a client desperate for drama.",
+    "no": "En spåkone helt uten fantasi, og en kunde som tørster etter drama."
+  },
+  "tags": [
+    "character",
+    "work"
+  ]
+}

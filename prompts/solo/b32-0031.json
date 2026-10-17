@@ -1,0 +1,15 @@
+{
+  "id": "b32-0031",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "space",
+  "text": {
+    "en": "An astronaut collecting moon rocks, unbearably house-proud.",
+    "no": "En astronaut som samler månestein, og er uutholdelig pertentlig."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ]
+}

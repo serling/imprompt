@@ -1,0 +1,15 @@
+{
+  "id": "b33-0018",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "world": "everyday",
+  "text": {
+    "en": "Building a snowman, in a towering rage.",
+    "no": "Å lage snømann, kokende av raseri."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

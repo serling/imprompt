@@ -1,0 +1,15 @@
+{
+  "id": "b32-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A butcher cutting steaks, on day two of being vegan.",
+    "no": "En slakter som skjærer biffer, på dag to som veganer."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

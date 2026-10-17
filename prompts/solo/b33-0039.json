@@ -1,0 +1,15 @@
+{
+  "id": "b33-0039",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A dentist's drill, doing its very best to sound soothing.",
+    "no": "Et tannlegebor som gjør sitt aller beste for å høres beroligende ut."
+  },
+  "tags": [
+    "sound",
+    "work"
+  ]
+}

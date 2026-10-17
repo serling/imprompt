@@ -1,0 +1,15 @@
+{
+  "id": "b32-0033",
+  "status": "retired",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A dog groomer clipping a poodle, with dreams of being a sculptor.",
+    "no": "En hundefrisør som klipper en puddel, og drømmer om å bli billedhugger."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

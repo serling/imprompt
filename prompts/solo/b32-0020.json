@@ -1,0 +1,15 @@
+{
+  "id": "b32-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A funeral guest determined to cry the loudest.",
+    "no": "En begravelsesgjest som er fast bestemt på å gråte høyest."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

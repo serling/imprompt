@@ -1,0 +1,15 @@
+{
+  "id": "b32-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A hearse driver on the way to the church, desperate to overtake.",
+    "no": "En likbilsjåfør på vei til kirken som er desperat etter å kjøre forbi."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

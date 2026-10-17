@@ -1,0 +1,19 @@
+{
+  "id": "b32-0014",
+  "status": "retired",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A gossiping priest.",
+    "no": "En sladrete prest."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ],
+  "callback": {
+    "en": "the gossiping priest",
+    "no": "den sladrete presten"
+  }
+}

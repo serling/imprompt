@@ -1,0 +1,15 @@
+{
+  "id": "b35-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "crime",
+  "text": {
+    "en": "A judge sentencing the driving examiner who failed her three times.",
+    "no": "En dommer som skal dømme sensoren som strøk henne på oppkjøringen tre ganger."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

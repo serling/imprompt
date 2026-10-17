@@ -1,0 +1,19 @@
+{
+  "id": "b32-0016",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A soft-hearted bailiff.",
+    "no": "En bløthjertet namsmann."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the soft-hearted bailiff",
+    "no": "den bløthjertede namsmannen"
+  }
+}

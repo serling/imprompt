@@ -1,0 +1,15 @@
+{
+  "id": "b33-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "mismatch",
+  "world": "everyday",
+  "text": {
+    "en": "A swaggering bishop.",
+    "no": "En brautende biskop."
+  },
+  "tags": [
+    "status",
+    "character"
+  ]
+}

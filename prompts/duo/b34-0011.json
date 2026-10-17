@@ -1,0 +1,15 @@
+{
+  "id": "b34-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A retired sea captain taking command of the kitchen, and his wife, its captain for forty years.",
+    "no": "En pensjonert skipskaptein som tar kommandoen på kjøkkenet, og kona, som har vært kaptein der i førti år."
+  },
+  "tags": [
+    "character",
+    "family"
+  ]
+}

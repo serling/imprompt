@@ -1,0 +1,15 @@
+{
+  "id": "b32-0042",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "A sick note from mum, written by the child.",
+    "no": "En sykemelding fra mamma, skrevet av barnet selv."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b32-0024",
+  "status": "retired",
+  "players": 1,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A gravedigger digging a grave, making small talk with the neighbours.",
+    "no": "En graver som graver en grav og småprater med naboene."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b33-0021",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "world": "space",
+  "text": {
+    "en": "Counting down to a rocket launch, sobbing with heartbreak.",
+    "no": "Å telle ned til en rakettoppskyting, hulkende av kjærlighetssorg."
+  },
+  "tags": [
+    "space",
+    "character"
+  ]
+}

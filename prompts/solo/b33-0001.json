@@ -1,0 +1,15 @@
+{
+  "id": "b33-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "crime",
+  "text": {
+    "en": "A sniffer dog at customs, sure that every single suitcase is guilty.",
+    "no": "En tollhund som er sikker på at hver eneste koffert er skyldig."
+  },
+  "tags": [
+    "work",
+    "character"
+  ]
+}

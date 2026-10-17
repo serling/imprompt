@@ -1,0 +1,15 @@
+{
+  "id": "b33-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "emotion-swap",
+  "world": "everyday",
+  "text": {
+    "en": "Mucking out the pigsty, eaten up with jealousy.",
+    "no": "Å muge grisebingen, oppslukt av sjalusi."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b33-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "A bathroom scale, far too kind to tell anyone the truth.",
+    "no": "En badevekt som er altfor snill til å si sannheten til noen."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}
