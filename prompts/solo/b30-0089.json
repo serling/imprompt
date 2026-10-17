@@ -1,0 +1,19 @@
+{
+  "id": "b30-0089",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A fortune teller terrified of the future.",
+    "no": "En spåkone som er livredd for framtida."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the frightened fortune teller",
+    "no": "den livredde spåkona"
+  }
+}

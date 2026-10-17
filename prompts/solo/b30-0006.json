@@ -1,0 +1,15 @@
+{
+  "id": "b30-0006",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Collecting the kids from nursery, unsure which ones are yours.",
+    "no": "Å hente barna i barnehagen uten å være sikker på hvilke som er ens egne."
+  },
+  "tags": [
+    "family",
+    "character"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b31-0081",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Two strangers on a train, both convinced the other is someone famous.",
+    "no": "To fremmede på toget, begge overbevist om at den andre er kjendis."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

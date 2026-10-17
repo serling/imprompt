@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A sofa while the family fights over the remote, refereeing.",
-    "no": "En sofa mens familien krangler om fjernkontrollen, og dømmer kampen."
+    "en": "A sofa refereeing the family's fight over the remote.",
+    "no": "En sofa som dømmer familiens krangel om fjernkontrollen."
   },
   "world": "fantastical",
   "tags": [

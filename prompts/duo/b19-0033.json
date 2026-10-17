@@ -4,8 +4,8 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "A terribly snobbish cleaner and the family whose house she cleans.",
-    "no": "En fryktelig snobbete vaskehjelp og familien hun vasker for."
+    "en": "A terribly snobbish cleaner and the woman whose house she cleans.",
+    "no": "En fryktelig snobbete vaskehjelp og kvinnen som eier huset hun vasker."
   },
   "world": "everyday",
   "tags": [

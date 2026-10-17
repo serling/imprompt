@@ -1,0 +1,14 @@
+{
+  "id": "b31-0002",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A night-shift baker training her replacement, a man never once awake after ten.",
+    "no": "En nattbaker som lærer opp etterfølgeren sin, en mann som aldri har vært våken etter klokka ti."
+  },
+  "tags": [
+    "work"
+  ]
+}

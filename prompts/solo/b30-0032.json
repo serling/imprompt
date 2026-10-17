@@ -1,0 +1,15 @@
+{
+  "id": "b30-0032",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "The family dog's yearly performance review.",
+    "no": "Den årlige medarbeidersamtalen med familiehunden."
+  },
+  "tags": [
+    "family",
+    "work"
+  ]
+}

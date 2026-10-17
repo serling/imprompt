@@ -1,0 +1,15 @@
+{
+  "id": "b31-0087",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "everyday",
+  "text": {
+    "en": "A husband narrating his whole life in the third person, and his wife at breakfast.",
+    "no": "En ektemann som forteller hele livet sitt i tredjeperson, og kona hans ved frokostbordet."
+  },
+  "tags": [
+    "character",
+    "family"
+  ]
+}

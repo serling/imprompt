@@ -1,0 +1,15 @@
+{
+  "id": "b31-0028",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "everyday",
+  "text": {
+    "en": "A broody hen guarding her egg, and the child sent to fetch it for breakfast.",
+    "no": "En rugende høne som vokter egget sitt, og barnet som er sendt for å hente det til frokost."
+  },
+  "tags": [
+    "nature",
+    "family"
+  ]
+}

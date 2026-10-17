@@ -1,0 +1,19 @@
+{
+  "id": "b30-0088",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "royalty",
+  "text": {
+    "en": "A royal guard with the giggles.",
+    "no": "En kongelig vakt med fnisefeber."
+  },
+  "tags": [
+    "status",
+    "physical"
+  ],
+  "callback": {
+    "en": "the giggling royal guard",
+    "no": "den fnisende kongevakten"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b31-0003",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A hotel receptionist checking in her own mum for a romantic weekend.",
+    "no": "En hotellresepsjonist som sjekker inn sin egen mor til en romantisk helg."
+  },
+  "tags": [
+    "work",
+    "family"
+  ]
+}

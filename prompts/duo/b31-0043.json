@@ -1,0 +1,14 @@
+{
+  "id": "b31-0043",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A cat at the bedroom door at five in the morning, and its owner pretending to be asleep.",
+    "no": "En katt ved soveromsdøra klokka fem om morgenen, og eieren som later som hun sover."
+  },
+  "tags": [
+    "sound"
+  ]
+}

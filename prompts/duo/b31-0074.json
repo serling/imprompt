@@ -1,0 +1,14 @@
+{
+  "id": "b31-0074",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "Phone-voice you and real you, ordering a takeaway together.",
+    "no": "Du med telefonstemme og den vanlige deg, som bestiller takeaway sammen."
+  },
+  "tags": [
+    "character"
+  ]
+}

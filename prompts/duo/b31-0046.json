@@ -1,0 +1,14 @@
+{
+  "id": "b31-0046",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A microwave beeping for attention, and a flatmate ignoring it on purpose.",
+    "no": "En mikrobølgeovn som piper for å få oppmerksomhet, og en romkamerat som overser den med vilje."
+  },
+  "tags": [
+    "sound"
+  ]
+}

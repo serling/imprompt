@@ -1,0 +1,15 @@
+{
+  "id": "b30-0052",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A cat demanding breakfast at five in the morning.",
+    "no": "En katt som krever frokost klokka fem om morgenen."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

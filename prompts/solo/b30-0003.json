@@ -1,0 +1,15 @@
+{
+  "id": "b30-0003",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Lying awake at night, rehearsing a comeback for an argument from years ago.",
+    "no": "Å ligge våken om natta og øve på svaret man burde gitt i en krangel for mange år siden."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

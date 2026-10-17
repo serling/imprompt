@@ -1,0 +1,15 @@
+{
+  "id": "b30-0096",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "sea",
+  "text": {
+    "en": "A pirate captain, voted down to deckhand by his own crew.",
+    "no": "En piratkaptein som er stemt ned til dekksgutt av sitt eget mannskap."
+  },
+  "tags": [
+    "sea",
+    "status"
+  ]
+}

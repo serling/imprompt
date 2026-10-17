@@ -1,0 +1,19 @@
+{
+  "id": "b30-0087",
+  "status": "draft",
+  "players": 1,
+  "type": "character",
+  "world": "wild",
+  "text": {
+    "en": "A hermit with far too many friends.",
+    "no": "En eremitt med altfor mange venner."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ],
+  "callback": {
+    "en": "the popular hermit",
+    "no": "den populære eremitten"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b31-0006",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A building inspector inspecting the house his dad built with his own hands.",
+    "no": "En takstmann som vurderer huset faren hans har bygd med egne hender."
+  },
+  "tags": [
+    "work",
+    "family"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b31-0012",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A bus driver on her last shift, and the passenger she has driven every day for thirty years.",
+    "no": "En bussjåfør på sin siste vakt, og passasjeren hun har kjørt hver dag i tretti år."
+  },
+  "tags": [
+    "work"
+  ]
+}

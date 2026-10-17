@@ -1,0 +1,15 @@
+{
+  "id": "b30-0007",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "A rousing dugnad speech, and nobody else has turned up.",
+    "no": "En flammende dugnadstale, og ingen andre har dukket opp."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0056",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "sea",
+  "text": {
+    "en": "A submarine diving deeper than it was built for.",
+    "no": "En ubåt som dykker dypere enn den er bygget for."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ]
+}

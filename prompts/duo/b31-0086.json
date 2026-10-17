@@ -1,0 +1,14 @@
+{
+  "id": "b31-0086",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "fantastical",
+  "text": {
+    "en": "A dragon and the knight sent to slay it, both hoping the other will cancel.",
+    "no": "En drage og ridderen som er sendt for å drepe den, begge i håp om at den andre avlyser."
+  },
+  "tags": [
+    "fantasy"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b30-0012",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "royalty",
+  "text": {
+    "en": "A king on his day off, buying milk without being recognised.",
+    "no": "En konge på fridagen som prøver å kjøpe melk uten å bli gjenkjent."
+  },
+  "tags": [
+    "status",
+    "character"
+  ],
+  "callback": {
+    "en": "the king buying milk in disguise",
+    "no": "kongen som kjøper melk i forkledning"
+  }
+}

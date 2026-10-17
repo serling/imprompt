@@ -1,0 +1,15 @@
+{
+  "id": "b30-0042",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "world": "royalty",
+  "text": {
+    "en": "Three royal pardons, each for a smaller crime.",
+    "no": "Tre kongelige benådninger, hver for en mindre forbrytelse enn den forrige."
+  },
+  "tags": [
+    "status",
+    "narration"
+  ]
+}

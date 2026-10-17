@@ -1,0 +1,15 @@
+{
+  "id": "b30-0040",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "world": "everyday",
+  "text": {
+    "en": "Four attempts to greet a neighbour whose name you've forgotten, each vaguer.",
+    "no": "Fire forsøk på å hilse på en nabo du har glemt navnet på, hvert mer vagt enn det forrige."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

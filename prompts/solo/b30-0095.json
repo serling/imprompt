@@ -1,0 +1,15 @@
+{
+  "id": "b30-0095",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "space",
+  "text": {
+    "en": "The cleaner, left in command of the space station.",
+    "no": "Vaskehjelpen som har fått kommandoen over romstasjonen."
+  },
+  "tags": [
+    "space",
+    "status"
+  ]
+}

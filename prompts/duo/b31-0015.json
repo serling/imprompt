@@ -1,0 +1,15 @@
+{
+  "id": "b31-0015",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A removal man packing up a flat while its owner unpacks every box again.",
+    "no": "En flyttemann som pakker ned en leilighet mens eieren pakker ut hver eske igjen."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

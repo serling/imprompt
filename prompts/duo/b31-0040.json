@@ -1,0 +1,18 @@
+{
+  "id": "b31-0040",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "space",
+  "text": {
+    "en": "A lonely space probe, forty years from home, and the alien finding it.",
+    "no": "En ensom romsonde, førti år hjemmefra, og romvesenet som finner den."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the lonely space probe",
+    "no": "den ensomme romsonden"
+  }
+}

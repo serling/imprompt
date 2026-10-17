@@ -1,0 +1,14 @@
+{
+  "id": "b31-0093",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "world": "sea",
+  "text": {
+    "en": "A pirate captain pleading with the cabin boy for permission to go ashore.",
+    "no": "En piratkaptein som trygler skipsgutten om lov til å gå i land."
+  },
+  "tags": [
+    "status"
+  ]
+}

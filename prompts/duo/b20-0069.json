@@ -4,8 +4,8 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "Two trolls who are terrified of goats.",
-    "no": "To troll som er livredde for geiter."
+    "en": "Two trolls guarding a bridge, both terrified of goats.",
+    "no": "To troll som vokter en bro, begge livredde for geiter."
   },
   "world": "fantastical",
   "tags": [

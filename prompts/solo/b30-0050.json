@@ -1,0 +1,15 @@
+{
+  "id": "b30-0050",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "The office printer, jamming five minutes before the big meeting.",
+    "no": "Skriveren på kontoret som setter seg fast fem minutter før det store møtet."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

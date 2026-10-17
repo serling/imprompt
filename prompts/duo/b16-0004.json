@@ -3,8 +3,8 @@
   "status": "draft",
   "players": 2,
   "text": {
-    "en": "A fishmonger training a new employee who turns out to be vegetarian.",
-    "no": "En fiskehandler som lærer opp en nyansatt som viser seg å være vegetarianer."
+    "en": "A fishmonger training a new employee who is a strict vegetarian.",
+    "no": "En fiskehandler som lærer opp en ny ansatt som er streng vegetarianer."
   },
   "world": "everyday",
   "type": "premise",

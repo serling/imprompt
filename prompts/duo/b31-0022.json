@@ -1,0 +1,14 @@
+{
+  "id": "b31-0022",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "science",
+  "text": {
+    "en": "A scientist testing her lie detector on a volunteer who has never told a lie.",
+    "no": "En forsker som tester løgndetektoren sin på en frivillig som aldri har løyet."
+  },
+  "tags": [
+    "work"
+  ]
+}

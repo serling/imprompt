@@ -1,0 +1,15 @@
+{
+  "id": "b30-0031",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "The rules of the family board game, written by its sorest loser.",
+    "no": "Reglene for familiens brettspill, skrevet av familiens dårligste taper."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

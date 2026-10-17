@@ -1,0 +1,15 @@
+{
+  "id": "b31-0091",
+  "status": "draft",
+  "players": 2,
+  "type": "character",
+  "world": "wild",
+  "text": {
+    "en": "A wildlife photographer terrified of all animals, and her guide on safari.",
+    "no": "En naturfotograf som er livredd alle dyr, og guiden hennes på safari."
+  },
+  "tags": [
+    "character",
+    "nature"
+  ]
+}

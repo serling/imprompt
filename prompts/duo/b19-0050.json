@@ -4,8 +4,8 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A first-aid dummy and a very nervous trainee.",
-    "no": "En førstehjelpsdukke og en veldig nervøs kursdeltaker."
+    "en": "A first-aid dummy who has had enough, and a very nervous trainee.",
+    "no": "En førstehjelpsdukke som har fått nok, og en svært nervøs kursdeltaker."
   },
   "world": "fantastical",
   "tags": [

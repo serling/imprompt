@@ -1,0 +1,14 @@
+{
+  "id": "b31-0049",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A rusty bicycle squeaking at every turn, and the man riding it to a job interview.",
+    "no": "En rusten sykkel som knirker i hver sving, og mannen som sykler på den til et jobbintervju."
+  },
+  "tags": [
+    "sound"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b30-0014",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "showbiz",
+  "text": {
+    "en": "An actor preparing very intensely for the role of Tree Number Four.",
+    "no": "En skuespiller som forbereder seg svært intenst til rollen som Tre nummer fire."
+  },
+  "tags": [
+    "work",
+    "character"
+  ],
+  "callback": {
+    "en": "the actor playing Tree Number Four",
+    "no": "skuespilleren som spiller Tre nummer fire"
+  }
+}

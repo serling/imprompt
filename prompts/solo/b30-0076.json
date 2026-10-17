@@ -1,0 +1,15 @@
+{
+  "id": "b30-0076",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Our world, except it is polite to leave every room backwards.",
+    "no": "Vår verden, bortsett fra at det er høflig å gå baklengs ut av alle rom."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

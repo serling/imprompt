@@ -1,0 +1,14 @@
+{
+  "id": "b31-0011",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A driving instructor giving a lesson in his brand-new car, terrified of scratches.",
+    "no": "En kjørelærer som har kjøretime i sin splitter nye bil, livredd for riper."
+  },
+  "tags": [
+    "work"
+  ]
+}

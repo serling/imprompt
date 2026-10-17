@@ -1,0 +1,15 @@
+{
+  "id": "b31-0042",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A teenager sneaking in at three in the morning, and the creakiest staircase in the house.",
+    "no": "En tenåring som sniker seg inn klokka tre om natta, og den mest knirkete trappa i huset."
+  },
+  "tags": [
+    "sound",
+    "family"
+  ]
+}

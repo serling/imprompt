@@ -1,0 +1,15 @@
+{
+  "id": "b30-0049",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A car that won't start on the coldest morning of the year.",
+    "no": "En bil som ikke vil starte den kaldeste morgenen i året."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

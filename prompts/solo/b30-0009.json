@@ -1,0 +1,15 @@
+{
+  "id": "b30-0009",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "space",
+  "text": {
+    "en": "Packing your one small bag for a lifetime on Mars.",
+    "no": "Å pakke den ene lille vesken sin for et helt liv på Mars."
+  },
+  "tags": [
+    "space",
+    "physical"
+  ]
+}

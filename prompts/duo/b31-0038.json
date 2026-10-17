@@ -1,0 +1,18 @@
+{
+  "id": "b31-0038",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "crime",
+  "text": {
+    "en": "A guard dog overjoyed to meet a burglar, and the burglar trying to stay calm.",
+    "no": "En vakthund som er overlykkelig over å møte en innbruddstyv, og tyven som prøver å holde seg rolig."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the overjoyed guard dog",
+    "no": "den overlykkelige vakthunden"
+  }
+}

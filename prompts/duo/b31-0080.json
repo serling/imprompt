@@ -1,0 +1,15 @@
+{
+  "id": "b31-0080",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "A grandad and his grandson, both applying for the same summer job at the ice-cream kiosk.",
+    "no": "En bestefar og barnebarnet hans som søker på den samme sommerjobben i iskiosken."
+  },
+  "tags": [
+    "family",
+    "work"
+  ]
+}

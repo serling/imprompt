@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A comet on its once-every-seventy-years visit to Earth, appalled by everything new.",
-    "no": "En komet på besøk hos jorda for første gang på sytti år, forferdet over alt som er nytt."
+    "en": "A comet back after seventy years, appalled by everything new.",
+    "no": "En komet tilbake etter sytti år, forferdet over alt som er nytt."
   },
   "world": "fantastical",
   "tags": [

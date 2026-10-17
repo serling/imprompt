@@ -4,8 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A retired spy who can't stop checking the exits.",
-    "no": "En pensjonert spion som ikke klarer å slutte å sjekke utgangene."
+    "en": "A retired spy at a child's birthday party, checking every exit.",
+    "no": "En pensjonert spion i et barnebursdagsselskap som sjekker alle utgangene."
   },
   "world": "crime",
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0085",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "world": "future",
+  "text": {
+    "en": "A robot working out what a joke is.",
+    "no": "En robot som prøver å finne ut hva en vits er."
+  },
+  "tags": [
+    "future",
+    "character"
+  ]
+}

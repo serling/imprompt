@@ -1,0 +1,15 @@
+{
+  "id": "b30-0053",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "An angry goose guarding the path to the farm.",
+    "no": "En sint gås som vokter stien opp til gården."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

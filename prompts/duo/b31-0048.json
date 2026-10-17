@@ -1,0 +1,14 @@
+{
+  "id": "b31-0048",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A hairdryer on full blast, and a customer telling a very long story over it.",
+    "no": "En hårføner på full guffe, og en kunde som forteller en veldig lang historie gjennom bråket."
+  },
+  "tags": [
+    "sound"
+  ]
+}

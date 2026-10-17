@@ -1,0 +1,14 @@
+{
+  "id": "b31-0084",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "space",
+  "text": {
+    "en": "A billionaire space tourist and the astronaut who has to babysit him.",
+    "no": "En steinrik romturist og astronauten som må passe på ham."
+  },
+  "tags": [
+    "status"
+  ]
+}

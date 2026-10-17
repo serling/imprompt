@@ -1,0 +1,15 @@
+{
+  "id": "b30-0081",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "world": "everyday",
+  "text": {
+    "en": "Discovering that popcorn pops.",
+    "no": "Å oppdage at popkorn popper."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b31-0095",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "world": "everyday",
+  "text": {
+    "en": "A teenager waiting up for his mum, home late from the work Christmas party.",
+    "no": "En tenåring som venter oppe på moren sin, som kommer sent hjem fra julebordet."
+  },
+  "tags": [
+    "status",
+    "family"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0054",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A baby monitor at night, picking up every sound in the house.",
+    "no": "En babycall om natta som fanger opp hver eneste lyd i huset."
+  },
+  "tags": [
+    "family",
+    "physical"
+  ]
+}

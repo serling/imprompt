@@ -1,0 +1,14 @@
+{
+  "id": "b31-0070",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "Friday-afternoon you and Monday-morning you, writing next week's to-do list.",
+    "no": "Du på fredag ettermiddag og du på mandag morgen, som skriver huskelista for neste uke."
+  },
+  "tags": [
+    "work"
+  ]
+}

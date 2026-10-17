@@ -1,0 +1,15 @@
+{
+  "id": "b30-0057",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "The hand dryer in a café toilet, far too powerful for its job.",
+    "no": "Håndtørkeren på kafétoalettet, altfor kraftig for jobben sin."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

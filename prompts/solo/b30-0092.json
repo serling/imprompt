@@ -1,0 +1,19 @@
+{
+  "id": "b30-0092",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "everyday",
+  "text": {
+    "en": "A six-year-old, just sworn in as mayor.",
+    "no": "En seksåring som nettopp er tatt i ed som ordfører."
+  },
+  "tags": [
+    "status",
+    "character"
+  ],
+  "callback": {
+    "en": "the six-year-old mayor",
+    "no": "seksåringen som er ordfører"
+  }
+}

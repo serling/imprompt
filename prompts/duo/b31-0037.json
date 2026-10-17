@@ -1,0 +1,18 @@
+{
+  "id": "b31-0037",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "everyday",
+  "text": {
+    "en": "A moose standing in the road, in no hurry, and a driver late for a wedding.",
+    "no": "En elg som står midt i veien uten noe hastverk, og en sjåfør som er sent ute til et bryllup."
+  },
+  "tags": [
+    "nature"
+  ],
+  "callback": {
+    "en": "the moose in no hurry",
+    "no": "elgen som ikke har det travelt"
+  }
+}

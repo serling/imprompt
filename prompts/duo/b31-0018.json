@@ -1,0 +1,18 @@
+{
+  "id": "b31-0018",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "fantastical",
+  "text": {
+    "en": "A witch breaking the spell on a frog prince who likes being a frog.",
+    "no": "En heks som skal bryte forbannelsen på en froskeprins som liker å være frosk."
+  },
+  "tags": [
+    "fantasy"
+  ],
+  "callback": {
+    "en": "the happy frog prince",
+    "no": "den fornøyde froskeprinsen"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0008",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "fantastical",
+  "text": {
+    "en": "Phoning customer service because your toaster has fallen in love with you.",
+    "no": "Å ringe kundeservice fordi brødristeren har forelsket seg i deg."
+  },
+  "tags": [
+    "fantasy",
+    "character"
+  ]
+}

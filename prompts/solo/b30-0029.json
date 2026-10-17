@@ -1,0 +1,15 @@
+{
+  "id": "b30-0029",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "science",
+  "text": {
+    "en": "A scientist's lab notes on getting her toddler to sleep.",
+    "no": "Labnotatene til en forsker som prøver å få toåringen sin til å sove."
+  },
+  "tags": [
+    "science",
+    "family"
+  ]
+}

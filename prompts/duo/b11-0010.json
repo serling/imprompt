@@ -4,8 +4,8 @@
   "players": 2,
   "type": "premise",
   "text": {
-    "en": "A nun helping a burglar down from the convent roof, one rung at a time.",
-    "no": "En nonne som hjelper en innbruddstyv ned fra klostertaket, ett trinn om gangen."
+    "en": "A nun helping a burglar escape from the convent, very quietly.",
+    "no": "En nonne som hjelper en innbruddstyv å rømme fra klosteret, helt stille."
   },
   "world": "crime",
   "tags": [

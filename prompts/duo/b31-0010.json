@@ -1,0 +1,14 @@
+{
+  "id": "b31-0010",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A barista making a flat white for the barista from the rival café across the road.",
+    "no": "En barista som lager en flat white til baristaen fra konkurrentkafeen over gata."
+  },
+  "tags": [
+    "work"
+  ]
+}

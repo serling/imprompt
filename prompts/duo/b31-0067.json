@@ -1,0 +1,14 @@
+{
+  "id": "b31-0067",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "Lottery-winner you and yesterday's you, doing the weekly shop.",
+    "no": "Du som nettopp vant i lotteriet og du i går, på ukeshandel sammen."
+  },
+  "tags": [
+    "character"
+  ]
+}

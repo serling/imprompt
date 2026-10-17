@@ -1,0 +1,15 @@
+{
+  "id": "b30-0005",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "In the barber's chair, half a haircut in, and the barber is asleep.",
+    "no": "I frisørstolen, halvveis i klippen, og frisøren har sovnet."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

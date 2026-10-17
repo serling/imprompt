@@ -1,0 +1,15 @@
+{
+  "id": "b30-0069",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Exactly our world, except nodding means no and shaking your head means yes.",
+    "no": "Akkurat vår verden, bortsett fra at nikking betyr nei og risting på hodet betyr ja."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

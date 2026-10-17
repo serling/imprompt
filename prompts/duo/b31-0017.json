@@ -1,0 +1,15 @@
+{
+  "id": "b31-0017",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "fantastical",
+  "text": {
+    "en": "A bridge troll trying to charge his own mother the toll.",
+    "no": "Et brutroll som prøver å kreve bompenger av sin egen mor."
+  },
+  "tags": [
+    "fantasy",
+    "family"
+  ]
+}

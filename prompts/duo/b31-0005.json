@@ -1,0 +1,15 @@
+{
+  "id": "b31-0005",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A waiter taking the order of a diner on a silent retreat.",
+    "no": "En servitør som tar bestillingen fra en gjest som er på stilleretreat."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

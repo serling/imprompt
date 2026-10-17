@@ -1,0 +1,14 @@
+{
+  "id": "b30-0075",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Exactly our world, except everyone says \"over\" when they finish talking.",
+    "no": "Akkurat vår verden, bortsett fra at alle sier «over» når de er ferdige med å snakke."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

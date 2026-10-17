@@ -4,8 +4,8 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "A neighbour who returns everything she borrows improved, and the man next door.",
-    "no": "En nabo som leverer tilbake alt hun låner i bedre stand, og mannen ved siden av."
+    "en": "A neighbour who returns everything improved, and the man who just wants his old drill back.",
+    "no": "En nabo som leverer alt tilbake i bedre stand, og mannen som bare vil ha den gamle drillen sin tilbake."
   },
   "world": "everyday",
   "tags": [

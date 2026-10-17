@@ -1,0 +1,14 @@
+{
+  "id": "b31-0072",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "The you in your daydreams and the real you, in the dentist's waiting room.",
+    "no": "Du i dagdrømmene dine og den ekte deg, på venterommet hos tannlegen."
+  },
+  "tags": [
+    "character"
+  ]
+}

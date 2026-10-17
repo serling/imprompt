@@ -1,0 +1,14 @@
+{
+  "id": "b30-0072",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Life as we know it, except everyone introduces themselves with their shoe size.",
+    "no": "Livet slik vi kjenner det, bortsett fra at alle presenterer seg med skostørrelsen sin."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

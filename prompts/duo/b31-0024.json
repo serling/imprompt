@@ -1,0 +1,15 @@
+{
+  "id": "b31-0024",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "wild",
+  "text": {
+    "en": "A mountain rescuer carrying down the man who wrote the mountain safety rules.",
+    "no": "En fjellredder som bærer ned mannen som skrev fjellvettreglene."
+  },
+  "tags": [
+    "nature",
+    "physical"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0051",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A heat pump on the cabin wall, struggling through minus twenty.",
+    "no": "En varmepumpe på hytteveggen som sliter seg gjennom minus tjue."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

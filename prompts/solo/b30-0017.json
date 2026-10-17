@@ -1,0 +1,15 @@
+{
+  "id": "b30-0017",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Moving out of your flat, saying a proper goodbye to every room.",
+    "no": "Å flytte ut av leiligheten og ta et ordentlig farvel med hvert eneste rom."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

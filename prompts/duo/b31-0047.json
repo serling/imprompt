@@ -1,0 +1,14 @@
+{
+  "id": "b31-0047",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A dog barking at the postwoman through the door, and the postwoman barking back.",
+    "no": "En hund som bjeffer på postdama gjennom døra, og postdama som bjeffer tilbake."
+  },
+  "tags": [
+    "sound"
+  ]
+}

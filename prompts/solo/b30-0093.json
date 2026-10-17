@@ -1,0 +1,19 @@
+{
+  "id": "b30-0093",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "royalty",
+  "text": {
+    "en": "A former king on his trainee shift at the burger van.",
+    "no": "En tidligere konge på opplæringsvakt i burgervogna."
+  },
+  "tags": [
+    "status",
+    "work"
+  ],
+  "callback": {
+    "en": "the king at the burger van",
+    "no": "kongen i burgervogna"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b31-0069",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "Hungry you and full you, ordering one meal together.",
+    "no": "Sulten du og mett du, som bestiller ett måltid sammen."
+  },
+  "tags": [
+    "character"
+  ]
+}

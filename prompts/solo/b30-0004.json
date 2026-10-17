@@ -1,0 +1,15 @@
+{
+  "id": "b30-0004",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Hiding in the bathroom at your own birthday party.",
+    "no": "Å gjemme seg på badet i sitt eget bursdagsselskap."
+  },
+  "tags": [
+    "everyday",
+    "character"
+  ]
+}

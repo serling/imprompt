@@ -1,0 +1,14 @@
+{
+  "id": "b30-0070",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "The same world as ours, except the word for \"love\" is \"spaghetti\".",
+    "no": "Den samme verdenen som vår, bortsett fra at ordet for «kjærlighet» er «spagetti»."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

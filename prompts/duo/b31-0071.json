@@ -1,0 +1,14 @@
+{
+  "id": "b31-0071",
+  "status": "draft",
+  "players": 2,
+  "type": "two-of-you",
+  "world": "everyday",
+  "text": {
+    "en": "You at six and you at sixty, in the queue for the rollercoaster.",
+    "no": "Du som seksåring og du som sekstiåring, i køen til berg-og-dal-banen."
+  },
+  "tags": [
+    "physical"
+  ]
+}

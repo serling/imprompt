@@ -1,0 +1,15 @@
+{
+  "id": "b31-0052",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "showbiz",
+  "text": {
+    "en": "An actor in a live radio play, and the sound-effects artist always a second behind.",
+    "no": "En skuespiller i et direktesendt hørespill, og lydeffektmannen som alltid er ett sekund bak."
+  },
+  "tags": [
+    "sound",
+    "work"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b30-0071",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Everything as normal, except people say \"ta-da!\" whenever they finish anything.",
+    "no": "Alt er som vanlig, bortsett fra at folk sier «tadaa!» hver gang de blir ferdige med noe."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

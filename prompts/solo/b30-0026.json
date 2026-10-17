@@ -1,0 +1,15 @@
+{
+  "id": "b30-0026",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "space",
+  "text": {
+    "en": "A holiday brochure for a moon where absolutely nothing happens.",
+    "no": "En feriebrosjyre for en måne der absolutt ingenting skjer."
+  },
+  "tags": [
+    "space",
+    "narration"
+  ]
+}

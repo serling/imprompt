@@ -1,0 +1,14 @@
+{
+  "id": "b30-0078",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "Life as we know it, except everyone whispers until noon.",
+    "no": "Livet slik vi kjenner det, bortsett fra at alle hvisker fram til klokka tolv."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

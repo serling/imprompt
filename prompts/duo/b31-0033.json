@@ -1,0 +1,15 @@
+{
+  "id": "b31-0033",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "The office coffee machine, which only works for the boss, and an intern desperate for a cup.",
+    "no": "Kaffemaskinen på kontoret, som bare virker for sjefen, og en praktikant som sårt trenger en kopp."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

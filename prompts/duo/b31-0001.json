@@ -1,0 +1,15 @@
+{
+  "id": "b31-0001",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A wedding photographer shooting her ex-husband's wedding, determined to do her best work ever.",
+    "no": "En bryllupsfotograf som fotograferer eksmannens bryllup, fast bestemt på å gjøre sitt livs beste jobb."
+  },
+  "tags": [
+    "work",
+    "family"
+  ]
+}

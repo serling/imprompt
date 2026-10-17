@@ -1,0 +1,15 @@
+{
+  "id": "b30-0023",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "The user manual for your grandad.",
+    "no": "Bruksanvisningen til bestefaren din."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

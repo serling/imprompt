@@ -1,0 +1,14 @@
+{
+  "id": "b31-0092",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "world": "royalty",
+  "text": {
+    "en": "A queen auditioning for the village Christmas play, and a very unimpressed director.",
+    "no": "En dronning på audition til bygdas juleforestilling, og en svært lite imponert regissør."
+  },
+  "tags": [
+    "status"
+  ]
+}

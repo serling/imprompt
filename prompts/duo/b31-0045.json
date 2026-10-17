@@ -1,0 +1,15 @@
+{
+  "id": "b31-0045",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A baby monitor crackling in the night, and a dad trying to tell if that was crying.",
+    "no": "En babycall som knitrer om natta, og en pappa som prøver å skjønne om det var gråt."
+  },
+  "tags": [
+    "sound",
+    "family"
+  ]
+}

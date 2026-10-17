@@ -1,0 +1,15 @@
+{
+  "id": "b30-0001",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Reading a bedtime story, and getting far too invested in the villain.",
+    "no": "Å lese godnatthistorie og engasjere seg altfor mye i skurken."
+  },
+  "tags": [
+    "family",
+    "narration"
+  ]
+}

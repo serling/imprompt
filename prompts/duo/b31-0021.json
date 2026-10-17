@@ -1,0 +1,14 @@
+{
+  "id": "b31-0021",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "royalty",
+  "text": {
+    "en": "A palace guard checking the queen's ID at the gate, strictly by the book.",
+    "no": "En slottsvakt som sjekker dronningens legitimasjon ved porten, strengt etter boka."
+  },
+  "tags": [
+    "status"
+  ]
+}

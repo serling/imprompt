@@ -4,8 +4,8 @@
   "players": 2,
   "type": "character",
   "text": {
-    "en": "Two colleagues who read each other every work email like a love letter.",
-    "no": "To kolleger som leser hver eneste jobbmail høyt for hverandre, som om det var et kjærlighetsbrev."
+    "en": "A colleague who reads every work email aloud like a love letter, and the one who sent it.",
+    "no": "En kollega som leser hver jobbmail høyt som et kjærlighetsbrev, og kollegaen som sendte den."
   },
   "world": "everyday",
   "tags": [

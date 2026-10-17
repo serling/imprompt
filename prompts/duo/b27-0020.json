@@ -4,8 +4,8 @@
   "players": 2,
   "type": "point-of-view",
   "text": {
-    "en": "A self-driving car and a passenger stamping on a brake that isn't there.",
-    "no": "En selvkjørende bil og en passasjer som tråkker på en brems som ikke finnes."
+    "en": "A proud self-driving car and a passenger stamping on a brake that isn't there.",
+    "no": "En stolt selvkjørende bil og en passasjer som tråkker på en brems som ikke finnes."
   },
   "tags": [
     "physical"

@@ -1,0 +1,15 @@
+{
+  "id": "b31-0007",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A night cleaner hoovering the office round a lonely director who won't go home.",
+    "no": "En nattrenholder som støvsuger kontoret rundt en ensom direktør som ikke vil gå hjem."
+  },
+  "tags": [
+    "work",
+    "status"
+  ]
+}

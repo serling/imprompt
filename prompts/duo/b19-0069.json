@@ -4,8 +4,8 @@
   "players": 2,
   "type": "origin",
   "text": {
-    "en": "The first boss in history, giving the first employee a task.",
-    "no": "Historiens første sjef, som gir historiens første ansatte en oppgave."
+    "en": "A boss giving an employee a task, before anyone has heard of tasks.",
+    "no": "En sjef som gir en ansatt en oppgave, før noen har hørt om oppgaver."
   },
   "world": "everyday",
   "tags": [

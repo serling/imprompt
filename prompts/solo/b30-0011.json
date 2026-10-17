@@ -1,0 +1,19 @@
+{
+  "id": "b30-0011",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "crime",
+  "text": {
+    "en": "A burglar breaking into a house, and making himself far too comfortable.",
+    "no": "En innbruddstyv som bryter seg inn i et hus og finner seg altfor godt til rette."
+  },
+  "tags": [
+    "crime",
+    "physical"
+  ],
+  "callback": {
+    "en": "the burglar making himself at home",
+    "no": "innbruddstyven som finner seg godt til rette"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0065",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "sea",
+  "text": {
+    "en": "An old wooden boat creaking in the harbour, complaining about its joints.",
+    "no": "En gammel trebåt som knirker i havna og klager over leddene sine."
+  },
+  "tags": [
+    "sea",
+    "physical"
+  ]
+}

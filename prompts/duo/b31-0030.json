@@ -1,0 +1,14 @@
+{
+  "id": "b31-0030",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "everyday",
+  "text": {
+    "en": "A sheepdog convinced a lost hiker is a sheep, and the hiker going along with it.",
+    "no": "En gjeterhund som er overbevist om at en forvillet turgåer er en sau, og turgåeren som spiller med."
+  },
+  "tags": [
+    "nature"
+  ]
+}

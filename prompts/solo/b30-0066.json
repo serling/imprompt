@@ -1,0 +1,14 @@
+{
+  "id": "b30-0066",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "An alternate universe identical to ours, except \"sorry\" is \"kablammo\".",
+    "no": "Et parallelt univers akkurat som vårt, bortsett fra at «unnskyld» heter «kablammo»."
+  },
+  "tags": [
+    "everyday"
+  ]
+}

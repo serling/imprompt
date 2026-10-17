@@ -1,0 +1,14 @@
+{
+  "id": "b31-0036",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "A parking meter enjoying its power, and a driver one coin short.",
+    "no": "En parkeringsautomat som nyter makten sin, og en sjåfør som mangler én mynt."
+  },
+  "tags": [
+    "status"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "b30-0080",
+  "status": "draft",
+  "players": 1,
+  "type": "one-rule-world",
+  "world": "fantastical",
+  "text": {
+    "en": "The same world as ours, except every wish under ten kroner comes true.",
+    "no": "Den samme verdenen som vår, bortsett fra at alle ønsker under ti kroner går i oppfyllelse."
+  },
+  "tags": [
+    "fantasy"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0061",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A wishing well, hearing the same wish for the thousandth time.",
+    "no": "En ønskebrønn som hører det samme ønsket for tusende gang."
+  },
+  "tags": [
+    "fantasy",
+    "character"
+  ]
+}

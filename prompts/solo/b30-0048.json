@@ -1,0 +1,15 @@
+{
+  "id": "b30-0048",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "everyday",
+  "text": {
+    "en": "A washing machine on full spin, with a pair of trainers inside.",
+    "no": "En vaskemaskin på full sentrifuge, med et par joggesko inni."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

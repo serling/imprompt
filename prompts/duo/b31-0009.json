@@ -1,0 +1,14 @@
+{
+  "id": "b31-0009",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A locksmith breaking a man into the house he swears is his.",
+    "no": "En låsesmed som hjelper en mann å bryte seg inn i huset han sverger er hans."
+  },
+  "tags": [
+    "work"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "b30-0013",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "future",
+  "text": {
+    "en": "A robot butler on holiday, unable to stop serving people.",
+    "no": "En robotbutler på ferie som ikke klarer å la være å servere folk."
+  },
+  "tags": [
+    "future",
+    "character"
+  ],
+  "callback": {
+    "en": "the robot butler on holiday",
+    "no": "robotbutleren på ferie"
+  }
+}

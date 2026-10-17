@@ -1,0 +1,14 @@
+{
+  "id": "b31-0051",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "A cuckoo clock and a grandfather clock, competing to strike midnight.",
+    "no": "En gjøkklokke og et golvur som konkurrerer om å slå midnatt."
+  },
+  "tags": [
+    "sound"
+  ]
+}

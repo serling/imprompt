@@ -1,0 +1,15 @@
+{
+  "id": "b30-0086",
+  "status": "draft",
+  "players": 1,
+  "type": "origin",
+  "world": "everyday",
+  "text": {
+    "en": "Discovering yeast, as the dough starts to rise.",
+    "no": "Å oppdage gjær idet deigen begynner å heve seg."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

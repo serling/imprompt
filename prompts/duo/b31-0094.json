@@ -1,0 +1,15 @@
+{
+  "id": "b31-0094",
+  "status": "draft",
+  "players": 2,
+  "type": "status-flip",
+  "world": "everyday",
+  "text": {
+    "en": "A headmistress begging a pupil to write her a sick note, so she can go home early.",
+    "no": "En rektor som trygler en elev om å skrive en sykemelding til henne, så hun kan gå hjem tidlig."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

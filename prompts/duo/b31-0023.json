@@ -1,0 +1,14 @@
+{
+  "id": "b31-0023",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "future",
+  "text": {
+    "en": "A robot nanny putting its own inventor to bed.",
+    "no": "En robotbarnepike som skal få sin egen oppfinner i seng."
+  },
+  "tags": [
+    "status"
+  ]
+}

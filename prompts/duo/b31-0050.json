@@ -1,0 +1,15 @@
+{
+  "id": "b31-0050",
+  "status": "draft",
+  "players": 2,
+  "type": "sound",
+  "world": "fantastical",
+  "text": {
+    "en": "An old fax machine and a brand-new printer, trying to have a conversation.",
+    "no": "En gammel faksmaskin og en splitter ny printer som prøver å føre en samtale."
+  },
+  "tags": [
+    "sound",
+    "work"
+  ]
+}

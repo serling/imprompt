@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A rocking chair that has belonged to three generations, still comparing everyone to great-grandad.",
-    "no": "En gyngestol som har tilhørt tre generasjoner, og fortsatt sammenligner alle med oldefar."
+    "en": "A rocking chair still comparing everyone to great-grandad.",
+    "no": "En gyngestol som fortsatt sammenligner alle med oldefar."
   },
   "world": "fantastical",
   "tags": [

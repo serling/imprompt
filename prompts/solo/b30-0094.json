@@ -1,0 +1,15 @@
+{
+  "id": "b30-0094",
+  "status": "draft",
+  "players": 1,
+  "type": "status-flip",
+  "world": "everyday",
+  "text": {
+    "en": "A head surgeon demoted to hospital porter, still giving orders.",
+    "no": "En overlege som er degradert til portør og fortsatt gir ordre."
+  },
+  "tags": [
+    "status",
+    "work"
+  ]
+}

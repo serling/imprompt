@@ -1,0 +1,15 @@
+{
+  "id": "b30-0060",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "future",
+  "text": {
+    "en": "A delivery drone, lost over the forest, calling for help.",
+    "no": "En leveringsdrone som har gått seg vill over skogen og roper om hjelp."
+  },
+  "tags": [
+    "future",
+    "physical"
+  ]
+}

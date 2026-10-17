@@ -1,0 +1,15 @@
+{
+  "id": "b31-0082",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "A babysitter and a ten-year-old, each told by the parents that they're in charge tonight.",
+    "no": "En barnevakt og en tiåring, som begge har fått beskjed av foreldrene om at de bestemmer i kveld."
+  },
+  "tags": [
+    "family",
+    "status"
+  ]
+}

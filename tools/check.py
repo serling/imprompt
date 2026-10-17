@@ -84,6 +84,23 @@ WORLD_MIX = {"everyday": (0.60, 0.65), "fantastical": (0.15, 0.20), "other world
 # Rapid fire is the joke and may be more colourful; everyday stays its largest share.
 RAPID_WORLD_MIX = {"everyday": (0.50, 0.65), "fantastical": (0.15, 0.30), "other worlds": (0.15, 0.30)}
 MAX_ONE_WORLD = 0.04
+# Rapid fire shapes: a phrasing that recurs too often reads as a template in play, however good
+# each prompt is alone. Shares of the live prompts of a mode; above the cap is a problem.
+SHAPES = {
+    "en": {
+        "'like a …'": (re.compile(r"\blike (a|an|the|someone)\b", re.I), 0.12),
+        "'[A] and [B] who …'": (re.compile(r"^(an?|the|two) [^,]+? and (an?|the|his|her|their|its) [^,]+? who\b", re.I), 0.25),
+        "', but …'": (re.compile(r",? but\b", re.I), 0.05),
+        "'the first …'": (re.compile(r"^(the|history's|the world's) (very )?first\b|\bvery first\b|\bfirst (ever|in history)\b", re.I), 0.05),
+        "'Someone trying …'": (re.compile(r"^someone trying\b", re.I), 0.02),
+        "'keeps …'": (re.compile(r"\bkeeps\b", re.I), 0.03),
+    },
+}
+# No opening (first two words) may start more than this share of a mode's prompts.
+MAX_OPENING = 0.025
+# Recipes spread evenly: none above this share, except premise in duo, which may lead.
+MAX_RECIPE = 0.15
+MAX_STATUS_FLIP = 0.04
 
 
 def norm(s):
@@ -343,6 +360,42 @@ def world_mix(entries):
     return lines, warnings
 
 
+def shapes(entries):
+    """Repeated phrasings, openings and recipes in Rapid fire, against their caps."""
+    lines, problems = [], []
+    for folder in ("solo", "duo"):
+        live = [p for f, _, p in entries if f == folder and "_error" not in p and p.get("status") != "retired"]
+        if not live:
+            continue
+        n = len(live)
+        en = [p.get("text", {}).get("en", "") for p in live]
+        found = []
+        for name, (rx, cap) in SHAPES["en"].items():
+            v = sum(bool(rx.search(t)) for t in en) / n
+            found.append(f"{name} {v:.0%}")
+            if v > cap:
+                problems.append(f"{folder}: {name} is {v:.0%} of prompts (cap {cap:.0%})")
+        lines.append(f"{folder:7} " + "  ".join(found))
+        openings = {}
+        for t in en:
+            o = " ".join(t.lower().split()[:2])
+            openings[o] = openings.get(o, 0) + 1
+        for o, c in sorted(openings.items(), key=lambda x: -x[1]):
+            if c / n > MAX_OPENING:
+                problems.append(f"{folder}: {c} prompts open with '{o}' (cap {MAX_OPENING:.1%})")
+        types = {}
+        for p in live:
+            types[p.get("type")] = types.get(p.get("type"), 0) + 1
+        lines.append("        " + " ".join(f"{t} {c / n:.0%}" for t, c in sorted(types.items(), key=lambda x: -x[1])))
+        for t, c in types.items():
+            cap = MAX_STATUS_FLIP if t == "status-flip" else MAX_RECIPE
+            if folder == "duo" and t == "premise":
+                continue
+            if c / n > cap:
+                problems.append(f"{folder}: recipe {t} is {c / n:.0%} (cap {cap:.0%})")
+    return lines, problems
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--exclude", type=Path)
@@ -370,6 +423,11 @@ def main():
         print("  " + line)
     for w in warnings:
         print("  warning: " + w)
+    lines, shape_problems = shapes(entries)
+    problems += shape_problems
+    print("\nRapid fire shapes")
+    for line in lines:
+        print("  " + line)
     print(f"\n{len(problems)} problem(s)")
     for line in problems:
         print("  " + line)

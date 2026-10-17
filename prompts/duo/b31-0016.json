@@ -1,0 +1,14 @@
+{
+  "id": "b31-0016",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "everyday",
+  "text": {
+    "en": "A cinema usher seating a latecomer, whispering the whole plot so far.",
+    "no": "En kinovert som følger en som kommer for sent til plassen, og hvisker hele handlingen så langt."
+  },
+  "tags": [
+    "work"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0028",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "wild",
+  "text": {
+    "en": "The expedition diary of an explorer too scared to leave the tent.",
+    "no": "Ekspedisjonsdagboka til en oppdagelsesreisende som er for redd til å gå ut av teltet."
+  },
+  "tags": [
+    "nature",
+    "narration"
+  ]
+}

@@ -4,8 +4,8 @@
   "players": 2,
   "type": "origin",
   "text": {
-    "en": "The first lesson ever taught, to a pupil who has never heard of lessons.",
-    "no": "Den første skoletimen som noen gang er holdt, for en elev som aldri har hørt om skoletimer."
+    "en": "A teacher giving a lesson to a pupil who has never heard of lessons.",
+    "no": "En lærer som holder en skoletime for en elev som aldri har hørt om skoletimer."
   },
   "world": "everyday",
   "tags": [

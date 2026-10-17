@@ -1,0 +1,18 @@
+{
+  "id": "b31-0031",
+  "status": "draft",
+  "players": 2,
+  "type": "point-of-view",
+  "world": "fantastical",
+  "text": {
+    "en": "A clingy sofa and its owner, already late for work.",
+    "no": "En klengete sofa og eieren, som allerede er sent ute til jobben."
+  },
+  "tags": [
+    "character"
+  ],
+  "callback": {
+    "en": "the clingy sofa",
+    "no": "den klengete sofaen"
+  }
+}

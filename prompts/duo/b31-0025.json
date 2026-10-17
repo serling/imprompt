@@ -1,0 +1,15 @@
+{
+  "id": "b31-0025",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "sea",
+  "text": {
+    "en": "A trawler skipper training a new deckhand who gets seasick on the quay.",
+    "no": "En trålerskipper som lærer opp en ny dekksgutt som blir sjøsyk allerede på kaia."
+  },
+  "tags": [
+    "work",
+    "physical"
+  ]
+}

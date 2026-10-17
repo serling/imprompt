@@ -1,0 +1,15 @@
+{
+  "id": "b30-0044",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "world": "crime",
+  "text": {
+    "en": "Three alibis for the same evening, each more detailed.",
+    "no": "Tre alibier for den samme kvelden, hvert mer detaljert enn det forrige."
+  },
+  "tags": [
+    "crime",
+    "narration"
+  ]
+}

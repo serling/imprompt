@@ -1,0 +1,15 @@
+{
+  "id": "b30-0020",
+  "status": "draft",
+  "players": 1,
+  "type": "document",
+  "world": "everyday",
+  "text": {
+    "en": "A polite entry in the cabin guestbook, after a disastrous week.",
+    "no": "En høflig hilsen i hytteboka etter en katastrofal uke."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b30-0010",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "wild",
+  "text": {
+    "en": "A polar explorer home after a year, rehearsing small talk for the family dinner.",
+    "no": "En polfarer som er hjemme etter et år og øver på småprat før familiemiddagen."
+  },
+  "tags": [
+    "nature",
+    "character"
+  ]
+}

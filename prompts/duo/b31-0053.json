@@ -1,0 +1,14 @@
+{
+  "id": "b31-0053",
+  "status": "draft",
+  "players": 2,
+  "type": "one-rule-world",
+  "world": "everyday",
+  "text": {
+    "en": "A job interview, in a world where you greet people by patting them on the head.",
+    "no": "Et jobbintervju, i en verden der man hilser ved å klappe hverandre på hodet."
+  },
+  "tags": [
+    "work"
+  ]
+}

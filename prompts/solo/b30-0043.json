@@ -1,0 +1,15 @@
+{
+  "id": "b30-0043",
+  "status": "draft",
+  "players": 1,
+  "type": "series",
+  "world": "everyday",
+  "text": {
+    "en": "Three tellings of the same holiday story, each more exaggerated.",
+    "no": "Den samme feriehistorien fortalt tre ganger, hver gang mer overdrevet."
+  },
+  "tags": [
+    "everyday",
+    "narration"
+  ]
+}

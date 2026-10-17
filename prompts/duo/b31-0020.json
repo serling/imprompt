@@ -1,0 +1,14 @@
+{
+  "id": "b31-0020",
+  "status": "draft",
+  "players": 2,
+  "type": "twisted-role",
+  "world": "crime",
+  "text": {
+    "en": "A bank robber holding up the bank where his mum is the cashier.",
+    "no": "En bankraner som raner banken der moren hans sitter i kassa."
+  },
+  "tags": [
+    "family"
+  ]
+}

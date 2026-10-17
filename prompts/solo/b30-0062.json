@@ -1,0 +1,15 @@
+{
+  "id": "b30-0062",
+  "status": "draft",
+  "players": 1,
+  "type": "sound",
+  "world": "science",
+  "text": {
+    "en": "A lab full of bubbling experiments, all about to boil over.",
+    "no": "Et laboratorium fullt av boblende eksperimenter som alle holder på å koke over."
+  },
+  "tags": [
+    "science",
+    "physical"
+  ]
+}

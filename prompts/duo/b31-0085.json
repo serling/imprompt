@@ -1,0 +1,14 @@
+{
+  "id": "b31-0085",
+  "status": "draft",
+  "players": 2,
+  "type": "premise",
+  "world": "science",
+  "text": {
+    "en": "Two scientists at a conference, each sure they have just cured the common cold.",
+    "no": "To forskere på en konferanse, begge sikre på at de nettopp har kurert forkjølelse."
+  },
+  "tags": [
+    "work"
+  ]
+}

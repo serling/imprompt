@@ -1,0 +1,15 @@
+{
+  "id": "b30-0002",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "everyday",
+  "text": {
+    "en": "Coming home to find burglars have broken in and tidied everything.",
+    "no": "Å komme hjem og oppdage at innbruddstyver har vært der og ryddet alt."
+  },
+  "tags": [
+    "everyday",
+    "physical"
+  ]
+}

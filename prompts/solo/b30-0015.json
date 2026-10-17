@@ -1,0 +1,15 @@
+{
+  "id": "b30-0015",
+  "status": "draft",
+  "players": 1,
+  "type": "premise",
+  "world": "science",
+  "text": {
+    "en": "A scientist alone in the lab, testing a truth serum on herself.",
+    "no": "En forsker alene på laben som tester et sannhetsserum på seg selv."
+  },
+  "tags": [
+    "science",
+    "character"
+  ]
+}
