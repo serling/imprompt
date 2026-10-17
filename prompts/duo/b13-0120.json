@@ -4,8 +4,8 @@
   "players": 2,
   "type": "emotion-swap",
   "text": {
-    "en": "A traffic warden and a driver, both delighted by the parking ticket.",
-    "no": "En parkeringsvakt og en sjåfør, begge henrykte over parkeringsboten."
+    "en": "A driver overjoyed by her parking ticket, and the warden who wrote it.",
+    "no": "En sjåfør som er overlykkelig over parkeringsboten, og vakten som skrev den ut."
   },
   "world": "everyday",
   "tags": [

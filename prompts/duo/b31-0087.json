@@ -5,8 +5,8 @@
   "type": "character",
   "world": "everyday",
   "text": {
-    "en": "A husband narrating his whole life in the third person, and his wife at breakfast.",
-    "no": "En ektemann som forteller hele livet sitt i tredjeperson, og kona hans ved frokostbordet."
+    "en": "A husband narrating his whole life in the third person, and a wife correcting the narration.",
+    "no": "En ektemann som forteller hele livet sitt i tredjeperson, og kona som retter på fortellingen."
   },
   "tags": [
     "character",

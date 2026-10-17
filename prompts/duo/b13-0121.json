@@ -4,8 +4,8 @@
   "players": 2,
   "type": "emotion-swap",
   "text": {
-    "en": "A plumber and a homeowner, both thrilled by the leak.",
-    "no": "En rørlegger og en huseier, begge begeistret over lekkasjen."
+    "en": "A homeowner thrilled by the leak, and the plumber who has come to fix it.",
+    "no": "En huseier som er begeistret over lekkasjen, og rørleggeren som skal tette den."
   },
   "world": "everyday",
   "tags": [

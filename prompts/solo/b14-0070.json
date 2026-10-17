@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A library book that has never been borrowed.",
-    "no": "En bibliotekbok som aldri har blitt lånt."
+    "en": "A library book nobody has borrowed, begging to be taken home.",
+    "no": "En bibliotekbok som ingen har lånt, og som tigger om å bli tatt med hjem."
   },
   "world": "fantastical",
   "tags": [

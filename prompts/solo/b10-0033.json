@@ -4,8 +4,8 @@
   "players": 1,
   "type": "character",
   "text": {
-    "en": "A former child star, now at the post office.",
-    "no": "En tidligere barnestjerne, nå på postkontoret."
+    "en": "A former child star, now behind the counter at the post office.",
+    "no": "En tidligere barnestjerne, nå bak skranken på postkontoret."
   },
   "world": "showbiz",
   "tags": [

@@ -4,8 +4,8 @@
   "players": 2,
   "type": "status-flip",
   "text": {
-    "en": "A mountain guide and the tourist who has to find the way down for them both.",
-    "no": "En fjellfører og turisten som må finne veien ned for dem begge."
+    "en": "A mountain guide who is afraid of heights, and the tourist leading her down.",
+    "no": "En fjellfører med høydeskrekk, og turisten som må lede henne ned."
   },
   "world": "wild",
   "tags": [

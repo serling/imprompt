@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A houseplant everyone forgets to water.",
-    "no": "En potteplante som alle glemmer å vanne."
+    "en": "A houseplant nobody remembers to water, insisting everything is fine.",
+    "no": "En potteplante som ingen husker å vanne, og som insisterer på at alt er helt fint."
   },
   "world": "fantastical",
   "tags": [

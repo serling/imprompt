@@ -5,8 +5,8 @@
   "type": "twisted-role",
   "world": "everyday",
   "text": {
-    "en": "A building inspector inspecting the house his dad built with his own hands.",
-    "no": "En takstmann som vurderer huset faren hans har bygd med egne hender."
+    "en": "A building inspector and his dad, inspecting the house his dad built with his own hands.",
+    "no": "En takstmann og faren hans, på befaring i huset faren har bygd med egne hender."
   },
   "tags": [
     "work",
