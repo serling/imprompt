@@ -487,8 +487,10 @@ let idleView = null;
 function idle(label, message, vals) {
   idleView = { label, message, vals };
   $("picker").hidden = message !== "askPlayers";
-  // Until the player count is picked, the card is the only thing to tap: no buzzer, no deal.
+  // Until the player count is picked, the picker is all there is: no tabs, tools, buzzer or deal.
+  // The settings bar stays.
   document.querySelector(".controls").hidden = message === "askPlayers";
+  document.body.classList.toggle("asking", message === "askPlayers");
   $("card").classList.toggle("asking", message === "askPlayers");
   $("who").textContent = ui(label);
   $("who").className = "who";
