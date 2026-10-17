@@ -50,18 +50,6 @@ body {
   padding-inline: 16px; padding-block: 14px 18px; box-sizing: border-box;
   max-width: 560px; margin-inline: auto;
 }
-.cue {
-  display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap;
-  font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
-  font-variant-numeric: tabular-nums;
-}
-.cue-left { display: flex; align-items: baseline; gap: 10px; }
-/* Reset brings every prompt back on this device. Two taps: the first asks, in place. */
-#reset {
-  font: inherit; letter-spacing: inherit; text-transform: inherit; color: var(--muted); background: none;
-  border: 1px solid var(--line); border-radius: 4px; padding: 2px 7px;
-}
-#reset.armed { color: var(--buzz-fg); background: var(--buzz); border-color: var(--buzz); }
 .card {
   flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: safe center; gap: 18px;
   background: var(--card); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 6px 6px;
@@ -160,6 +148,19 @@ button:disabled { opacity: .45; cursor: default; }
   transition: background-color .15s, color .15s, border-color .15s, transform .08s;
 }
 #mute .when-muted { display: none; }
+/* End session, last on the bar. Two taps: the first arms it and says so, in place. */
+#reset {
+  position: relative; width: 40px; height: 32px; display: grid; place-items: center; padding: 0;
+  background: none; color: var(--muted); border-color: var(--line);
+}
+#reset.armed { color: var(--buzz-fg); background: var(--buzz); border-color: var(--buzz); }
+/* While armed, what the second tap does, in a bubble under the button: the bar keeps its width. */
+#reset .label {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 5; white-space: nowrap;
+  padding: 5px 9px; border-radius: 4px; background: var(--buzz); color: var(--buzz-fg);
+  font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
+}
+#reset .label:empty { display: none; }
 /* Language: EN or NO. Text without a translation falls back to English. */
 #lang {
   height: 32px; min-width: 40px; padding: 0 10px; background: none; color: var(--muted); border-color: var(--line);
@@ -239,13 +240,12 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
 </style>
 </head>
 <body>
-<div class="cue"><span class="cue-left"><span id="cueNo">Cue —</span><button id="reset" disabled>Reset</button></span><span id="deckInfo">Loading deck…</span></div>
-
 <div class="stage">
 <div class="bar">
   <label class="group" id="groupWrap" hidden><svg class="person" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="7" r="4.2" fill="currentColor"/><path d="M3.5 22c0-4.9 3.8-8.6 8.5-8.6s8.5 3.7 8.5 8.6z" fill="currentColor"/></svg><select id="group" aria-label="Players"></select></label>
   <button id="lang" aria-label="Language: English. Tap for Norwegian.">EN</button>
   <button id="mute" aria-label="Sound on. Tap to mute." aria-pressed="false"><svg class="when-on" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg class="when-muted" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16 9l6 6M22 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button id="reset" disabled aria-label="End session"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M14 4H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M10 12h10M16.5 8.5 20 12l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label"></span></button>
 </div>
 <div class="modes" role="group" aria-label="Mode" data-ui-aria="mode">
   <button id="modeRapid" aria-pressed="true" data-ui="rapid">Rapid fire</button>

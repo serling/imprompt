@@ -9,10 +9,9 @@ const UI = {
   en: {
     langName: { en: "English", no: "Norwegian" },
     mode: "Mode", rapid: "Rapid fire", scenes: "Scenes", games: "Games",
-    loading: "Loading deck…", loadFail: "Deck failed to load",
     loadFailMsg: "The prompts couldn't be loaded. Check the connection and reload.",
     noSave: "This browser isn't saving, so prompts may repeat after a reload.",
-    cue: "Cue {n}", reset: "End session", resetArm: "Tap again to end",
+    reset: "End session", resetArm: "Tap again to end",
     ready: "Ready", done: "Done",
     readyRapid: "Tap New prompt to start.",
     readyScenes: "Tap New scene to start.",
@@ -23,8 +22,6 @@ const UI = {
     noGames: "No games for {n} players.",
     p1: "1 player", pN: "{n} players",
     buzzer: "Buzzer", newPrompt: "New prompt", newScene: "New scene", newGame: "New game",
-    leftRapid: "Left · 1p {s} · 2p {d} · {u} used",
-    leftScenes: "Scenes left · {n}", gamesCount: "Games · {n}",
     scene: "Scene · {who}", game: "Game · {range} players",
     callback: "Callback",
     howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}", gimmick: "Gimmick",
@@ -36,10 +33,9 @@ const UI = {
   no: {
     langName: { en: "engelsk", no: "norsk" },
     mode: "Modus", rapid: "Lynrunde", scenes: "Scener", games: "Spill",
-    loading: "Laster kortstokken …", loadFail: "Kunne ikke laste kortstokken",
     loadFailMsg: "Oppgavene kunne ikke lastes. Sjekk tilkoblingen og last inn på nytt.",
     noSave: "Denne nettleseren lagrer ikke, så oppgaver kan komme igjen etter at siden lastes på nytt.",
-    cue: "Nr. {n}", reset: "Avslutt økt", resetArm: "Trykk igjen for å avslutte",
+    reset: "Avslutt økt", resetArm: "Trykk igjen for å avslutte",
     ready: "Klar", done: "Ferdig",
     readyRapid: "Trykk på Ny oppgave for å starte.",
     readyScenes: "Trykk på Ny scene for å starte.",
@@ -50,8 +46,6 @@ const UI = {
     noGames: "Ingen spill for {n} spillere.",
     p1: "1 spiller", pN: "{n} spillere",
     buzzer: "Buzzer", newPrompt: "Ny oppgave", newScene: "Ny scene", newGame: "Nytt spill",
-    leftRapid: "Igjen · 1s {s} · 2s {d} · {u} brukt",
-    leftScenes: "Scener igjen · {n}", gamesCount: "Spill · {n}",
     scene: "Scene · {who}", game: "Spill · {range} spillere",
     callback: "Callback",
     howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}", gimmick: "Gimmick",
@@ -102,7 +96,6 @@ const say = t => (t && (t[lang] || t.en)) || "";
 const ui = (key, vals = {}) => String((UI[lang] && UI[lang][key]) ?? UI.en[key])
   .replace(/\{(\w+)\}/g, (_, k) => vals[k] ?? "");
 const players = n => n === 1 ? ui("p1") : ui("pN", { n });
-const cueText = () => ui("cue", { n: String(state.cue).padStart(3, "0") });
 
 const state = {
   deck: { solo: [], duo: [], callbacks: [], scenes: [], emotions: [], wants: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {}, tags: {} },
@@ -168,7 +161,6 @@ function clearSession() {
 function newSession() {
   clearSession();
   renderGroup();
-  $("cueNo").textContent = ui("cue", { n: "—" });
   setMode("rapid", true);
   askGroup();
 }
@@ -184,7 +176,7 @@ let resetTimer = null;
 function reset() {
   const b = $("reset");
   if (!b.classList.contains("armed")) {
-    b.classList.add("armed"); b.textContent = ui("resetArm");
+    b.classList.add("armed"); renderReset();
     resetTimer = setTimeout(disarmReset, 3000);
     return;
   }
@@ -193,7 +185,14 @@ function reset() {
 }
 function disarmReset() {
   clearTimeout(resetTimer);
-  $("reset").classList.remove("armed"); $("reset").textContent = ui("reset");
+  $("reset").classList.remove("armed"); renderReset();
+}
+// An icon; once armed it also says what the second tap does.
+function renderReset() {
+  const b = $("reset"), armed = b.classList.contains("armed");
+  b.querySelector(".label").textContent = armed ? ui("resetArm") : "";
+  b.setAttribute("aria-label", ui(armed ? "resetArm" : "reset"));
+  b.title = ui("reset");
 }
 function setStatus(msg, warn) { $("status").textContent = msg; $("status").className = "status" + (warn ? " warn" : ""); }
 
@@ -208,7 +207,6 @@ function freshFirst(list) {
   open.sort((a, b) => (state.log[a.id].at || "").localeCompare(state.log[b.id].at || ""));
   return open.slice(0, Math.ceil(open.length / 5));
 }
-const unseenCount = list => list.filter(e => !state.log[e.id]).length;
 const promptList = players => (players === 1 ? state.deck.solo : state.deck.duo).filter(e => e.players === players);
 const regular = players => freshFirst(promptList(players));
 const callbackCandidates = () => state.played.filter(x => state.cue + 1 - x.cue >= MIN_CALLBACK_GAP
@@ -224,11 +222,9 @@ const pick = list => list[Math.floor(Math.random() * list.length)];
 function renderCounts() {
   if (state.mode === "scenes") return renderSceneCounts();
   if (state.mode === "games") return renderGameCounts();
-  const s = unseenCount(promptList(1)), d = unseenCount(promptList(2));
   // The buzzer, then New prompt, which deals straight away. Tapping again is the skip, and the
   // prompt is used.
   $("dealRapid").disabled = !state.group || ![1, 2].some(n => regular(n).length + callbackPool(n).length);
-  $("deckInfo").textContent = ui("leftRapid", { s, d, u: Object.keys(state.log).length });
 }
 
 // A new prompt, scene or game: the card's content slides in a little from the right, like a new
@@ -262,7 +258,6 @@ function renderPrompt(fresh) {
   text.className = "text" + (duo ? " duo" : "");
   if (fresh) swapCard();
   renderLines();
-  $("cueNo").textContent = cueText();
 }
 
 // --- actions ----------------------------------------------------------------------------
@@ -372,9 +367,7 @@ function coachPool(kind) {
 }
 
 function renderSceneCounts() {
-  const left = unseenCount(sceneList());
   $("dealScene").disabled = !scenePool().length;
-  $("deckInfo").textContent = ui("leftScenes", { n: left });
 }
 
 const REFRESH_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -410,7 +403,6 @@ function renderScene(fresh) {
   text.className = "text scene";
   if (fresh) swapCard();
   renderLines();
-  $("cueNo").textContent = cueText();
 }
 
 function drawScene() {
@@ -609,12 +601,9 @@ function renderGame(fresh) {
   parts.push(how);
   box.replaceChildren(...parts);
   box.hidden = false;
-  $("cueNo").textContent = cueText();
 }
 function renderGameCounts() {
-  const n = gamePool().length;
-  $("dealGame").disabled = !n;
-  $("deckInfo").textContent = ui("gamesCount", { n });
+  $("dealGame").disabled = !gamePool().length;
 }
 
 // --- timer ------------------------------------------------------------------------------
@@ -783,8 +772,7 @@ $("lang").addEventListener("click", () => {
   else if (idleView) idle(idleView.label, idleView.message, idleView.vals);
   else renderCounts();
   renderTimer(); renderMute();
-  if (!$("reset").classList.contains("armed")) $("reset").textContent = ui("reset");
-  $("cueNo").textContent = state.cue ? cueText() : ui("cue", { n: "—" });
+  renderReset();
 });
 renderLang();
 $("dealScene").addEventListener("click", drawScene);
@@ -810,13 +798,10 @@ $("game").addEventListener("click", e => { const b = e.target.closest(".refresh"
 
 (async function start() {
   state.log = store.get(HISTORY_KEY) || {};
-  $("deckInfo").textContent = ui("loading");
-  $("cueNo").textContent = ui("cue", { n: "—" });
-  $("reset").textContent = ui("reset");
+  renderReset();
   try {
     state.deck = { ...state.deck, ...await (await fetch("deck.json", { cache: "no-cache" })).json() };
   } catch {
-    $("deckInfo").textContent = ui("loadFail");
     setStatus(ui("loadFailMsg"), true);
     return;
   }
@@ -824,7 +809,6 @@ $("game").addEventListener("click", e => { const b = e.target.closest(".refresh"
   restoreSession();
   setMode(state.mode, true);
   renderGroup();
-  if (state.cue) $("cueNo").textContent = cueText();
   state.group ? idle("ready", READY[state.mode]) : askGroup();
   renderCounts();
   renderTimer();
