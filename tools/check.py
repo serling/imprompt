@@ -258,6 +258,9 @@ def check(entries, exclude):
         elif any("{" in t or "}" in t for t in texts(folder, p)):
             problems.append(f"{where}: placeholder outside a callback prompt")
 
+        if p.get("origin", "hand") != "hand":
+            problems.append(f"{where}: origin is 'hand' or absent")
+
         for lang, pattern in NO_SINGING.items():
             for t in texts(folder, p):
                 if pattern.search(t):
