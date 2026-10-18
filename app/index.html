@@ -11,12 +11,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Base: full-height page that respects phone safe areas. */
 *, *::before, *::after { box-sizing: border-box; }
 :root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
 body { margin: 0; -webkit-text-size-adjust: 100%; }
 [hidden] { display: none !important; }
-/* Layout: one-screen stage — a cue line on top, the prompt card filling the middle, controls pinned to the thumb zone. */
 :root {
   --bg: #e9ebef;
   --card: #fbfbfc;
@@ -55,7 +53,6 @@ body {
   background: var(--card); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 6px 6px;
   padding: 28px 22px 64px; overflow-y: auto;
 }
-/* The card and its mode tabs are one panel. */
 .stage { flex: 1; min-height: 0; display: flex; flex-direction: column; position: relative; }
 .who {
   font-family: var(--mono); font-size: 13px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
@@ -68,11 +65,8 @@ body {
   font-size: clamp(28px, 8vw, 40px); line-height: 1.15; font-weight: 700; margin: 0;
   text-wrap: balance; letter-spacing: -0.01em;
 }
-/* A called-back character stands out inside the prompt. */
 .text .callback { color: var(--accent); font-style: italic; }
 .text.duo .callback { color: var(--duo); }
-/* Mode switch: tabs on top of the card. Rapid fire = podium round robin; Scenes = deliberate scenes.
-   The open tab shares the card's surface; the other sits back and closes the card's top edge. */
 .modes { display: grid; grid-template-columns: 1fr 1fr 1fr; }
 .modes button {
   border: 1px solid var(--line); border-radius: 6px 6px 0 0; background: var(--bg); color: var(--muted);
@@ -84,15 +78,12 @@ body {
 #modeRapid[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--accent); }
 #modeScenes[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--scene); }
 #modeGames[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--game); }
-/* One tap deals: a button per player count, its person icons saying how many. Rapid fire has
-   1 and 2 in blue, Scenes 2, 3 and 4 in green, then side-coaching below. */
 .deal-row { grid-column: 1 / -1; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 10px; height: 88px; }
 .deal { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0; background: var(--duo); color: var(--card); }
 .scenes .deal { background: var(--scene); }
 .games .deal { background: var(--game); }
 .deal-row.rapid, .deal-row.scenes, .deal-row.games { grid-auto-flow: row; grid-template-columns: 88px 1fr; }
 .mods li .kind { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--scene); }
-/* Scene setups run longer than Rapid fire prompts, and share the card with two coaching lines. */
 .text.scene { font-size: clamp(24px, 6.6vw, 32px); }
 .text.idle { font-weight: 500; color: var(--muted); font-size: clamp(22px, 6vw, 28px); }
 .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -102,27 +93,20 @@ button {
 }
 button:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
 button:disabled { opacity: .45; cursor: default; }
-/* Person icons give the player count at a glance: one icon per player. */
 .person { flex: none; }
 .people { display: inline-flex; }
 .people .person + .person { margin-left: -6px; }
-/* Every tab is one row for the whole session: the buzzer (a reception desk bell, which only
-   rings), then what deals. Rapid fire: 1 player and 2 players. Scenes: New scene. Games: New game.
-   The group size, set once, decides which scenes and games can come up. */
 .deal .label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
-/* The buzzer is a round bell button with no label (its aria-label says Buzzer). */
 .buzz { background: var(--buzz); color: var(--buzz-fg); display: grid; place-items: center; padding: 0;
   width: 88px; height: 88px; border-radius: 50%; }
 .buzz svg { width: 40px; height: 40px; }
 .deal svg:not(.person) { width: 32px; height: 32px; }
-/* The group size: asked once in the card, then a small select in the settings bar. */
 .group { display: flex; align-items: center; gap: 4px; height: 32px; padding: 0 4px 0 8px; margin-right: auto;
   border: 1px solid var(--line); border-radius: 6px; color: var(--muted); }
 .group select { font-family: var(--mono); font-size: 13px; color: var(--fg); background: none;
   border: 0; height: 30px; padding: 0 2px; }
 .picker { display: flex; justify-content: center; align-items: center; gap: 18px; margin-top: 28px; }
 .card.asking .who, .card.asking .text { text-align: center; }
-/* Asking for the player count: the card fills the screen below the settings bar. */
 body.asking .modes, body.asking .tools { display: none; }
 body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; padding-bottom: 28px; }
 .picker .host { display: flex; flex-direction: column; align-items: center; gap: 6px; color: var(--muted);
@@ -131,11 +115,9 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .picker .counts { display: grid; grid-template-columns: repeat(2, 88px); gap: 10px; }
 .picker .counts button { height: 52px; font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums;
   background: var(--bg); color: var(--fg); border-color: var(--line); }
-/* The card flashes when the buzzer ends a scene. */
 @keyframes buzzflash { from { background: var(--accent); } to { background: var(--card); } }
 .card.buzzed { animation: buzzflash .9s ease-out; }
 @media (prefers-reduced-motion: reduce) { .card.buzzed { animation-duration: .01s; } }
-/* The card's tools, lower right: the stopwatch. */
 .tools { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 8px; }
 #timer {
   height: 40px; min-width: 44px; display: flex; align-items: center; gap: 5px;
@@ -143,7 +125,6 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
   font-family: var(--mono); font-size: 13px; letter-spacing: .04em; font-variant-numeric: tabular-nums;
 }
 #timer.on { color: var(--fg); }
-/* Settings bar above the tabs: language and sound, small and out of the way of play. */
 .bar { display: flex; justify-content: flex-end; gap: 8px; margin-bottom: 10px; }
 #mute {
   width: 40px; height: 32px; display: grid; place-items: center; padding: 0;
@@ -151,25 +132,21 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
   transition: background-color .15s, color .15s, border-color .15s, transform .08s;
 }
 #mute .when-muted { display: none; }
-/* End session, last on the bar. Two taps: the first arms it and says so, in place. */
 #reset {
   position: relative; width: 40px; height: 32px; display: grid; place-items: center; padding: 0;
   background: none; color: var(--muted); border-color: var(--line);
 }
 #reset.armed { color: var(--buzz-fg); background: var(--buzz); border-color: var(--buzz); }
-/* While armed, what the second tap does, in a bubble under the button: the bar keeps its width. */
 #reset .label {
   position: absolute; top: calc(100% + 6px); right: 0; z-index: 5; white-space: nowrap;
   padding: 5px 9px; border-radius: 4px; background: var(--buzz); color: var(--buzz-fg);
   font-family: var(--mono); font-size: 12px; letter-spacing: .04em;
 }
 #reset .label:empty { display: none; }
-/* Language: EN or NO. Text without a translation falls back to English. */
 #lang {
   height: 32px; min-width: 40px; padding: 0 10px; background: none; color: var(--muted); border-color: var(--line);
   font-family: var(--mono); font-size: 13px; letter-spacing: .06em;
 }
-/* Muted: filled and dark, with the crossed-out speaker — readable at a glance. */
 #mute[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 #mute[aria-pressed="true"] .when-muted { display: block; }
 #mute[aria-pressed="true"] .when-on { display: none; }
@@ -180,21 +157,17 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .mods { display: flex; flex-direction: column; gap: 8px; border-top: 1px solid var(--line); padding-top: 14px; }
 .mods ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .mods li { font-size: clamp(20px, 5.5vw, 26px); font-weight: 500; line-height: 1.2; }
-/* Every line under the prompt (Rapid fire's Heighten, Scenes' coaching) sits a step back from it,
-   muted, each with an inline refresh icon. */
 .mods li.coach-line { font-size: clamp(17px, 4.6vw, 20px); color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
-/* Labelled lines (coaching, game suggestions): the label in its own column, the text beside it, so a
-   wrapped line starts under the text. A label on two lines lines up with the text by its first line.
-   --label is the label column, gap included. */
 .mods li.coach-line, .game .words li { --label: 94px; display: grid; grid-template-columns: calc(var(--label) - 6px) 1fr;
   column-gap: 6px; align-items: first baseline; }
 .game .words li { --label: 108px; }
+@media (max-width: 600px) {
+  .mods li.coach-line, .game .words li { display: flex; flex-direction: column; gap: 2px; }
+  .mods ul, .game .words { gap: 12px; }
+}
 .mods li.coach-line .kind { color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
-/* Rapid fire: Heighten lines are muted like coaching, with labels and refresh in the duo blue. */
 body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--duo) 75%, var(--card)); }
 .tail { white-space: nowrap; }
-/* A want or a secret can be shown to one performer: a faint dashed underline marks it, and tapping
-   it fills the screen with just that line. Tapping anywhere closes it. */
 .say.show { text-decoration: underline dashed 1px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
   text-underline-offset: 5px; cursor: pointer; }
 .reveal { position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; align-items: center;
@@ -210,8 +183,6 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
   display: inline-flex; vertical-align: -3px; margin-left: 2px; padding: 4px 8px; margin-block: -4px;
   background: none; border: 0; color: color-mix(in srgb, var(--scene) 75%, var(--card));
 }
-/* Games: a short-form game as a suggestion. Name, one line and the dealt suggestions (each
-   refreshable); How to play opens in place with the steps. Nothing is tracked. */
 .text.game-name { font-size: clamp(26px, 7vw, 32px); }
 .game { display: flex; flex-direction: column; gap: 12px; }
 .game .summary { margin: 0; font-size: clamp(17px, 4.6vw, 20px); font-weight: 500; line-height: 1.25; }
@@ -230,7 +201,6 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
 .game summary { cursor: pointer; font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase;
   color: color-mix(in srgb, var(--game) 80%, var(--card)); padding: 4px 0; }
 .game details p { margin: 6px 0 0; }
-/* Other names: a step smaller, so they don't run on from the note above. */
 .game details p.aka { margin-top: 8px; font-size: 13px; }
 .status { font-family: var(--mono); font-size: 11px; color: var(--muted); text-align: center; min-height: 1.4em; }
 .status.warn { color: var(--accent); }

@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""Check every prompt file against the house style. Reports problems by file id.
-
-Usage: python3 tools/check.py [--exclude FILE]
-  --exclude FILE   a text file of prompts (one per line) that must not be repeated in the deck.
-Exit status 1 if any problem is found.
-"""
 import argparse
 import json
 import re
@@ -14,19 +8,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PROMPTS = ROOT / "prompts"
-# Shared word lists (locations, occupations, emotions …), drawn on by every mode. words/tags.json
-# lists the kinds and the tags each kind may carry.
 WORDS = ROOT / "words"
 SCHEMA = json.loads((WORDS / "tags.json").read_text())
-# Short-form games: reusable frames, one file per game. Their suggestions come from the words.
 GAMES = ROOT / "games"
 GAME_FAMILIES = {"rule", "host-calls", "elimination", "replay", "tag-out", "guessing", "word-story",
                  "physical", "other"}
 GAME_LIMITS = {"name": 5, "summary": 16, "step": 22, "more": 40}
-# A tag names one value on one axis, so a word's flat tag list can't be read two ways.
 _seen = [v for ax in SCHEMA["axes"].values() for v in ax["values"]]
 assert len(_seen) == len(set(_seen)), "words/tags.json: a tag name is used on two axes"
-# Kind, axis and tag names are ids; what a person reads is keyed by language, like every text.
 _texts = [k["label"] for k in SCHEMA["kinds"].values()]
 _texts += [ax[f] for ax in SCHEMA["axes"].values() for f in ("label", "about")]
 _texts += [v[f] for ax in SCHEMA["axes"].values() for v in ax["values"].values() for f in ("label", "about")]
@@ -35,57 +24,40 @@ assert all(isinstance(t, dict) and t.get("en") for t in _texts), "words/tags.jso
 TYPES = {"premise", "character", "twisted-role", "reframe", "status-flip", "emotion-swap",
          "point-of-view", "origin", "mismatch", "document", "series", "sound", "two-of-you",
          "one-rule-world"}
-# Recipes that only work with one player count.
 SOLO_ONLY = {"series"}
 DUO_ONLY = {"two-of-you"}
 STATUSES = {"draft", "approved", "retired"}
 MAX_WORDS = {1: 14, 2: 18}
 MAX_SCENE_WORDS = 20
-# Words may recur by design, so they are not checked against prompts or the exclusion list.
 VOCABULARY = set(SCHEMA["kinds"])
-# Every escalation has four steps: base, more, even more, then a twist. The host decides how far to go.
 ESCALATION_STEPS = 4
 NEAR_DUP = 0.75
-# Per language: words that would ask a performer to sing.
 NO_SINGING = {
     "en": re.compile(r"\b(sing|sings|singing|sung|song|songs|ballad|opera|rap|rapping|lyrics|choir)\b", re.I),
 }
 
 
-# Per language: things that don't travel. American-only institutions and customs, and brands
-# (a prompt or word must work without a reference, and outlive one).
 NOT_LOCAL = {
     "en": re.compile(r"\b(prom|homecoming|frat|fraternity|sorority|dmv|thanksgiving|fourth of july|"
                      r"super bowl|high school|sheriff|county fair|yard sale|mall|quarterback|baseball|"
                      r"cheerleaders?|walmart|mcdonald'?s|starbucks|ikea|coca-cola|google|tesla|"
                      r"netflix|tiktok|instagram|facebook|uber|lego)\b", re.I),
 }
-# Per language: a trait in a prompt written as hidden from the scene partner, so the scene is
-# played at the audience instead of with each other ("secretly competitive" is just
-# "competitive"). Checked in prompts only; the dealt Secret lines are a separate word list.
 NO_HIDING = {
     "en": re.compile(r"\b(secretly|hiding [^.]*\bsecrets?)\b", re.I),
 }
-# Per language: sport words. Sport is seasoning; the balance report counts its share.
 SPORT = {
     "en": re.compile(r"\b(football|soccer|rugby|tennis|golf|ski|skiing|hockey|boxing|referee|"
                      r"stadium|athlete|marathon|cricket|basketball|bowling|swimming|ice rink)\b", re.I),
 }
-# Balance limits for a word list: warnings, not failures. A domain may lead (family
-# relationships are mostly "home"), but not crowd out the rest.
 MAX_UNUSUAL = 0.35
 MAX_SPORT = 0.06
 MAX_DOMAIN = 0.4
-# The world mix: every live solo, duo and scene prompt names its world. The mix is reported and
-# warned on, never failed: a deck reaches it by adding prompts, not by cutting them.
 WORLDS = {"everyday", "fantastical", "history", "space", "future", "sea", "wild", "crime", "sport",
           "science", "showbiz", "royalty"}
 WORLD_MIX = {"everyday": (0.60, 0.65), "fantastical": (0.15, 0.20), "other worlds": (0.15, 0.20)}
-# Rapid fire is the joke and may be more colourful; everyday stays its largest share.
 RAPID_WORLD_MIX = {"everyday": (0.50, 0.65), "fantastical": (0.15, 0.30), "other worlds": (0.15, 0.30)}
 MAX_ONE_WORLD = 0.04
-# Rapid fire shapes: a phrasing that recurs too often reads as a template in play, however good
-# each prompt is alone. Shares of the live prompts of a mode; above the cap is a problem.
 SHAPES = {
     "en": {
         "'like a …'": (re.compile(r"\blike (a|an|the|someone)\b", re.I), 0.12),
@@ -96,9 +68,7 @@ SHAPES = {
         "'keeps …'": (re.compile(r"\bkeeps\b", re.I), 0.03),
     },
 }
-# No opening (first two words) may start more than this share of a mode's prompts.
 MAX_OPENING = 0.025
-# Recipes spread evenly: none above this share, except premise in duo, which may lead.
 MAX_RECIPE = 0.15
 MAX_STATUS_FLIP = 0.04
 
@@ -108,8 +78,6 @@ def norm(s):
 
 
 def word_key(s):
-    """Two words that differ only by an article, a plural or a possessive are the same word
-    ("Cousin" / "Cousins", "Barber" / "Barber's")."""
     toks = norm(s.replace("'", "")).split()
     while toks and toks[0] in ("a", "an", "the"):
         toks = toks[1:]
@@ -117,8 +85,6 @@ def word_key(s):
 
 
 def similar(a, b):
-    """Near-duplicate test. For prompts of three words or fewer, spelling similarity is noise
-    ("Cold." vs "Old."), so only an exact repeat counts."""
     a, b = norm(a), norm(b)
     if len(a.split()) <= 3 and len(b.split()) <= 3:
         return a == b
@@ -136,7 +102,6 @@ def load():
 
 
 def texts(folder, p):
-    """Every English string a performer may see for this entry."""
     if folder == "escalations":
         return [s.get("en", "") for s in p.get("steps", [])]
     if folder == "games":
@@ -191,7 +156,6 @@ def check_game(where, p):
     pl = p.get("players", {})
     if not (isinstance(pl.get("min"), int) and isinstance(pl.get("max"), int) and 1 <= pl["min"] <= pl["max"]):
         problems.append(f"{where}: players needs min <= max")
-    # An ask is a word kind, optionally narrowed by tags: "adjectives:condition" or "a:b+c".
     for k in p.get("asks", []):
         kind, _, narrow = k.partition(":")
         if kind not in SCHEMA["kinds"]:
@@ -283,8 +247,6 @@ def check(entries, exclude):
                 problems.append(f"{f}/{s} / {words[key]}: the same word twice")
             words[key] = f"{f}/{s}"
 
-    # Duplicates: openers and single prompts only; callback frames share shapes by design.
-    # Retired prompts never play, so only playable ones are checked against the exclusion list.
     pool = [(f"{f}/{s}", texts(f, p)[0], p.get("status") != "retired") for f, s, p in entries
             if "_error" not in p and f in ("solo", "duo", "escalations", "scenes")]
     for i in range(len(pool)):
@@ -298,8 +260,6 @@ def check(entries, exclude):
 
 
 def balance(entries):
-    """Warnings for a word list that skews: too many unusual words, too much sport, one domain
-    crowding out the rest. Lines, not failures: a batch can be fixed by adding to it."""
     lines, warnings = [], []
     for kind, rules in SCHEMA["kinds"].items():
         words = [p for f, _, p in entries if f == kind and "_error" not in p and p.get("status") != "retired"]
@@ -317,7 +277,6 @@ def balance(entries):
             if unusual > MAX_UNUSUAL:
                 warnings.append(f"{kind}: unusual is {unusual:.0%} (limit {MAX_UNUSUAL:.0%})")
         if rules["tagged"] and not covers("domain"):
-            # A kind with its own axes (adjectives): show how its words spread over them.
             for axis, ax in SCHEMA["axes"].items():
                 if covers(axis):
                     counts = {v: sum(1 for p in words if v in p.get("tags", [])) for v in ax["values"]}
@@ -338,7 +297,6 @@ def balance(entries):
 
 
 def world_mix(entries):
-    """How the playable prompts of each mode spread over the worlds, against the aimed mix."""
     lines, warnings = [], []
     for folder in ("solo", "duo", "scenes"):
         ws = [p.get("world") for f, _, p in entries
@@ -364,7 +322,6 @@ def world_mix(entries):
 
 
 def shapes(entries):
-    """Repeated phrasings, openings and recipes in Rapid fire, against their caps."""
     lines, problems = [], []
     for folder in ("solo", "duo"):
         live = [p for f, _, p in entries if f == folder and "_error" not in p and p.get("status") != "retired"]
