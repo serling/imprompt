@@ -495,15 +495,22 @@ function renderMute() {
   $("mute").setAttribute("aria-label", ui(muted ? "soundOff" : "soundOn"));
 }
 
+try { audio = new (window.AudioContext || window.webkitAudioContext)({ latencyHint: "interactive" }); } catch {}
+const wake = () => { if (audio && audio.state !== "running") audio.resume().catch(() => {}); };
+for (const type of ["pointerdown", "touchend", "click", "keydown"]) document.addEventListener(type, wake, { capture: true, passive: true });
 const recordings = {};
 for (const name of ["blop", "buzzer", "bell"]) {
   recordings[name] = {};
-  fetch(`sounds/${name}.mp3`).then(r => r.ok ? r.arrayBuffer() : null).then(b => { recordings[name].file = b; }).catch(() => {});
+  fetch(`sounds/${name}.mp3`).then(r => r.ok ? r.arrayBuffer() : null).then(async b => {
+    if (!b) return;
+    recordings[name].file = b;
+    if (audio) recordings[name].buffer = await audio.decodeAudioData(b.slice(0));
+  }).catch(() => {});
 }
 async function play(name) {
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
-    if (audio.state === "suspended") audio.resume();
+    if (audio.state !== "running") audio.resume().catch(() => {});
     const r = recordings[name];
     if (!r.buffer && r.file) r.buffer = await audio.decodeAudioData(r.file.slice(0));
     if (!r.buffer) return false;
@@ -620,8 +627,12 @@ document.addEventListener("visibilitychange", () => {
 });
 window.addEventListener("pageshow", e => { if (e.persisted) checkSession(); });
 
-for (const b of document.querySelectorAll(".buzz")) b.addEventListener("click", buzzer);
-for (const b of document.querySelectorAll(".bell")) b.addEventListener("click", bell);
+const press = (b, fn) => {
+  b.addEventListener("pointerdown", e => { if (e.button === 0) fn(); });
+  b.addEventListener("click", e => { if (e.detail === 0) fn(); });
+};
+for (const b of document.querySelectorAll(".buzz")) press(b, buzzer);
+for (const b of document.querySelectorAll(".bell")) press(b, bell);
 $("reset").addEventListener("click", reset);
 $("timer").addEventListener("click", startTimer);
 $("mute").addEventListener("click", () => {
