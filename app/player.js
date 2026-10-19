@@ -78,7 +78,6 @@ const ui = (key, vals = {}) => String((UI[lang] && UI[lang][key]) ?? UI.en[key])
 const players = n => n === 1 ? ui("p1") : ui("pN", { n });
 
 const state = {
-  deck: { solo: [], duo: [], scenes: [], emotions: [], wants: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {}, tags: {} },
   mode: "rapid",
   players: 2,
   log: {},
@@ -161,7 +160,7 @@ function renderReset() {
 function setStatus(msg, warn) { $("status").textContent = msg; $("status").className = "status" + (warn ? " warn" : ""); }
 
 const freshFirst = list => Deal.freshFirst(list, { shown: state.shown, log: state.log });
-const regular = players => freshFirst(Deal.promptsFor(state.deck, players));
+const regular = players => freshFirst(Content.prompts(players));
 const pick = Deal.pick;
 
 function renderCounts() {
@@ -220,7 +219,7 @@ const askParts = Deal.askParts;
 const kindLabel = spec => {
   if (spec === "gimmick") return ui("gimmick");
   const { kind, tags } = askParts(spec);
-  return say((tags.length && state.deck.tags?.[tags[0]]?.label) || state.deck.kinds[kind]?.label) || kind;
+  return say(Content.label(kind, tags[0])) || kind;
 };
 function dealLines() {
   state.coaching = []; state.lastCoach = null;
@@ -242,9 +241,9 @@ function renderLines() {
   }));
 }
 
-const scenePool = () => freshFirst(Deal.scenesFor(state.deck.scenes, state.group));
+const scenePool = () => freshFirst(Deal.scenesFor(Content.scenes(), state.group));
 function coachPool(kind) {
-  const { pool, spent } = Deal.linePool(state.deck[kind], { log: state.log, seen: state.seenCoach });
+  const { pool, spent } = Deal.linePool(Content.list(kind), { log: state.log, seen: state.seenCoach });
   spent.forEach(id => state.seenCoach.delete(id));
   return pool;
 }
@@ -393,10 +392,10 @@ function setMode(mode, quiet) {
 }
 
 function pickWord(spec, taken) {
-  const pool = Deal.wordsFor(state.deck[askParts(spec).kind] || [], spec, taken);
+  const pool = Deal.wordsFor(Content.list(askParts(spec).kind), spec, taken);
   return pool.length ? pick(pool) : null;
 }
-const gamePool = () => Deal.gamesFor(state.deck.games, state.group);
+const gamePool = () => Deal.gamesFor(Content.games(), state.group);
 function drawGame() {
   const { pool, reset } = Deal.gamePool(gamePool(), state.seenGames);
   if (reset) state.seenGames.clear();
@@ -683,7 +682,7 @@ $("game").addEventListener("click", e => {
   state.log = store.get(HISTORY_KEY) || {};
   renderReset();
   try {
-    state.deck = { ...state.deck, ...await (await fetch("deck.json", { cache: "no-cache" })).json() };
+    await Content.load();
   } catch {
     setStatus(ui("loadFailMsg"), true);
     return;

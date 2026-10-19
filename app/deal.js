@@ -16,8 +16,6 @@ const Deal = (() => {
     return open.slice(0, Math.ceil(open.length / 5));
   }
 
-  const promptsFor = (deck, players) => (players === 1 ? deck.solo : deck.duo).filter(e => e.players === players);
-
   const scenesFor = (scenes, group) => scenes.filter(e => e.players <= (group || 0));
 
   function pickScene(pool, random = Math.random, weights = SCENE_WEIGHT) {
@@ -51,5 +49,5 @@ const Deal = (() => {
     return fresh.length ? { pool: fresh, reset: false } : { pool: fits, reset: true };
   }
 
-  return { SCENE_WEIGHT, pick, askParts, freshFirst, promptsFor, scenesFor, pickScene, linePool, pickLine, wordsFor, gamesFor, gamePool };
+  return { SCENE_WEIGHT, pick, askParts, freshFirst, scenesFor, pickScene, linePool, pickLine, wordsFor, gamesFor, gamePool };
 })();

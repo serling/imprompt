@@ -51,7 +51,8 @@ stable.
 Scenes are dealt an emotion, a want or a secret, and a gimmick (`physical`, `speech`, `staging`,
 `tempo`) or a first line. A word may recur; it is never used up. A game's `asks` names the word
 kinds dealt with it, one line each; an ask can narrow a kind by its tags
-(`"adjectives:condition+negative"`). How the app picks what to deal is in `app/deal.js`.
+(`"adjectives:condition+negative"`). The app gets its content through `app/content.js` and picks
+what to deal in `app/deal.js`.
 
 ## Working on it
 
