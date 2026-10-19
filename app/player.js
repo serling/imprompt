@@ -160,16 +160,9 @@ function renderReset() {
 }
 function setStatus(msg, warn) { $("status").textContent = msg; $("status").className = "status" + (warn ? " warn" : ""); }
 
-function freshFirst(list) {
-  const open = list.filter(e => !state.shown.has(e.id) && state.log[e.id]?.action !== "skipped");
-  const unseen = open.filter(e => !state.log[e.id]);
-  if (unseen.length) return unseen;
-  open.sort((a, b) => (state.log[a.id].at || "").localeCompare(state.log[b.id].at || ""));
-  return open.slice(0, Math.ceil(open.length / 5));
-}
-const promptList = players => (players === 1 ? state.deck.solo : state.deck.duo).filter(e => e.players === players);
-const regular = players => freshFirst(promptList(players));
-const pick = list => list[Math.floor(Math.random() * list.length)];
+const freshFirst = list => Deal.freshFirst(list, { shown: state.shown, log: state.log });
+const regular = players => freshFirst(Deal.promptsFor(state.deck, players));
+const pick = Deal.pick;
 
 function renderCounts() {
   if (state.mode === "scenes") return renderSceneCounts();
@@ -223,7 +216,7 @@ const SLOTS = {
 };
 const LINES = { scene: ["character", "opener"] };
 const lineKinds = c => c?.kind === "scene" ? LINES.scene : [];
-const askParts = spec => { const [kind, narrow = ""] = spec.split(":"); return { kind, tags: narrow.split("+").filter(Boolean) }; };
+const askParts = Deal.askParts;
 const kindLabel = spec => {
   if (spec === "gimmick") return ui("gimmick");
   const { kind, tags } = askParts(spec);
@@ -249,14 +242,11 @@ function renderLines() {
   }));
 }
 
-const sceneList = () => state.deck.scenes.filter(e => e.players <= (state.group || 0));
-const scenePool = () => freshFirst(sceneList());
+const scenePool = () => freshFirst(Deal.scenesFor(state.deck.scenes, state.group));
 function coachPool(kind) {
-  const open = state.deck[kind].filter(e => state.log[e.id]?.action !== "skipped");
-  const fresh = open.filter(e => !state.seenCoach.has(e.id));
-  if (fresh.length) return fresh;
-  open.forEach(e => state.seenCoach.delete(e.id));
-  return open;
+  const { pool, spent } = Deal.linePool(state.deck[kind], { log: state.log, seen: state.seenCoach });
+  spent.forEach(id => state.seenCoach.delete(id));
+  return pool;
 }
 
 function renderSceneCounts() {
@@ -299,17 +289,10 @@ function renderScene(fresh) {
   renderLines();
 }
 
-const SCENE_WEIGHT = { 2: 6, 3: 2.5, 4: 1.5 };
-function pickScene(pool) {
-  const counts = [...new Set(pool.map(e => e.players))];
-  let r = Math.random() * counts.reduce((s, n) => s + SCENE_WEIGHT[n], 0);
-  const n = counts.find(c => (r -= SCENE_WEIGHT[c]) < 0) ?? counts[0];
-  return pick(pool.filter(e => e.players === n));
-}
 function drawScene() {
   const pool = scenePool();
   if (!pool.length) { state.current = null; return idle("done", "noScenes", { n: groupText() }); }
-  const entry = pickScene(pool);
+  const entry = Deal.pickScene(pool);
   record(entry.id, "used");
   state.shown.add(entry.id);
   state.current = { entry, kind: "scene" }; state.cue += 1;
@@ -321,11 +304,9 @@ function drawScene() {
 }
 
 function dealCoach(slot) {
-  const groups = SLOTS[slot].map(g => g.flatMap(kind => coachPool(kind).map(entry => ({ kind, entry }))))
-    .filter(g => g.length);
-  const pool = groups.length ? pick(groups) : [];
-  if (!pool.length) return null;
-  const { kind, entry } = pick(pool);
+  const choice = Deal.pickLine(SLOTS[slot].map(g => g.flatMap(kind => coachPool(kind).map(entry => ({ kind, entry })))));
+  if (!choice) return null;
+  const { kind, entry } = choice;
   state.seenCoach.add(entry.id);
   state.coaching = state.coaching.filter(x => x.slot !== slot).concat({ slot, kind, entry })
     .sort((a, b) => lineKinds(state.current).indexOf(a.slot) - lineKinds(state.current).indexOf(b.slot));
@@ -412,15 +393,13 @@ function setMode(mode, quiet) {
 }
 
 function pickWord(spec, taken) {
-  const { kind, tags } = askParts(spec);
-  const pool = (state.deck[kind] || []).filter(e => !taken.has(e.id) && tags.every(t => (e.tags || []).includes(t)));
+  const pool = Deal.wordsFor(state.deck[askParts(spec).kind] || [], spec, taken);
   return pool.length ? pick(pool) : null;
 }
-const gamePool = () => state.deck.games.filter(g => g.players.min <= (state.group || 0));
+const gamePool = () => Deal.gamesFor(state.deck.games, state.group);
 function drawGame() {
-  const fits = gamePool();
-  let pool = fits.filter(g => !state.seenGames.has(g.id));
-  if (!pool.length) { state.seenGames.clear(); pool = fits; }
+  const { pool, reset } = Deal.gamePool(gamePool(), state.seenGames);
+  if (reset) state.seenGames.clear();
   if (!pool.length) { state.current = null; return idle("done", "noGames", { n: groupText() }); }
   const entry = pick(pool);
   state.seenGames.add(entry.id);

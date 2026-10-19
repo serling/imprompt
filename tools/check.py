@@ -11,8 +11,10 @@ PROMPTS = ROOT / "prompts"
 WORDS = ROOT / "words"
 SCHEMA = json.loads((WORDS / "tags.json").read_text())
 GAMES = ROOT / "games"
-GAME_FAMILIES = {"rule", "host-calls", "elimination", "replay", "tag-out", "guessing", "word-story",
-                 "physical", "other"}
+CONTENT = json.loads((ROOT / "schema" / "content.schema.json").read_text())
+DEFS = CONTENT["$defs"]
+SHAPE_OF = {"solo": "prompt", "duo": "prompt", "callbacks": "callback", "escalations": "escalation",
+            "scenes": "scene", "games": "game"}
 GAME_LIMITS = {"name": 5, "summary": 16, "step": 22, "more": 40}
 _seen = [v for ax in SCHEMA["axes"].values() for v in ax["values"]]
 assert len(_seen) == len(set(_seen)), "words/tags.json: a tag name is used on two axes"
@@ -21,16 +23,11 @@ _texts += [ax[f] for ax in SCHEMA["axes"].values() for f in ("label", "about")]
 _texts += [v[f] for ax in SCHEMA["axes"].values() for v in ax["values"].values() for f in ("label", "about")]
 assert all(isinstance(t, dict) and t.get("en") for t in _texts), "words/tags.json: a label or about without \"en\""
 
-TYPES = {"premise", "character", "twisted-role", "reframe", "status-flip", "emotion-swap",
-         "point-of-view", "origin", "mismatch", "document", "series", "sound", "two-of-you",
-         "one-rule-world"}
 SOLO_ONLY = {"series"}
 DUO_ONLY = {"two-of-you"}
-STATUSES = {"draft", "approved", "retired"}
 MAX_WORDS = {1: 14, 2: 18}
 MAX_SCENE_WORDS = 20
 VOCABULARY = set(SCHEMA["kinds"])
-ESCALATION_STEPS = 4
 NEAR_DUP = 0.75
 NO_SINGING = {
     "en": re.compile(r"\b(sing|sings|singing|sung|song|songs|ballad|opera|rap|rapping|lyrics|choir)\b", re.I),
@@ -53,8 +50,7 @@ SPORT = {
 MAX_UNUSUAL = 0.35
 MAX_SPORT = 0.06
 MAX_DOMAIN = 0.4
-WORLDS = {"everyday", "fantastical", "history", "space", "future", "sea", "wild", "crime", "sport",
-          "science", "showbiz", "royalty"}
+WORLDS = set(DEFS["world"]["enum"])
 WORLD_MIX = {"everyday": (0.60, 0.65), "fantastical": (0.15, 0.20), "other worlds": (0.15, 0.20)}
 RAPID_WORLD_MIX = {"everyday": (0.50, 0.65), "fantastical": (0.15, 0.30), "other worlds": (0.15, 0.30)}
 MAX_ONE_WORLD = 0.04
@@ -89,6 +85,56 @@ def similar(a, b):
     if len(a.split()) <= 3 and len(b.split()) <= 3:
         return a == b
     return SequenceMatcher(None, a, b).ratio() >= NEAR_DUP
+
+
+def resolve(ref):
+    node = CONTENT
+    for part in ref.removeprefix("#/").split("/"):
+        node = node[part]
+    return node
+
+
+def validate(v, s, path="file"):
+    if "$ref" in s:
+        s = {**resolve(s["$ref"]), **{k: x for k, x in s.items() if k != "$ref"}}
+    errors = []
+    for sub in s.get("allOf", []):
+        errors += validate(v, sub, path)
+    if "if" in s:
+        branch = s.get("else") if validate(v, s["if"], path) else s.get("then")
+        if branch:
+            errors += validate(v, branch, path)
+    kinds = {"object": dict, "array": list, "string": str, "integer": int}
+    if "type" in s and (not isinstance(v, kinds[s["type"]]) or isinstance(v, bool)):
+        return errors + [f"{path} must be {'an' if s['type'][0] in 'aeiou' else 'a'} {s['type']}"]
+    if "const" in s and v != s["const"]:
+        errors.append(f"{path} must be {s['const']!r}")
+    if "enum" in s and v not in s["enum"]:
+        errors.append(f"{path} must be one of {s['enum']}")
+    if isinstance(v, str):
+        if len(v) < s.get("minLength", 0):
+            errors.append(f"{path} must not be empty")
+        if "pattern" in s and not re.search(s["pattern"], v):
+            errors.append(f"{path} has the wrong form")
+    if isinstance(v, int) and not isinstance(v, bool) and v < s.get("minimum", v):
+        errors.append(f"{path} must be at least {s['minimum']}")
+    if isinstance(v, list):
+        if len(v) < s.get("minItems", 0) or len(v) > s.get("maxItems", len(v)):
+            errors.append(f"{path} needs {s.get('minItems', 0)}–{s.get('maxItems', 'any')} items")
+        if "items" in s:
+            for i, x in enumerate(v):
+                errors += validate(x, s["items"], f"{path}[{i}]")
+    if isinstance(v, dict):
+        for k in s.get("required", []):
+            if k not in v:
+                errors.append(f"{path} needs '{k}'")
+        props = s.get("properties", {})
+        for k, x in v.items():
+            if k in props:
+                errors += validate(x, props[k], k if path == "file" else f"{path}.{k}")
+            elif s.get("additionalProperties") is False:
+                errors.append(f"{path} has an unknown field '{k}'")
+    return errors
 
 
 def load():
@@ -138,23 +184,14 @@ def check_game(where, p):
     problems = []
     for f in ("name", "summary", "more"):
         t = p.get(f, {}).get("en")
-        if not isinstance(t, str) or not t:
-            problems.append(f"{where}: needs an English {f}")
-        elif len(t.split()) > GAME_LIMITS[f]:
+        if isinstance(t, str) and len(t.split()) > GAME_LIMITS[f]:
             problems.append(f"{where}: {f} too long (max {GAME_LIMITS[f]} words)")
     steps = p.get("steps", {}).get("en")
-    if not isinstance(steps, list) or not 1 <= len(steps) <= 4:
-        problems.append(f"{where}: one to four English steps")
-    else:
-        for i, t in enumerate(steps, 1):
-            if len(t.split()) > GAME_LIMITS["step"]:
-                problems.append(f"{where}: step {i} too long (max {GAME_LIMITS['step']} words)")
-    if not isinstance(p.get("aliases", {}).get("en"), list):
-        problems.append(f"{where}: aliases must be a list (may be empty)")
-    if p.get("family") not in GAME_FAMILIES:
-        problems.append(f"{where}: family must be one of {sorted(GAME_FAMILIES)}")
+    for i, t in enumerate(steps if isinstance(steps, list) else [], 1):
+        if isinstance(t, str) and len(t.split()) > GAME_LIMITS["step"]:
+            problems.append(f"{where}: step {i} too long (max {GAME_LIMITS['step']} words)")
     pl = p.get("players", {})
-    if not (isinstance(pl.get("min"), int) and isinstance(pl.get("max"), int) and 1 <= pl["min"] <= pl["max"]):
+    if isinstance(pl.get("min"), int) and isinstance(pl.get("max"), int) and pl["min"] > pl["max"]:
         problems.append(f"{where}: players needs min <= max")
     for k in p.get("asks", []):
         kind, _, narrow = k.partition(":")
@@ -181,15 +218,9 @@ def check(entries, exclude, near_dups=False):
         if p.get("id") in seen_ids:
             problems.append(f"{where}: duplicate id (also {seen_ids[p['id']]})")
         seen_ids[p.get("id")] = where
-        if p.get("status") not in STATUSES:
-            problems.append(f"{where}: status must be one of {sorted(STATUSES)}")
-        if folder in ("solo", "duo", "scenes") and p.get("status") != "retired" \
-                and p.get("world") not in WORLDS:
-            problems.append(f"{where}: world must be one of {sorted(WORLDS)}")
+        problems += [f"{where}: {e}" for e in validate(p, DEFS[SHAPE_OF.get(folder, "word")])]
 
         if folder == "scenes":
-            if p.get("players") not in (2, 3, 4):
-                problems.append(f"{where}: a scene has 2, 3 or 4 players")
             if len(texts(folder, p)[0].split()) > MAX_SCENE_WORDS:
                 problems.append(f"{where}: too long (max {MAX_SCENE_WORDS} words)")
         elif folder in VOCABULARY:
@@ -197,15 +228,11 @@ def check(entries, exclude, near_dups=False):
         elif folder == "games":
             problems += check_game(where, p)
         else:
-            if p.get("players") not in (1, 2):
-                problems.append(f"{where}: players must be 1 or 2")
             expected = {"solo": 1, "duo": 2}.get(folder)
             if expected and p.get("players") != expected:
                 problems.append(f"{where}: players does not match the {folder} folder")
 
         if folder in ("solo", "duo"):
-            if p.get("type") not in TYPES:
-                problems.append(f"{where}: unknown type")
             if p.get("type") in SOLO_ONLY and folder != "solo" or p.get("type") in DUO_ONLY and folder != "duo":
                 problems.append(f"{where}: {p['type']} does not belong in {folder}")
             if p.get("players") in MAX_WORDS and len(texts(folder, p)[0].split()) > MAX_WORDS[p["players"]]:
@@ -213,17 +240,11 @@ def check(entries, exclude, near_dups=False):
             cb = p.get("callback", {}).get("en")
             if cb is not None and not cb.startswith("the "):
                 problems.append(f"{where}: callback phrase should be a short 'the …' noun phrase")
-        if folder == "escalations":
-            if len(p.get("steps", [])) != ESCALATION_STEPS:
-                problems.append(f"{where}: an escalation has exactly {ESCALATION_STEPS} steps")
         if folder == "callbacks":
             if texts(folder, p)[0].count("{character}") != 1:
                 problems.append(f"{where}: needs exactly one {{character}}")
         elif any("{" in t or "}" in t for t in texts(folder, p)):
             problems.append(f"{where}: placeholder outside a callback prompt")
-
-        if p.get("origin", "hand") != "hand":
-            problems.append(f"{where}: origin is 'hand' or absent")
 
         for lang, pattern in NO_SINGING.items():
             for t in texts(folder, p):

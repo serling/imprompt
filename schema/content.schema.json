@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://serling.github.io/imprompt/schema/content.schema.json",
+  "title": "Imprompt content",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z]+[0-9]{2}-[0-9]{4}$" },
+    "status": { "enum": ["draft", "approved", "retired"] },
+    "world": {
+      "enum": ["everyday", "fantastical", "history", "space", "future", "sea", "wild", "crime", "sport",
+               "science", "showbiz", "royalty"]
+    },
+    "recipe": {
+      "enum": ["premise", "character", "twisted-role", "reframe", "status-flip", "emotion-swap",
+               "point-of-view", "origin", "mismatch", "document", "series", "sound", "two-of-you",
+               "one-rule-world"]
+    },
+    "family": {
+      "enum": ["rule", "host-calls", "elimination", "replay", "tag-out", "guessing", "word-story",
+               "physical", "other"]
+    },
+    "origin": { "const": "hand" },
+    "text": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "no": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "textList": {
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "no": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      },
+      "additionalProperties": false
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "liveText": {
+      "if": { "properties": { "status": { "const": "retired" } } },
+      "else": { "properties": { "text": { "required": ["en", "no"] } } }
+    },
+    "liveWorld": {
+      "if": { "properties": { "status": { "const": "retired" } } },
+      "else": { "required": ["world"] }
+    },
+    "prompt": {
+      "type": "object",
+      "required": ["id", "status", "players", "type", "text", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "players": { "enum": [1, 2] },
+        "type": { "$ref": "#/$defs/recipe" },
+        "world": { "$ref": "#/$defs/world" },
+        "text": { "$ref": "#/$defs/text" },
+        "tags": { "$ref": "#/$defs/tags" },
+        "callback": { "$ref": "#/$defs/text" },
+        "origin": { "$ref": "#/$defs/origin" }
+      },
+      "additionalProperties": false,
+      "allOf": [{ "$ref": "#/$defs/liveText" }, { "$ref": "#/$defs/liveWorld" }]
+    },
+    "callback": {
+      "type": "object",
+      "required": ["id", "status", "players", "type", "text", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "players": { "enum": [1, 2] },
+        "type": { "const": "callback" },
+        "text": { "$ref": "#/$defs/text" },
+        "tags": { "$ref": "#/$defs/tags" }
+      },
+      "additionalProperties": false
+    },
+    "escalation": {
+      "type": "object",
+      "required": ["id", "status", "players", "type", "steps", "tags"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "players": { "enum": [1, 2] },
+        "type": { "const": "escalation" },
+        "steps": { "type": "array", "items": { "$ref": "#/$defs/text" }, "minItems": 4, "maxItems": 4 },
+        "tags": { "$ref": "#/$defs/tags" },
+        "origin": { "$ref": "#/$defs/origin" }
+      },
+      "additionalProperties": false
+    },
+    "scene": {
+      "type": "object",
+      "required": ["id", "status", "players", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "players": { "enum": [2, 3, 4] },
+        "world": { "$ref": "#/$defs/world" },
+        "text": { "$ref": "#/$defs/text" },
+        "origin": { "$ref": "#/$defs/origin" }
+      },
+      "additionalProperties": false,
+      "allOf": [{ "$ref": "#/$defs/liveText" }, { "$ref": "#/$defs/liveWorld" }]
+    },
+    "word": {
+      "type": "object",
+      "required": ["id", "status", "text"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "text": { "$ref": "#/$defs/text" },
+        "tags": { "$ref": "#/$defs/tags" },
+        "origin": { "$ref": "#/$defs/origin" }
+      },
+      "additionalProperties": false,
+      "allOf": [{ "$ref": "#/$defs/liveText" }]
+    },
+    "game": {
+      "type": "object",
+      "required": ["id", "status", "name", "aliases", "family", "players", "summary", "steps", "more", "asks"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "status": { "$ref": "#/$defs/status" },
+        "name": { "$ref": "#/$defs/text" },
+        "aliases": { "$ref": "#/$defs/textList" },
+        "family": { "$ref": "#/$defs/family" },
+        "players": {
+          "type": "object",
+          "required": ["min", "max"],
+          "properties": {
+            "min": { "type": "integer", "minimum": 1 },
+            "max": { "type": "integer", "minimum": 1 }
+          },
+          "additionalProperties": false
+        },
+        "summary": { "$ref": "#/$defs/text" },
+        "steps": {
+          "allOf": [
+            { "$ref": "#/$defs/textList" },
+            { "properties": { "en": { "minItems": 1, "maxItems": 4 } } }
+          ]
+        },
+        "more": { "$ref": "#/$defs/text" },
+        "asks": { "type": "array", "items": { "type": "string" } },
+        "origin": { "$ref": "#/$defs/origin" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
