@@ -1,0 +1,43 @@
+{
+  "id": "g05-0014",
+  "status": "draft",
+  "name": {
+    "en": "Escalating Replay",
+    "no": "Mer og mer"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Escalating Replay"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "The same scene played three times, a step more exaggerated each time.",
+    "no": "Den samme scenen spilt tre ganger, litt mer overdrevet hver gang."
+  },
+  "steps": {
+    "en": [
+      "Play a short, ordinary scene.",
+      "Replay it with every action, line and reaction a little bigger.",
+      "Replay it a third time, as big as it can go."
+    ],
+    "no": [
+      "Spill en kort, helt vanlig scene.",
+      "Spill den om igjen med hver handling, replikk og reaksjon litt større.",
+      "Spill den en tredje gang, så stort som det går."
+    ]
+  },
+  "more": {
+    "en": "Keep the same story and lines; only the size changes. A calm first version leaves room to grow.",
+    "no": "Behold den samme historien og de samme replikkene; bare størrelsen endrer seg. En rolig første versjon gir rom for å vokse."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

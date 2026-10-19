@@ -1,0 +1,46 @@
+{
+  "id": "g05-0003",
+  "status": "draft",
+  "name": {
+    "en": "At the Cinema",
+    "no": "Kinosalen"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "At the Cinema"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "A row of filmgoers watches the same film, each in their own emotion.",
+    "no": "En rad kinogjengere ser den samme filmen, hver med sin egen følelse."
+  },
+  "steps": {
+    "en": [
+      "Sit side by side, facing an imaginary screen showing a film in the given genre.",
+      "Each filmgoer takes one emotion.",
+      "Watch the film together, reacting to the same moments, each through your own feeling."
+    ],
+    "no": [
+      "Sett dere side om side foran et lerret som viser en film i sjangeren dere fikk.",
+      "Hver kinogjenger tar én følelse.",
+      "Se filmen sammen og reager på de samme øyeblikkene, hver gjennom sin egen følelse."
+    ]
+  },
+  "more": {
+    "en": "Keep it short: a minute is plenty. Variant: play it without words, and let the row slowly settle on one shared emotion and build it together.",
+    "no": "Hold det kort: ett minutt er nok. Variant: spill det uten ord, og la raden sakte samles om én felles følelse og bygge den opp sammen."
+  },
+  "asks": [
+    "styles",
+    "emotions",
+    "emotions",
+    "emotions",
+    "emotions"
+  ]
+}

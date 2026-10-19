@@ -1,0 +1,43 @@
+{
+  "id": "g05-0001",
+  "status": "draft",
+  "name": {
+    "en": "Parrot",
+    "no": "Papegøyen"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Parrot"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 4
+  },
+  "summary": {
+    "en": "One character may only say lines the others have already said.",
+    "no": "Én karakter kan bare si replikker de andre allerede har sagt."
+  },
+  "steps": {
+    "en": [
+      "One player is the parrot; the others play an ordinary scene.",
+      "The parrot may only speak lines already heard in the scene, word for word.",
+      "A new tone of voice can give an old line a whole new meaning."
+    ],
+    "no": [
+      "Én spiller er papegøyen; de andre spiller en helt vanlig scene.",
+      "Papegøyen kan bare si replikker som allerede er sagt i scenen, ord for ord.",
+      "Et nytt tonefall kan gi en gammel replikk en helt ny betydning."
+    ]
+  },
+  "more": {
+    "en": "Parrot: reach back to early lines, not just the last one, and stay a real character. Everyone else: treat the parrot like anyone else and keep the story moving.",
+    "no": "Papegøye: hent replikker fra tidlig i scenen, ikke bare den siste, og vær en ekte karakter. Alle andre: behandle papegøyen som hvem som helst og hold historien i gang."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

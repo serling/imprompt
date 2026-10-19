@@ -1,0 +1,42 @@
+{
+  "id": "g05-0009",
+  "status": "draft",
+  "name": {
+    "en": "MacGyver",
+    "no": "MacGyver"
+  },
+  "aliases": {
+    "en": [],
+    "no": []
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Two characters escape a deadly situation using only three ordinary objects.",
+    "no": "To karakterer kommer seg ut av en livsfarlig situasjon med bare tre vanlige gjenstander."
+  },
+  "steps": {
+    "en": [
+      "Agree on a big, deadly situation for two characters.",
+      "Show who they are and where they are before the danger hits.",
+      "Escape using only the three objects, putting each one to clever use."
+    ],
+    "no": [
+      "Bli enige om en stor, livsfarlig situasjon for to karakterer.",
+      "Vis hvem de er og hvor de er før faren slår til.",
+      "Kom dere ut med bare de tre gjenstandene, og bruk hver av dem på en lur måte."
+    ]
+  },
+  "more": {
+    "en": "Let the tension build; the escape is better if it nearly fails. Each object should be used in a way that almost makes sense.",
+    "no": "La spenningen bygge seg opp; flukten blir bedre hvis den nesten mislykkes. Hver gjenstand bør brukes på en måte som nesten gir mening."
+  },
+  "asks": [
+    "objects:everyday",
+    "objects:everyday",
+    "objects:everyday"
+  ]
+}

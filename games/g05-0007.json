@@ -1,0 +1,38 @@
+{
+  "id": "g05-0007",
+  "status": "draft",
+  "name": {
+    "en": "Never Say This Here",
+    "no": "Det sier man ikke her"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Never Say This Here"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 8
+  },
+  "summary": {
+    "en": "Line gag: things you should never say or do in a given place.",
+    "no": "Line gag: ting man aldri bør si eller gjøre på et bestemt sted."
+  },
+  "steps": {
+    "en": [
+      "Players step forward one after another with something you must never say or do in the place."
+    ],
+    "no": [
+      "Spillerne tar et steg frem, én etter én, med noe man aldri må si eller gjøre på stedet."
+    ]
+  },
+  "more": {
+    "en": "Go fast and trust your first idea; the next one matters more than the perfect one. Change the place for a new round.",
+    "no": "Hold tempoet oppe og stol på den første ideen; den neste betyr mer enn den perfekte. Bytt sted for en ny runde."
+  },
+  "asks": [
+    "locations"
+  ]
+}

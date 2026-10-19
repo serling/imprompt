@@ -1,0 +1,44 @@
+{
+  "id": "g05-0004",
+  "status": "draft",
+  "name": {
+    "en": "Tapeworm",
+    "no": "Bendelormen"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Tapeworm"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "Two players take turns describing someone, and the other steps into that person.",
+    "no": "To spillere bytter på å beskrive noen, og den andre går inn i rollen som den personen."
+  },
+  "steps": {
+    "en": [
+      "Start a scene between two characters.",
+      "A tells B about someone they once met: how they talk, what they're like, where it happened.",
+      "B becomes that person in that moment, with A playing opposite, and then describes someone new for A.",
+      "Keep the chain going, then find your way back to the first two characters."
+    ],
+    "no": [
+      "Start en scene mellom to karakterer.",
+      "A forteller B om en person hen en gang møtte: hvordan personen snakker, hvordan hen er, og hvor det skjedde.",
+      "B blir den personen i det øyeblikket, med A som motspiller, og beskriver så en ny person for A.",
+      "Hold kjeden i gang, og finn så veien tilbake til de to første karakterene."
+    ]
+  },
+  "more": {
+    "en": "Give every person a strong voice and body, so each jump is easy to see.",
+    "no": "Gi hver person en tydelig stemme og kropp, så hvert hopp er lett å se."
+  },
+  "asks": [
+    "locations"
+  ]
+}

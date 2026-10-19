@@ -1,0 +1,44 @@
+{
+  "id": "g05-0010",
+  "status": "draft",
+  "name": {
+    "en": "Master Servant Disaster",
+    "no": "Herre, tjener, katastrofe"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Master Servant Disaster"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "A master asks for simple things; the servant explains why each one is impossible.",
+    "no": "En herre ber om enkle ting; tjeneren forklarer hvorfor hver av dem er umulig."
+  },
+  "steps": {
+    "en": [
+      "One player is the master, the other the servant.",
+      "The master asks for something simple; the servant explains why it can't be done.",
+      "The master accepts and asks for something else, and each explanation makes things worse.",
+      "Tie it all into one disaster, then end."
+    ],
+    "no": [
+      "Én spiller er herren, den andre tjeneren.",
+      "Herren ber om noe enkelt; tjeneren forklarer hvorfor det ikke går.",
+      "Herren godtar det og ber om noe annet, og hver forklaring gjør ting verre.",
+      "Knytt alt sammen til én katastrofe, og avslutt."
+    ]
+  },
+  "more": {
+    "en": "The servant links every request to the same growing disaster, so the story builds instead of starting over. The master can open by asking for the given object.",
+    "no": "Tjeneren kobler hvert ønske til den samme voksende katastrofen, så historien bygger seg opp i stedet for å begynne på nytt. Herren kan starte med å be om gjenstanden dere fikk."
+  },
+  "asks": [
+    "objects"
+  ]
+}

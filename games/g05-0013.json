@@ -1,0 +1,42 @@
+{
+  "id": "g05-0013",
+  "status": "draft",
+  "name": {
+    "en": "Shrinking Budget",
+    "no": "Krympende budsjett"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Shrinking Budget"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A big action film, replayed with less money each time.",
+    "no": "En stor actionfilm, spilt om igjen med mindre penger hver gang."
+  },
+  "steps": {
+    "en": [
+      "Play a short scene from a big action film, with chases and explosions.",
+      "Replay it on a smaller budget: the speedboat chase becomes a chase in pedal boats.",
+      "Replay it once more with almost no money at all."
+    ],
+    "no": [
+      "Spill en kort scene fra en stor actionfilm, med jakter og eksplosjoner.",
+      "Spill den om igjen med mindre budsjett: jakten i speedbåt blir en jakt i tråbåt.",
+      "Spill den en gang til nesten helt uten penger."
+    ]
+  },
+  "more": {
+    "en": "The acting gets cheaper too: wobbly sets, stand-ins, forgotten lines. Keep the same story beats each time. The title can name the film.",
+    "no": "Skuespillet blir også billigere: vaklende kulisser, innhoppere, glemte replikker. Behold de samme høydepunktene hver gang. Tittelen kan være navnet på filmen."
+  },
+  "asks": [
+    "titles"
+  ]
+}

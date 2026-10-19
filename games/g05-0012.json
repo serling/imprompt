@@ -1,0 +1,44 @@
+{
+  "id": "g05-0012",
+  "status": "draft",
+  "name": {
+    "en": "Tracking Shot",
+    "no": "Kamerakjøring"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Tracking Shot"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 3,
+    "max": 5
+  },
+  "summary": {
+    "en": "Whenever a character leaves, the scene follows them to wherever they go next.",
+    "no": "Hver gang en karakter går, følger scenen etter til der hen går."
+  },
+  "steps": {
+    "en": [
+      "Start a scene with two or three characters.",
+      "When a character leaves, the scene goes with them, to wherever they go next.",
+      "The other players come on as whoever is there.",
+      "Every departure is followed, so sooner or later someone has to leave again."
+    ],
+    "no": [
+      "Start en scene med to eller tre karakterer.",
+      "Når en karakter går, blir vi med til der hen går.",
+      "De andre spillerne kommer inn som de som er der.",
+      "Vi følger alle som går, så før eller siden må noen gå igjen."
+    ]
+  },
+  "more": {
+    "en": "Justify each departure in the scene you are leaving. A character can end up back somewhere we have already been.",
+    "no": "Hver gang noen forlater en scene, bør det rettferdiggjøres. En karakter kan godt havne tilbake et sted vi har vært før."
+  },
+  "asks": [
+    "locations"
+  ]
+}

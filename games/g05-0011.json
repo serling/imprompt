@@ -1,0 +1,42 @@
+{
+  "id": "g05-0011",
+  "status": "draft",
+  "name": {
+    "en": "Fortunately Unfortunately",
+    "no": "Heldigvis, dessverre"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Fortunately Unfortunately"
+    ]
+  },
+  "family": "word-story",
+  "players": {
+    "min": 2,
+    "max": 8
+  },
+  "summary": {
+    "en": "A story told one sentence at a time, swinging between good luck and bad.",
+    "no": "En historie fortalt én setning om gangen, som svinger mellom flaks og uflaks."
+  },
+  "steps": {
+    "en": [
+      "Players take turns adding one sentence to a story.",
+      "The sentences start with “Fortunately” and “Unfortunately” in turn.",
+      "Every sentence builds on what came before; nothing gets undone."
+    ],
+    "no": [
+      "Spillerne bytter på å legge én setning til en historie.",
+      "Setningene begynner annenhver gang med «Heldigvis» og «Dessverre».",
+      "Hver setning bygger på det som kom før; ingenting blir gjort om."
+    ]
+  },
+  "more": {
+    "en": "Bring back details from the start: the best turns use what is already there.",
+    "no": "Hent fram igjen detaljer fra starten: de beste vendingene bruker det som allerede finnes."
+  },
+  "asks": [
+    "titles"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "g05-0006",
+  "status": "draft",
+  "name": {
+    "en": "The Invention",
+    "no": "Oppfinnelsen"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "The Invention"
+    ]
+  },
+  "family": "rule",
+  "players": {
+    "min": 2,
+    "max": 4
+  },
+  "summary": {
+    "en": "A scene showing how an everyday object was invented for the very first time.",
+    "no": "En scene som viser hvordan en hverdagslig gjenstand ble oppfunnet for aller første gang."
+  },
+  "steps": {
+    "en": [
+      "Take an ordinary object.",
+      "Play the scene in which somebody invents it, before anyone had ever seen one.",
+      "Discover what it's for along the way."
+    ],
+    "no": [
+      "Ta en helt vanlig gjenstand.",
+      "Spill scenen der noen finner den opp, før noen noen gang hadde sett en.",
+      "Finn ut hva den er til underveis."
+    ]
+  },
+  "more": {
+    "en": "Forget the real history: the invention grows out of the scene, by accident or from a stubborn idea.",
+    "no": "Glem den virkelige historien: oppfinnelsen vokser fram av scenen, ved et uhell eller fra en sta idé."
+  },
+  "asks": [
+    "objects:everyday",
+    "relationships"
+  ]
+}

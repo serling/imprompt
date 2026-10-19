@@ -1,0 +1,43 @@
+{
+  "id": "g05-0005",
+  "status": "draft",
+  "name": {
+    "en": "Living Scenery",
+    "no": "Levende kulisser"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Living Scenery"
+    ]
+  },
+  "family": "physical",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "Two players play a scene; the others become every object and piece of set.",
+    "no": "To spillere spiller en scene; de andre blir alle gjenstandene og kulissene."
+  },
+  "steps": {
+    "en": [
+      "Two players start a scene; the rest wait at the side.",
+      "Whenever the scene needs a door, a chair or a coat, a player from the side becomes it.",
+      "The objects stay objects, but they can react to how they're used."
+    ],
+    "no": [
+      "To spillere starter en scene; resten venter på siden.",
+      "Hver gang scenen trenger en dør, en stol eller en jakke, blir en spiller fra siden til den.",
+      "Gjenstandene forblir gjenstander, men de kan reagere på hvordan de blir brukt."
+    ]
+  },
+  "more": {
+    "en": "Players in the scene: reach for things without naming them, and let the side players work out what you need.",
+    "no": "Spillerne i scenen: grip etter ting uten å si hva de er, og la spillerne på siden finne ut hva dere trenger."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

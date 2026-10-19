@@ -1,0 +1,43 @@
+{
+  "id": "g05-0002",
+  "status": "draft",
+  "name": {
+    "en": "Half Mime Replay",
+    "no": "Halvmimet reprise"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Half Mime Replay"
+    ]
+  },
+  "family": "replay",
+  "players": {
+    "min": 2,
+    "max": 2
+  },
+  "summary": {
+    "en": "One player talks, the other only mimes; then they swap and replay it.",
+    "no": "Én spiller snakker, den andre bare mimer; så bytter de og spiller den om igjen."
+  },
+  "steps": {
+    "en": [
+      "Play a short scene: one player speaks, the other uses no words at all.",
+      "Replay the same scene with the jobs swapped.",
+      "The new speaker puts words to what the mime showed; the new mime shows what was said."
+    ],
+    "no": [
+      "Spill en kort scene: én spiller snakker, den andre bruker ingen ord i det hele tatt.",
+      "Spill den samme scenen om igjen med byttede roller.",
+      "Den som nå snakker, setter ord på det som ble vist; den som nå mimer, viser det som ble sagt."
+    ]
+  },
+  "more": {
+    "en": "Keep the first scene short and clear, so the replay has something to hold on to.",
+    "no": "Hold den første scenen kort og tydelig, så reprisen har noe å holde seg til."
+  },
+  "asks": [
+    "locations",
+    "relationships"
+  ]
+}

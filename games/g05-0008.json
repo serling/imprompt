@@ -1,0 +1,44 @@
+{
+  "id": "g05-0008",
+  "status": "draft",
+  "name": {
+    "en": "Asking Child",
+    "no": "Barnet som spør"
+  },
+  "aliases": {
+    "en": [],
+    "no": [
+      "Asking Child"
+    ]
+  },
+  "family": "other",
+  "players": {
+    "min": 3,
+    "max": 6
+  },
+  "summary": {
+    "en": "A child asks a question, adults answer in turn, and the child blends their answers.",
+    "no": "Et barn stiller et spørsmål, de voksne svarer etter tur, og barnet blander svarene."
+  },
+  "steps": {
+    "en": [
+      "One player is a child with a big question about the topic.",
+      "The others come in one at a time as adults, answer in their own way, and leave.",
+      "A second child arrives and asks the first child the same question.",
+      "The first child answers by weaving all the adults' answers into one."
+    ],
+    "no": [
+      "Én spiller er et barn med et stort spørsmål om temaet.",
+      "De andre kommer inn én om gangen som voksne, svarer på sin måte og går.",
+      "Et annet barn kommer og stiller det første barnet det samme spørsmålet.",
+      "Det første barnet svarer ved å flette alle de voksnes svar sammen til ett."
+    ]
+  },
+  "more": {
+    "en": "Adults: true, made-up and absurd answers all work. The last answer is the payoff: blend the ideas, don't list them.",
+    "no": "Voksne: sanne, oppdiktede og absurde svar fungerer like godt. Det siste svaret er høydepunktet: flett ideene sammen, ikke ramse dem opp."
+  },
+  "asks": [
+    "topics"
+  ]
+}
