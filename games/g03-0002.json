@@ -3,7 +3,7 @@
   "status": "draft",
   "name": {
     "en": "Call from Ray",
-    "no": "Telefon fra Ray"
+    "no": "Telefon fra Roar"
   },
   "aliases": {
     "en": [],
@@ -18,7 +18,7 @@
   },
   "summary": {
     "en": "At some point, a character has to get a call from Ray.",
-    "no": "På et tidspunkt må en karakter få en telefon fra Ray."
+    "no": "På et tidspunkt må en karakter få en telefon fra Roar."
   },
   "steps": {
     "en": [
@@ -28,13 +28,13 @@
     ],
     "no": [
       "Spill en helt vanlig scene.",
-      "Et sted i scenen må en karakter få en oppringning fra Ray, på telefon eller på en rarere måte.",
-      "Ray dukker aldri opp."
+      "Et sted i scenen må en karakter få en oppringning fra Roar, på telefon eller på en rarere måte.",
+      "Roar dukker aldri opp."
     ]
   },
   "more": {
     "en": "The odder the way the call arrives, the better; the dealt object can be the phone. Pick any name instead of Ray.",
-    "no": "Jo rarere måten oppringningen kommer på, jo bedre; gjenstanden dere fikk, kan være telefonen. Velg gjerne et annet navn enn Ray."
+    "no": "Jo rarere måten oppringningen kommer på, jo bedre; gjenstanden dere fikk, kan være telefonen. Velg gjerne et annet navn enn Roar."
   },
   "asks": [
     "locations",
