@@ -17,7 +17,7 @@ const UI = {
     noPrompts: "No prompts left.", noScenes: "No scenes left for {n} players.",
     noGames: "No games for {n} players.",
     p1: "1 player", pN: "{n} players",
-    buzzer: "Buzzer", newPrompt: "New prompt", newScene: "New scene", newGame: "New game",
+    buzzer: "Buzzer", bell: "Bell", newPrompt: "New prompt", newScene: "New scene", newGame: "New game",
     scene: "Scene · {who}", game: "Game · {range} players",
     howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}", gimmick: "Gimmick",
     tapClose: "Tap to close", showLine: "Show {kind} full screen",
@@ -40,7 +40,7 @@ const UI = {
     noPrompts: "Ingen oppgaver igjen.", noScenes: "Ingen scener igjen for {n} spillere.",
     noGames: "Ingen spill for {n} spillere.",
     p1: "1 spiller", pN: "{n} spillere",
-    buzzer: "Buzzer", newPrompt: "Ny oppgave", newScene: "Ny scene", newGame: "Nytt spill",
+    buzzer: "Buzzer", bell: "Bjelle", newPrompt: "Ny oppgave", newScene: "Ny scene", newGame: "Nytt spill",
     scene: "Scene · {who}", game: "Spill · {range} spillere",
     howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}", gimmick: "Gimmick",
     tapClose: "Trykk for å lukke", showLine: "Vis {kind} på hele skjermen",
@@ -179,7 +179,7 @@ function renderCounts() {
 
 function swapCard() {
   const card = $("card");
-  card.classList.remove("swap", "buzzed");
+  card.classList.remove("swap", "buzzed", "belled");
   void card.offsetWidth;
   card.classList.add("swap");
 }
@@ -575,6 +575,35 @@ async function buzzer() {
   if (!(await play("buzzer"))) synthBuzzer();
 }
 
+function bell() {
+  const card = $("card");
+  card.classList.remove("belled");
+  void card.offsetWidth;
+  card.classList.add("belled");
+  if (!muted) synthBell();
+}
+
+function synthBell() {
+  try {
+    audio = audio || new (window.AudioContext || window.webkitAudioContext)();
+    if (audio.state === "suspended") audio.resume();
+    const t = audio.currentTime, out = audio.createGain();
+    out.gain.value = 0.5;
+    out.connect(audio.destination);
+    for (const [ratio, level, decay] of [[1, 1, 1.6], [2.76, 0.45, 0.9], [5.4, 0.25, 0.5], [8.93, 0.12, 0.3]]) {
+      const osc = audio.createOscillator(), env = audio.createGain();
+      osc.type = "sine";
+      osc.frequency.value = 1760 * ratio;
+      env.gain.setValueAtTime(0.0001, t);
+      env.gain.exponentialRampToValueAtTime(level, t + 0.004);
+      env.gain.exponentialRampToValueAtTime(0.0001, t + decay);
+      osc.connect(env).connect(out);
+      osc.start(t);
+      osc.stop(t + decay + 0.05);
+    }
+  } catch {}
+}
+
 function synthBuzzer() {
   try {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
@@ -614,6 +643,7 @@ document.addEventListener("visibilitychange", () => {
 window.addEventListener("pageshow", e => { if (e.persisted) checkSession(); });
 
 for (const b of document.querySelectorAll(".buzz")) b.addEventListener("click", buzzer);
+for (const b of document.querySelectorAll(".bell")) b.addEventListener("click", bell);
 $("reset").addEventListener("click", reset);
 $("timer").addEventListener("click", startTimer);
 $("mute").addEventListener("click", () => {

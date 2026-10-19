@@ -10,4 +10,6 @@
   (https://freesound.org/people/helloIJustWantSomeSounds/sounds/609207/), released under
   Creative Commons 0 (public domain). The file here is Freesound's 128 kbps MP3 preview.
 
+The bell has no recording: the player synthesises it in the browser.
+
 If a recording can't be loaded, the player synthesises a stand-in in the browser.

@@ -28,18 +28,20 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
   --game: #6b3f8f;
   --buzz: #b3261e;
   --buzz-fg: #ffffff;
+  --bell: #a8740f;
+  --bell-fg: #ffffff;
   --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #121419; --card: #1c1f27; --fg: #eceae5; --muted: #9a9fae; --line: #2f3340;
-    --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; color-scheme: dark;
+    --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #121419; --card: #1c1f27; --fg: #eceae5; --muted: #9a9fae; --line: #2f3340;
-  --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; color-scheme: dark;
+  --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
 }
 html, body { height: 100%; }
 body {
@@ -80,7 +82,8 @@ body {
 .deal { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0; background: var(--duo); color: var(--card); }
 .scenes .deal { background: var(--scene); }
 .games .deal { background: var(--game); }
-.deal-row.rapid, .deal-row.scenes, .deal-row.games { grid-auto-flow: row; grid-template-columns: 88px 1fr; }
+.deal-row.rapid, .deal-row.scenes, .deal-row.games { grid-auto-flow: row; grid-template-columns: auto 1fr; column-gap: 24px; height: 76px; }
+.sounds { display: flex; gap: 6px; }
 .mods li .kind { display: block; font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--scene); }
 .text.scene { font-size: clamp(24px, 6.6vw, 32px); }
 .text.idle { font-weight: 500; color: var(--muted); font-size: clamp(22px, 6vw, 28px); }
@@ -95,10 +98,11 @@ button:disabled { opacity: .45; cursor: default; }
 .people { display: inline-flex; }
 .people .person + .person { margin-left: -6px; }
 .deal .label { font-family: var(--mono); font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; }
-.buzz { background: var(--buzz); color: var(--buzz-fg); display: grid; place-items: center; padding: 0;
-  width: 88px; height: 88px; border-radius: 50%; }
-.buzz svg { width: 40px; height: 40px; }
-.deal svg:not(.person) { width: 32px; height: 32px; }
+.buzz, .bell { display: grid; place-items: center; padding: 0; width: 72px; height: 100%; }
+.buzz { background: var(--buzz); color: var(--buzz-fg); }
+.bell { background: var(--bell); color: var(--bell-fg); }
+.buzz svg, .bell svg { width: 32px; height: 32px; }
+.deal svg:not(.person) { width: 28px; height: 28px; }
 .group { display: flex; align-items: center; gap: 4px; height: 32px; padding: 0 4px 0 8px; margin-right: auto;
   border: 1px solid var(--line); border-radius: 6px; color: var(--muted); }
 .group select { font-family: var(--mono); font-size: 13px; color: var(--fg); background: none;
@@ -115,7 +119,9 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
   background: var(--bg); color: var(--fg); border-color: var(--line); }
 @keyframes buzzflash { from { background: var(--accent); } to { background: var(--card); } }
 .card.buzzed { animation: buzzflash .9s ease-out; }
-@media (prefers-reduced-motion: reduce) { .card.buzzed { animation-duration: .01s; } }
+@keyframes bellflash { from { background: color-mix(in srgb, var(--bell) 45%, var(--card)); } to { background: var(--card); } }
+.card.belled { animation: bellflash .7s ease-out; }
+@media (prefers-reduced-motion: reduce) { .card.buzzed, .card.belled { animation-duration: .01s; } }
 .tools { position: absolute; right: 12px; bottom: 12px; display: flex; gap: 8px; }
 #timer {
   height: 40px; min-width: 44px; display: flex; align-items: center; gap: 5px;
@@ -161,7 +167,7 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .mods li.coach-line .kind { color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
 body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--duo) 75%, var(--card)); }
 .tail { white-space: nowrap; }
-.say.show { text-decoration: underline dashed 1px; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+.say.show { text-decoration: underline dashed 1px; text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
   text-underline-offset: 5px; cursor: pointer; }
 .reveal { position: fixed; inset: 0; z-index: 50; display: flex; flex-direction: column; align-items: center;
   justify-content: center; gap: 20px; padding: calc(24px + env(safe-area-inset-top, 0px)) 24px
@@ -233,15 +239,15 @@ body.games-on .reveal .who { color: var(--game); }
 
 <div class="controls">
   <div class="deal-row rapid" id="rapidWrap">
-    <button id="rapidBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
+    <div class="sounds"><button id="rapidBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></button><button class="bell" aria-label="Bell" data-ui-aria="bell"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button></div>
     <button class="deal" id="dealRapid" disabled aria-label="New prompt" data-ui-aria="newPrompt"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M4.5 3.5h15a2 2 0 0 1 2 2v9.5a2 2 0 0 1-2 2H11l-5 4.2v-4.2H4.5a2 2 0 0 1-2-2V5.5a2 2 0 0 1 2-2z" fill="currentColor"/></svg><span class="label" data-ui="newPrompt">New prompt</span></button>
   </div>
   <div class="deal-row scenes" id="scenesWrap" hidden>
-    <button id="sceneBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
+    <div class="sounds"><button id="sceneBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></button><button class="bell" aria-label="Bell" data-ui-aria="bell"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button></div>
     <button class="deal" id="dealScene" disabled aria-label="New scene" data-ui-aria="newScene"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="2" y="3" width="20" height="2.6" rx="1" fill="currentColor"/><path d="M2.5 5.6h8c-.3 3.4-2 6.2-4.8 8.1 1.2 2 1.9 4.2 2 6.3H2.5z" fill="currentColor"/><path d="M21.5 5.6h-8c.3 3.4 2 6.2 4.8 8.1-1.2 2-1.9 4.2-2 6.3h5.2z" fill="currentColor"/><path d="M2 21h20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="label" data-ui="newScene">New scene</span></button>
   </div>
   <div class="deal-row games" id="gamesWrap" hidden>
-    <button id="gameBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="36" height="36" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button>
+    <div class="sounds"><button id="gameBuzz" class="buzz" aria-label="Buzzer" data-ui-aria="buzzer"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/></svg></button><button class="bell" aria-label="Bell" data-ui-aria="bell"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true"><rect x="9.4" y="4.2" width="5.2" height="1.8" rx=".9" fill="currentColor"/><rect x="11.2" y="5.6" width="1.6" height="2.6" fill="currentColor"/><path d="M4.6 16.6a7.4 7.4 0 0 1 14.8 0z" fill="currentColor"/><rect x="2.8" y="17.6" width="18.4" height="2.4" rx="1.2" fill="currentColor"/></svg></button></div>
     <button class="deal" id="dealGame" disabled aria-label="New game" data-ui-aria="newGame"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><rect x="3.2" y="5.2" width="11" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.9" transform="rotate(-10 8.7 12.7)"/><rect x="9.6" y="3.4" width="11" height="15" rx="2" fill="currentColor" transform="rotate(8 15.1 10.9)"/></svg><span class="label" data-ui="newGame">New game</span></button>
   </div>
 </div>
