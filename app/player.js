@@ -19,7 +19,6 @@ const UI = {
     p1: "1 player", pN: "{n} players",
     buzzer: "Buzzer", newPrompt: "New prompt", newScene: "New scene", newGame: "New game",
     scene: "Scene · {who}", game: "Game · {range} players",
-    callback: "Callback",
     howTo: "How to play", aka: "Also called: {list}.", newLine: "New {kind}", gimmick: "Gimmick",
     tapClose: "Tap to close", showLine: "Show {kind} full screen",
     timerAria: "Stopwatch {t}. Tap to start over.",
@@ -43,7 +42,6 @@ const UI = {
     p1: "1 spiller", pN: "{n} spillere",
     buzzer: "Buzzer", newPrompt: "Ny oppgave", newScene: "Ny scene", newGame: "Nytt spill",
     scene: "Scene · {who}", game: "Spill · {range} spillere",
-    callback: "Callback",
     howTo: "Slik spiller dere", aka: "Kalles også: {list}.", newLine: "Ny: {kind}", gimmick: "Gimmick",
     tapClose: "Trykk for å lukke", showLine: "Vis {kind} på hele skjermen",
     timerAria: "Stoppeklokke {t}. Trykk for å starte på nytt.",
@@ -53,7 +51,6 @@ const UI = {
 };
 const SYSTEM_KEY = "imprompt-system", HISTORY_KEY = "imprompt-history", SESSION_KEY = "imprompt-session";
 const SESSION_IDLE = 6 * 3600e3;
-const CALLBACK_WINDOW = 30 * 60e3;
 const store = {
   get(key) { try { return JSON.parse(localStorage.getItem(key)); } catch { return null; } },
   set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } },
@@ -71,7 +68,6 @@ const store = {
 const system = store.get(SYSTEM_KEY) || {};
 const saveSystem = () => store.set(SYSTEM_KEY, { lang, muted });
 const GROUP_MIN = 2, GROUP_MAX = 5;
-const MIN_CALLBACK_GAP = 3;
 
 const $ = id => document.getElementById(id);
 let lang = "en";
@@ -82,7 +78,7 @@ const ui = (key, vals = {}) => String((UI[lang] && UI[lang][key]) ?? UI.en[key])
 const players = n => n === 1 ? ui("p1") : ui("pN", { n });
 
 const state = {
-  deck: { solo: [], duo: [], callbacks: [], scenes: [], emotions: [], wants: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {}, tags: {} },
+  deck: { solo: [], duo: [], scenes: [], emotions: [], wants: [], styles: [], physical: [], speech: [], staging: [], tempo: [], games: [], kinds: {}, tags: {} },
   mode: "rapid",
   players: 2,
   log: {},
@@ -91,8 +87,6 @@ const state = {
   current: null,
   cue: 0,
   shown: new Set(),
-  seenCallbacks: new Set(), usedFills: new Set(),
-  played: [],
   coaching: [],
   lastCoach: null,
   seenCoach: new Set(),
@@ -105,11 +99,10 @@ function record(id, action) {
   state.log = { ...(store.get(HISTORY_KEY) || state.log), [id]: { action, at: new Date().toISOString() } };
   if (!store.set(HISTORY_KEY, state.log)) setStatus(ui("noSave"), true);
 }
-const SESSION_SETS = ["shown", "seenCallbacks", "usedFills", "seenCoach", "seenGames"];
+const SESSION_SETS = ["shown", "seenCoach", "seenGames"];
 function saveSession() {
   if (!state.lastActive) return;
-  const saved = { lastActive: state.lastActive, group: state.group, mode: state.mode, cue: state.cue,
-    played: state.played.map(x => ({ id: x.entry.id, cue: x.cue, at: x.at })) };
+  const saved = { lastActive: state.lastActive, group: state.group, mode: state.mode, cue: state.cue };
   for (const k of SESSION_SETS) saved[k] = [...state[k]];
   store.set(SESSION_KEY, saved);
 }
@@ -125,13 +118,11 @@ function restoreSession() {
   if (s.group >= GROUP_MIN) state.group = Math.min(s.group, GROUP_MAX);
   if (READY[s.mode]) state.mode = s.mode;
   state.cue = +s.cue || 0;
-  const byId = new Map([...state.deck.solo, ...state.deck.duo].map(e => [e.id, e]));
-  state.played = (s.played || []).filter(x => byId.has(x.id)).map(x => ({ entry: byId.get(x.id), cue: x.cue, at: x.at }));
   for (const k of SESSION_SETS) state[k] = new Set(s[k] || []);
 }
 function clearSession() {
   store.remove(SESSION_KEY);
-  Object.assign(state, { lastActive: null, group: null, current: null, cue: 0, played: [],
+  Object.assign(state, { lastActive: null, group: null, current: null, cue: 0,
     coaching: [], lastCoach: null, gameWords: [] });
   for (const k of SESSION_SETS) state[k] = new Set();
 }
@@ -178,19 +169,12 @@ function freshFirst(list) {
 }
 const promptList = players => (players === 1 ? state.deck.solo : state.deck.duo).filter(e => e.players === players);
 const regular = players => freshFirst(promptList(players));
-const callbackCandidates = () => state.played.filter(x => state.cue + 1 - x.cue >= MIN_CALLBACK_GAP
-  && Date.now() - x.at <= CALLBACK_WINDOW && !state.usedFills.has(x.entry.id));
-function callbackPool(players) {
-  if (!callbackCandidates().length) return [];
-  return state.deck.callbacks.filter(c => c.players === players && !state.seenCallbacks.has(c.id)
-    && state.log[c.id]?.action !== "skipped");
-}
 const pick = list => list[Math.floor(Math.random() * list.length)];
 
 function renderCounts() {
   if (state.mode === "scenes") return renderSceneCounts();
   if (state.mode === "games") return renderGameCounts();
-  $("dealRapid").disabled = !state.group || ![1, 2].some(n => regular(n).length + callbackPool(n).length);
+  $("dealRapid").disabled = !state.group || ![1, 2].some(n => regular(n).length);
 }
 
 function swapCard() {
@@ -206,45 +190,26 @@ function renderPrompt(fresh) {
   if (c.kind === "game") return renderGame(fresh);
   $("game").hidden = true;
   const duo = c.entry.players === 2;
-  who.textContent = players(c.entry.players)
-    + (c.fill ? " · " + ui("callback") : "");
+  who.textContent = players(c.entry.players);
   who.className = "who" + (duo ? " duo" : "");
-  if (c.kind === "callback") {
-    const [before, after] = say(c.entry.text).split("{character}");
-    const name = document.createElement("span");
-    name.className = "callback";
-    name.textContent = say(c.fill);
-    text.replaceChildren(before, name, after);
-  } else {
-    text.textContent = say(c.entry.text);
-  }
+  text.textContent = say(c.entry.text);
   text.className = "text" + (duo ? " duo" : "");
   if (fresh) swapCard();
   renderLines();
 }
 
 function drawRapid() {
-  const counts = [1, 2].filter(n => regular(n).length + callbackPool(n).length > 0);
+  const counts = [1, 2].filter(n => regular(n).length > 0);
   if (!counts.length) { state.current = null; return idle("done", "noPrompts"); }
   draw(pick(counts));
 }
 function draw(players) {
-  const isCallback = new Set(state.deck.callbacks);
-  const pool = regular(players).concat(callbackPool(players));
+  const pool = regular(players);
   if (!pool.length) return;
   const entry = pick(pool);
-  const current = { entry, kind: isCallback.has(entry) ? "callback" : "single", fill: null };
-  if (current.kind === "callback") {
-    const c = pick(callbackCandidates());
-    current.fill = c.entry.callback;
-    state.usedFills.add(c.entry.id);
-    state.seenCallbacks.add(entry.id);
-  } else {
-    record(entry.id, "used");
-    state.shown.add(entry.id);
-  }
-  state.current = current; state.cue += 1;
-  if (entry.callback) state.played.push({ entry, cue: state.cue, at: Date.now() });
+  record(entry.id, "used");
+  state.shown.add(entry.id);
+  state.current = { entry, kind: "single" }; state.cue += 1;
   dealLines();
   touchSession();
   renderPrompt(true); renderCounts();

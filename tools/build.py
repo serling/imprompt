@@ -15,7 +15,7 @@ def main():
     shutil.copytree(ROOT / "app", out)
     deck = {}
     kinds = json.loads((ROOT / "words" / "tags.json").read_text())["kinds"]
-    sources = [("prompts", f) for f in ("solo", "duo", "callbacks", "scenes")]
+    sources = [("prompts", f) for f in ("solo", "duo", "scenes")]
     sources += [("words", k) for k in kinds]
     for top, folder in sources:
         items = []
