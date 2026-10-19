@@ -117,7 +117,7 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .picker .counts { display: grid; grid-template-columns: repeat(2, 88px); gap: 10px; }
 .picker .counts button { height: 52px; font-family: var(--mono); font-size: 20px; font-variant-numeric: tabular-nums;
   background: var(--bg); color: var(--fg); border-color: var(--line); }
-@keyframes buzzflash { from { background: var(--accent); } to { background: var(--card); } }
+@keyframes buzzflash { from { background: var(--buzz); } to { background: var(--card); } }
 .card.buzzed { animation: buzzflash .9s ease-out; }
 @keyframes bellflash { from { background: color-mix(in srgb, var(--bell) 45%, var(--card)); } to { background: var(--card); } }
 .card.belled { animation: bellflash .7s ease-out; }
