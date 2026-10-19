@@ -23,7 +23,7 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
   --line: #cfd3dc;
   --accent: #b5410f;
   --accent-fg: #ffffff;
-  --duo: #1f4f8a;
+  --rapid: #1f4f8a;
   --scene: #2e6a3f;
   --game: #6b3f8f;
   --buzz: #b3261e;
@@ -36,12 +36,12 @@ body { margin: 0; -webkit-text-size-adjust: 100%; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #121419; --card: #1c1f27; --fg: #eceae5; --muted: #9a9fae; --line: #2f3340;
-    --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
+    --accent: #f08a4b; --accent-fg: #1a0d05; --rapid: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #121419; --card: #1c1f27; --fg: #eceae5; --muted: #9a9fae; --line: #2f3340;
-  --accent: #f08a4b; --accent-fg: #1a0d05; --duo: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
+  --accent: #f08a4b; --accent-fg: #1a0d05; --rapid: #7fb0f0; --scene: #86c99a; --game: #c7a3e6; --buzz: #ff7b6e; --buzz-fg: #1f0806; --bell: #e8b44c; --bell-fg: #1f1503; color-scheme: dark;
 }
 html, body { height: 100%; }
 body {
@@ -60,7 +60,7 @@ body {
   font-family: var(--mono); font-size: 13px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase;
   color: var(--accent);
 }
-.who.duo { color: var(--duo); }
+.who.rapid { color: var(--rapid); }
 .who.scene { color: var(--scene); }
 .who.game { color: var(--game); }
 .text {
@@ -75,11 +75,11 @@ body {
 .modes button + button { border-left: 0; }
 .modes button[aria-pressed="false"] { box-shadow: inset 0 -1px 0 var(--line); }
 .modes button[aria-pressed="true"] { background: var(--card); color: var(--fg); border-bottom-color: var(--card); }
-#modeRapid[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--accent); }
+#modeRapid[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--rapid); }
 #modeScenes[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--scene); }
 #modeGames[aria-pressed="true"] { box-shadow: inset 0 3px 0 var(--game); }
 .deal-row { grid-column: 1 / -1; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 10px; height: 88px; }
-.deal { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0; background: var(--duo); color: var(--card); }
+.deal { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0; background: var(--rapid); color: var(--card); }
 .scenes .deal { background: var(--scene); }
 .games .deal { background: var(--game); }
 .deal-row.rapid, .deal-row.scenes, .deal-row.games { grid-auto-flow: row; grid-template-columns: auto 1fr; column-gap: 24px; height: 76px; }
@@ -165,7 +165,7 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .mods li.coach-line, .game .words li { display: flex; flex-direction: column; gap: 2px; }
 .mods ul, .game .words { gap: 12px; }
 .mods li.coach-line .kind { color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
-body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--duo) 75%, var(--card)); }
+body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--rapid) 75%, var(--card)); }
 .tail { white-space: nowrap; }
 .say.show { text-decoration: underline dashed 1px; text-decoration-color: color-mix(in srgb, currentColor 30%, transparent);
   text-underline-offset: 5px; cursor: pointer; }

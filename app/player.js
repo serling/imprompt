@@ -189,11 +189,10 @@ function renderPrompt(fresh) {
   if (c.kind === "scene") return renderScene(fresh);
   if (c.kind === "game") return renderGame(fresh);
   $("game").hidden = true;
-  const duo = c.entry.players === 2;
   who.textContent = players(c.entry.players);
-  who.className = "who" + (duo ? " duo" : "");
+  who.className = "who rapid";
   text.textContent = say(c.entry.text);
-  text.className = "text" + (duo ? " duo" : "");
+  text.className = "text";
   if (fresh) swapCard();
   renderLines();
 }
@@ -384,7 +383,7 @@ function idle(label, message, vals) {
   document.body.classList.toggle("asking", message === "askPlayers");
   $("card").classList.toggle("asking", message === "askPlayers");
   $("who").textContent = ui(label);
-  $("who").className = "who";
+  $("who").className = "who " + ({ rapid: "rapid", scenes: "scene", games: "game" }[state.mode] || "");
   $("text").textContent = ui(message, vals);
   $("text").className = "text idle";
   $("mods").hidden = true;
@@ -588,12 +587,12 @@ function synthBell() {
     audio = audio || new (window.AudioContext || window.webkitAudioContext)();
     if (audio.state === "suspended") audio.resume();
     const t = audio.currentTime, out = audio.createGain();
-    out.gain.value = 0.5;
     out.connect(audio.destination);
-    for (const [ratio, level, decay] of [[1, 1, 1.6], [2.76, 0.45, 0.9], [5.4, 0.25, 0.5], [8.93, 0.12, 0.3]]) {
+    out.gain.value = 0.42;
+    for (const [ratio, level, decay] of [[1, 1, 3.2], [2, 0.5, 2.4], [2.76, 0.4, 1.6], [4.07, 0.22, 1], [5.4, 0.15, 0.6]]) {
       const osc = audio.createOscillator(), env = audio.createGain();
       osc.type = "sine";
-      osc.frequency.value = 1760 * ratio;
+      osc.frequency.value = 880 * ratio;
       env.gain.setValueAtTime(0.0001, t);
       env.gain.exponentialRampToValueAtTime(level, t + 0.004);
       env.gain.exponentialRampToValueAtTime(0.0001, t + decay);
