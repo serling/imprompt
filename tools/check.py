@@ -168,7 +168,7 @@ def check_game(where, p):
     return problems
 
 
-def check(entries, exclude):
+def check(entries, exclude, near_dups=False):
     problems = []
     seen_ids = {}
     for folder, stem, p in entries:
@@ -250,7 +250,7 @@ def check(entries, exclude):
     pool = [(f"{f}/{s}", texts(f, p)[0], p.get("status") != "retired") for f, s, p in entries
             if "_error" not in p and f in ("solo", "duo", "escalations", "scenes")]
     for i in range(len(pool)):
-        for j in range(i + 1, len(pool)):
+        for j in range(i + 1, len(pool)) if near_dups else ():
             if similar(pool[i][1], pool[j][1]):
                 problems.append(f"{pool[i][0]} / {pool[j][0]}: near-duplicates")
         for x in exclude if pool[i][2] else ():
@@ -359,12 +359,13 @@ def shapes(entries):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--exclude", type=Path)
+    ap.add_argument("--near-dups", action="store_true")
     args = ap.parse_args()
     exclude = []
     if args.exclude:
         exclude = [l for l in args.exclude.read_text().splitlines() if l and not l.startswith("#")]
     entries = load()
-    problems = check(entries, exclude)
+    problems = check(entries, exclude, args.near_dups)
     by_folder = {}
     for f, _, p in entries:
         by_folder.setdefault(f, {}).setdefault(p.get("status", "?"), 0)
