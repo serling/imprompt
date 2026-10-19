@@ -47,7 +47,7 @@ html, body { height: 100%; }
 body {
   background: var(--bg); color: var(--fg); font-family: var(--display);
   display: flex; flex-direction: column; gap: 14px;
-  padding-inline: 16px; padding-block: 14px 18px; box-sizing: border-box;
+  padding-inline: 16px; padding-block: 14px; box-sizing: border-box;
   max-width: 560px; margin-inline: auto;
 }
 .card {
@@ -203,6 +203,7 @@ body.games-on .reveal .who { color: var(--game); }
 .game details p { margin: 6px 0 0; }
 .game details p.aka { margin-top: 8px; font-size: 13px; }
 .status { font-family: var(--mono); font-size: 11px; color: var(--muted); text-align: center; min-height: 1.4em; }
+.status:empty { display: none; }
 .status.warn { color: var(--accent); }
 @media (prefers-reduced-motion: no-preference) {
   .mods li.fresh, .words li.fresh { animation: rise .22s ease-out; }
