@@ -270,12 +270,9 @@ function dealLines() {
   for (const slot of lineKinds(state.current)) dealCoach(slot);
   state.lastCoach = null;
 }
-const SHOWN = ["wants", "secrets"];
-function showLine(slot) {
-  const x = state.coaching.find(c => c.slot === slot);
-  if (!x) return;
-  $("revealKind").textContent = kindLabel(x.kind);
-  $("revealText").textContent = say(x.entry.text);
+function showLine(s) {
+  $("revealKind").textContent = s.closest("li").querySelector(".kind").textContent;
+  $("revealText").textContent = s.textContent.trim();
   $("reveal").hidden = false;
 }
 function hideLine() { $("reveal").hidden = true; }
@@ -284,14 +281,6 @@ function renderLines() {
   $("modList").replaceChildren(...state.coaching.map(x => {
     const li = kindLine(GIMMICK.includes(x.kind) ? "gimmick" : x.kind, x.entry.text, { coach: x.slot });
     li.className = "coach-line" + (x.slot === state.lastCoach ? " fresh" : "");
-    if (SHOWN.includes(x.kind)) {
-      const s = li.querySelector(".say");
-      s.classList.add("show");
-      s.dataset.show = x.slot;
-      s.setAttribute("role", "button");
-      s.tabIndex = 0;
-      s.setAttribute("aria-label", ui("showLine", { kind: kindLabel(x.kind).toLowerCase() }));
-    }
     return li;
   }));
 }
@@ -319,6 +308,10 @@ function kindLine(kind, text, refresh) {
   body.className = "say";
   li.append(label, body);
   if (!refresh) { body.append(words); return li; }
+  body.classList.add("show");
+  body.setAttribute("role", "button");
+  body.tabIndex = 0;
+  body.setAttribute("aria-label", ui("showLine", { kind: kindLabel(kind).toLowerCase() }));
   const cut = words.lastIndexOf(" ") + 1, tail = document.createElement("span");
   tail.className = "tail";
   tail.textContent = words.slice(cut);
@@ -686,11 +679,11 @@ $("modList").addEventListener("click", e => {
   const b = e.target.closest(".refresh");
   if (b) return coach(b.dataset.coach);
   const s = e.target.closest(".say.show");
-  if (s) showLine(s.dataset.show);
+  if (s) showLine(s);
 });
-$("modList").addEventListener("keydown", e => {
+for (const id of ["modList", "game"]) $(id).addEventListener("keydown", e => {
   const s = e.target.closest(".say.show");
-  if (s && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); showLine(s.dataset.show); }
+  if (s && !e.target.closest(".refresh") && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); showLine(s); }
 });
 $("reveal").addEventListener("click", hideLine);
 document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("reveal").hidden) hideLine(); });
@@ -698,7 +691,12 @@ $("modeRapid").addEventListener("click", () => setMode("rapid"));
 $("modeScenes").addEventListener("click", () => setMode("scenes"));
 $("modeGames").addEventListener("click", () => setMode("games"));
 $("dealGame").addEventListener("click", drawGame);
-$("game").addEventListener("click", e => { const b = e.target.closest(".refresh"); if (b) refreshGameWord(+b.dataset.slot); });
+$("game").addEventListener("click", e => {
+  const b = e.target.closest(".refresh");
+  if (b) return refreshGameWord(+b.dataset.slot);
+  const s = e.target.closest(".say.show");
+  if (s) showLine(s);
+});
 
 (async function start() {
   state.log = store.get(HISTORY_KEY) || {};

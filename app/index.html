@@ -158,13 +158,8 @@ body.asking .card { border-top: 1px solid var(--line); border-radius: 6px; paddi
 .mods ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .mods li { font-size: clamp(20px, 5.5vw, 26px); font-weight: 500; line-height: 1.2; }
 .mods li.coach-line { font-size: clamp(17px, 4.6vw, 20px); color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
-.mods li.coach-line, .game .words li { --label: 94px; display: grid; grid-template-columns: calc(var(--label) - 6px) 1fr;
-  column-gap: 6px; align-items: first baseline; }
-.game .words li { --label: 108px; }
-@media (max-width: 600px) {
-  .mods li.coach-line, .game .words li { display: flex; flex-direction: column; gap: 2px; }
-  .mods ul, .game .words { gap: 12px; }
-}
+.mods li.coach-line, .game .words li { display: flex; flex-direction: column; gap: 2px; }
+.mods ul, .game .words { gap: 12px; }
 .mods li.coach-line .kind { color: color-mix(in srgb, var(--scene) 75%, var(--card)); }
 body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refresh { color: color-mix(in srgb, var(--duo) 75%, var(--card)); }
 .tail { white-space: nowrap; }
@@ -175,6 +170,7 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
   calc(56px + env(safe-area-inset-bottom, 0px)); background: var(--card); color: var(--fg); text-align: center; cursor: pointer; }
 .reveal[hidden] { display: none; }
 .reveal .who { color: var(--scene); }
+body.games-on .reveal .who { color: var(--game); }
 .reveal p { margin: 0; max-width: 16em; font-size: clamp(32px, 9vw, 56px); font-weight: 700; line-height: 1.15;
   letter-spacing: -0.01em; text-wrap: balance; }
 .reveal .hint { position: absolute; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); font-family: var(--mono);
@@ -190,7 +186,7 @@ body:not(.scenes-on) .mods li.coach-line .kind, body:not(.scenes-on) .mods .refr
   font-size: 15px; line-height: 1.4; color: color-mix(in srgb, var(--fg) 82%, var(--card)); }
 .game ol li::marker { font-family: var(--mono); font-size: 13px; color: var(--game); }
 .game .words { margin: 0; padding: 0; list-style: none;
-  display: flex; flex-direction: column; gap: 6px; }
+  display: flex; flex-direction: column; gap: 12px; }
 .game .words li { font-size: clamp(17px, 4.5vw, 19px); font-weight: 500; line-height: 1.2;
   color: color-mix(in srgb, var(--fg) 68%, var(--card)); }
 .game .words .kind {
