@@ -10,9 +10,5 @@
   "world": "crime",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the sleepwalker",
-    "no": "søvngjengeren"
-  }
+  ]
 }

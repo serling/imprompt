@@ -10,9 +10,5 @@
   "world": "wild",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the hermit",
-    "no": "eremitten"
-  }
+  ]
 }

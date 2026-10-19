@@ -10,9 +10,5 @@
   "world": "future",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the robot butler",
-    "no": "robotbutleren"
-  }
+  ]
 }

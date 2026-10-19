@@ -10,9 +10,5 @@
   "world": "sea",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the ex-pirate librarian",
-    "no": "bibliotekaren som har vært pirat"
-  }
+  ]
 }

@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the lonely vending machine",
-    "no": "den ensomme salgsautomaten"
-  }
+  ]
 }

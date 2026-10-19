@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the paranoid ice-cream van",
-    "no": "den paranoide isbilen"
-  }
+  ]
 }

@@ -11,9 +11,5 @@
     "sea",
     "narration"
   ],
-  "callback": {
-    "en": "the pirate who lost his parrot",
-    "no": "piraten som har mistet papegøya si"
-  },
   "world": "sea"
 }

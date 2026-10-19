@@ -10,9 +10,5 @@
   "world": "future",
   "tags": [
     "past"
-  ],
-  "callback": {
-    "en": "the time traveller",
-    "no": "den tidsreisende"
-  }
+  ]
 }

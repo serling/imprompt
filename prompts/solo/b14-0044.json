@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the gloating compost heap",
-    "no": "den skadefro komposthaugen"
-  }
+  ]
 }

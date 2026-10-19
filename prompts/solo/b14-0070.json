@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "everyday"
-  ],
-  "callback": {
-    "en": "the library book nobody borrows",
-    "no": "biblioteksboka som ingen låner"
-  }
+  ]
 }

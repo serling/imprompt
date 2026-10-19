@@ -10,9 +10,5 @@
   "world": "everyday",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the hiker who greets the trees",
-    "no": "turgåeren som hilser på trærne"
-  }
+  ]
 }

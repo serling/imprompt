@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the lazy hummingbird",
-    "no": "den late kolibrien"
-  }
+  ]
 }

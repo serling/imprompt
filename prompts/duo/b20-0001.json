@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "fantasy"
-  ],
-  "callback": {
-    "en": "the bridge troll",
-    "no": "brutrollet"
-  }
+  ]
 }

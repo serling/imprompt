@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the gloomy party balloon",
-    "no": "den dystre festballongen"
-  }
+  ]
 }

@@ -10,9 +10,5 @@
   "tags": [
     "family"
   ],
-  "callback": {
-    "en": "the robot learning to knit",
-    "no": "roboten som lærer å strikke"
-  },
   "world": "future"
 }

@@ -57,7 +57,6 @@
         "world": { "$ref": "#/$defs/world" },
         "text": { "$ref": "#/$defs/text" },
         "tags": { "$ref": "#/$defs/tags" },
-        "callback": { "$ref": "#/$defs/text" },
         "origin": { "$ref": "#/$defs/origin" }
       },
       "additionalProperties": false,

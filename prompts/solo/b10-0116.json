@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the sat-nav with the shortcut",
-    "no": "GPS-en med snarveien"
-  }
+  ]
 }

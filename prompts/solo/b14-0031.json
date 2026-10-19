@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the tearful fire alarm",
-    "no": "den tårevåte brannalarmen"
-  }
+  ]
 }

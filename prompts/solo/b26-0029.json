@@ -11,9 +11,5 @@
     "crime",
     "character"
   ],
-  "callback": {
-    "en": "the forgetful spy",
-    "no": "den glemske spionen"
-  },
   "world": "crime"
 }

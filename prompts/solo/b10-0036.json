@@ -10,9 +10,5 @@
   "world": "crime",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the undercover lollipop lady",
-    "no": "skolepatruljevakta som jobber undercover"
-  }
+  ]
 }

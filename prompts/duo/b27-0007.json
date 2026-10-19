@@ -10,9 +10,5 @@
   "tags": [
     "status"
   ],
-  "callback": {
-    "en": "the passenger who wants to open a window",
-    "no": "passasjeren som vil åpne et vindu"
-  },
   "world": "sea"
 }

@@ -10,9 +10,5 @@
   "world": "sea",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the lighthouse keeper on his first day off",
-    "no": "fyrvokteren på sin første fridag"
-  }
+  ]
 }

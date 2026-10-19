@@ -10,9 +10,5 @@
   "world": "history",
   "tags": [
     "status"
-  ],
-  "callback": {
-    "en": "the jester who has run out of jokes",
-    "no": "narren som har gått tom for vitser"
-  }
+  ]
 }

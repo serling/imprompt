@@ -10,9 +10,5 @@
   "world": "everyday",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the suspiciously helpful stranger",
-    "no": "den mistenkelig hjelpsomme fremmede"
-  }
+  ]
 }

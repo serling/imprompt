@@ -11,9 +11,5 @@
     "science",
     "character"
   ],
-  "callback": {
-    "en": "the lab mouse",
-    "no": "labmusa"
-  },
   "world": "science"
 }

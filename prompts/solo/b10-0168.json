@@ -10,9 +10,5 @@
   "world": "sport",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the timid bodybuilder",
-    "no": "den engstelige kroppsbyggeren"
-  }
+  ]
 }

@@ -10,9 +10,5 @@
   "tags": [
     "physical"
   ],
-  "callback": {
-    "en": "the fan who runs the whole marathon",
-    "no": "tilskueren som løper hele maratonet"
-  },
   "world": "sport"
 }

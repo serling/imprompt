@@ -10,9 +10,5 @@
   "world": "wild",
   "tags": [
     "sound"
-  ],
-  "callback": {
-    "en": "the terrible moose caller",
-    "no": "den elendige elglokkeren"
-  }
+  ]
 }

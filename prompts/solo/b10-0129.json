@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the ignored alarm clock",
-    "no": "vekkerklokka som ingen hører på"
-  }
+  ]
 }

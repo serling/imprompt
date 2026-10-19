@@ -10,9 +10,5 @@
   "world": "crime",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the retired spy",
-    "no": "den pensjonerte spionen"
-  }
+  ]
 }

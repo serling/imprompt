@@ -11,9 +11,5 @@
     "science",
     "character"
   ],
-  "callback": {
-    "en": "the inventor",
-    "no": "oppfinneren"
-  },
   "world": "science"
 }

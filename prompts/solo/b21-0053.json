@@ -10,9 +10,5 @@
   "world": "everyday",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the person back from the silent retreat",
-    "no": "personen som er hjemme fra stillhetsretreaten"
-  }
+  ]
 }

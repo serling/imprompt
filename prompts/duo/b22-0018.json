@@ -10,9 +10,5 @@
   "world": "space",
   "tags": [
     "fantasy"
-  ],
-  "callback": {
-    "en": "the man in the moon",
-    "no": "mannen i månen"
-  }
+  ]
 }

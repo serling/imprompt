@@ -11,9 +11,5 @@
   "tags": [
     "character",
     "nature"
-  ],
-  "callback": {
-    "en": "the cat on its way to the vet",
-    "no": "katten på vei til dyrlegen"
-  }
+  ]
 }

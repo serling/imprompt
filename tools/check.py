@@ -237,14 +237,8 @@ def check(entries, exclude, near_dups=False):
                 problems.append(f"{where}: {p['type']} does not belong in {folder}")
             if p.get("players") in MAX_WORDS and len(texts(folder, p)[0].split()) > MAX_WORDS[p["players"]]:
                 problems.append(f"{where}: too long (max {MAX_WORDS[p['players']]} words)")
-            cb = p.get("callback", {}).get("en")
-            if cb is not None and not cb.startswith("the "):
-                problems.append(f"{where}: callback phrase should be a short 'the …' noun phrase")
-        if folder == "callbacks":
-            if texts(folder, p)[0].count("{character}") != 1:
-                problems.append(f"{where}: needs exactly one {{character}}")
-        elif any("{" in t or "}" in t for t in texts(folder, p)):
-            problems.append(f"{where}: placeholder outside a callback prompt")
+        if folder != "callbacks" and any("{" in t or "}" in t for t in texts(folder, p)):
+            problems.append(f"{where}: braces in a text")
 
         for lang, pattern in NO_SINGING.items():
             for t in texts(folder, p):

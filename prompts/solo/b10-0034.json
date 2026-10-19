@@ -10,9 +10,5 @@
   "world": "everyday",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the person who answers with questions",
-    "no": "personen som svarer på alt med spørsmål"
-  }
+  ]
 }

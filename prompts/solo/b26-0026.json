@@ -11,9 +11,5 @@
     "sport",
     "character"
   ],
-  "callback": {
-    "en": "the daydreaming sprinter",
-    "no": "den dagdrømmende sprinteren"
-  },
   "world": "sport"
 }

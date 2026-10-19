@@ -10,9 +10,5 @@
   "world": "everyday",
   "tags": [
     "work"
-  ],
-  "callback": {
-    "en": "the postman who reads the post",
-    "no": "postbudet som leser posten"
-  }
+  ]
 }

@@ -10,9 +10,5 @@
   "world": "fantastical",
   "tags": [
     "character"
-  ],
-  "callback": {
-    "en": "the jet-lagged hamster",
-    "no": "hamsteren med jetlag"
-  }
+  ]
 }
