@@ -335,10 +335,17 @@ function renderScene(fresh) {
   renderLines();
 }
 
+const SCENE_WEIGHT = { 2: 6, 3: 2.5, 4: 1.5 };
+function pickScene(pool) {
+  const counts = [...new Set(pool.map(e => e.players))];
+  let r = Math.random() * counts.reduce((s, n) => s + SCENE_WEIGHT[n], 0);
+  const n = counts.find(c => (r -= SCENE_WEIGHT[c]) < 0) ?? counts[0];
+  return pick(pool.filter(e => e.players === n));
+}
 function drawScene() {
   const pool = scenePool();
   if (!pool.length) { state.current = null; return idle("done", "noScenes", { n: groupText() }); }
-  const entry = pick(pool);
+  const entry = pickScene(pool);
   record(entry.id, "used");
   state.shown.add(entry.id);
   state.current = { entry, kind: "scene" }; state.cue += 1;
