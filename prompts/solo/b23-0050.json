@@ -4,8 +4,8 @@
   "players": 1,
   "type": "point-of-view",
   "text": {
-    "en": "A gnome, the night nobody brings the porridge, pretending not to mind.",
-    "no": "En fjøsnisse, den kvelden ingen kommer med grøten, som later som det ikke gjør noe."
+    "en": "A farm gnome, the night nobody leaves out his porridge, pretending not to mind.",
+    "no": "En fjøsnisse som later som det ikke gjør noe at ingen har kommet med grøten i kveld."
   },
   "world": "fantastical",
   "tags": [
