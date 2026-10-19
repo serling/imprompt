@@ -518,7 +518,7 @@ function renderMute() {
 }
 
 const recordings = {};
-for (const name of ["blop", "buzzer"]) {
+for (const name of ["blop", "buzzer", "bell"]) {
   recordings[name] = {};
   fetch(`sounds/${name}.mp3`).then(r => r.ok ? r.arrayBuffer() : null).then(b => { recordings[name].file = b; }).catch(() => {});
 }
@@ -574,12 +574,13 @@ async function buzzer() {
   if (!(await play("buzzer"))) synthBuzzer();
 }
 
-function bell() {
+async function bell() {
   const card = $("card");
   card.classList.remove("belled");
   void card.offsetWidth;
   card.classList.add("belled");
-  if (!muted) synthBell();
+  if (muted) return;
+  if (!(await play("bell"))) synthBell();
 }
 
 function synthBell() {
